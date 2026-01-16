@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="e88753de-ba4d-4cc5-969c-2645a02ec2b6">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыРасчетаКомиссионногоВознаграждения" category="Ref">
+				<xr:TypeId>11e5353b-2d04-4e43-89d6-e6410143a64a</xr:TypeId>
+				<xr:ValueId>a042e70c-1eae-462a-811e-a9b2e2a08d26</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыРасчетаКомиссионногоВознаграждения" category="Manager">
+				<xr:TypeId>83bc2c4d-97c8-4373-81b3-23a01a3ae29d</xr:TypeId>
+				<xr:ValueId>ee47a3b3-ae0c-4a51-b5e2-d82e1d91ee31</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыРасчетаКомиссионногоВознаграждения" category="List">
+				<xr:TypeId>d0bc5ada-07b7-4261-b562-feea62e16af4</xr:TypeId>
+				<xr:ValueId>7994f315-8222-4420-8694-1faafefed430</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СпособыРасчетаКомиссионногоВознаграждения</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>979a72c1-a77f-44c3-8738-9fe0a6f8d3f7</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="08415f32-089c-48f4-8d4d-294013ca3994">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ИсторияВыполненияПроцессов" category="Record">
+				<xr:TypeId>81cfdc40-c9e7-436e-8e0c-652711f8ed96</xr:TypeId>
+				<xr:ValueId>98d1aa96-de0e-4001-a3e1-58a245061d26</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ИсторияВыполненияПроцессов" category="Manager">
+				<xr:TypeId>aa607ca7-c7a1-4953-983d-5ac108ed8cb7</xr:TypeId>
+				<xr:ValueId>286b784c-1e36-4878-9c2e-78e9361891cf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ИсторияВыполненияПроцессов" category="Selection">
+				<xr:TypeId>3e212d63-14f9-4c68-aa01-978624e70fd9</xr:TypeId>
+				<xr:ValueId>5c86be18-9fda-4866-92f2-42a91b8f0c4d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ИсторияВыполненияПроцессов" category="List">
+				<xr:TypeId>7ca8818d-5359-4925-b61b-fefbc1958443</xr:TypeId>
+				<xr:ValueId>c70263ac-fd5f-4206-8e90-26c361b1044a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ИсторияВыполненияПроцессов" category="RecordSet">
+				<xr:TypeId>eb4ee8dc-f764-4cab-92f8-8a505205cd72</xr:TypeId>
+				<xr:ValueId>c6bad22b-40fe-4418-8634-5d3c561b813e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ИсторияВыполненияПроцессов" category="RecordKey">
+				<xr:TypeId>3d951c4e-a03c-482a-89be-ae99b10dd8b2</xr:TypeId>
+				<xr:ValueId>9c479a76-658b-4c5e-8497-94b87a8e84e6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ИсторияВыполненияПроцессов" category="RecordManager">
+				<xr:TypeId>27ef7bdc-3ad0-4562-92a3-245636a99b65</xr:TypeId>
+				<xr:ValueId>bc9fe9b7-a9d1-407d-ba80-9b99b775cb5a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИсторияВыполненияПроцессов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b0e95901-6d8f-41f4-adf5-bbb7fe0c5346</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="dcda5c00-72df-4daa-aee9-7b0579be4da4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Комментарий</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>39145fed-33cd-4cc6-a040-3f1dff8e5d78</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="17696c97-3f2c-4065-a7bf-29b0b801e886">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументПроцесса</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>59446b9c-6f22-4a57-865c-cfd488ac353d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЭкземплярПроцесса</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

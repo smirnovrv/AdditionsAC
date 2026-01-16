@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="f30e4e7f-a65f-45eb-8983-9eb43c72b1a3">
+		<Name>ИИТ_ВозвратЗаявкиАвтору</Name>
+		<Code>000000113</Code>
+		<Description>Возврат заявки автору</Description>
+		<IsFolder>false</IsFolder>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+	</Item>
+	<Item id="f93a38ba-223a-4712-9202-84ed46c781c8">
+		<Name>ИИТ_ОповещениеОбОплате</Name>
+		<Code>000000114</Code>
+		<Description>Оповещение об оплате</Description>
+		<IsFolder>false</IsFolder>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+	</Item>
+	<Item id="8970b55e-123e-4622-a630-23a7453d128c">
+		<Name>ИИТ_СозданиеПоступления</Name>
+		<Code>000000115</Code>
+		<Description>Создание поступления</Description>
+		<IsFolder>false</IsFolder>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+	</Item>
+	<Item id="be0a4cbb-c746-4242-904f-b075f2695a09">
+		<Name>ПолучениеДенежныхСредств</Name>
+		<Code>000000112</Code>
+		<Description>Получение денежных средств</Description>
+		<IsFolder>false</IsFolder>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+	</Item>
+</PredefinedData>

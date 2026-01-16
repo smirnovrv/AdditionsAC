@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="8abdb2f2-f1a0-4424-9e5f-9fa206502f14">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.АС_ТипыОкладов" category="Ref">
+				<xr:TypeId>5be31300-c870-43e8-a112-8c3d81bae048</xr:TypeId>
+				<xr:ValueId>9985f133-702f-4870-aa1a-53071a376bd0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.АС_ТипыОкладов" category="Manager">
+				<xr:TypeId>7b7157c7-894e-4a9d-bd0c-c0b3a89a78ac</xr:TypeId>
+				<xr:ValueId>c79c559a-c869-475f-a923-c212fe51f4b9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.АС_ТипыОкладов" category="List">
+				<xr:TypeId>d8f27ac8-d43f-4fd7-bed7-acfc28e71c12</xr:TypeId>
+				<xr:ValueId>603f4b1e-d191-4148-a3cc-08e46c3dd242</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АС_ТипыОкладов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>530d7bd6-6645-4cfd-85dd-4f80c06461de</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

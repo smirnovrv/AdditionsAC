@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="8664495f-49f0-4da9-8a1b-be522fdd0018">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВерсияСоглашенияКоммерческийДоговор" category="Object">
+				<xr:TypeId>9d01d744-8c1b-4a49-a619-501f3a36dd8e</xr:TypeId>
+				<xr:ValueId>8044214d-7f0b-486c-9b6e-87f4858503fc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВерсияСоглашенияКоммерческийДоговор" category="Ref">
+				<xr:TypeId>44b7e7c2-4998-4d28-b5f4-34e91448f800</xr:TypeId>
+				<xr:ValueId>a04f3504-53a0-4989-82b3-7905fd98da37</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВерсияСоглашенияКоммерческийДоговор" category="Selection">
+				<xr:TypeId>405970c4-1c00-4e47-9d8a-772f99808125</xr:TypeId>
+				<xr:ValueId>45dffe68-294c-4133-b1fd-551285785e47</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВерсияСоглашенияКоммерческийДоговор" category="List">
+				<xr:TypeId>35c765f7-a993-4e5c-81fa-22a9f21a156c</xr:TypeId>
+				<xr:ValueId>ea0264cb-5045-43e2-85f1-2a4cb127627f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВерсияСоглашенияКоммерческийДоговор" category="Manager">
+				<xr:TypeId>f4bfd7b1-e650-4c4d-b865-e68a9d6b7d77</xr:TypeId>
+				<xr:ValueId>89952e48-bb62-4e3b-869a-9a2529f3c210</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВерсияСоглашенияКоммерческийДоговор</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6f86c206-9db7-48b7-b4ae-bd0b6755cf42</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="b2933e62-6cd4-4a0b-b775-67bf05043829">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сумма</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bf268559-488f-4cd0-8fcf-479cdb430ac4</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

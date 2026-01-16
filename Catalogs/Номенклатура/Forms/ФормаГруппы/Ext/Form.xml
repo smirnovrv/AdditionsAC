@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Folders</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer" callType="After">АЛФ_ПриСозданииНаСервереПосле</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаНаименованиеИКод" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Наименование и код</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Наименование и код</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНаименованиеИКодExtendedTooltip" id="8"/>
+			<ChildItems>
+				<InputField name="Наименование" id="3">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
+					<ExtendedTooltip name="НаименованиеExtendedTooltip" id="9"/>
+				</InputField>
+				<InputField name="Код" id="1">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодExtendedTooltip" id="10"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Родитель" id="5">
+			<UserVisible>
+				<xr:Common>false</xr:Common>
+			</UserVisible>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="РодительКонтекстноеМеню" id="6"/>
+			<ExtendedTooltip name="РодительExtendedTooltip" id="11"/>
+		</InputField>
+		<InputField name="ВидНоменклатуры" id="12">
+			<AutoChoiceIncomplete>false</AutoChoiceIncomplete>
+			<AutoMarkIncomplete>false</AutoMarkIncomplete>
+			<ContextMenu name="ВидНоменклатурыКонтекстноеМеню" id="13"/>
+			<ExtendedTooltip name="ВидНоменклатурыРасширеннаяПодсказка" id="14"/>
+		</InputField>
+		<UsualGroup name="ГруппаОКДП2УХ" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа ОКДП2 УХ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа ОКДП2 УХ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОКДП2УХРасширеннаяПодсказка" id="16"/>
+			<ChildItems>
+				<InputField name="КодОКПД2" id="17">
+					<Width>18</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ChoiceButton>true</ChoiceButton>
+					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+					<ContextMenu name="КодОКПД2КонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="КодОКПД2РасширеннаяПодсказка" id="19"/>
+				</InputField>
+				<LabelField name="КодОКПД2Наименование" id="20">
+					<TitleLocation>None</TitleLocation>
+					<ContextMenu name="КодОКПД2НаименованиеКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="КодОКПД2НаименованиеРасширеннаяПодсказка" id="22"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаОКВЭД2" id="23">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа ОКВЭД2</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа ОКВЭД2</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОКВЭД2РасширеннаяПодсказка" id="24"/>
+			<ChildItems>
+				<InputField name="КодОКВЭД2" id="25">
+					<Width>18</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ChoiceButton>true</ChoiceButton>
+					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+					<ContextMenu name="КодОКВЭД2КонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="КодОКВЭД2РасширеннаяПодсказка" id="27"/>
+				</InputField>
+				<LabelField name="КодОКВЭД2Наименование" id="28">
+					<TitleLocation>None</TitleLocation>
+					<ContextMenu name="КодОКВЭД2НаименованиеКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="КодОКВЭД2НаименованиеРасширеннаяПодсказка" id="30"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПараметрыУчета" id="31">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Параметры учета</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа параметры учета</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<BackColor>style:ФонУправляющегоПоля</BackColor>
+			<ExtendedTooltip name="ГруппаПараметрыУчетаРасширеннаяПодсказка" id="32"/>
+			<ChildItems>
+				<RadioButtonField name="ВариантУчетаВНА" id="33">
+					<RadioButtonType>Tumbler</RadioButtonType>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Трансляция</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">0</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Параллельный учет в подсистеме ВНА (МСФО)</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">1</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="ВариантУчетаВНАКонтекстноеМеню" id="34"/>
+					<ExtendedTooltip name="ВариантУчетаВНАРасширеннаяПодсказка" id="35"/>
+				</RadioButtonField>
+				<InputField name="ПараметрыУчетаВНА" id="36">
+					<Visible>false</Visible>
+					<ContextMenu name="ПараметрыУчетаВНАКонтекстноеМеню" id="37"/>
+					<ExtendedTooltip name="ПараметрыУчетаВНАРасширеннаяПодсказка" id="38"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.20">
+		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+		<UseForFoldersAndItems>Folders</UseForFoldersAndItems>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+		<ChildItems>
+			<UsualGroup name="ГруппаНаименованиеИКод" id="7">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Наименование и код</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Наименование и код</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаНаименованиеИКодExtendedTooltip" id="8"/>
+				<ChildItems>
+					<InputField name="Наименование" id="3">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
+						<ExtendedTooltip name="НаименованиеExtendedTooltip" id="9"/>
+					</InputField>
+					<InputField name="Код" id="1">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+						<ExtendedTooltip name="КодExtendedTooltip" id="10"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+			<InputField name="Родитель" id="5">
+				<UserVisible>
+					<xr:Common>false</xr:Common>
+				</UserVisible>
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="РодительКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="РодительExtendedTooltip" id="11"/>
+			</InputField>
+			<InputField name="ВидНоменклатуры" id="12">
+				<AutoChoiceIncomplete>false</AutoChoiceIncomplete>
+				<AutoMarkIncomplete>false</AutoMarkIncomplete>
+				<ContextMenu name="ВидНоменклатурыКонтекстноеМеню" id="13"/>
+				<ExtendedTooltip name="ВидНоменклатурыРасширеннаяПодсказка" id="14"/>
+			</InputField>
+			<UsualGroup name="ГруппаОКДП2УХ" id="15">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа ОКДП2 УХ</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа ОКДП2 УХ</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаОКДП2УХРасширеннаяПодсказка" id="16"/>
+				<ChildItems>
+					<InputField name="КодОКПД2" id="17">
+						<Width>18</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ChoiceButton>true</ChoiceButton>
+						<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+						<ContextMenu name="КодОКПД2КонтекстноеМеню" id="18"/>
+						<ExtendedTooltip name="КодОКПД2РасширеннаяПодсказка" id="19"/>
+					</InputField>
+					<LabelField name="КодОКПД2Наименование" id="20">
+						<TitleLocation>None</TitleLocation>
+						<ContextMenu name="КодОКПД2НаименованиеКонтекстноеМеню" id="21"/>
+						<ExtendedTooltip name="КодОКПД2НаименованиеРасширеннаяПодсказка" id="22"/>
+					</LabelField>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаОКВЭД2" id="23">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа ОКВЭД2</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа ОКВЭД2</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаОКВЭД2РасширеннаяПодсказка" id="24"/>
+				<ChildItems>
+					<InputField name="КодОКВЭД2" id="25">
+						<Width>18</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ChoiceButton>true</ChoiceButton>
+						<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+						<ContextMenu name="КодОКВЭД2КонтекстноеМеню" id="26"/>
+						<ExtendedTooltip name="КодОКВЭД2РасширеннаяПодсказка" id="27"/>
+					</InputField>
+					<LabelField name="КодОКВЭД2Наименование" id="28">
+						<TitleLocation>None</TitleLocation>
+						<ContextMenu name="КодОКВЭД2НаименованиеКонтекстноеМеню" id="29"/>
+						<ExtendedTooltip name="КодОКВЭД2НаименованиеРасширеннаяПодсказка" id="30"/>
+					</LabelField>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаПараметрыУчета" id="31">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Параметры учета</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа параметры учета</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<BackColor>style:ФонУправляющегоПоля</BackColor>
+				<ExtendedTooltip name="ГруппаПараметрыУчетаРасширеннаяПодсказка" id="32"/>
+				<ChildItems>
+					<RadioButtonField name="ВариантУчетаВНА" id="33">
+						<RadioButtonType>Tumbler</RadioButtonType>
+						<ChoiceList>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Трансляция</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xs:decimal">0</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Параллельный учет в подсистеме ВНА (МСФО)</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xs:decimal">1</Value>
+								</xr:Value>
+							</xr:Item>
+						</ChoiceList>
+						<ContextMenu name="ВариантУчетаВНАКонтекстноеМеню" id="34"/>
+						<ExtendedTooltip name="ВариантУчетаВНАРасширеннаяПодсказка" id="35"/>
+					</RadioButtonField>
+					<InputField name="ПараметрыУчетаВНА" id="36">
+						<Visible>false</Visible>
+						<ContextMenu name="ПараметрыУчетаВНАКонтекстноеМеню" id="37"/>
+						<ExtendedTooltip name="ПараметрыУчетаВНАРасширеннаяПодсказка" id="38"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

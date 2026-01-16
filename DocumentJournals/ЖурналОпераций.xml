@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DocumentJournal uuid="69edd652-1baa-4b5f-a5d8-b61925cb991e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.ЖурналОпераций" category="Selection">
+				<xr:TypeId>6e2a81c5-9536-40cb-95a8-7847f27e6461</xr:TypeId>
+				<xr:ValueId>cce53cad-65d8-41e5-956a-0fd7d408f9aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.ЖурналОпераций" category="List">
+				<xr:TypeId>31aec7fa-e023-414c-a607-c79157866c4f</xr:TypeId>
+				<xr:ValueId>9d9ccec0-3cd6-4e4c-827e-536b0b0e5d14</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.ЖурналОпераций" category="Manager">
+				<xr:TypeId>78ddb466-501d-4257-95d1-cedd72046570</xr:TypeId>
+				<xr:ValueId>0538b9b1-700e-4796-a0fe-5d8367241a36</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЖурналОпераций</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>51ca5701-5f14-45aa-8005-36a5c3f8593c</ExtendedConfigurationObject>
+			<RegisteredDocuments>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтражениеЗарплатыВБухучете</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОбесценениеВнеоборотныхАктивов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.АвансовыйОтчет</xr:Item>
+			</RegisteredDocuments>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="8c67aac7-cf80-428b-ab19-25e68dc8bff7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8502371f-201c-454e-8f88-725f41119db1</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="c999f00b-64d4-466c-b519-d1a76f80f349">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>50cfd487-5094-476c-aac0-3f0557fc7bf8</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="eda8a6e0-26ca-4e35-89e7-892c9bddfd46">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВалютаДокумента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>97f8a511-e05e-4a7c-886d-bdc10c30a4ae</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="620a9cd9-88c6-401e-8836-fc72bbea42af">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Ответственный</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7d8a5ef7-896b-4d3f-8776-27bb48d9a23d</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="013eee03-0be1-48c8-aba9-eb5e2548fff2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Информация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b0fc8da7-5007-4300-afe6-91e59ce5a524</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="6f5b9bf0-b745-4b71-b0f4-84822010b07c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СостояниеРеглОперации</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7d219b8b-590d-42b0-af66-1ff90ddd5d3f</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="b8b88266-6f91-488a-82ba-4cbc0cc39d6a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РучнаяКорректировка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bda2839d-14c0-476b-bf13-ae361e589e8a</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="6c8756a5-7167-4aea-9fed-b4063be6081c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СуммаДокумента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e3f94027-d25a-4de4-a375-2d7c97f5cc3c</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="e77d246b-aa72-4268-90eb-c67caef91357">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВидОперации</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ea7ee647-34af-4055-a727-7c2ed341ee96</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="70711ee2-e795-4eac-aa12-7d643df8796a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерВходящегоДокумента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>48cf36f8-1073-4363-8ea7-ad0f9b6cd06c</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="03ae28e0-22a4-47d6-a3dd-3e0883e02959">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаВходящегоДокумента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4d978a91-caba-4faa-8c4b-e569bb6d6ecc</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="45d2e08a-6fa5-401f-83d3-96db0c8d9a7e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Комментарий</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>291a9948-a357-4bdc-a56b-497b5dec0d70</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

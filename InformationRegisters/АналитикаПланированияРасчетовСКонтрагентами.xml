@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="c3754f6c-2f50-4062-9260-deafdb3f3e53">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.АналитикаПланированияРасчетовСКонтрагентами" category="Record">
+				<xr:TypeId>6ad315e1-b5b9-4407-acf9-87f03a9e1a60</xr:TypeId>
+				<xr:ValueId>5f45ca47-6a46-4c43-be75-de1c4ade56dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.АналитикаПланированияРасчетовСКонтрагентами" category="Manager">
+				<xr:TypeId>96b5225a-6a40-4965-93ed-99923c3fa8f2</xr:TypeId>
+				<xr:ValueId>5a28913c-4400-46fe-a582-cec033776073</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.АналитикаПланированияРасчетовСКонтрагентами" category="Selection">
+				<xr:TypeId>a0bc0184-f8c1-4306-8160-bc83e30a7492</xr:TypeId>
+				<xr:ValueId>c5ca7e61-4ff4-4bc0-a7ac-7acc1aeb569d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.АналитикаПланированияРасчетовСКонтрагентами" category="List">
+				<xr:TypeId>98723628-e45d-4e37-bbea-7e34e7dae0be</xr:TypeId>
+				<xr:ValueId>327bcdae-492a-48ab-8db6-57dd68c3434f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.АналитикаПланированияРасчетовСКонтрагентами" category="RecordSet">
+				<xr:TypeId>4f6ddbbd-a8f2-4ea5-9ed3-8c91333b2032</xr:TypeId>
+				<xr:ValueId>6d9e429a-d57b-4639-a3a5-acc12516c028</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.АналитикаПланированияРасчетовСКонтрагентами" category="RecordKey">
+				<xr:TypeId>7376e113-2b94-4b37-95dd-dc08ab715984</xr:TypeId>
+				<xr:ValueId>edb8190e-ffa0-44c9-9dda-ffeb144ccab5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.АналитикаПланированияРасчетовСКонтрагентами" category="RecordManager">
+				<xr:TypeId>bbaf977d-b8de-4de5-b314-84c2373c9f43</xr:TypeId>
+				<xr:ValueId>60fac27f-0e5f-4c01-83bb-8029ebbbcf3a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АналитикаПланированияРасчетовСКонтрагентами</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e7c99939-e6a4-4c7d-81b4-d245bfe38d0d</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

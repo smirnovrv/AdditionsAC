@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AccumulationRegister uuid="896df274-2934-4020-b167-69b94d262a6f">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ИИТ_ОстаткиДенежныхСредствУПодотчетников" category="Record">
+				<xr:TypeId>8ac7b156-9973-42f4-910f-d09c5cf7f88e</xr:TypeId>
+				<xr:ValueId>9fd2c646-6458-45c5-8ce1-fd26a21e3e0c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ИИТ_ОстаткиДенежныхСредствУПодотчетников" category="Manager">
+				<xr:TypeId>7178155c-d858-4770-b12c-16959fe3197d</xr:TypeId>
+				<xr:ValueId>ff1dbf2f-e592-4a7c-bdfc-2ac08a1cc117</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ИИТ_ОстаткиДенежныхСредствУПодотчетников" category="Selection">
+				<xr:TypeId>04978fa6-d1f5-47bf-9461-371e13436b5c</xr:TypeId>
+				<xr:ValueId>84b683b5-dee8-4de9-8cbb-8ef4599f28f3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ИИТ_ОстаткиДенежныхСредствУПодотчетников" category="List">
+				<xr:TypeId>9308b9d9-18d4-461b-84bd-19052d9238e4</xr:TypeId>
+				<xr:ValueId>f29d1aa6-f0b8-40ca-bfe3-aacf4460456e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ИИТ_ОстаткиДенежныхСредствУПодотчетников" category="RecordSet">
+				<xr:TypeId>f2b4a0c1-ea87-4afa-aa3a-235144c1b84d</xr:TypeId>
+				<xr:ValueId>9243b879-8830-4c4d-88c2-0fc7b2c4ea6a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ИИТ_ОстаткиДенежныхСредствУПодотчетников" category="RecordKey">
+				<xr:TypeId>8fefcaac-bfad-4bc9-b72c-e5a864338637</xr:TypeId>
+				<xr:ValueId>0c637f72-1aee-446c-8e3e-31fb433e550d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИИТ_ОстаткиДенежныхСредствУПодотчетников</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6fb03942-199c-4f12-bf1e-ad229a2e9cdc</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects/>
+	</AccumulationRegister>
+</MetaDataObject>

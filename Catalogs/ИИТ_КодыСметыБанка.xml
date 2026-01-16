@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="b3ef57b1-116c-4fef-97f4-cd92d007d130">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ИИТ_КодыСметыБанка" category="Object">
+				<xr:TypeId>a587cc9b-ad46-4a63-9c7d-773237b82a05</xr:TypeId>
+				<xr:ValueId>14af081c-0099-483c-83f3-b33e08a3a26a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ИИТ_КодыСметыБанка" category="Ref">
+				<xr:TypeId>66cca4bc-20f5-4b41-802c-44a0598051d6</xr:TypeId>
+				<xr:ValueId>050eb833-3241-4b4a-b837-1dcaf518116e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ИИТ_КодыСметыБанка" category="Selection">
+				<xr:TypeId>381d05a0-1dbb-4c6a-8465-152ff360a64c</xr:TypeId>
+				<xr:ValueId>6a8acbf1-8b5f-4992-8121-a12fe3307cd5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ИИТ_КодыСметыБанка" category="List">
+				<xr:TypeId>00086320-268d-48b8-9f02-84b05be9168d</xr:TypeId>
+				<xr:ValueId>f68f91e7-913c-427b-bb42-9bd5c9543dd1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ИИТ_КодыСметыБанка" category="Manager">
+				<xr:TypeId>ea38b5ee-5d6f-47d1-82ce-369b3fb42144</xr:TypeId>
+				<xr:ValueId>ee3d7fe1-9128-4751-b851-504667358ef3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИИТ_КодыСметыБанка</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>953d9e86-92dd-4d2b-85d2-efad5100b74a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

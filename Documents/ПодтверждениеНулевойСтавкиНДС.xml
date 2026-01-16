@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="6d44d839-71aa-47ca-8c54-7caff46046a0">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПодтверждениеНулевойСтавкиНДС" category="Object">
+				<xr:TypeId>f4c1c30c-60de-47ff-8307-479eca52455e</xr:TypeId>
+				<xr:ValueId>9ce16afb-9224-414a-a4e4-0c1e0aff0d61</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПодтверждениеНулевойСтавкиНДС" category="Ref">
+				<xr:TypeId>29d09e04-d5ef-45ee-9e07-75e016b3120a</xr:TypeId>
+				<xr:ValueId>5332af06-cca1-4119-9b3b-1c13e4e15c05</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПодтверждениеНулевойСтавкиНДС" category="Selection">
+				<xr:TypeId>2617ade7-dff4-410f-b90c-5b6ec90055b5</xr:TypeId>
+				<xr:ValueId>f9657842-cb27-46bb-9d91-208fd135d8a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПодтверждениеНулевойСтавкиНДС" category="List">
+				<xr:TypeId>468190d7-5a6e-4846-b123-656e5e893aa5</xr:TypeId>
+				<xr:ValueId>98e808b0-e79a-4477-96f2-8b18b68c01da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПодтверждениеНулевойСтавкиНДС" category="Manager">
+				<xr:TypeId>ddee40f7-6246-4e47-b2a7-1b67ea429e1f</xr:TypeId>
+				<xr:ValueId>af7ba82b-e0df-44f2-a9cc-8835829aec85</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПодтверждениеНулевойСтавкиНДС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>20107773-45f2-42a0-92dc-2ed4d5815e45</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

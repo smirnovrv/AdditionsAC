@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="e0c42b4f-8119-4bbd-9827-c21003de9f33">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ИИТ_Размеры" category="Object">
+				<xr:TypeId>69112a7f-2f7f-4cc6-b298-9e266987c0ab</xr:TypeId>
+				<xr:ValueId>9f38e9f7-4e8c-4a12-bc0f-7bf827d6c7be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ИИТ_Размеры" category="Ref">
+				<xr:TypeId>ac8d3ac9-eac0-4dc8-a911-0d1890dfa34c</xr:TypeId>
+				<xr:ValueId>156853d4-6ba8-4696-ae02-93e4cd6169b7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ИИТ_Размеры" category="Selection">
+				<xr:TypeId>8b0ac1bc-d51b-4fd5-9cd9-1f72e30eca0b</xr:TypeId>
+				<xr:ValueId>49e0b353-89c4-4ad2-a182-7459ecc07f0e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ИИТ_Размеры" category="List">
+				<xr:TypeId>7b1e4249-c591-497a-8b66-f5ef81df998d</xr:TypeId>
+				<xr:ValueId>22af0845-f8da-4934-9d24-8d005ccc6d48</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ИИТ_Размеры" category="Manager">
+				<xr:TypeId>257179ac-a5fa-4591-b336-f97d456a39b1</xr:TypeId>
+				<xr:ValueId>1fc3ed01-118f-44ae-8681-10ec3699cc42</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИИТ_Размеры</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ba741134-991d-49f7-9958-a8c8f0624942</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

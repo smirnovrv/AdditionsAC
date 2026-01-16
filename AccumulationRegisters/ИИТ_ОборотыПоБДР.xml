@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AccumulationRegister uuid="c7250f14-fae8-4682-a6cb-1bd2e40af392">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ИИТ_ОборотыПоБДР" category="Record">
+				<xr:TypeId>794ca618-15b5-4cdf-b1fc-fe3d6eeb73f6</xr:TypeId>
+				<xr:ValueId>1ac1041d-a98f-4409-a715-77f8c9779818</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ИИТ_ОборотыПоБДР" category="Manager">
+				<xr:TypeId>265902a7-c435-4789-acba-496d7d482df3</xr:TypeId>
+				<xr:ValueId>e856b032-77c2-4482-8434-af9bf3ed0353</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ИИТ_ОборотыПоБДР" category="Selection">
+				<xr:TypeId>736f74db-848a-45dc-a9c4-86780de02458</xr:TypeId>
+				<xr:ValueId>683b21ff-3ecb-43aa-bfd4-c73977aead67</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ИИТ_ОборотыПоБДР" category="List">
+				<xr:TypeId>b8691db7-3beb-4b27-bf0b-1a7ac6cb37c1</xr:TypeId>
+				<xr:ValueId>0742f2a8-52b7-42b3-a254-727e0c87c144</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ИИТ_ОборотыПоБДР" category="RecordSet">
+				<xr:TypeId>8f952581-e421-4bca-b11f-71b7786ec33f</xr:TypeId>
+				<xr:ValueId>920cd69d-a2e8-4703-95dc-35b3721d7ee2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ИИТ_ОборотыПоБДР" category="RecordKey">
+				<xr:TypeId>1ccc8a4a-02b2-4746-a256-2a612eb3adae</xr:TypeId>
+				<xr:ValueId>61753246-b521-40cd-a6dd-660f027e1e75</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИИТ_ОборотыПоБДР</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1a19e32f-6b9d-4742-b3d5-6b498301b1bd</ExtendedConfigurationObject>
+			<RegisterType>Turnovers</RegisterType>
+		</Properties>
+		<ChildObjects/>
+	</AccumulationRegister>
+</MetaDataObject>

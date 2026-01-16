@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="4238c857-9fa7-4344-9cd0-7ae825b54bb9">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.УдалитьВидыОперацийПеремещениеТоваров" category="Ref">
+				<xr:TypeId>622cab2b-f23b-4d70-bb81-b973ef162cd8</xr:TypeId>
+				<xr:ValueId>a75f940b-8b73-46c8-8b24-775f9f83cdc7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.УдалитьВидыОперацийПеремещениеТоваров" category="Manager">
+				<xr:TypeId>743bb82a-6a23-4315-85d2-7dbb40fbb807</xr:TypeId>
+				<xr:ValueId>4660f10d-72f7-44e5-9518-c999d0bc6740</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.УдалитьВидыОперацийПеремещениеТоваров" category="List">
+				<xr:TypeId>1b3c84bf-4d07-472b-8693-2e56d1da39fa</xr:TypeId>
+				<xr:ValueId>01ced8ef-5137-4c6d-8901-12d198a534de</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УдалитьВидыОперацийПеремещениеТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5a982d82-8b6a-4163-acef-06ac397c0777</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="42358ac5-b6f4-46eb-aa3c-02e88686239d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияДоговоров" category="Ref">
+				<xr:TypeId>d3eb0af9-241d-4661-9b3e-b09e95cb1b93</xr:TypeId>
+				<xr:ValueId>d629a89b-0151-46df-937e-108101f93ad9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияДоговоров" category="Manager">
+				<xr:TypeId>599c5db2-7c5c-4146-93f5-21d712fb9500</xr:TypeId>
+				<xr:ValueId>f24ecd2c-14a5-4153-b8bb-d11f94f4c325</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияДоговоров" category="List">
+				<xr:TypeId>9b11ad09-af43-4c28-8371-9c44febadd7b</xr:TypeId>
+				<xr:ValueId>0d0c50be-f0c0-4830-8149-5656498918a7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияДоговоров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c093f993-4fa5-4d9b-b8db-8417928a8d6a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

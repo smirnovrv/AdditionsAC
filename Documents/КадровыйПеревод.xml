@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="3a8f3fbb-538b-444e-8a2e-1006e2fe698e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КадровыйПеревод" category="Object">
+				<xr:TypeId>8db775fe-6179-492d-819d-5350a3fd0f9f</xr:TypeId>
+				<xr:ValueId>120335fc-3fd3-4fa6-ad3a-05b4acbe2513</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КадровыйПеревод" category="Ref">
+				<xr:TypeId>5b0c7669-1ebf-4794-a2b1-80cf18c5582f</xr:TypeId>
+				<xr:ValueId>d9a542e2-0290-4310-9429-521a5ea3bce4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КадровыйПеревод" category="Selection">
+				<xr:TypeId>9e86c602-0763-4bb7-b8c8-fdefb5948521</xr:TypeId>
+				<xr:ValueId>a28f89ef-a57f-42ca-bba7-3fc321ab0003</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КадровыйПеревод" category="List">
+				<xr:TypeId>a8fc2d24-7b10-4d85-82e3-f35da067933c</xr:TypeId>
+				<xr:ValueId>ad0bee0a-bd4b-45f7-b28f-3e6ae0afb299</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КадровыйПеревод" category="Manager">
+				<xr:TypeId>50119d3d-2ea4-4efb-839e-c8bd39fb30b9</xr:TypeId>
+				<xr:ValueId>0cea9786-e618-47cc-8b5d-e90edb3d0b1f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КадровыйПеревод</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9f3711e5-69f1-406d-b6f7-9e1d9ebc4707</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="744a17e0-53e1-4f92-a131-a59c9b2d0634">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сотрудник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b830cc1f-f579-4195-9310-83cc0fbb6b31</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a9f23bb5-b2ad-44fe-be40-c912453d9134">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИИТ_ОбъектСтроительства</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5ed33dd2-ddbc-4829-b016-366e91087e12</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Проекты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="056de2b0-e2e6-4d73-8901-042def32be45">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИИТ_Бригада</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>143b1c45-f9be-4d0e-99aa-54018f377371</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

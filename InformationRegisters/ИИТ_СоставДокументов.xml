@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="3569447e-bd43-4242-8bb2-fde0262180e8">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ИИТ_СоставДокументов" category="Record">
+				<xr:TypeId>4bfa3281-5987-4ef0-bc01-5aa4c4b9d31f</xr:TypeId>
+				<xr:ValueId>832bb351-f620-4607-ab64-5809dc9f20b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ИИТ_СоставДокументов" category="Manager">
+				<xr:TypeId>9a73fa08-3e01-44b8-81e8-193a8ef40844</xr:TypeId>
+				<xr:ValueId>857d3ca9-b61f-4e56-9a59-0f54c026fa1b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ИИТ_СоставДокументов" category="Selection">
+				<xr:TypeId>8ce062d5-bf83-4f4c-ae8e-b14649fa29f9</xr:TypeId>
+				<xr:ValueId>dda56844-a82e-41f4-af8a-d8e46a3f6fcc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ИИТ_СоставДокументов" category="List">
+				<xr:TypeId>cfb46fe1-4785-412c-a466-e55015258c9a</xr:TypeId>
+				<xr:ValueId>e45684d6-1807-47d1-b779-3504423c55d4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ИИТ_СоставДокументов" category="RecordSet">
+				<xr:TypeId>851079df-7bc9-437c-90ee-6bd2573522b3</xr:TypeId>
+				<xr:ValueId>a86cd2e6-8740-47f5-99da-8fe09c782e08</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ИИТ_СоставДокументов" category="RecordKey">
+				<xr:TypeId>8b17728b-c6a2-4521-ac9c-7c8facb59dcd</xr:TypeId>
+				<xr:ValueId>9b6399ca-ed2e-498e-aa76-e8fdd8c244a2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ИИТ_СоставДокументов" category="RecordManager">
+				<xr:TypeId>ffb44a48-a6ab-47eb-88a2-71ae865e1078</xr:TypeId>
+				<xr:ValueId>35cb8470-a139-4b31-aa00-15c16ff72a2e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИИТ_СоставДокументов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>879cf4cd-d68c-43a1-b7f1-953abc0ee93a</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="6f73a8cf-26ae-421e-8082-8035612ad6b6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Состав</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5d38054e-884a-47bc-88b1-9d68a2e1f9ff</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="d2bedf73-143f-4f0b-a1c2-ae7e02cd1326">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Документ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>40a1d760-322a-4c41-a196-ba0e5fc7f075</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

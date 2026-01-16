@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="e6f3b218-e43e-48b3-adb6-61c8af8dd560">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПереоценкаТоваровВРознице" category="Object">
+				<xr:TypeId>4c11b7df-29ce-433b-ba5a-3bf4edf478e8</xr:TypeId>
+				<xr:ValueId>13287e33-1bcd-4c0f-b47e-ed53ece8c10a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПереоценкаТоваровВРознице" category="Ref">
+				<xr:TypeId>1b123f26-9f62-4368-a372-ad239de60ea6</xr:TypeId>
+				<xr:ValueId>a87cdc36-9f3c-44ee-b211-5c500aa8b370</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПереоценкаТоваровВРознице" category="Selection">
+				<xr:TypeId>6c937294-cb47-4575-982a-d75243aafc7e</xr:TypeId>
+				<xr:ValueId>0cadd60d-04d9-443f-863a-e2a950e6cdf5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПереоценкаТоваровВРознице" category="List">
+				<xr:TypeId>61fead95-8ea1-4c63-bf63-590b0696f06c</xr:TypeId>
+				<xr:ValueId>d6ce4ba1-0fb8-4b30-b1e4-7d8c89d52879</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПереоценкаТоваровВРознице" category="Manager">
+				<xr:TypeId>15fc6f01-5af7-49de-9129-09764d03d1d2</xr:TypeId>
+				<xr:ValueId>e9870985-a01b-426e-94b3-c82882b41f12</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПереоценкаТоваровВРознице</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e87a1b44-e013-486f-a342-30864315ac9e</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

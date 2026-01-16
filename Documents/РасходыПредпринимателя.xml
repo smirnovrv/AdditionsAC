@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="92481f15-d2ff-43fa-b4de-3699ce055734">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РасходыПредпринимателя" category="Object">
+				<xr:TypeId>23f9176f-4896-4699-b6b3-9b42aec9c6a3</xr:TypeId>
+				<xr:ValueId>d736dbc9-9c6a-4fab-ac1a-4cb27938e265</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РасходыПредпринимателя" category="Ref">
+				<xr:TypeId>3f7ff354-fdc9-4717-8095-ec953707b100</xr:TypeId>
+				<xr:ValueId>6146bf6b-8772-4523-a8bf-5a3aae294b32</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РасходыПредпринимателя" category="Selection">
+				<xr:TypeId>7d0e50be-1038-4191-bde0-84921c0432c5</xr:TypeId>
+				<xr:ValueId>1798b0d2-2fda-418c-9481-6ca2e3f004e2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РасходыПредпринимателя" category="List">
+				<xr:TypeId>a81cfd5f-0812-4f07-b433-ba5b3aa0d260</xr:TypeId>
+				<xr:ValueId>451156e5-84fa-4eba-9ade-469141fa9433</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РасходыПредпринимателя" category="Manager">
+				<xr:TypeId>25e0633c-5977-4c7b-8731-bea3287bcc8e</xr:TypeId>
+				<xr:ValueId>6b71d102-de39-4f22-af3e-0f3849826794</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РасходыПредпринимателя</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4ff08eef-0159-4825-9470-7cb8fa67a561</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

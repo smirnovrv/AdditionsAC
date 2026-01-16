@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="deb68c48-2abc-4778-87de-58a092d3c75d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СпособыОтраженияРасходовПоАмортизации" category="Object">
+				<xr:TypeId>a8c3ee0c-8c72-4cf8-a080-aa19a5126087</xr:TypeId>
+				<xr:ValueId>e62b7b1e-3e8a-4468-b64f-ec2f63d94a1b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СпособыОтраженияРасходовПоАмортизации" category="Ref">
+				<xr:TypeId>d4c23176-ccac-4421-a7eb-9aa310c9a49b</xr:TypeId>
+				<xr:ValueId>ae834bdc-2a63-44b6-b900-6606f3f1cc95</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СпособыОтраженияРасходовПоАмортизации" category="Selection">
+				<xr:TypeId>20ee1f4a-efd6-4d26-8794-dc3576a7db58</xr:TypeId>
+				<xr:ValueId>e19cb009-2ff5-45c2-9450-9e7c1dbb2f96</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СпособыОтраженияРасходовПоАмортизации" category="List">
+				<xr:TypeId>4ebf272c-23f7-4a0b-a484-358581c4eb9a</xr:TypeId>
+				<xr:ValueId>1bd3bacf-10e2-467d-a3ca-d673c8605565</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СпособыОтраженияРасходовПоАмортизации" category="Manager">
+				<xr:TypeId>c6bb1c15-cd86-40c0-a979-dda71827f01d</xr:TypeId>
+				<xr:ValueId>9bdfeb74-57cc-437e-9594-a9e131d555c1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СпособыОтраженияРасходовПоАмортизации</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>450486d8-3bad-4a2c-a106-cc391ab2985a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

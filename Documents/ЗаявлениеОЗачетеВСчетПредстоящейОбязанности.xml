@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="e32cbd8f-7e5e-424e-b2d5-bb8299c9bef2">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаявлениеОЗачетеВСчетПредстоящейОбязанности" category="Object">
+				<xr:TypeId>d6b2fe2a-086a-482b-868d-b339264b3e1e</xr:TypeId>
+				<xr:ValueId>7faf8e1f-7dcd-4a6c-b3f2-1a866987c41e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаявлениеОЗачетеВСчетПредстоящейОбязанности" category="Ref">
+				<xr:TypeId>edaa79bf-f907-4415-93a3-529923b39509</xr:TypeId>
+				<xr:ValueId>09f7331a-cd77-45c0-ae46-864d1d162ad5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаявлениеОЗачетеВСчетПредстоящейОбязанности" category="Selection">
+				<xr:TypeId>63ce0a6c-bacc-452c-b0b4-6e36cfe5a79e</xr:TypeId>
+				<xr:ValueId>33035d2e-175a-433c-9d1d-ef673ede45fe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаявлениеОЗачетеВСчетПредстоящейОбязанности" category="List">
+				<xr:TypeId>41741e5c-9798-49ab-b55f-8e4cbffe036d</xr:TypeId>
+				<xr:ValueId>e3225906-9a76-4b7b-bf89-f40caa5f6681</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаявлениеОЗачетеВСчетПредстоящейОбязанности" category="Manager">
+				<xr:TypeId>fcdabed8-31fd-441f-a653-3d5603df94e2</xr:TypeId>
+				<xr:ValueId>1446bbed-bdb3-4b41-9159-7f5948884f8b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаявлениеОЗачетеВСчетПредстоящейОбязанности</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>496dcfae-8e5e-4568-acbf-cd554b7b4797</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

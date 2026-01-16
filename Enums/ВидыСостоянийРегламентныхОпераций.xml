@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="06e7db07-ad5d-4d8e-a251-3c308aa3a3f2">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыСостоянийРегламентныхОпераций" category="Ref">
+				<xr:TypeId>ce068fa1-b590-4fd4-bf4e-12a40fe5a798</xr:TypeId>
+				<xr:ValueId>9d0c86c7-1a68-4ebb-bea9-40cde44c4f6b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыСостоянийРегламентныхОпераций" category="Manager">
+				<xr:TypeId>8d5903a7-458c-4932-a917-f09812efc9be</xr:TypeId>
+				<xr:ValueId>3d4c722c-ce17-408c-8024-260b4a25acb7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыСостоянийРегламентныхОпераций" category="List">
+				<xr:TypeId>af8c3286-457c-4edf-9cc6-059b4d42b553</xr:TypeId>
+				<xr:ValueId>21315309-4faf-4394-aefd-0e8b170a44ce</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыСостоянийРегламентныхОпераций</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ce7c3ef1-642d-47c6-8686-43a1443e937e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="838e428d-ce25-44c2-9f69-d406d6023564">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВыполненоСОшибками</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>10ce41b3-2e63-4513-962a-21489c294769</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b6296801-349a-443d-ae40-75acdc336a9d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НеВыполнено</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>72592170-6a3b-478e-a785-5189f5f15e42</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7664dbb2-1fe3-4c0c-a72f-bbccbf624e01">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Выполняется</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0c69adfe-2442-40a4-b490-65b69f1cc379</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cd298056-d3b2-4359-9be4-a53004fd585d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Выполнено</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>dc3c24d1-dbb4-4e6b-8662-4dde720a4820</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3f1ba98b-8837-47b8-8cea-66c8a3108ce3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Пропущено</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0f694e6e-b347-4110-a85d-4584bfc8f4cb</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

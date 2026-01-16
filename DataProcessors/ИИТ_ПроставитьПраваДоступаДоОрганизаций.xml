@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DataProcessor uuid="8c9716a0-5b05-46cd-9213-c8870be7be58">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ИИТ_ПроставитьПраваДоступаДоОрганизаций" category="Object">
+				<xr:TypeId>5f0a593a-81cc-4622-be96-5894bcaddcc0</xr:TypeId>
+				<xr:ValueId>826acb32-509c-44fa-ac0d-3189742e91c5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ИИТ_ПроставитьПраваДоступаДоОрганизаций" category="Manager">
+				<xr:TypeId>3a55bd87-a453-4ee0-9962-024c4777b2cb</xr:TypeId>
+				<xr:ValueId>f4b0d991-cea5-4f36-adbf-0c1eb42054ef</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИИТ_ПроставитьПраваДоступаДоОрганизаций</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>051ea430-ef04-4c8f-820f-48dc4843da95</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</DataProcessor>
+</MetaDataObject>

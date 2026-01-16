@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="54bf684d-176e-441a-99bb-90e76a88300e">
+		<Name>БДДС_Расход</Name>
+		<Code>БДДС_0</Code>
+		<Description>БДДС, Расход</Description>
+		<IsFolder>true</IsFolder>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+		<ChildItems>
+			<Item id="c1fe6c3b-d38e-4ed3-9829-c0b45301ae84">
+				<Name>ОплатаПоставщику</Name>
+				<Code>БДДС_0001</Code>
+				<Description>Оплата поставщику</Description>
+				<IsFolder>false</IsFolder>
+				<ExtensionState>AdoptedCheck</ExtensionState>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

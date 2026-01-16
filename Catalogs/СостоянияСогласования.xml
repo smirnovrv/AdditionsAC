@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="196dd606-2079-4f19-b8df-7e5c838299c8">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СостоянияСогласования" category="Object">
+				<xr:TypeId>027bf799-8a46-4ee5-9f14-363c27fa762f</xr:TypeId>
+				<xr:ValueId>b154f0b3-8419-4e0f-99e1-23ed5a58b466</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СостоянияСогласования" category="Ref">
+				<xr:TypeId>5dc579f4-dcb9-4578-8d04-fe3bf7630d6a</xr:TypeId>
+				<xr:ValueId>d159ebad-f955-4872-9bc7-0ffe9932d756</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СостоянияСогласования" category="Selection">
+				<xr:TypeId>83846dc5-aacb-4301-ae5f-f12f69488b38</xr:TypeId>
+				<xr:ValueId>6b426488-5789-4507-bad2-84cc5d8042d7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СостоянияСогласования" category="List">
+				<xr:TypeId>8a98c302-21e1-4c2b-83a9-6f548ef7a537</xr:TypeId>
+				<xr:ValueId>710a1d86-0fef-4ac7-ace7-2069b99e97d1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СостоянияСогласования" category="Manager">
+				<xr:TypeId>1d3d39c6-d168-4f37-8f3d-c643de7e2d2c</xr:TypeId>
+				<xr:ValueId>61d7f018-6237-41ef-a494-4d6189086fb2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияСогласования</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8bf11b6d-cb4f-4967-9fe5-2261c66c9a85</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="d4afd285-6d39-4908-a9e7-50f455d925af">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЭкземплярПроцесса" category="Object">
+				<xr:TypeId>a591f0ed-97c3-42bd-89e6-15d4e4ebfd35</xr:TypeId>
+				<xr:ValueId>ddc9538a-79ba-4b4a-9714-3855c05eebe0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЭкземплярПроцесса" category="Ref">
+				<xr:TypeId>c44a7d38-ed0d-432c-ba0b-b7b42ddecf09</xr:TypeId>
+				<xr:ValueId>e37be625-2fc8-4b1b-98a1-588dad046d05</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЭкземплярПроцесса" category="Selection">
+				<xr:TypeId>e0869d4f-859d-4bbf-ad3b-d87fa1faaa67</xr:TypeId>
+				<xr:ValueId>d49a219a-32e8-49e8-84ea-1f531e814e90</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЭкземплярПроцесса" category="List">
+				<xr:TypeId>0cbd610b-1f6f-4b32-864f-517eab00c323</xr:TypeId>
+				<xr:ValueId>24d3b2cf-9d99-4f53-8847-70b38b246a25</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЭкземплярПроцесса" category="Manager">
+				<xr:TypeId>1229ea34-6312-4e2c-9b31-603c0f102e0f</xr:TypeId>
+				<xr:ValueId>cd7e5213-03fd-44fc-adda-befb536298af</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЭкземплярПроцесса</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7d2180fe-a60e-4922-8002-582acebb8eee</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="e5046320-1bf8-4cdf-9e80-20ac00384ba6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КлючевойОбъектПроцесса</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>df54874e-db92-4530-99e6-c80d004f212f</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

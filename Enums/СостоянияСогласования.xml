@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="70c0ed91-0f28-4658-af92-b4e7fd541ec4">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияСогласования" category="Ref">
+				<xr:TypeId>0de6e55a-db77-4509-b8ba-d6bce8ae2b37</xr:TypeId>
+				<xr:ValueId>d6fc78fe-e8af-42f2-be5f-5b809f21447a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияСогласования" category="Manager">
+				<xr:TypeId>e93bef75-d18d-4161-9c5a-b8d41f30adf5</xr:TypeId>
+				<xr:ValueId>b48fb236-2eb0-426a-a6c1-f8b8a61f01d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияСогласования" category="List">
+				<xr:TypeId>80582c81-8228-401b-8a73-5bbb855ba5a3</xr:TypeId>
+				<xr:ValueId>76fa45b6-5a18-48ce-8b63-4d66bd86119a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияСогласования</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a6229b75-d110-4b95-8e2a-25c082185503</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="32369954-e5de-4b92-9246-cca9d55afa2c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Черновик</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c5228853-6ea7-4bea-a690-e6d6e91352fe</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9c851d7e-5cc4-4fcc-ba4d-48d8cdff17a1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Утверждена</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e8218ef1-026a-48b5-b5ca-934efd6df05e</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

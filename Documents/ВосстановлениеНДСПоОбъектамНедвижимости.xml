@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="37637c7b-e9ea-4af8-ba98-2f6cc3e79387">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВосстановлениеНДСПоОбъектамНедвижимости" category="Object">
+				<xr:TypeId>4134b4c2-adbb-4470-8a14-4926868ff3c2</xr:TypeId>
+				<xr:ValueId>686b4837-e6b7-4fe9-8041-828b540a57ca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВосстановлениеНДСПоОбъектамНедвижимости" category="Ref">
+				<xr:TypeId>87bac557-1e08-4adb-912c-1a24b1e24551</xr:TypeId>
+				<xr:ValueId>ca0610dc-2001-4b12-b080-6926d155127b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВосстановлениеНДСПоОбъектамНедвижимости" category="Selection">
+				<xr:TypeId>34803b5b-a106-4d32-99a1-174f86a36c5c</xr:TypeId>
+				<xr:ValueId>8e1bdc6d-dfc9-4a14-b9c5-6b9965faf5b0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВосстановлениеНДСПоОбъектамНедвижимости" category="List">
+				<xr:TypeId>332a67b2-4fda-4cf9-8c11-de4bce306c35</xr:TypeId>
+				<xr:ValueId>f7bf83a6-1d2a-4220-a254-dbb926e9a7eb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВосстановлениеНДСПоОбъектамНедвижимости" category="Manager">
+				<xr:TypeId>e55f89e4-5a24-41b2-901b-dc42fdf0eb08</xr:TypeId>
+				<xr:ValueId>19fbf75a-4845-47e8-95c8-e5d33eddfe71</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВосстановлениеНДСПоОбъектамНедвижимости</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c5a2db66-da7e-4191-b273-85267e5f1e17</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

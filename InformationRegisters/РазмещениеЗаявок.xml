@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="256551e8-5878-403f-baf7-c6f76900f2c8">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.РазмещениеЗаявок" category="Record">
+				<xr:TypeId>a471d452-3ae4-4999-aa10-8a3c5c74ecb7</xr:TypeId>
+				<xr:ValueId>de65dd45-9192-4e74-a2d3-c8965df14a34</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.РазмещениеЗаявок" category="Manager">
+				<xr:TypeId>b061adad-1dfa-45ac-97c1-5526ed927feb</xr:TypeId>
+				<xr:ValueId>70458ab3-ebe0-445d-9b24-2906aa062ef7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.РазмещениеЗаявок" category="Selection">
+				<xr:TypeId>e4f2f862-5aea-4010-b8aa-8413af68a0a1</xr:TypeId>
+				<xr:ValueId>c2621527-ff50-4762-87f9-71f69475cfdd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.РазмещениеЗаявок" category="List">
+				<xr:TypeId>b59c5fc2-391c-4422-af19-4f800368f2cc</xr:TypeId>
+				<xr:ValueId>8ab3e705-dcc2-4ae4-9a05-998b03ffece9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.РазмещениеЗаявок" category="RecordSet">
+				<xr:TypeId>9faf9741-4975-48e3-b0b4-7fe326be3faf</xr:TypeId>
+				<xr:ValueId>f0d46942-ace2-4b5b-864f-4bce1a6d8ae8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.РазмещениеЗаявок" category="RecordKey">
+				<xr:TypeId>15e429d7-2239-4539-a05c-221719ccacce</xr:TypeId>
+				<xr:ValueId>49b1c409-d2b1-4e9b-a815-57aeb35bf8a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.РазмещениеЗаявок" category="RecordManager">
+				<xr:TypeId>c038d9cb-77c5-4330-bfdf-fb058555ae0a</xr:TypeId>
+				<xr:ValueId>61ecd21d-2ecb-4ad0-80e3-715e515967fe</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РазмещениеЗаявок</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4381b628-d345-48ce-bc3a-5cce5614ddef</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="84a97503-2f6d-4256-9fff-31bd8dff4b36">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВалютаОплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>66542313-3170-4e46-a67c-4a40f3a75e03</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="44ab7edf-46c9-4f8b-b0dd-850b98f8030f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сумма</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fd7f4805-79d9-4d99-b417-e8dba997a951</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="80712dee-41b3-4cdb-9aa0-79ef34721e08">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИдентификаторПозиции</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>12f40526-c75b-403b-8f71-85045e757d21</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>v8:UUID</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="6787b728-6c62-4d9d-b756-72b3097b3b6d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаявкаНаОперацию</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c56345ca-50b1-4f34-bd60-366fa98e66b4</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДокументыПлатежнойПозиции</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="fda28554-9888-4220-b0c1-a9add379cf29">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПриходРасход</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>528aeed9-fa3d-4394-a7be-628da993b962</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыДвиженийПриходРасход</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="533bb3b0-cec8-42ab-bfff-742c6c49c3f6">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПоступлениеТоваровУслугПрисоединенныеФайлы" category="Object">
+				<xr:TypeId>0becef59-dc07-4416-b1d8-5df752fea6fc</xr:TypeId>
+				<xr:ValueId>e2e3e879-a306-45dd-823a-a0e50126a4ef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПоступлениеТоваровУслугПрисоединенныеФайлы" category="Ref">
+				<xr:TypeId>f443a8ff-59a7-416a-874f-03de1c8cd05f</xr:TypeId>
+				<xr:ValueId>b921b5a2-7821-461b-af5c-209130122e0a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПоступлениеТоваровУслугПрисоединенныеФайлы" category="Selection">
+				<xr:TypeId>7ac25fa1-5180-4383-ba94-825c1b78a3d2</xr:TypeId>
+				<xr:ValueId>fc84141f-10dc-4901-9fc7-dd58353a1e4a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПоступлениеТоваровУслугПрисоединенныеФайлы" category="List">
+				<xr:TypeId>ad8cfe01-0cfc-4e47-9d9e-5d889d9e8df9</xr:TypeId>
+				<xr:ValueId>dfcc1316-b864-4c32-96de-1c10acf24f9a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПоступлениеТоваровУслугПрисоединенныеФайлы" category="Manager">
+				<xr:TypeId>aee14bc7-ab7d-4a3f-a303-92416b63bf42</xr:TypeId>
+				<xr:ValueId>62a636c9-a2b5-48ec-b328-1e26929a5bad</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПоступлениеТоваровУслугПрисоединенныеФайлы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>667dcef0-e2ae-4d5a-8d11-a4e77083a8d5</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="441c3ecd-d4f5-439c-95a9-bcf8ef11dde5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВладелецФайла</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>63182452-bd11-424d-b221-887be72ce6e3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ПоступлениеТоваровУслуг</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

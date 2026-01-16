@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="ce39e58a-5ad6-4b35-95f0-184140bae9fe">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПоступлениеИзПереработки" category="Object">
+				<xr:TypeId>dbf758e5-ef87-46cc-9eff-9a98fdffdad1</xr:TypeId>
+				<xr:ValueId>17d33657-151f-4563-9385-21b5e7da02f5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПоступлениеИзПереработки" category="Ref">
+				<xr:TypeId>10798674-a23a-49cb-981a-56e11914b2b2</xr:TypeId>
+				<xr:ValueId>c3ccbc40-ca71-4b90-85ce-ebdb7208ae56</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПоступлениеИзПереработки" category="Selection">
+				<xr:TypeId>31668023-abeb-4c7b-8fd9-e28fea0af940</xr:TypeId>
+				<xr:ValueId>562c6c41-2770-41f0-8688-4047b51f05ae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПоступлениеИзПереработки" category="List">
+				<xr:TypeId>e6836a12-779b-4982-ad1c-94051cf6ac13</xr:TypeId>
+				<xr:ValueId>b537980a-c6f6-49f6-a0a7-2e144628b419</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПоступлениеИзПереработки" category="Manager">
+				<xr:TypeId>0b725788-19e0-4f72-8758-56e1521f7216</xr:TypeId>
+				<xr:ValueId>85f92ae6-f3c2-4699-8980-f21c4c118d48</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПоступлениеИзПереработки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4856e8c8-5fd6-40c7-b8a9-b959f2eca6bb</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="9033f3f2-0036-4970-87f4-766835b1c76a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>37f15d33-4f0a-40b8-a385-ef5cc7ebc48a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8bb3190e-7093-4437-a467-e36deb0aaba6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>18158182-2332-4de2-be2f-f6f2a3db6d81</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

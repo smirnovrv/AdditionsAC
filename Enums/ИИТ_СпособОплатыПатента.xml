@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="3c3c0b06-e2a9-4143-aa05-cff90b6d4273">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ИИТ_СпособОплатыПатента" category="Ref">
+				<xr:TypeId>6abf48cb-3493-4f91-bfd3-1e71ae4a8072</xr:TypeId>
+				<xr:ValueId>4f245053-250b-4142-a0bb-207ec31ec969</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ИИТ_СпособОплатыПатента" category="Manager">
+				<xr:TypeId>76b86565-c5d4-4253-9578-dac52481d928</xr:TypeId>
+				<xr:ValueId>4887e9c8-7607-4ad0-9ec2-e67a4652d80b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ИИТ_СпособОплатыПатента" category="List">
+				<xr:TypeId>c4d704bb-75b1-4f96-8921-686d43ca7d24</xr:TypeId>
+				<xr:ValueId>5dcd4b28-73f3-4e5f-9516-d370741c3d43</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИИТ_СпособОплатыПатента</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0b5f8c23-b62b-41db-9736-2f5e8a2440ec</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

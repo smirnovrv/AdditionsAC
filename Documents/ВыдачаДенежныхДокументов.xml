@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="9166cf65-452a-4527-96f7-82081df6f937">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВыдачаДенежныхДокументов" category="Object">
+				<xr:TypeId>e0243d0d-0084-4fee-95bd-1408bf5a5e50</xr:TypeId>
+				<xr:ValueId>c2e6a478-9825-42a9-b5f5-8e8ef8646abf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВыдачаДенежныхДокументов" category="Ref">
+				<xr:TypeId>38d59a3a-3bde-4c02-ae9d-1fadef146c4d</xr:TypeId>
+				<xr:ValueId>f100c681-27fe-4cac-8e93-cc45daa38319</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВыдачаДенежныхДокументов" category="Selection">
+				<xr:TypeId>743dfe76-3630-48bd-a27e-2d1924aa524b</xr:TypeId>
+				<xr:ValueId>4af6f000-d0c6-4574-b41a-ac9c662b552b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВыдачаДенежныхДокументов" category="List">
+				<xr:TypeId>d8cf6dfd-10d5-4892-920c-2918ecb74ea7</xr:TypeId>
+				<xr:ValueId>b98d2b6e-95c2-4b27-8e31-2dd1367d2d94</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВыдачаДенежныхДокументов" category="Manager">
+				<xr:TypeId>192a241c-081c-49fe-927e-e39c49fc89d7</xr:TypeId>
+				<xr:ValueId>d7c2b773-35bb-47d0-9729-161c3acb9472</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВыдачаДенежныхДокументов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e8bdfa7e-054d-4793-bced-f893cfa3c198</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="a77d4394-d6af-456f-99d9-0835b9976266">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>45b6f2e5-8ae9-484a-a31e-b85b01e876ca</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7eb1ed40-b1c6-40fb-a734-ccf9ad7a3277">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8fc32137-db6a-49be-865a-d581d800b470</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

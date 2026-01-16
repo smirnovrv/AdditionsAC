@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="8b98b5ab-1f9b-4f91-9883-0c2335c211e4">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ИИТ_ПлоскаяНоменклатура" category="Object">
+				<xr:TypeId>9d4ca96c-c866-4e77-8ffe-6d722493e22c</xr:TypeId>
+				<xr:ValueId>aad2cc4a-e995-4913-b636-481ed9275c54</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ИИТ_ПлоскаяНоменклатура" category="Ref">
+				<xr:TypeId>71e38f30-e669-4220-ac4b-85d5e217a7d8</xr:TypeId>
+				<xr:ValueId>84518ac7-fe16-44d9-bce5-1d8a96a12d7c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ИИТ_ПлоскаяНоменклатура" category="Selection">
+				<xr:TypeId>12a9b714-7fb0-40d3-9202-acb012cdd9cf</xr:TypeId>
+				<xr:ValueId>bacf7028-87a1-47a0-8e95-ecee67ef8195</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ИИТ_ПлоскаяНоменклатура" category="List">
+				<xr:TypeId>67cb6e65-ee4e-4519-8e42-ea1b596028ac</xr:TypeId>
+				<xr:ValueId>41da5310-63be-4c10-a39a-1d34b45d0c30</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ИИТ_ПлоскаяНоменклатура" category="Manager">
+				<xr:TypeId>a321b01c-b251-4cb7-ad54-ab1b9c8c14a9</xr:TypeId>
+				<xr:ValueId>85bca264-065e-46ab-a285-08a802ec856f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИИТ_ПлоскаяНоменклатура</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4543e3e1-e4f7-4fc8-833c-69f8c1db5041</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

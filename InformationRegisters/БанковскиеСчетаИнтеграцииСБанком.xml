@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="0633fefc-f6e5-42c7-aedd-5e32b1b7301c">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.БанковскиеСчетаИнтеграцииСБанком" category="Record">
+				<xr:TypeId>2b496395-7e72-46b1-953c-fd2cfff30348</xr:TypeId>
+				<xr:ValueId>b5cfcaa8-158e-447b-9e54-4bbf1d097b2d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.БанковскиеСчетаИнтеграцииСБанком" category="Manager">
+				<xr:TypeId>80d0da6e-d8d9-4848-8b61-0080c52e9859</xr:TypeId>
+				<xr:ValueId>afe005bd-9a3e-44ae-9f4d-7941e91321cc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.БанковскиеСчетаИнтеграцииСБанком" category="Selection">
+				<xr:TypeId>03e455db-6cb1-4299-adb9-8328579380b1</xr:TypeId>
+				<xr:ValueId>0ca93bda-89b8-4c24-ac13-e278757f6172</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.БанковскиеСчетаИнтеграцииСБанком" category="List">
+				<xr:TypeId>72d5c41e-91f9-4023-bf0e-17a597ec8dc6</xr:TypeId>
+				<xr:ValueId>48643260-6b3b-476f-a701-aeb237ea0ef2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.БанковскиеСчетаИнтеграцииСБанком" category="RecordSet">
+				<xr:TypeId>2261d6cc-2d50-48e1-8217-4bdc84670dfd</xr:TypeId>
+				<xr:ValueId>ec189e2e-e5a0-4804-8964-50b079c92a6e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.БанковскиеСчетаИнтеграцииСБанком" category="RecordKey">
+				<xr:TypeId>57d8c453-ab96-4df7-bd1e-f6681653fc2c</xr:TypeId>
+				<xr:ValueId>d3ddcce7-f93d-4598-91b0-d11fc0ac1608</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.БанковскиеСчетаИнтеграцииСБанком" category="RecordManager">
+				<xr:TypeId>62e6b0ed-9ce2-41b4-bcf0-5b7505a42c92</xr:TypeId>
+				<xr:ValueId>1b6695c8-02c5-4d01-8d63-2c8f093cff97</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>БанковскиеСчетаИнтеграцииСБанком</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d4a83319-1e93-4bb6-8496-93ffc0610b6e</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="eb4809ea-b959-4905-8f2d-21921170f834">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>13ed85da-7543-41d6-9ac6-ec9a4c4e6a38</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="cb0e076f-a1e5-4bef-8cdb-127cf423409e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>БанковскийСчет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>36f86d12-d479-481e-b2ac-ac7ed8341cba</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БанковскиеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

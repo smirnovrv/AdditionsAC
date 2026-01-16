@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="f5aabcfb-bb5b-4a91-8321-f12b7bc9524e">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.КодыПлательщикаБанковскойКомиссии" category="Ref">
+				<xr:TypeId>c648ac6b-faa5-4a95-930f-5f766c1d1a90</xr:TypeId>
+				<xr:ValueId>b3cf3c9c-9353-46c8-ab2f-042d811756a0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.КодыПлательщикаБанковскойКомиссии" category="Manager">
+				<xr:TypeId>eaf40cf3-335d-4a7c-b172-9242e10a2d18</xr:TypeId>
+				<xr:ValueId>10c6f765-9e40-4cdc-9a30-5b22ff5f8ba0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.КодыПлательщикаБанковскойКомиссии" category="List">
+				<xr:TypeId>43b59154-fdb6-4f02-a990-9e9157dff215</xr:TypeId>
+				<xr:ValueId>527b7a98-a855-4563-a85b-129617cbe1e0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КодыПлательщикаБанковскойКомиссии</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d83cc37b-e3b0-45fb-af20-0b5d98063bbb</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

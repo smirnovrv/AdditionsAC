@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="19ba74ee-352c-4103-83e5-5775a12f6c94">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.АС_ИсторияИзмененияОклада" category="Record">
+				<xr:TypeId>0208f3fb-fdf4-4899-92fc-3e74eb3fbd92</xr:TypeId>
+				<xr:ValueId>3020a5af-c878-463d-a037-6553d95986a8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.АС_ИсторияИзмененияОклада" category="Manager">
+				<xr:TypeId>faaf35d0-43a7-43af-b1ba-15a87a80f92b</xr:TypeId>
+				<xr:ValueId>cb7cce4d-7f1c-44f2-9f73-b10411d77111</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.АС_ИсторияИзмененияОклада" category="Selection">
+				<xr:TypeId>4709d7ed-c4d4-4fa2-9011-18f4b3a16425</xr:TypeId>
+				<xr:ValueId>2cc8acf5-61d5-4f71-b2a7-363aa582e129</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.АС_ИсторияИзмененияОклада" category="List">
+				<xr:TypeId>9c65e388-7f72-4b92-8e55-3c460b65bafb</xr:TypeId>
+				<xr:ValueId>d94d51c6-7c01-41f7-affe-374f9822891e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.АС_ИсторияИзмененияОклада" category="RecordSet">
+				<xr:TypeId>c4dc1f97-b77e-4541-9221-47f21570d5d6</xr:TypeId>
+				<xr:ValueId>0907217b-1638-45bd-890f-79acdc28e3a5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.АС_ИсторияИзмененияОклада" category="RecordKey">
+				<xr:TypeId>50190f2d-fd41-4be0-9056-0e055c339a7d</xr:TypeId>
+				<xr:ValueId>79b1056a-2407-4b23-85db-0d422ed60290</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.АС_ИсторияИзмененияОклада" category="RecordManager">
+				<xr:TypeId>968b1968-49f1-458c-b3e0-aa57f6c549a7</xr:TypeId>
+				<xr:ValueId>92ebe1f5-d2d0-4076-ada6-9c38a21cd79f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АС_ИсторияИзмененияОклада</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>08854719-8744-459c-becd-b19780326ef3</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="f5ea1a19-e96f-4592-8a0d-3b0db6f13704">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Оклад</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>17619918-983a-493f-86dc-a5a2bc561d79</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="bd372aca-eb30-4a89-8fcd-746b661bf1f7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ФизЛицо</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bb5926e8-eaf4-4afa-92f3-61fd3c01d0f6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="873c9896-aaf8-4f75-abd7-71933827db86">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипОклада</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cacbd89d-df97-47e6-9a2c-8ea98a4cab98</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.АС_ТипыОкладов</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="fedc32c1-e9f3-4565-8205-c2b4937526d4">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.АвизоПрочееВходящее" category="Object">
+				<xr:TypeId>68a4db35-7f6a-4145-a421-a78b9148d9df</xr:TypeId>
+				<xr:ValueId>4cf71649-e725-40a2-88cc-4c88be2c4420</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.АвизоПрочееВходящее" category="Ref">
+				<xr:TypeId>4d3f31b9-7237-4365-97ab-5c9917f1d9aa</xr:TypeId>
+				<xr:ValueId>7eeaf4ed-3a61-48e3-a7c0-f9724726d712</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.АвизоПрочееВходящее" category="Selection">
+				<xr:TypeId>653a5a0b-876c-41c9-abde-4bcfd59f18f0</xr:TypeId>
+				<xr:ValueId>b3a32dea-a559-44f5-b5a6-09d3f63279be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.АвизоПрочееВходящее" category="List">
+				<xr:TypeId>c008841e-c3fe-4d4b-aef9-c950d7ead790</xr:TypeId>
+				<xr:ValueId>1a67ada5-257a-475c-be3b-d8a4d589eb1d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.АвизоПрочееВходящее" category="Manager">
+				<xr:TypeId>d42ce456-ca6a-4473-aed6-47ce46362f45</xr:TypeId>
+				<xr:ValueId>256f5091-b678-41b7-9359-a3dc129ac271</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АвизоПрочееВходящее</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>133ad3fb-7f61-4ebe-b013-298b8f66c2d6</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="c0c67797-cc60-493b-a82b-96740b5d7a11">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.РегистрСостоянийОбъектов" category="Record">
+				<xr:TypeId>9b7bab77-0a77-4d1d-90ab-ae0810e83a21</xr:TypeId>
+				<xr:ValueId>68f6a56f-0c61-4c08-9ad8-d16fb52224df</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.РегистрСостоянийОбъектов" category="Manager">
+				<xr:TypeId>65301fb4-902d-455f-a885-a115ea0f9dc3</xr:TypeId>
+				<xr:ValueId>80fc62d9-c5cc-4aa4-9ef2-a8a5e59fcb36</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.РегистрСостоянийОбъектов" category="Selection">
+				<xr:TypeId>765018dd-d5ee-40b2-9edb-a05c50b238e6</xr:TypeId>
+				<xr:ValueId>a181c121-3c59-49c8-b613-ee3b5a31c2ab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.РегистрСостоянийОбъектов" category="List">
+				<xr:TypeId>fc6ba34c-8417-43b4-82aa-53e4b5fc2391</xr:TypeId>
+				<xr:ValueId>2f6c2dbb-0954-47fc-9751-5eeb2216dfa7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.РегистрСостоянийОбъектов" category="RecordSet">
+				<xr:TypeId>95207e16-836d-4dd5-9b07-49c40a1a0d2b</xr:TypeId>
+				<xr:ValueId>0eb04808-a96a-4ee7-8d45-b625ac196a72</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.РегистрСостоянийОбъектов" category="RecordKey">
+				<xr:TypeId>282a20c2-a905-45a8-ab1c-4eb4b4120a7f</xr:TypeId>
+				<xr:ValueId>b1fa6738-808c-4ce9-b8aa-30a99b1c504e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.РегистрСостоянийОбъектов" category="RecordManager">
+				<xr:TypeId>e6aaf115-a0df-45ef-aceb-64ac1eb05720</xr:TypeId>
+				<xr:ValueId>e84a76f5-cdc4-437c-812a-3158be2e982c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>RecordSetModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РегистрСостоянийОбъектов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>05b70226-3766-4e4b-80e9-e3e40c5c1144</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="0fad1c03-a6de-4bcf-8bdd-e90a9f392fed">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СостояниеОбъекта</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>640ceb54-6a80-4c39-9658-fec0e5d7d1bc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.СостоянияСогласования</v8:Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="f31ce64d-bb9d-42b1-98f0-1049fac8d791">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Объект</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6fd3f61f-f417-4b79-b1c9-0b7ff698294f</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОбъектыДляСогласования</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

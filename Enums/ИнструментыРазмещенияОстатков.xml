@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="08cfc49e-f46b-4954-979a-1a02651eef84">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ИнструментыРазмещенияОстатков" category="Ref">
+				<xr:TypeId>028e606e-72b5-45cd-889a-3ba4e57e89ac</xr:TypeId>
+				<xr:ValueId>03eaa3c9-ab7c-498a-9835-582ec8e0c473</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ИнструментыРазмещенияОстатков" category="Manager">
+				<xr:TypeId>95732825-fe0a-4df0-a77e-3f71fe36c3fa</xr:TypeId>
+				<xr:ValueId>8a067dc1-226c-4e46-acb9-8e2eeccb9dfa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ИнструментыРазмещенияОстатков" category="List">
+				<xr:TypeId>12ae3edf-6f07-4f80-96c4-aa709435524d</xr:TypeId>
+				<xr:ValueId>2efe5f8e-8bf7-401b-b01b-5ec922ee6900</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИнструментыРазмещенияОстатков</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0abbd56d-1661-4e82-9666-cf975b307432</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="b593236f-cdf4-44df-96fe-80fe6f6f6a29">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НеИспользовать</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ccacbc83-5952-4eb7-bb0a-e3ffc410ba81</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2caff38b-2b97-4119-ac08-8f3d5dcc99d8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КэшПулинг</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f1de2a3d-3369-4117-b755-5459d402de72</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="dda19fba-887d-40ea-a4bd-7706ba0935d3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Депозит</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9fe005df-63b5-4d96-9d75-660554e75f4d</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

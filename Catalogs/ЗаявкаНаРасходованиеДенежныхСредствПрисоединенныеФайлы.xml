@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="fbf71220-ce3a-41cc-b8f7-b8677a3485fe">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЗаявкаНаРасходованиеДенежныхСредствПрисоединенныеФайлы" category="Object">
+				<xr:TypeId>ee3da419-61c2-40bc-bd1f-55de45fd3903</xr:TypeId>
+				<xr:ValueId>f6c5b163-dc31-4b51-a433-9886dd4794c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЗаявкаНаРасходованиеДенежныхСредствПрисоединенныеФайлы" category="Ref">
+				<xr:TypeId>b38a43c0-6825-4688-b57d-65c9fb3f25eb</xr:TypeId>
+				<xr:ValueId>9cb930ce-a77f-4a5f-ae9a-6f648501934c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЗаявкаНаРасходованиеДенежныхСредствПрисоединенныеФайлы" category="Selection">
+				<xr:TypeId>7e6bd033-fdce-4c6c-9973-3c619a4201d1</xr:TypeId>
+				<xr:ValueId>5ada81c1-7bd6-4690-9559-c5667e54e24f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЗаявкаНаРасходованиеДенежныхСредствПрисоединенныеФайлы" category="List">
+				<xr:TypeId>00ee5927-7a40-4546-bf40-58b8d14b3fd0</xr:TypeId>
+				<xr:ValueId>8d6bd3f0-0adc-416a-a581-7638fae01523</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЗаявкаНаРасходованиеДенежныхСредствПрисоединенныеФайлы" category="Manager">
+				<xr:TypeId>e6c256cb-9fca-4217-abf8-bff1f6d9d054</xr:TypeId>
+				<xr:ValueId>2cabb399-26b7-436f-bb29-d628798eb211</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаявкаНаРасходованиеДенежныхСредствПрисоединенныеФайлы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>2bdb907d-584a-4b5d-9b9e-89e5e2d7735a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="af1f08cb-adfd-4875-be3e-adf5f3620279">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВладелецФайла</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0c34a848-7fb5-44d0-925a-f00cdad36c2d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЗаявкаНаРасходованиеДенежныхСредств</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="7239b2d1-f743-4163-a818-7f9967b1bcc7">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияПроектов" category="Ref">
+				<xr:TypeId>3a986468-b838-4009-ae50-de3c234f1693</xr:TypeId>
+				<xr:ValueId>3c668989-f1e2-453f-98e5-599ca174f886</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияПроектов" category="Manager">
+				<xr:TypeId>9ea321d9-1113-45ef-bdd5-66ddaef2a2a4</xr:TypeId>
+				<xr:ValueId>b076a3f8-2eeb-45a6-9500-4cf34c2d97e5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияПроектов" category="List">
+				<xr:TypeId>b99eb490-5061-482c-9ab1-c5da6a4dd564</xr:TypeId>
+				<xr:ValueId>a565a8b7-f7f9-4cc9-9ed7-b846b231406a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияПроектов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b523d441-2a2e-4ba6-8eb1-8c70405b749a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="d24c2a2d-e71c-49e3-92b6-547d99a47769">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Отклонен</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e7449e29-62a3-4862-b036-bb1657f996c5</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="48def391-6823-4f16-8093-7e941866f8e1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Утвержден</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ce16c734-679c-4909-8a00-6fa2d72432b8</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c785b0b6-09ab-455c-9ef9-bfdcab6fc0e5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Черновик</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a6e73db6-9f75-4adc-b103-636406d93bc1</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b7484fe8-2c4a-46bf-8dad-196cebcd7696">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НаУтверждении</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>197f48c0-ed5c-462b-be94-c4689e45f53d</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="f8d28d88-72b4-4792-b8f9-e5f1c3058772">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОбесценениеВнеоборотныхАктивов" category="Object">
+				<xr:TypeId>d30acacd-18fa-4f87-bb4a-cae25f11c0e9</xr:TypeId>
+				<xr:ValueId>c2fd82a6-0949-4938-9c54-280fd5e1a735</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОбесценениеВнеоборотныхАктивов" category="Ref">
+				<xr:TypeId>2a3ba8f3-2bc0-447d-9a6d-03e2a7760ecd</xr:TypeId>
+				<xr:ValueId>1b86dd51-4334-416d-b51a-c2fe4102cb3f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОбесценениеВнеоборотныхАктивов" category="Selection">
+				<xr:TypeId>04f54a31-3130-4528-81f7-cf51f4cfc31c</xr:TypeId>
+				<xr:ValueId>82054f33-45a1-4c89-8136-fc5aad8e3874</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОбесценениеВнеоборотныхАктивов" category="List">
+				<xr:TypeId>26c5330c-025f-4434-b239-47a40b481b01</xr:TypeId>
+				<xr:ValueId>50e4f802-a411-4f3f-9f81-48d4761c386c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОбесценениеВнеоборотныхАктивов" category="Manager">
+				<xr:TypeId>46fc83c8-8714-4cad-ba20-bb41d3dd42e4</xr:TypeId>
+				<xr:ValueId>0e3f7906-7f3e-4fce-b878-71928a54f364</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОбесценениеВнеоборотныхАктивов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9575cb02-3dce-4cc2-884f-d885ab253164</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="12164c9b-9cf1-4265-852b-62bad02d885e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>МежотчетныйПериод</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ce7127d9-2696-449c-863a-8416aaedbfa5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

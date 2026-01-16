@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="4c92f496-9e74-4e38-968b-85e5ad986961">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВозвратОСОтАрендатора" category="Object">
+				<xr:TypeId>e0473f9e-fce7-475d-8d75-fd7df38b473d</xr:TypeId>
+				<xr:ValueId>c996f32c-1b66-4334-a8e1-5a3adb1099cd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВозвратОСОтАрендатора" category="Ref">
+				<xr:TypeId>d084606c-6770-48b8-95eb-ff7ae655cfb5</xr:TypeId>
+				<xr:ValueId>1e00463b-30ea-4bc8-a97d-2145f39673fc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВозвратОСОтАрендатора" category="Selection">
+				<xr:TypeId>8685ff70-e4c2-4b68-a1a4-f25471bc6838</xr:TypeId>
+				<xr:ValueId>fb28a658-ab65-4c0b-bfa0-369bb9e1eafc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВозвратОСОтАрендатора" category="List">
+				<xr:TypeId>753c7bb0-2df3-443e-86d7-2d8b9e704cc2</xr:TypeId>
+				<xr:ValueId>09383988-97b9-4965-926b-2886da67dbce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВозвратОСОтАрендатора" category="Manager">
+				<xr:TypeId>29ba6bc1-9211-4b87-b23c-25e77bb580f6</xr:TypeId>
+				<xr:ValueId>0a82a6b2-33d3-48c0-b681-12bbdc5c2007</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВозвратОСОтАрендатора</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4373171f-12ec-4404-a960-5a1f08167d15</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="c9f1639d-0b47-4419-bc41-33474dd478cf">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6a31d17c-6fce-4eaf-a546-cf5bf52b749c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b02a04bd-f87d-4f8e-86ce-2acc14e80b0b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0924f9c6-5a37-4694-b534-ae1b69e75e1f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

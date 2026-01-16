@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="aa6372ca-cfde-44ed-8767-ca239fc376e3">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПулыЛиквидности" category="Object">
+				<xr:TypeId>9d8761c8-210d-411e-91e5-c9d1a06e5db3</xr:TypeId>
+				<xr:ValueId>36dfd2f4-6392-461f-b144-79de96b27405</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПулыЛиквидности" category="Ref">
+				<xr:TypeId>85cb8bb4-58cc-4339-b4ba-48aa394d1acb</xr:TypeId>
+				<xr:ValueId>ffe4d789-e818-4411-a5a6-636c933d75fe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПулыЛиквидности" category="Selection">
+				<xr:TypeId>7ad5b7e0-be42-4fbf-8bff-61eee42320e4</xr:TypeId>
+				<xr:ValueId>dc9cf510-8e0e-45b4-84d7-630e0a3c5d26</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПулыЛиквидности" category="List">
+				<xr:TypeId>8ff96d12-f2e8-4dd7-9c61-51d2bf12b84a</xr:TypeId>
+				<xr:ValueId>50783df5-3100-4f52-a928-c3d7eef077d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПулыЛиквидности" category="Manager">
+				<xr:TypeId>b76598da-de55-4227-87a2-2ca93789c8d2</xr:TypeId>
+				<xr:ValueId>3747fa2a-3052-4025-9a19-e1fed3bdc31f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПулыЛиквидности</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a4d1b259-424e-4c49-8ebc-a6d876d9f5d0</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

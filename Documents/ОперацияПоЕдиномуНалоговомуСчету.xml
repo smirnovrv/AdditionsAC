@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="b310dade-fd99-462c-9619-1bfa3c964a58">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОперацияПоЕдиномуНалоговомуСчету" category="Object">
+				<xr:TypeId>091dddff-863a-4e66-a72d-5307a16413f1</xr:TypeId>
+				<xr:ValueId>4e3215b2-8ef1-412d-95d9-66bd87639ced</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОперацияПоЕдиномуНалоговомуСчету" category="Ref">
+				<xr:TypeId>fead719f-a7ed-4ce3-a0e4-6ed239ac355f</xr:TypeId>
+				<xr:ValueId>5f1f160f-e371-4c56-969b-5662ecdb1ab4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОперацияПоЕдиномуНалоговомуСчету" category="Selection">
+				<xr:TypeId>25594bb3-a338-4f23-a8e5-f2a1653178ec</xr:TypeId>
+				<xr:ValueId>2ca84825-4eb7-4095-99e6-033b78ec4e8f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОперацияПоЕдиномуНалоговомуСчету" category="List">
+				<xr:TypeId>3ddbb1f4-f275-4e20-8366-4f61b7d7bdaf</xr:TypeId>
+				<xr:ValueId>a2fa116f-3a3b-4baa-8d7e-ec63f23cba40</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОперацияПоЕдиномуНалоговомуСчету" category="Manager">
+				<xr:TypeId>264044c6-df0a-4512-9622-9404d35b3993</xr:TypeId>
+				<xr:ValueId>222f8c34-e5f4-491f-8009-f743e694ea5c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОперацияПоЕдиномуНалоговомуСчету</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>421e5cd2-7d12-44f0-9f63-b98d07e2e371</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

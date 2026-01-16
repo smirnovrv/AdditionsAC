@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DocumentJournal uuid="f6ad7dfe-41d3-4dcc-b821-7912ed3ee00f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.Деньги" category="Selection">
+				<xr:TypeId>a1abd170-ac68-424e-b410-26b777af413c</xr:TypeId>
+				<xr:ValueId>2006bbbd-6561-483f-8265-68580e226403</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.Деньги" category="List">
+				<xr:TypeId>4b597600-86fb-49ab-bfb9-82235fb49c12</xr:TypeId>
+				<xr:ValueId>34b024df-f1f4-4ba8-830a-814d94c270c3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.Деньги" category="Manager">
+				<xr:TypeId>1e2a8bc0-83a8-4f87-b944-6fc5a658093b</xr:TypeId>
+				<xr:ValueId>74a4a798-bc77-4161-8806-b75374295e64</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Деньги</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b29c1a93-3bd7-4be3-a92f-d4f4babd6b51</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>БанковскиеВыписки</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

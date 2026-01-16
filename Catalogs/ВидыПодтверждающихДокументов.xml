@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="d88ea187-478b-49d0-a732-013728221699">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыПодтверждающихДокументов" category="Object">
+				<xr:TypeId>8be04a18-c737-4ae9-aba4-efa76431d763</xr:TypeId>
+				<xr:ValueId>dcf3442f-6348-4370-bb58-0b383d41ed0b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыПодтверждающихДокументов" category="Ref">
+				<xr:TypeId>2c831cae-3125-46fd-a2ac-655976bc2f02</xr:TypeId>
+				<xr:ValueId>240c12a5-a92d-4ac4-b58f-c9b7a5d85f47</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыПодтверждающихДокументов" category="Selection">
+				<xr:TypeId>d0a325d6-dfc2-407e-9263-1123cc742b77</xr:TypeId>
+				<xr:ValueId>50d74297-0041-4ff4-9c3e-cca4838e8c5b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыПодтверждающихДокументов" category="List">
+				<xr:TypeId>14529693-b302-45d4-8c0a-23379c947450</xr:TypeId>
+				<xr:ValueId>c8515cf7-6150-4ffe-8af9-8746780b145d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыПодтверждающихДокументов" category="Manager">
+				<xr:TypeId>d7ba6d6c-5872-40d9-afa6-1d85cb333497</xr:TypeId>
+				<xr:ValueId>658aea7b-2f0b-482f-9ada-4bfcdf918b6d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыПодтверждающихДокументов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c2a28937-db14-4b3b-88ca-e9c54c407acd</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

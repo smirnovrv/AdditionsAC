@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="a226b48c-269e-4174-9867-77cd70f9fa72">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.АтрибутыПроектов" category="Record">
+				<xr:TypeId>c2a7ad1c-0acd-4353-a23c-9b475526d45f</xr:TypeId>
+				<xr:ValueId>12979cfa-799e-42ad-a68b-97b329532012</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.АтрибутыПроектов" category="Manager">
+				<xr:TypeId>fadf01b7-fb61-4aa9-8e9f-585a278f950b</xr:TypeId>
+				<xr:ValueId>7d62cd01-133b-4cf1-8376-20f53bd45f38</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.АтрибутыПроектов" category="Selection">
+				<xr:TypeId>5dd78a3e-8413-432d-bee2-a428b35a1244</xr:TypeId>
+				<xr:ValueId>10746b12-9f4d-4692-9a59-9057d75e280e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.АтрибутыПроектов" category="List">
+				<xr:TypeId>60e7197c-87af-4010-8858-f96c85c7af19</xr:TypeId>
+				<xr:ValueId>2f73fd59-31d1-415b-9308-60142e6d8a4a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.АтрибутыПроектов" category="RecordSet">
+				<xr:TypeId>f76494ec-76f7-446e-a0dc-0e8e15c94d6c</xr:TypeId>
+				<xr:ValueId>7d8203d7-9cf3-49c0-b06f-d2a0cae8265f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.АтрибутыПроектов" category="RecordKey">
+				<xr:TypeId>11dc2fd5-5a6d-4d39-931a-71816f344f4f</xr:TypeId>
+				<xr:ValueId>7eae9c91-b324-4c19-9436-e690745ea5a2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.АтрибутыПроектов" category="RecordManager">
+				<xr:TypeId>befe405d-c874-42fd-9b10-6b42f141b6df</xr:TypeId>
+				<xr:ValueId>dc914f10-233e-495e-b3af-7a024c450d8c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АтрибутыПроектов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c7794c5d-e5ef-4347-9f5b-d475dc3bc9ba</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="bbc5e229-0f8f-4ffe-a989-c304cc26d454">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаНачала</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>97ec8e34-3f42-4530-9ab6-3f90618862cc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="3615d607-cefd-48d0-bc29-ddd1e32f6621">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДлительностьДней</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3d35afe1-47bc-4c41-ab50-b572a8f45594</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>1</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="ae1b8ccf-172a-40a7-9e27-82256ccf8b38">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаОкончания</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fd7dd2b2-3a9c-4eeb-aef6-5e939aea63a2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="a9089272-3021-4c15-980f-d5a2e78f6bb1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Проект</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>eebb9cf1-ab80-478e-8395-4278dd41d8e5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Проекты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="da77dff2-6290-4f7e-b3d4-5316baafe7ec">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сценарий</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a5f0fb19-b42b-44f5-b486-b5f7dd905ad3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сценарии</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

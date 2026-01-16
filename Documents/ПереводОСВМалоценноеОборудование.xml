@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="6302fdc8-a51e-48b4-81a3-ee3025f0f3b7">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПереводОСВМалоценноеОборудование" category="Object">
+				<xr:TypeId>69bac4ff-775d-4ecf-8222-65a090c9ab0f</xr:TypeId>
+				<xr:ValueId>ed9e70df-3bbd-4c1e-a3e2-d67638574aed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПереводОСВМалоценноеОборудование" category="Ref">
+				<xr:TypeId>663b33ad-ca46-4dc1-8f2b-498e957884ed</xr:TypeId>
+				<xr:ValueId>0c3c82db-52f6-4538-bb44-f2634471acf8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПереводОСВМалоценноеОборудование" category="Selection">
+				<xr:TypeId>c0debfbc-ff2b-47e4-9f9d-36930ef99b1e</xr:TypeId>
+				<xr:ValueId>80b4f527-289b-4503-bfee-ad85047b9967</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПереводОСВМалоценноеОборудование" category="List">
+				<xr:TypeId>11ee3082-175a-4b01-97b4-9800631ac02b</xr:TypeId>
+				<xr:ValueId>b58407c4-172c-4b77-b4af-a05780f6be89</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПереводОСВМалоценноеОборудование" category="Manager">
+				<xr:TypeId>b4c93128-7468-445c-a7a5-8de8797f55cf</xr:TypeId>
+				<xr:ValueId>064fc74f-af49-4d41-ba68-37326b93657b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПереводОСВМалоценноеОборудование</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>841b892f-b7dc-47f6-80fa-667b62319acc</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="d062de91-176c-40a5-8801-40d50037704c">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПередачаТоваров" category="Object">
+				<xr:TypeId>4f675cd4-8b07-41ef-92bb-374b9da228f6</xr:TypeId>
+				<xr:ValueId>e77eb8df-ee00-4929-b621-c1c4c56f0616</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПередачаТоваров" category="Ref">
+				<xr:TypeId>d1c92d60-5fbf-4bf6-b046-93b006ce1148</xr:TypeId>
+				<xr:ValueId>72011151-a92a-43ca-bca4-20f063c8df2e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПередачаТоваров" category="Selection">
+				<xr:TypeId>f743fc94-f9d6-48a4-b017-56d3e3b963f2</xr:TypeId>
+				<xr:ValueId>f6c210fd-8fcf-4819-9913-c5fb16a1c5c9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПередачаТоваров" category="List">
+				<xr:TypeId>4580fdad-c782-449f-9e55-e6af3e06e34d</xr:TypeId>
+				<xr:ValueId>927ee465-7143-4c23-8944-5d4279f5bd1d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПередачаТоваров" category="Manager">
+				<xr:TypeId>f668308c-3454-4580-ae5d-59d0f00cf0c3</xr:TypeId>
+				<xr:ValueId>cccdbafe-fdeb-44c5-b896-e46324b1af3e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПередачаТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a038b810-9ae2-446f-94ad-27eababd1bcd</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="512c5654-681e-43dc-bd81-2502f153e3cb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f50284c6-2e05-46d7-840c-6db859b99313</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="01e3c607-d5c8-4f74-8c0b-553b0e36eae7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b1478369-2628-4fe1-90ec-b41c3598ca4b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

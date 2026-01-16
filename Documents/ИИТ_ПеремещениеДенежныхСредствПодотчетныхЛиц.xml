@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="9abb7686-f381-4a58-bf10-be582f5cc64d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИИТ_ПеремещениеДенежныхСредствПодотчетныхЛиц" category="Object">
+				<xr:TypeId>c7dac374-a900-4db6-9cf3-ceec41465abc</xr:TypeId>
+				<xr:ValueId>7afd754e-ae77-4eea-9638-967a8009e54c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИИТ_ПеремещениеДенежныхСредствПодотчетныхЛиц" category="Ref">
+				<xr:TypeId>29c8533d-3811-41ef-bb0d-0e648a51c02e</xr:TypeId>
+				<xr:ValueId>3b894ef3-ba7a-412d-a2d9-f9600c7d5d47</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИИТ_ПеремещениеДенежныхСредствПодотчетныхЛиц" category="Selection">
+				<xr:TypeId>49a34342-e784-4867-8e39-6206d9a23988</xr:TypeId>
+				<xr:ValueId>17b0603a-ab62-49c3-9aee-e1f10284b954</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИИТ_ПеремещениеДенежныхСредствПодотчетныхЛиц" category="List">
+				<xr:TypeId>f07b66cf-1ff1-4f5e-baaa-243e738e5cdf</xr:TypeId>
+				<xr:ValueId>a1adba66-015b-469a-855a-c9c4bed45e1c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИИТ_ПеремещениеДенежныхСредствПодотчетныхЛиц" category="Manager">
+				<xr:TypeId>30f2cb4f-3f1d-49ee-a7cb-02406ae3f9bc</xr:TypeId>
+				<xr:ValueId>6614d63b-78ba-44fd-9cec-f325e4fbc928</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИИТ_ПеремещениеДенежныхСредствПодотчетныхЛиц</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3c5e2002-b1c7-4d40-8731-6e96b3bef1ff</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="c9052bb8-e008-4c21-a43c-dfc2f263d6d0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбъектСтроительства</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>defead75-d235-46c8-8e64-43fcc56b298f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Проекты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

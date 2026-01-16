@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="51fade80-074a-4018-bcc7-553eb8b67a43">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СостоянияЗаявокНаЗакупку" category="Record">
+				<xr:TypeId>385cc807-fe17-4f20-a87d-d32e600cf69d</xr:TypeId>
+				<xr:ValueId>a23e794d-06b6-403d-aa79-3914f56f2a0c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СостоянияЗаявокНаЗакупку" category="Manager">
+				<xr:TypeId>00b3c4d4-23e5-4867-b37d-01dc85c66ddb</xr:TypeId>
+				<xr:ValueId>7c4cf99a-7187-45ab-bd3f-f09e1bb6d665</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СостоянияЗаявокНаЗакупку" category="Selection">
+				<xr:TypeId>b440b2db-1f0a-4728-a41a-945d3e26460b</xr:TypeId>
+				<xr:ValueId>534fa965-6f16-47b6-b06e-9751df03895d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СостоянияЗаявокНаЗакупку" category="List">
+				<xr:TypeId>3c2ca351-3f27-4877-9275-9d900d95704b</xr:TypeId>
+				<xr:ValueId>0b3abcb6-ecdc-46f5-8017-442882f4afd8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СостоянияЗаявокНаЗакупку" category="RecordSet">
+				<xr:TypeId>ac80d767-f1ac-4d3c-bf75-1f260e6e6fb1</xr:TypeId>
+				<xr:ValueId>bd4e750a-0bc3-44aa-a240-5ff83f074b01</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СостоянияЗаявокНаЗакупку" category="RecordKey">
+				<xr:TypeId>bf4d5471-a77c-4e45-95fe-c7f3cc91939d</xr:TypeId>
+				<xr:ValueId>78e3eb4f-99be-4120-b39f-d3d8e453019e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СостоянияЗаявокНаЗакупку" category="RecordManager">
+				<xr:TypeId>5104e53b-c669-4ff5-8d44-3e7847de8042</xr:TypeId>
+				<xr:ValueId>64f747f1-f8bc-46d0-a4cd-79ac3c51798a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияЗаявокНаЗакупку</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>80e41c48-ec5a-4b62-82ca-009b7544ec18</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="9b94c4a2-070c-4207-8f44-e10477c6e950">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПериодЗакупкиНачало</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cc3bcd3f-9d73-4cbb-afa6-00b729a28731</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="869b49b3-9fde-43a6-b607-b2ce418c69ff">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПериодЗакупкиОкончание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a262d5ab-4963-4233-9043-a145151469c1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="b2816f0d-5616-45bd-a569-76271b7d7b3e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сумма</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>30908e25-2402-45d0-915c-b45e79704aaf</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

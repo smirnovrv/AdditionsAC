@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="a50787d5-7297-4f26-9eb2-30b3999fb4fa">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Партия" category="Object">
+				<xr:TypeId>ce5c4dce-c650-4bbc-ba0c-b34a01c48e78</xr:TypeId>
+				<xr:ValueId>28b43da0-8d88-430a-a328-398a481bcd69</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Партия" category="Ref">
+				<xr:TypeId>5d4a7217-9f14-474c-83cb-29483193c03f</xr:TypeId>
+				<xr:ValueId>a32c69b0-bd17-4d22-aee1-5b358280f1aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Партия" category="Selection">
+				<xr:TypeId>a31f5be4-5d5d-4e95-8995-0296bacceb06</xr:TypeId>
+				<xr:ValueId>d4d68b27-ebb5-4148-9a61-a18e44067af2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Партия" category="List">
+				<xr:TypeId>641dd83b-26c1-4732-9850-69113315c57b</xr:TypeId>
+				<xr:ValueId>8d595eb5-e0d2-4cf8-bbbe-b7657ed04f0b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Партия" category="Manager">
+				<xr:TypeId>4bb6c6ba-202f-47fd-9aae-b28dcc63f689</xr:TypeId>
+				<xr:ValueId>cfe8e4ab-9ab5-4959-9a11-b9f97b99a864</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Партия</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a2346c81-d46c-4a8f-98d0-ace4ebe06484</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="969f7bee-4d81-408b-9fdd-544acbbbd6ae">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1a387f0f-92a0-4d5d-aaf1-4a495ea3afd4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

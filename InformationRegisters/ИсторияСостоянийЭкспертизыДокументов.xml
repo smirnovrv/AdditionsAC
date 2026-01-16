@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="21a70652-5f61-4bfd-9663-adabe77b6737">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ИсторияСостоянийЭкспертизыДокументов" category="Record">
+				<xr:TypeId>e5f541d7-7993-42ac-8bc2-34ef69cb45e8</xr:TypeId>
+				<xr:ValueId>3b1da0c7-688a-4091-83ab-7571e4a3c489</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ИсторияСостоянийЭкспертизыДокументов" category="Manager">
+				<xr:TypeId>edd642d7-9248-4ad5-830c-09bbe4da732d</xr:TypeId>
+				<xr:ValueId>4405b729-e340-4f88-b566-b9b813ec403c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ИсторияСостоянийЭкспертизыДокументов" category="Selection">
+				<xr:TypeId>d7da689f-dfa5-47e2-be28-c9ac96df7a9d</xr:TypeId>
+				<xr:ValueId>4638c816-93ad-4d79-b441-d4512bfd33f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ИсторияСостоянийЭкспертизыДокументов" category="List">
+				<xr:TypeId>86b3aec1-ef8f-482a-a58f-6fc4ff4ee2a5</xr:TypeId>
+				<xr:ValueId>722a4ea8-3491-4f7a-aba0-fa5326d7584e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ИсторияСостоянийЭкспертизыДокументов" category="RecordSet">
+				<xr:TypeId>04ca3195-e40e-4dc5-8229-e2913142569e</xr:TypeId>
+				<xr:ValueId>b99c169e-a01a-4599-af7a-71019d1056b2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ИсторияСостоянийЭкспертизыДокументов" category="RecordKey">
+				<xr:TypeId>667b4c90-7b40-49de-896e-3d8baa17fe33</xr:TypeId>
+				<xr:ValueId>233b0da4-ea2d-4c72-bd2b-c769f3a727d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ИсторияСостоянийЭкспертизыДокументов" category="RecordManager">
+				<xr:TypeId>d1b6f700-4e8e-463a-a7ad-d60c42b4c90f</xr:TypeId>
+				<xr:ValueId>2017d4f6-00bd-4539-b9fa-1088edb5b3e1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИсторияСостоянийЭкспертизыДокументов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0facfb3f-b3af-4afb-96c3-28eb7c587973</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="755c32b8-9ea7-4adb-b1e0-2b1c32a6aa18">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Состояние</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0725719e-c6c9-4176-bc33-303323191d9a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.СостоянияЭкспертизыДокументов</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="e974dbfe-42fc-4385-8a23-f0937d91e481">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СоставыГруппПользователей" category="Record">
+				<xr:TypeId>9b55a7e1-3d56-4fd2-8c62-abb781c8a3fa</xr:TypeId>
+				<xr:ValueId>28163683-7d3e-4963-967b-44448d326ff3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СоставыГруппПользователей" category="Manager">
+				<xr:TypeId>4b64fc75-e92d-472d-a408-6484a6059fb9</xr:TypeId>
+				<xr:ValueId>37f79acc-2d6f-4b82-886e-845ac1c6e78a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СоставыГруппПользователей" category="Selection">
+				<xr:TypeId>102e7241-7590-4bd6-b4fe-24d185c8adba</xr:TypeId>
+				<xr:ValueId>41b7c638-ebf3-4dfa-a5c5-5c4242ca5706</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СоставыГруппПользователей" category="List">
+				<xr:TypeId>85b7809e-222f-4ce4-bd71-f3b13befdd99</xr:TypeId>
+				<xr:ValueId>9ac73bac-eeec-49ab-88e2-aa480c12da68</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СоставыГруппПользователей" category="RecordSet">
+				<xr:TypeId>97bce9f7-9752-485c-9ce9-4bcc29c0a45b</xr:TypeId>
+				<xr:ValueId>943154f2-16f0-4811-938c-3bc8d509142c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СоставыГруппПользователей" category="RecordKey">
+				<xr:TypeId>b2663d92-e2a3-49fc-9c56-d8052fb0e71e</xr:TypeId>
+				<xr:ValueId>26ba3b9e-2a35-458a-909a-301ae3c50216</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СоставыГруппПользователей" category="RecordManager">
+				<xr:TypeId>0f3258e3-08b0-48ef-a0fe-962d69749a7a</xr:TypeId>
+				<xr:ValueId>ff6a4e39-ca89-4a5e-91fc-09c1c9711985</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СоставыГруппПользователей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>86a871da-3725-43a1-a7c3-98acd187011b</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="86355e92-f6e6-4d7b-94e6-81848711e9e0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Пользователь</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2e26e32e-a0c6-4460-99de-865622202166</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="299a5a95-4448-4e4c-9696-af0e16bda72e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ГруппаПользователей</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fb94e9cb-1f27-42a6-a701-18bbe5888e70</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="27c9fd64-0554-4e26-a3f0-4920444f830e">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ИИТ_УведомленияОВозвратеСогласования" category="Record">
+				<xr:TypeId>0b785b70-9842-448b-86cb-24febee6665b</xr:TypeId>
+				<xr:ValueId>c9e93cff-543c-4f35-982d-a8eb36c4599b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ИИТ_УведомленияОВозвратеСогласования" category="Manager">
+				<xr:TypeId>92ee1848-8cfa-470d-a73c-50b18efb262b</xr:TypeId>
+				<xr:ValueId>0292b817-7aed-4fbf-86af-7403d2e96867</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ИИТ_УведомленияОВозвратеСогласования" category="Selection">
+				<xr:TypeId>12de3efa-844a-424c-9637-8b367d9c344d</xr:TypeId>
+				<xr:ValueId>e6290412-69c2-4ceb-8301-250d76bb14b3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ИИТ_УведомленияОВозвратеСогласования" category="List">
+				<xr:TypeId>d1344ad8-d216-4410-bb16-8454e7baf700</xr:TypeId>
+				<xr:ValueId>fc42beb2-4734-46a6-b599-7286b7658af9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ИИТ_УведомленияОВозвратеСогласования" category="RecordSet">
+				<xr:TypeId>057614dc-bd15-4774-94af-d3ffa11d760c</xr:TypeId>
+				<xr:ValueId>1b813f24-d660-491c-be78-e81566c87c70</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ИИТ_УведомленияОВозвратеСогласования" category="RecordKey">
+				<xr:TypeId>1796b52d-bb68-46b6-bb05-facfec602b51</xr:TypeId>
+				<xr:ValueId>a837b608-021b-4864-838c-1b8bba7ae0f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ИИТ_УведомленияОВозвратеСогласования" category="RecordManager">
+				<xr:TypeId>f8c3ebac-8803-4750-a8fe-ad1efb455bae</xr:TypeId>
+				<xr:ValueId>0769ea58-8896-4314-a0ed-032308bf85a8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИИТ_УведомленияОВозвратеСогласования</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>df9a12c5-e177-4cf7-ae9e-c28a880ad097</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="ab534fe9-588a-4750-ac13-7a0687ddc42c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаСоздания</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>903c1d16-c591-4fff-ac50-d98ebec6c0ac</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="892e45a3-30c5-4711-9575-9fd351f74780">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Прочитано</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d58f7567-43b5-455e-b833-1f7e2e52e202</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Attribute uuid="c07939cd-5940-4363-b399-945d10c6b4ce">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Пояснение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b07389d3-900d-4e4b-b7a6-c1e298ed02fe</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>200</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="de033056-b23e-4939-9ed1-bdbe3e61d96e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Ответственный</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3b6ef493-b047-4330-b87f-763304bf1539</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,923 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<ScalingMode>Normal</ScalingMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаСправочникЭтапыУниверсальныхПроцессовОткрытьПоЗначению" id="158">
+				<Type>CommandBarButton</Type>
+				<Visible>false</Visible>
+				<CommandName>0</CommandName>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+				<ExtendedTooltip name="ФормаСправочникЭтапыУниверсальныхПроцессовОткрытьПоЗначениюРасширеннаяПодсказка" id="159"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="Группа_РеквизитыПроцесса" id="38">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реквизиты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа реквизиты процесса</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>NormalSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа_РеквизитыПроцессаРасширеннаяПодсказка" id="39"/>
+			<ChildItems>
+				<InputField name="Наименование" id="3">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
+					<ExtendedTooltip name="НаименованиеExtendedTooltip" id="14"/>
+				</InputField>
+				<InputField name="Родитель" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Входит в группу</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="РодительКонтекстноеМеню" id="6"/>
+					<ExtendedTooltip name="РодительExtendedTooltip" id="16"/>
+				</InputField>
+				<InputField name="НазначениеПроцесса" id="28">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Режим процесса</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="НазначениеПроцессаКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="НазначениеПроцессаРасширеннаяПодсказка" id="30"/>
+				</InputField>
+				<UsualGroup name="ГруппаОбъектСогласования" id="17">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа объект согласования</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа объект согласования</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаОбъектСогласованияРасширеннаяПодсказка" id="18"/>
+					<ChildItems>
+						<InputField name="ИмяСправочника" id="25">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Тип объекта</v8:content>
+								</v8:item>
+							</Title>
+							<ListChoiceMode>true</ListChoiceMode>
+							<AutoMarkIncomplete>true</AutoMarkIncomplete>
+							<ChoiceList>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Справочник текущей ИБ</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">СправочникиБД</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Документ текущей ИБ</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">ДокументыБД</Value>
+									</xr:Value>
+								</xr:Item>
+							</ChoiceList>
+							<ContextMenu name="ИмяСправочникаКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ИмяСправочникаРасширеннаяПодсказка" id="27"/>
+						</InputField>
+						<InputField name="ТипОбъектаСогласования" id="22">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Согласуемый объект</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<ChoiceButtonRepresentation>ShowInDropList</ChoiceButtonRepresentation>
+							<AutoMarkIncomplete>true</AutoMarkIncomplete>
+							<ContextMenu name="ТипОбъектаСогласованияКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ТипОбъектаСогласованияРасширеннаяПодсказка" id="24"/>
+						</InputField>
+						<CheckBoxField name="ИспользоватьУправлениеСтатусами" id="155">
+							<Visible>false</Visible>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Использовать управление статусами объекта согласования</v8:content>
+								</v8:item>
+							</Title>
+							<CheckBoxType>CheckBox</CheckBoxType>
+							<ContextMenu name="ИспользоватьУправлениеСтатусамиКонтекстноеМеню" id="156"/>
+							<ExtendedTooltip name="ИспользоватьУправлениеСтатусамиРасширеннаяПодсказка" id="157"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаПроцессПодготовкиОтчетности" id="34">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа процесс подготовки отчетности</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПроцессПодготовкиОтчетностиРасширеннаяПодсказка" id="35"/>
+					<ChildItems>
+						<InputField name="СвязанныйРегламент" id="31">
+							<TitleHeight>2</TitleHeight>
+							<AutoMarkIncomplete>true</AutoMarkIncomplete>
+							<ContextMenu name="СвязанныйРегламентКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="СвязанныйРегламентРасширеннаяПодсказка" id="33"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<CheckBoxField name="ЗапретитьОтзывСогласованияПриОтветеСогласующего" id="160">
+					<TitleLocation>Right</TitleLocation>
+					<ToolTipRepresentation>Button</ToolTipRepresentation>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЗапретитьОтзывСогласованияПриОтветеСогласующегоКонтекстноеМеню" id="161"/>
+					<ExtendedTooltip name="ЗапретитьОтзывСогласованияПриОтветеСогласующегоРасширеннаяПодсказка" id="162"/>
+				</CheckBoxField>
+				<CheckBoxField name="ПриОтклоненииЭтапаВыполнятьПроцессДоКонца" id="163">
+					<TitleLocation>Right</TitleLocation>
+					<ToolTipRepresentation>Button</ToolTipRepresentation>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ПриОтклоненииЭтапаВыполнятьПроцессДоКонцаКонтекстноеМеню" id="164"/>
+					<ExtendedTooltip name="ПриОтклоненииЭтапаВыполнятьПроцессДоКонцаРасширеннаяПодсказка" id="165"/>
+				</CheckBoxField>
+				<UsualGroup name="ГруппаПроверкаКонтрольнойСуммы" id="172">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа проверка контрольной суммы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа проверка контрольной суммы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПроверкаКонтрольнойСуммыРасширеннаяПодсказка" id="173"/>
+					<ChildItems>
+						<CheckBoxField name="ИспользоватьПроверкуКонтрольнойСуммыПриУтверждении" id="169">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Использовать проверку версии объекта при утверждении этапов</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Если признак включен, то при утверждении этапов будет производиться проверка на то, что согласуемый объект не был изменен с момента отправки на согласование. Если были изменения, то утвердить этап будет нельзя</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользоватьПроверкуКонтрольнойСуммыПриУтвержденииКонтекстноеМеню" id="170"/>
+							<ExtendedTooltip name="ИспользоватьПроверкуКонтрольнойСуммыПриУтвержденииРасширеннаяПодсказка" id="171"/>
+						</CheckBoxField>
+						<LabelDecoration name="ДекорацияСоставРеквизитов" id="174">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Реквизиты для проверки версии объекта</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияСоставРеквизитовКонтекстноеМеню" id="175"/>
+							<ExtendedTooltip name="ДекорацияСоставРеквизитовРасширеннаяПодсказка" id="176"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа_ПараметрыПроцесса" id="153">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Параметры процесса</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа параметры процесса</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Behavior>Usual</Behavior>
+					<ExtendedTooltip name="Группа_ПараметрыПроцессаРасширеннаяПодсказка" id="154"/>
+					<ChildItems>
+						<Table name="ПараметрыПроцесса" id="73">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ПараметрыПроцессаКонтекстноеМеню" id="74"/>
+							<AutoCommandBar name="ПараметрыПроцессаКоманднаяПанель" id="75"/>
+							<ExtendedTooltip name="ПараметрыПроцессаРасширеннаяПодсказка" id="76"/>
+							<SearchStringAddition name="ПараметрыПроцессаСтрокаПоиска" id="77">
+								<AdditionSource>
+									<Item>ПараметрыПроцесса</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПараметрыПроцессаСтрокаПоискаКонтекстноеМеню" id="80"/>
+								<ExtendedTooltip name="ПараметрыПроцессаСтрокаПоискаРасширеннаяПодсказка" id="81"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПараметрыПроцессаСостояниеПросмотра" id="82">
+								<AdditionSource>
+									<Item>ПараметрыПроцесса</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПараметрыПроцессаСостояниеПросмотраКонтекстноеМеню" id="85"/>
+								<ExtendedTooltip name="ПараметрыПроцессаСостояниеПросмотраРасширеннаяПодсказка" id="86"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПараметрыПроцессаУправлениеПоиском" id="87">
+								<AdditionSource>
+									<Item>ПараметрыПроцесса</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ПараметрыПроцессаУправлениеПоискомКонтекстноеМеню" id="90"/>
+								<ExtendedTooltip name="ПараметрыПроцессаУправлениеПоискомРасширеннаяПодсказка" id="91"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<CheckBoxField name="ПараметрыПроцессаПредопределенный" id="107">
+									<Enabled>false</Enabled>
+									<ReadOnly>true</ReadOnly>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Защищенный параметр: добавляется автоматически для определенных типов процессов. Не может быть удален.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<EditMode>EnterOnInput</EditMode>
+									<HeaderPicture>
+										<xr:Ref>CommonPicture.ВедущаяКонечнаяТочка</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</HeaderPicture>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ПараметрыПроцессаПредопределенныйКонтекстноеМеню" id="108"/>
+									<ExtendedTooltip name="ПараметрыПроцессаПредопределенныйРасширеннаяПодсказка" id="109"/>
+								</CheckBoxField>
+								<CheckBoxField name="ПараметрыПроцессаКлючевой" id="104">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Ключевой</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Ключевой параметр: при запуске процесса анализируются значения ключевых параметров, для поиска уже существующих процессов.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+									<EditMode>EnterOnInput</EditMode>
+									<HeaderPicture>
+										<xr:Ref>CommonPicture.Зашифрован</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</HeaderPicture>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ПараметрыПроцессаКлючевойКонтекстноеМеню" id="105"/>
+									<ExtendedTooltip name="ПараметрыПроцессаКлючевойРасширеннаяПодсказка" id="106"/>
+								</CheckBoxField>
+								<InputField name="ПараметрыПроцессаИмяПараметра" id="95">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПараметрыПроцессаИмяПараметраКонтекстноеМеню" id="96"/>
+									<ExtendedTooltip name="ПараметрыПроцессаИмяПараметраРасширеннаяПодсказка" id="97"/>
+								</InputField>
+								<InputField name="ПараметрыПроцессаКодПарамтера" id="98">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПараметрыПроцессаКодПарамтераКонтекстноеМеню" id="99"/>
+									<ExtendedTooltip name="ПараметрыПроцессаКодПарамтераРасширеннаяПодсказка" id="100"/>
+								</InputField>
+								<InputField name="ПараметрыПроцессаТипПарамтера" id="92">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПараметрыПроцессаТипПарамтераКонтекстноеМеню" id="93"/>
+									<ExtendedTooltip name="ПараметрыПроцессаТипПарамтераРасширеннаяПодсказка" id="94"/>
+								</InputField>
+								<InputField name="ПараметрыПроцессаЗначениеПоУмолчанию" id="101">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПараметрыПроцессаЗначениеПоУмолчаниюКонтекстноеМеню" id="102"/>
+									<ExtendedTooltip name="ПараметрыПроцессаЗначениеПоУмолчаниюРасширеннаяПодсказка" id="103"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаОповещения" id="146">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Оповещения</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа оповещения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>true</HorizontalStretch>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаОповещенияРасширеннаяПодсказка" id="147"/>
+					<ChildItems>
+						<InputField name="АдминистраторПроцесса" id="150">
+							<ContextMenu name="АдминистраторПроцессаКонтекстноеМеню" id="151"/>
+							<ExtendedTooltip name="АдминистраторПроцессаРасширеннаяПодсказка" id="152"/>
+						</InputField>
+						<Button name="ПерейтиКНастройкеОповещений" id="148">
+							<Type>Hyperlink</Type>
+							<Visible>false</Visible>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ПерейтиКНастройкеОповещенийРасширеннаяПодсказка" id="149"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ПараметрыПроцессаНаименование</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ПараметрыПроцессаЗначениеПоУмолчанию</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.ПараметрыПроцесса.Ключевой</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ПараметрыПроцессаИмяПараметра</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ПараметрыПроцессаКодПарамтера</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ПараметрыПроцессаТипПарамтера</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ПараметрыПроцессаКлючевой</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ПараметрыПроцессаЗначениеПоУмолчанию1</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ПараметрыПроцессаПредопределенный</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ПараметрыПроцесса.Предопределенный</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#FFFF99</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Доступность</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<BaseForm version="2.20">
+		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<ScalingMode>Normal</ScalingMode>
+		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<ChildItems>
+				<Button name="ФормаСправочникЭтапыУниверсальныхПроцессовОткрытьПоЗначению" id="158">
+					<Type>CommandBarButton</Type>
+					<Visible>false</Visible>
+					<CommandName>0</CommandName>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="ФормаСправочникЭтапыУниверсальныхПроцессовОткрытьПоЗначениюРасширеннаяПодсказка" id="159"/>
+				</Button>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<UsualGroup name="Группа_РеквизитыПроцесса" id="38">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Реквизиты</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа реквизиты процесса</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>NormalSeparation</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="Группа_РеквизитыПроцессаРасширеннаяПодсказка" id="39"/>
+				<ChildItems>
+					<InputField name="Наименование" id="3">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
+						<ExtendedTooltip name="НаименованиеExtendedTooltip" id="14"/>
+					</InputField>
+					<InputField name="Родитель" id="5">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Входит в группу</v8:content>
+							</v8:item>
+						</Title>
+						<EditMode>EnterOnInput</EditMode>
+						<HorizontalStretch>true</HorizontalStretch>
+						<ContextMenu name="РодительКонтекстноеМеню" id="6"/>
+						<ExtendedTooltip name="РодительExtendedTooltip" id="16"/>
+					</InputField>
+					<InputField name="НазначениеПроцесса" id="28">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Режим процесса</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="НазначениеПроцессаКонтекстноеМеню" id="29"/>
+						<ExtendedTooltip name="НазначениеПроцессаРасширеннаяПодсказка" id="30"/>
+					</InputField>
+					<UsualGroup name="ГруппаОбъектСогласования" id="17">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа объект согласования</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа объект согласования</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаОбъектСогласованияРасширеннаяПодсказка" id="18"/>
+						<ChildItems>
+							<InputField name="ИмяСправочника" id="25">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Тип объекта</v8:content>
+									</v8:item>
+								</Title>
+								<ListChoiceMode>true</ListChoiceMode>
+								<AutoMarkIncomplete>true</AutoMarkIncomplete>
+								<ChoiceList>
+									<xr:Item>
+										<xr:Presentation/>
+										<xr:CheckState>0</xr:CheckState>
+										<xr:Value xsi:type="FormChoiceListDesTimeValue">
+											<Presentation>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Справочник текущей ИБ</v8:content>
+												</v8:item>
+											</Presentation>
+											<Value xsi:type="xs:string">СправочникиБД</Value>
+										</xr:Value>
+									</xr:Item>
+									<xr:Item>
+										<xr:Presentation/>
+										<xr:CheckState>0</xr:CheckState>
+										<xr:Value xsi:type="FormChoiceListDesTimeValue">
+											<Presentation>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Документ текущей ИБ</v8:content>
+												</v8:item>
+											</Presentation>
+											<Value xsi:type="xs:string">ДокументыБД</Value>
+										</xr:Value>
+									</xr:Item>
+								</ChoiceList>
+								<ContextMenu name="ИмяСправочникаКонтекстноеМеню" id="26"/>
+								<ExtendedTooltip name="ИмяСправочникаРасширеннаяПодсказка" id="27"/>
+							</InputField>
+							<InputField name="ТипОбъектаСогласования" id="22">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Согласуемый объект</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Left</TitleLocation>
+								<ChoiceButtonRepresentation>ShowInDropList</ChoiceButtonRepresentation>
+								<AutoMarkIncomplete>true</AutoMarkIncomplete>
+								<ContextMenu name="ТипОбъектаСогласованияКонтекстноеМеню" id="23"/>
+								<ExtendedTooltip name="ТипОбъектаСогласованияРасширеннаяПодсказка" id="24"/>
+							</InputField>
+							<CheckBoxField name="ИспользоватьУправлениеСтатусами" id="155">
+								<Visible>false</Visible>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Использовать управление статусами объекта согласования</v8:content>
+									</v8:item>
+								</Title>
+								<CheckBoxType>CheckBox</CheckBoxType>
+								<ContextMenu name="ИспользоватьУправлениеСтатусамиКонтекстноеМеню" id="156"/>
+								<ExtendedTooltip name="ИспользоватьУправлениеСтатусамиРасширеннаяПодсказка" id="157"/>
+							</CheckBoxField>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаПроцессПодготовкиОтчетности" id="34">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа процесс подготовки отчетности</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаПроцессПодготовкиОтчетностиРасширеннаяПодсказка" id="35"/>
+						<ChildItems>
+							<InputField name="СвязанныйРегламент" id="31">
+								<TitleHeight>2</TitleHeight>
+								<AutoMarkIncomplete>true</AutoMarkIncomplete>
+								<ContextMenu name="СвязанныйРегламентКонтекстноеМеню" id="32"/>
+								<ExtendedTooltip name="СвязанныйРегламентРасширеннаяПодсказка" id="33"/>
+							</InputField>
+						</ChildItems>
+					</UsualGroup>
+					<CheckBoxField name="ЗапретитьОтзывСогласованияПриОтветеСогласующего" id="160">
+						<TitleLocation>Right</TitleLocation>
+						<ToolTipRepresentation>Button</ToolTipRepresentation>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ЗапретитьОтзывСогласованияПриОтветеСогласующегоКонтекстноеМеню" id="161"/>
+						<ExtendedTooltip name="ЗапретитьОтзывСогласованияПриОтветеСогласующегоРасширеннаяПодсказка" id="162"/>
+					</CheckBoxField>
+					<CheckBoxField name="ПриОтклоненииЭтапаВыполнятьПроцессДоКонца" id="163">
+						<TitleLocation>Right</TitleLocation>
+						<ToolTipRepresentation>Button</ToolTipRepresentation>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ПриОтклоненииЭтапаВыполнятьПроцессДоКонцаКонтекстноеМеню" id="164"/>
+						<ExtendedTooltip name="ПриОтклоненииЭтапаВыполнятьПроцессДоКонцаРасширеннаяПодсказка" id="165"/>
+					</CheckBoxField>
+					<UsualGroup name="ГруппаПроверкаКонтрольнойСуммы" id="172">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа проверка контрольной суммы</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа проверка контрольной суммы</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Group>AlwaysHorizontal</Group>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаПроверкаКонтрольнойСуммыРасширеннаяПодсказка" id="173"/>
+						<ChildItems>
+							<CheckBoxField name="ИспользоватьПроверкуКонтрольнойСуммыПриУтверждении" id="169">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Использовать проверку версии объекта при утверждении этапов</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Если признак включен, то при утверждении этапов будет производиться проверка на то, что согласуемый объект не был изменен с момента отправки на согласование. Если были изменения, то утвердить этап будет нельзя</v8:content>
+									</v8:item>
+								</ToolTip>
+								<ToolTipRepresentation>Button</ToolTipRepresentation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ИспользоватьПроверкуКонтрольнойСуммыПриУтвержденииКонтекстноеМеню" id="170"/>
+								<ExtendedTooltip name="ИспользоватьПроверкуКонтрольнойСуммыПриУтвержденииРасширеннаяПодсказка" id="171"/>
+							</CheckBoxField>
+							<LabelDecoration name="ДекорацияСоставРеквизитов" id="174">
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Реквизиты для проверки версии объекта</v8:content>
+									</v8:item>
+								</Title>
+								<Hyperlink>true</Hyperlink>
+								<ContextMenu name="ДекорацияСоставРеквизитовКонтекстноеМеню" id="175"/>
+								<ExtendedTooltip name="ДекорацияСоставРеквизитовРасширеннаяПодсказка" id="176"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="Группа_ПараметрыПроцесса" id="153">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Параметры процесса</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа параметры процесса</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Behavior>Usual</Behavior>
+						<ExtendedTooltip name="Группа_ПараметрыПроцессаРасширеннаяПодсказка" id="154"/>
+						<ChildItems>
+							<Table name="ПараметрыПроцесса" id="73">
+								<Representation>List</Representation>
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="ПараметрыПроцессаКонтекстноеМеню" id="74"/>
+								<AutoCommandBar name="ПараметрыПроцессаКоманднаяПанель" id="75"/>
+								<ExtendedTooltip name="ПараметрыПроцессаРасширеннаяПодсказка" id="76"/>
+								<SearchStringAddition name="ПараметрыПроцессаСтрокаПоиска" id="77">
+									<AdditionSource>
+										<Item>ПараметрыПроцесса</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ПараметрыПроцессаСтрокаПоискаКонтекстноеМеню" id="80"/>
+									<ExtendedTooltip name="ПараметрыПроцессаСтрокаПоискаРасширеннаяПодсказка" id="81"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="ПараметрыПроцессаСостояниеПросмотра" id="82">
+									<AdditionSource>
+										<Item>ПараметрыПроцесса</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ПараметрыПроцессаСостояниеПросмотраКонтекстноеМеню" id="85"/>
+									<ExtendedTooltip name="ПараметрыПроцессаСостояниеПросмотраРасширеннаяПодсказка" id="86"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="ПараметрыПроцессаУправлениеПоиском" id="87">
+									<AdditionSource>
+										<Item>ПараметрыПроцесса</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="ПараметрыПроцессаУправлениеПоискомКонтекстноеМеню" id="90"/>
+									<ExtendedTooltip name="ПараметрыПроцессаУправлениеПоискомРасширеннаяПодсказка" id="91"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<CheckBoxField name="ПараметрыПроцессаПредопределенный" id="107">
+										<Enabled>false</Enabled>
+										<ReadOnly>true</ReadOnly>
+										<TitleLocation>None</TitleLocation>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Защищенный параметр: добавляется автоматически для определенных типов процессов. Не может быть удален.</v8:content>
+											</v8:item>
+										</ToolTip>
+										<EditMode>EnterOnInput</EditMode>
+										<HeaderPicture>
+											<xr:Ref>CommonPicture.ВедущаяКонечнаяТочка</xr:Ref>
+											<xr:LoadTransparent>true</xr:LoadTransparent>
+										</HeaderPicture>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ПараметрыПроцессаПредопределенныйКонтекстноеМеню" id="108"/>
+										<ExtendedTooltip name="ПараметрыПроцессаПредопределенныйРасширеннаяПодсказка" id="109"/>
+									</CheckBoxField>
+									<CheckBoxField name="ПараметрыПроцессаКлючевой" id="104">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Ключевой</v8:content>
+											</v8:item>
+										</Title>
+										<TitleLocation>None</TitleLocation>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Ключевой параметр: при запуске процесса анализируются значения ключевых параметров, для поиска уже существующих процессов.</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+										<EditMode>EnterOnInput</EditMode>
+										<HeaderPicture>
+											<xr:Ref>CommonPicture.Зашифрован</xr:Ref>
+											<xr:LoadTransparent>true</xr:LoadTransparent>
+										</HeaderPicture>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ПараметрыПроцессаКлючевойКонтекстноеМеню" id="105"/>
+										<ExtendedTooltip name="ПараметрыПроцессаКлючевойРасширеннаяПодсказка" id="106"/>
+									</CheckBoxField>
+									<InputField name="ПараметрыПроцессаИмяПараметра" id="95">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ПараметрыПроцессаИмяПараметраКонтекстноеМеню" id="96"/>
+										<ExtendedTooltip name="ПараметрыПроцессаИмяПараметраРасширеннаяПодсказка" id="97"/>
+									</InputField>
+									<InputField name="ПараметрыПроцессаКодПарамтера" id="98">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ПараметрыПроцессаКодПарамтераКонтекстноеМеню" id="99"/>
+										<ExtendedTooltip name="ПараметрыПроцессаКодПарамтераРасширеннаяПодсказка" id="100"/>
+									</InputField>
+									<InputField name="ПараметрыПроцессаТипПарамтера" id="92">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ПараметрыПроцессаТипПарамтераКонтекстноеМеню" id="93"/>
+										<ExtendedTooltip name="ПараметрыПроцессаТипПарамтераРасширеннаяПодсказка" id="94"/>
+									</InputField>
+									<InputField name="ПараметрыПроцессаЗначениеПоУмолчанию" id="101">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ПараметрыПроцессаЗначениеПоУмолчаниюКонтекстноеМеню" id="102"/>
+										<ExtendedTooltip name="ПараметрыПроцессаЗначениеПоУмолчаниюРасширеннаяПодсказка" id="103"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаОповещения" id="146">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Оповещения</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа оповещения</v8:content>
+							</v8:item>
+						</ToolTip>
+						<HorizontalStretch>true</HorizontalStretch>
+						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
+						<Representation>NormalSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаОповещенияРасширеннаяПодсказка" id="147"/>
+						<ChildItems>
+							<InputField name="АдминистраторПроцесса" id="150">
+								<ContextMenu name="АдминистраторПроцессаКонтекстноеМеню" id="151"/>
+								<ExtendedTooltip name="АдминистраторПроцессаРасширеннаяПодсказка" id="152"/>
+							</InputField>
+							<Button name="ПерейтиКНастройкеОповещений" id="148">
+								<Type>Hyperlink</Type>
+								<Visible>false</Visible>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="ПерейтиКНастройкеОповещенийРасширеннаяПодсказка" id="149"/>
+							</Button>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes>
+			<ConditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ПараметрыПроцессаНаименование</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ПараметрыПроцессаЗначениеПоУмолчанию</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.ПараметрыПроцесса.Ключевой</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Шрифт</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ПараметрыПроцессаИмяПараметра</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ПараметрыПроцессаКодПарамтера</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ПараметрыПроцессаТипПарамтера</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ПараметрыПроцессаКлючевой</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ПараметрыПроцессаЗначениеПоУмолчанию1</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ПараметрыПроцессаПредопределенный</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ПараметрыПроцесса.Предопределенный</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>ЦветФона</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#FFFF99</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Доступность</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</ConditionalAppearance>
+		</Attributes>
+	</BaseForm>
+</Form>

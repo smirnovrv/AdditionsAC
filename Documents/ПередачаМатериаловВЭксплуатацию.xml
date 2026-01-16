@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="3f7a813b-e311-40ee-8534-d71d9a169bfe">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПередачаМатериаловВЭксплуатацию" category="Object">
+				<xr:TypeId>fbd6fe94-5469-49fd-a6ab-bb11248762f0</xr:TypeId>
+				<xr:ValueId>23d02417-706a-4858-9641-9c6a152abf30</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПередачаМатериаловВЭксплуатацию" category="Ref">
+				<xr:TypeId>5efab074-3e64-419d-b500-3b6ce5ff9c97</xr:TypeId>
+				<xr:ValueId>9938781e-0ab3-4aa8-b03e-4ea7dcc77cf1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПередачаМатериаловВЭксплуатацию" category="Selection">
+				<xr:TypeId>3e987f7a-2cb0-4b2b-9da1-51179213813b</xr:TypeId>
+				<xr:ValueId>1fc34003-5418-465c-89c9-751128f51b4b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПередачаМатериаловВЭксплуатацию" category="List">
+				<xr:TypeId>1e14171d-018c-42df-8a86-feb93069abbb</xr:TypeId>
+				<xr:ValueId>1c7c91e3-4edb-455f-aabd-cdd5df5fb78a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПередачаМатериаловВЭксплуатацию" category="Manager">
+				<xr:TypeId>f9a433ef-1c9f-4c10-b282-ca165d0353c6</xr:TypeId>
+				<xr:ValueId>596a657f-2955-4a92-8210-4d6550a8a8ef</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПередачаМатериаловВЭксплуатацию</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ec7b91dd-ecb6-49dd-9732-cdceb42529e2</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

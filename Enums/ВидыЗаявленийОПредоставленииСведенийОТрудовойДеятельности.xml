@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="ec6b03db-a549-4e31-ab4b-d34c918bbea0">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыЗаявленийОПредоставленииСведенийОТрудовойДеятельности" category="Ref">
+				<xr:TypeId>8c20c0b0-2593-4ab0-b760-52026d32660a</xr:TypeId>
+				<xr:ValueId>191b73cd-4fd5-49fa-9af5-7262e6eaf646</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыЗаявленийОПредоставленииСведенийОТрудовойДеятельности" category="Manager">
+				<xr:TypeId>a019215f-8fdf-4a33-92b1-a1350dd89907</xr:TypeId>
+				<xr:ValueId>5d570b49-86f9-4513-8ca9-ebd23bdc9080</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыЗаявленийОПредоставленииСведенийОТрудовойДеятельности" category="List">
+				<xr:TypeId>6af777b7-e0b3-4a8d-84f2-7e8f932ac3bf</xr:TypeId>
+				<xr:ValueId>cd37f034-70f6-44d3-aba9-c902c9203908</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыЗаявленийОПредоставленииСведенийОТрудовойДеятельности</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8a9584fe-4630-4090-b3c1-b78bec2a4fd6</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="1bc10433-e85b-4574-8549-e45687d8c1f9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВедениеБумажнойТрудовойКнижки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b644d179-6c30-41f3-b0b4-a7924677cb7c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ee628bc1-b585-4b6e-9ab7-13c53f6940e6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СведенияОТрудовойДеятельностиВЭлектроннойФорме</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6cc7894c-549d-43bb-b8c0-31c71cbf417a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

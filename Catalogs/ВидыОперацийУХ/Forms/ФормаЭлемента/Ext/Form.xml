@@ -1,0 +1,773 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnReadAtServer" callType="Override">АЛФ_ПриЧтенииНаСервереВместо</Event>
+		<Event name="OnCreateAtServer" callType="After">АЛФ_ПриСозданииНаСервереПосле</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="СтраницыРеквизитов" id="116">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы реквизитов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы реквизитов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыРеквизитовРасширеннаяПодсказка" id="117"/>
+			<ChildItems>
+				<Page name="ГруппаОсновныеРеквизиты" id="122">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основные реквизиты</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа основные реквизиты</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаОсновныеРеквизитыРасширеннаяПодсказка" id="123"/>
+					<ChildItems>
+						<CheckBoxField name="Использовать" id="70">
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользоватьКонтекстноеМеню" id="71"/>
+							<ExtendedTooltip name="ИспользоватьРасширеннаяПодсказка" id="72"/>
+						</CheckBoxField>
+						<InputField name="Код" id="1">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+						</InputField>
+						<InputField name="Наименование" id="4">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+						</InputField>
+						<InputField name="Родитель" id="7">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
+						</InputField>
+						<InputField name="ВидБюджета" id="67">
+							<ContextMenu name="ВидБюджетаКонтекстноеМеню" id="68"/>
+							<ExtendedTooltip name="ВидБюджетаРасширеннаяПодсказка" id="69"/>
+						</InputField>
+						<InputField name="Предназначение" id="10">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ПредназначениеКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="ПредназначениеРасширеннаяПодсказка" id="12"/>
+						</InputField>
+						<InputField name="ПриходРасход" id="13">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ПриходРасходКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ПриходРасходРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<InputField name="ТипОперацииБюджетирование" id="16">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ТипОперацииБюджетированиеКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ТипОперацииБюджетированиеРасширеннаяПодсказка" id="18"/>
+						</InputField>
+						<CheckBoxField name="ДопустимБезналичныйРасчет" id="19">
+							<TitleLocation>Right</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ДопустимБезналичныйРасчетКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ДопустимБезналичныйРасчетРасширеннаяПодсказка" id="21"/>
+						</CheckBoxField>
+						<InputField name="ВидОперацииДДСБезналичныйРасчет" id="22">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ВидОперацииДДСБезналичныйРасчетКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ВидОперацииДДСБезналичныйРасчетРасширеннаяПодсказка" id="24"/>
+						</InputField>
+						<CheckBoxField name="ДопустимНаличныйРасчет" id="25">
+							<TitleLocation>Right</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ДопустимНаличныйРасчетКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ДопустимНаличныйРасчетРасширеннаяПодсказка" id="27"/>
+						</CheckBoxField>
+						<InputField name="ВидОперацииДДСНаличныйРасчет" id="28">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ВидОперацииДДСНаличныйРасчетКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="ВидОперацииДДСНаличныйРасчетРасширеннаяПодсказка" id="30"/>
+						</InputField>
+						<CheckBoxField name="ЭтоПеремещениеСобственныхСредств" id="31">
+							<TitleLocation>Right</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ЭтоПеремещениеСобственныхСредствКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="ЭтоПеремещениеСобственныхСредствРасширеннаяПодсказка" id="33"/>
+						</CheckBoxField>
+						<InputField name="ВстречныйВидОперацииПереводСобственныхСредств" id="34">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ВстречныйВидОперацииПереводСобственныхСредствКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="ВстречныйВидОперацииПереводСобственныхСредствРасширеннаяПодсказка" id="36"/>
+						</InputField>
+						<InputField name="ВстречныйВидОперацииВГО" id="37">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ВстречныйВидОперацииВГОКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="ВстречныйВидОперацииВГОРасширеннаяПодсказка" id="39"/>
+						</InputField>
+						<InputField name="ОсновнойВидДоговора" id="58">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ОсновнойВидДоговораКонтекстноеМеню" id="59"/>
+							<ExtendedTooltip name="ОсновнойВидДоговораРасширеннаяПодсказка" id="60"/>
+						</InputField>
+						<InputField name="РольКонтрагента" id="133">
+							<ContextMenu name="РольКонтрагентаКонтекстноеМеню" id="134"/>
+							<ExtendedTooltip name="РольКонтрагентаРасширеннаяПодсказка" id="135"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаПризнаки" id="120">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Признаки</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа признаки</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаПризнакиРасширеннаяПодсказка" id="121"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаФлагов" id="95">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа флагов</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа флагов</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаФлаговРасширеннаяПодсказка" id="96"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаЛеваяФлагов" id="97">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа левая флагов</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа левая флагов</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаЛеваяФлаговРасширеннаяПодсказка" id="98"/>
+									<ChildItems>
+										<CheckBoxField name="ЭтоКонвертацияВалюты" id="55">
+											<TitleLocation>Right</TitleLocation>
+											<EditMode>EnterOnInput</EditMode>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ЭтоКонвертацияВалютыКонтекстноеМеню" id="56"/>
+											<ExtendedTooltip name="ЭтоКонвертацияВалютыРасширеннаяПодсказка" id="57"/>
+										</CheckBoxField>
+										<CheckBoxField name="ЭтоРасчетыСКонтрагентом" id="43">
+											<TitleLocation>Right</TitleLocation>
+											<EditMode>EnterOnInput</EditMode>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ЭтоРасчетыСКонтрагентомКонтекстноеМеню" id="44"/>
+											<ExtendedTooltip name="ЭтоРасчетыСКонтрагентомРасширеннаяПодсказка" id="45"/>
+										</CheckBoxField>
+										<CheckBoxField name="ЭтоРасчетыСФизическимЛицом" id="46">
+											<TitleLocation>Right</TitleLocation>
+											<EditMode>EnterOnInput</EditMode>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ЭтоРасчетыСФизическимЛицомКонтекстноеМеню" id="47"/>
+											<ExtendedTooltip name="ЭтоРасчетыСФизическимЛицомРасширеннаяПодсказка" id="48"/>
+										</CheckBoxField>
+										<CheckBoxField name="ЭтоРасчетыПоЦеннымБумагам" id="52">
+											<TitleLocation>Right</TitleLocation>
+											<EditMode>EnterOnInput</EditMode>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ЭтоРасчетыПоЦеннымБумагамКонтекстноеМеню" id="53"/>
+											<ExtendedTooltip name="ЭтоРасчетыПоЦеннымБумагамРасширеннаяПодсказка" id="54"/>
+										</CheckBoxField>
+										<CheckBoxField name="ЭтоРасчетыПоНалогамИСборам" id="61">
+											<TitleLocation>Right</TitleLocation>
+											<EditMode>EnterOnInput</EditMode>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ЭтоРасчетыПоНалогамИСборамКонтекстноеМеню" id="62"/>
+											<ExtendedTooltip name="ЭтоРасчетыПоНалогамИСборамРасширеннаяПодсказка" id="63"/>
+										</CheckBoxField>
+										<CheckBoxField name="ЭтоРасчетыБезДоговора" id="64">
+											<TitleLocation>Right</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ЭтоРасчетыБезДоговораКонтекстноеМеню" id="65"/>
+											<ExtendedTooltip name="ЭтоРасчетыБезДоговораРасширеннаяПодсказка" id="66"/>
+										</CheckBoxField>
+										<CheckBoxField name="ЭтоРасчетыССамозанятыми" id="107">
+											<TitleLocation>Right</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ЭтоРасчетыССамозанятымиКонтекстноеМеню" id="108"/>
+											<ExtendedTooltip name="ЭтоРасчетыССамозанятымиРасширеннаяПодсказка" id="109"/>
+										</CheckBoxField>
+										<CheckBoxField name="ЭтоФакторинг" id="124">
+											<TitleLocation>Right</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ЭтоФакторингКонтекстноеМеню" id="125"/>
+											<ExtendedTooltip name="ЭтоФакторингРасширеннаяПодсказка" id="126"/>
+										</CheckBoxField>
+										<CheckBoxField name="ЭтоРасчетыСНаемнымиРаботниками" id="127">
+											<TitleLocation>Right</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ЭтоРасчетыСНаемнымиРаботникамиКонтекстноеМеню" id="128"/>
+											<ExtendedTooltip name="ЭтоРасчетыСНаемнымиРаботникамиРасширеннаяПодсказка" id="129"/>
+										</CheckBoxField>
+										<CheckBoxField name="ЭтоИнкассация" id="130">
+											<TitleLocation>Right</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ЭтоИнкассацияКонтекстноеМеню" id="131"/>
+											<ExtendedTooltip name="ЭтоИнкассацияРасширеннаяПодсказка" id="132"/>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаПраваяФлагов" id="99">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа правая флагов</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа правая флагов</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаПраваяФлаговРасширеннаяПодсказка" id="100"/>
+									<ChildItems>
+										<CheckBoxField name="ИспользоватьСуммуСтавкуНДС" id="49">
+											<TitleLocation>Right</TitleLocation>
+											<EditMode>EnterOnInput</EditMode>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ИспользоватьСуммуСтавкуНДСКонтекстноеМеню" id="50"/>
+											<ExtendedTooltip name="ИспользоватьСуммуСтавкуНДСРасширеннаяПодсказка" id="51"/>
+										</CheckBoxField>
+										<CheckBoxField name="ИспользуетсяВЗаявках" id="40">
+											<TitleLocation>Right</TitleLocation>
+											<EditMode>EnterOnInput</EditMode>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ИспользуетсяВЗаявкахКонтекстноеМеню" id="41"/>
+											<ExtendedTooltip name="ИспользуетсяВЗаявкахРасширеннаяПодсказка" id="42"/>
+										</CheckBoxField>
+										<CheckBoxField name="ИспользуетсяВДокументахФакта" id="101">
+											<TitleLocation>Right</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ИспользуетсяВДокументахФактаКонтекстноеМеню" id="102"/>
+											<ExtendedTooltip name="ИспользуетсяВДокументахФактаРасширеннаяПодсказка" id="103"/>
+										</CheckBoxField>
+										<CheckBoxField name="РасшифровкаПлатежаВТабличнойЧасти" id="73">
+											<TitleLocation>Right</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="РасшифровкаПлатежаВТабличнойЧастиКонтекстноеМеню" id="74"/>
+											<ExtendedTooltip name="РасшифровкаПлатежаВТабличнойЧастиРасширеннаяПодсказка" id="75"/>
+										</CheckBoxField>
+										<CheckBoxField name="ИспользуетсяВПлатежныхПоручениях" id="104">
+											<TitleLocation>Right</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ИспользуетсяВПлатежныхПорученияхКонтекстноеМеню" id="105"/>
+											<ExtendedTooltip name="ИспользуетсяВПлатежныхПорученияхРасширеннаяПодсказка" id="106"/>
+										</CheckBoxField>
+										<CheckBoxField name="ИспользуетсяДляЮридическихЛиц" id="110">
+											<TitleLocation>Right</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ИспользуетсяДляЮридическихЛицКонтекстноеМеню" id="111"/>
+											<ExtendedTooltip name="ИспользуетсяДляЮридическихЛицРасширеннаяПодсказка" id="112"/>
+										</CheckBoxField>
+										<CheckBoxField name="ИспользуетсяДляИндивидуальныхПредпринимателей" id="113">
+											<TitleLocation>Right</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ИспользуетсяДляИндивидуальныхПредпринимателейКонтекстноеМеню" id="114"/>
+											<ExtendedTooltip name="ИспользуетсяДляИндивидуальныхПредпринимателейРасширеннаяПодсказка" id="115"/>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаВидовОпераций" id="118">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Допустимые виды договоров</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа видов операций</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаВидовОперацийРасширеннаяПодсказка" id="119"/>
+					<ChildItems>
+						<Table name="ДопустимыеВидыДоговоров" id="76">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ДопустимыеВидыДоговоровКонтекстноеМеню" id="77"/>
+							<AutoCommandBar name="ДопустимыеВидыДоговоровКоманднаяПанель" id="78"/>
+							<ExtendedTooltip name="ДопустимыеВидыДоговоровРасширеннаяПодсказка" id="79"/>
+							<SearchStringAddition name="ДопустимыеВидыДоговоровСтрокаПоиска" id="80">
+								<AdditionSource>
+									<Item>ДопустимыеВидыДоговоров</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДопустимыеВидыДоговоровСтрокаПоискаКонтекстноеМеню" id="81"/>
+								<ExtendedTooltip name="ДопустимыеВидыДоговоровСтрокаПоискаРасширеннаяПодсказка" id="82"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ДопустимыеВидыДоговоровСостояниеПросмотра" id="83">
+								<AdditionSource>
+									<Item>ДопустимыеВидыДоговоров</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДопустимыеВидыДоговоровСостояниеПросмотраКонтекстноеМеню" id="84"/>
+								<ExtendedTooltip name="ДопустимыеВидыДоговоровСостояниеПросмотраРасширеннаяПодсказка" id="85"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ДопустимыеВидыДоговоровУправлениеПоиском" id="86">
+								<AdditionSource>
+									<Item>ДопустимыеВидыДоговоров</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ДопустимыеВидыДоговоровУправлениеПоискомКонтекстноеМеню" id="87"/>
+								<ExtendedTooltip name="ДопустимыеВидыДоговоровУправлениеПоискомРасширеннаяПодсказка" id="88"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ДопустимыеВидыДоговоровНомерСтроки" id="89">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДопустимыеВидыДоговоровНомерСтрокиКонтекстноеМеню" id="90"/>
+									<ExtendedTooltip name="ДопустимыеВидыДоговоровНомерСтрокиРасширеннаяПодсказка" id="91"/>
+								</LabelField>
+								<InputField name="ДопустимыеВидыДоговоровВидДоговора" id="92">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДопустимыеВидыДоговоровВидДоговораКонтекстноеМеню" id="93"/>
+									<ExtendedTooltip name="ДопустимыеВидыДоговоровВидДоговораРасширеннаяПодсказка" id="94"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.20">
+		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+		<ChildItems>
+			<Pages name="СтраницыРеквизитов" id="116">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Страницы реквизитов</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Страницы реквизитов</v8:content>
+					</v8:item>
+				</ToolTip>
+				<PagesRepresentation>TabsOnTop</PagesRepresentation>
+				<ExtendedTooltip name="СтраницыРеквизитовРасширеннаяПодсказка" id="117"/>
+				<ChildItems>
+					<Page name="ГруппаОсновныеРеквизиты" id="122">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Основные реквизиты</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа основные реквизиты</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ГруппаОсновныеРеквизитыРасширеннаяПодсказка" id="123"/>
+						<ChildItems>
+							<CheckBoxField name="Использовать" id="70">
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ИспользоватьКонтекстноеМеню" id="71"/>
+								<ExtendedTooltip name="ИспользоватьРасширеннаяПодсказка" id="72"/>
+							</CheckBoxField>
+							<InputField name="Код" id="1">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+								<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+							</InputField>
+							<InputField name="Наименование" id="4">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+								<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+							</InputField>
+							<InputField name="Родитель" id="7">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
+								<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
+							</InputField>
+							<InputField name="ВидБюджета" id="67">
+								<ContextMenu name="ВидБюджетаКонтекстноеМеню" id="68"/>
+								<ExtendedTooltip name="ВидБюджетаРасширеннаяПодсказка" id="69"/>
+							</InputField>
+							<InputField name="Предназначение" id="10">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ПредназначениеКонтекстноеМеню" id="11"/>
+								<ExtendedTooltip name="ПредназначениеРасширеннаяПодсказка" id="12"/>
+							</InputField>
+							<InputField name="ПриходРасход" id="13">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ПриходРасходКонтекстноеМеню" id="14"/>
+								<ExtendedTooltip name="ПриходРасходРасширеннаяПодсказка" id="15"/>
+							</InputField>
+							<InputField name="ТипОперацииБюджетирование" id="16">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ТипОперацииБюджетированиеКонтекстноеМеню" id="17"/>
+								<ExtendedTooltip name="ТипОперацииБюджетированиеРасширеннаяПодсказка" id="18"/>
+							</InputField>
+							<CheckBoxField name="ДопустимБезналичныйРасчет" id="19">
+								<TitleLocation>Right</TitleLocation>
+								<EditMode>EnterOnInput</EditMode>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ДопустимБезналичныйРасчетКонтекстноеМеню" id="20"/>
+								<ExtendedTooltip name="ДопустимБезналичныйРасчетРасширеннаяПодсказка" id="21"/>
+							</CheckBoxField>
+							<InputField name="ВидОперацииДДСБезналичныйРасчет" id="22">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ВидОперацииДДСБезналичныйРасчетКонтекстноеМеню" id="23"/>
+								<ExtendedTooltip name="ВидОперацииДДСБезналичныйРасчетРасширеннаяПодсказка" id="24"/>
+							</InputField>
+							<CheckBoxField name="ДопустимНаличныйРасчет" id="25">
+								<TitleLocation>Right</TitleLocation>
+								<EditMode>EnterOnInput</EditMode>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ДопустимНаличныйРасчетКонтекстноеМеню" id="26"/>
+								<ExtendedTooltip name="ДопустимНаличныйРасчетРасширеннаяПодсказка" id="27"/>
+							</CheckBoxField>
+							<InputField name="ВидОперацииДДСНаличныйРасчет" id="28">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ВидОперацииДДСНаличныйРасчетКонтекстноеМеню" id="29"/>
+								<ExtendedTooltip name="ВидОперацииДДСНаличныйРасчетРасширеннаяПодсказка" id="30"/>
+							</InputField>
+							<CheckBoxField name="ЭтоПеремещениеСобственныхСредств" id="31">
+								<TitleLocation>Right</TitleLocation>
+								<EditMode>EnterOnInput</EditMode>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ЭтоПеремещениеСобственныхСредствКонтекстноеМеню" id="32"/>
+								<ExtendedTooltip name="ЭтоПеремещениеСобственныхСредствРасширеннаяПодсказка" id="33"/>
+							</CheckBoxField>
+							<InputField name="ВстречныйВидОперацииПереводСобственныхСредств" id="34">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ВстречныйВидОперацииПереводСобственныхСредствКонтекстноеМеню" id="35"/>
+								<ExtendedTooltip name="ВстречныйВидОперацииПереводСобственныхСредствРасширеннаяПодсказка" id="36"/>
+							</InputField>
+							<InputField name="ВстречныйВидОперацииВГО" id="37">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ВстречныйВидОперацииВГОКонтекстноеМеню" id="38"/>
+								<ExtendedTooltip name="ВстречныйВидОперацииВГОРасширеннаяПодсказка" id="39"/>
+							</InputField>
+							<InputField name="ОсновнойВидДоговора" id="58">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ОсновнойВидДоговораКонтекстноеМеню" id="59"/>
+								<ExtendedTooltip name="ОсновнойВидДоговораРасширеннаяПодсказка" id="60"/>
+							</InputField>
+							<InputField name="РольКонтрагента" id="133">
+								<ContextMenu name="РольКонтрагентаКонтекстноеМеню" id="134"/>
+								<ExtendedTooltip name="РольКонтрагентаРасширеннаяПодсказка" id="135"/>
+							</InputField>
+						</ChildItems>
+					</Page>
+					<Page name="ГруппаПризнаки" id="120">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Признаки</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа признаки</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ГруппаПризнакиРасширеннаяПодсказка" id="121"/>
+						<ChildItems>
+							<UsualGroup name="ГруппаФлагов" id="95">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа флагов</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа флагов</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>AlwaysHorizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаФлаговРасширеннаяПодсказка" id="96"/>
+								<ChildItems>
+									<UsualGroup name="ГруппаЛеваяФлагов" id="97">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа левая флагов</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа левая флагов</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаЛеваяФлаговРасширеннаяПодсказка" id="98"/>
+										<ChildItems>
+											<CheckBoxField name="ЭтоКонвертацияВалюты" id="55">
+												<TitleLocation>Right</TitleLocation>
+												<EditMode>EnterOnInput</EditMode>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ЭтоКонвертацияВалютыКонтекстноеМеню" id="56"/>
+												<ExtendedTooltip name="ЭтоКонвертацияВалютыРасширеннаяПодсказка" id="57"/>
+											</CheckBoxField>
+											<CheckBoxField name="ЭтоРасчетыСКонтрагентом" id="43">
+												<TitleLocation>Right</TitleLocation>
+												<EditMode>EnterOnInput</EditMode>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ЭтоРасчетыСКонтрагентомКонтекстноеМеню" id="44"/>
+												<ExtendedTooltip name="ЭтоРасчетыСКонтрагентомРасширеннаяПодсказка" id="45"/>
+											</CheckBoxField>
+											<CheckBoxField name="ЭтоРасчетыСФизическимЛицом" id="46">
+												<TitleLocation>Right</TitleLocation>
+												<EditMode>EnterOnInput</EditMode>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ЭтоРасчетыСФизическимЛицомКонтекстноеМеню" id="47"/>
+												<ExtendedTooltip name="ЭтоРасчетыСФизическимЛицомРасширеннаяПодсказка" id="48"/>
+											</CheckBoxField>
+											<CheckBoxField name="ЭтоРасчетыПоЦеннымБумагам" id="52">
+												<TitleLocation>Right</TitleLocation>
+												<EditMode>EnterOnInput</EditMode>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ЭтоРасчетыПоЦеннымБумагамКонтекстноеМеню" id="53"/>
+												<ExtendedTooltip name="ЭтоРасчетыПоЦеннымБумагамРасширеннаяПодсказка" id="54"/>
+											</CheckBoxField>
+											<CheckBoxField name="ЭтоРасчетыПоНалогамИСборам" id="61">
+												<TitleLocation>Right</TitleLocation>
+												<EditMode>EnterOnInput</EditMode>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ЭтоРасчетыПоНалогамИСборамКонтекстноеМеню" id="62"/>
+												<ExtendedTooltip name="ЭтоРасчетыПоНалогамИСборамРасширеннаяПодсказка" id="63"/>
+											</CheckBoxField>
+											<CheckBoxField name="ЭтоРасчетыБезДоговора" id="64">
+												<TitleLocation>Right</TitleLocation>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ЭтоРасчетыБезДоговораКонтекстноеМеню" id="65"/>
+												<ExtendedTooltip name="ЭтоРасчетыБезДоговораРасширеннаяПодсказка" id="66"/>
+											</CheckBoxField>
+											<CheckBoxField name="ЭтоРасчетыССамозанятыми" id="107">
+												<TitleLocation>Right</TitleLocation>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ЭтоРасчетыССамозанятымиКонтекстноеМеню" id="108"/>
+												<ExtendedTooltip name="ЭтоРасчетыССамозанятымиРасширеннаяПодсказка" id="109"/>
+											</CheckBoxField>
+											<CheckBoxField name="ЭтоФакторинг" id="124">
+												<TitleLocation>Right</TitleLocation>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ЭтоФакторингКонтекстноеМеню" id="125"/>
+												<ExtendedTooltip name="ЭтоФакторингРасширеннаяПодсказка" id="126"/>
+											</CheckBoxField>
+											<CheckBoxField name="ЭтоРасчетыСНаемнымиРаботниками" id="127">
+												<TitleLocation>Right</TitleLocation>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ЭтоРасчетыСНаемнымиРаботникамиКонтекстноеМеню" id="128"/>
+												<ExtendedTooltip name="ЭтоРасчетыСНаемнымиРаботникамиРасширеннаяПодсказка" id="129"/>
+											</CheckBoxField>
+											<CheckBoxField name="ЭтоИнкассация" id="130">
+												<TitleLocation>Right</TitleLocation>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ЭтоИнкассацияКонтекстноеМеню" id="131"/>
+												<ExtendedTooltip name="ЭтоИнкассацияРасширеннаяПодсказка" id="132"/>
+											</CheckBoxField>
+										</ChildItems>
+									</UsualGroup>
+									<UsualGroup name="ГруппаПраваяФлагов" id="99">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа правая флагов</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа правая флагов</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаПраваяФлаговРасширеннаяПодсказка" id="100"/>
+										<ChildItems>
+											<CheckBoxField name="ИспользоватьСуммуСтавкуНДС" id="49">
+												<TitleLocation>Right</TitleLocation>
+												<EditMode>EnterOnInput</EditMode>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ИспользоватьСуммуСтавкуНДСКонтекстноеМеню" id="50"/>
+												<ExtendedTooltip name="ИспользоватьСуммуСтавкуНДСРасширеннаяПодсказка" id="51"/>
+											</CheckBoxField>
+											<CheckBoxField name="ИспользуетсяВЗаявках" id="40">
+												<TitleLocation>Right</TitleLocation>
+												<EditMode>EnterOnInput</EditMode>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ИспользуетсяВЗаявкахКонтекстноеМеню" id="41"/>
+												<ExtendedTooltip name="ИспользуетсяВЗаявкахРасширеннаяПодсказка" id="42"/>
+											</CheckBoxField>
+											<CheckBoxField name="ИспользуетсяВДокументахФакта" id="101">
+												<TitleLocation>Right</TitleLocation>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ИспользуетсяВДокументахФактаКонтекстноеМеню" id="102"/>
+												<ExtendedTooltip name="ИспользуетсяВДокументахФактаРасширеннаяПодсказка" id="103"/>
+											</CheckBoxField>
+											<CheckBoxField name="РасшифровкаПлатежаВТабличнойЧасти" id="73">
+												<TitleLocation>Right</TitleLocation>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="РасшифровкаПлатежаВТабличнойЧастиКонтекстноеМеню" id="74"/>
+												<ExtendedTooltip name="РасшифровкаПлатежаВТабличнойЧастиРасширеннаяПодсказка" id="75"/>
+											</CheckBoxField>
+											<CheckBoxField name="ИспользуетсяВПлатежныхПоручениях" id="104">
+												<TitleLocation>Right</TitleLocation>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ИспользуетсяВПлатежныхПорученияхКонтекстноеМеню" id="105"/>
+												<ExtendedTooltip name="ИспользуетсяВПлатежныхПорученияхРасширеннаяПодсказка" id="106"/>
+											</CheckBoxField>
+											<CheckBoxField name="ИспользуетсяДляЮридическихЛиц" id="110">
+												<TitleLocation>Right</TitleLocation>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ИспользуетсяДляЮридическихЛицКонтекстноеМеню" id="111"/>
+												<ExtendedTooltip name="ИспользуетсяДляЮридическихЛицРасширеннаяПодсказка" id="112"/>
+											</CheckBoxField>
+											<CheckBoxField name="ИспользуетсяДляИндивидуальныхПредпринимателей" id="113">
+												<TitleLocation>Right</TitleLocation>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ИспользуетсяДляИндивидуальныхПредпринимателейКонтекстноеМеню" id="114"/>
+												<ExtendedTooltip name="ИспользуетсяДляИндивидуальныхПредпринимателейРасширеннаяПодсказка" id="115"/>
+											</CheckBoxField>
+										</ChildItems>
+									</UsualGroup>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</Page>
+					<Page name="ГруппаВидовОпераций" id="118">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Допустимые виды договоров</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа видов операций</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ГруппаВидовОперацийРасширеннаяПодсказка" id="119"/>
+						<ChildItems>
+							<Table name="ДопустимыеВидыДоговоров" id="76">
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="ДопустимыеВидыДоговоровКонтекстноеМеню" id="77"/>
+								<AutoCommandBar name="ДопустимыеВидыДоговоровКоманднаяПанель" id="78"/>
+								<ExtendedTooltip name="ДопустимыеВидыДоговоровРасширеннаяПодсказка" id="79"/>
+								<SearchStringAddition name="ДопустимыеВидыДоговоровСтрокаПоиска" id="80">
+									<AdditionSource>
+										<Item>ДопустимыеВидыДоговоров</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ДопустимыеВидыДоговоровСтрокаПоискаКонтекстноеМеню" id="81"/>
+									<ExtendedTooltip name="ДопустимыеВидыДоговоровСтрокаПоискаРасширеннаяПодсказка" id="82"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="ДопустимыеВидыДоговоровСостояниеПросмотра" id="83">
+									<AdditionSource>
+										<Item>ДопустимыеВидыДоговоров</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ДопустимыеВидыДоговоровСостояниеПросмотраКонтекстноеМеню" id="84"/>
+									<ExtendedTooltip name="ДопустимыеВидыДоговоровСостояниеПросмотраРасширеннаяПодсказка" id="85"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="ДопустимыеВидыДоговоровУправлениеПоиском" id="86">
+									<AdditionSource>
+										<Item>ДопустимыеВидыДоговоров</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="ДопустимыеВидыДоговоровУправлениеПоискомКонтекстноеМеню" id="87"/>
+									<ExtendedTooltip name="ДопустимыеВидыДоговоровУправлениеПоискомРасширеннаяПодсказка" id="88"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<LabelField name="ДопустимыеВидыДоговоровНомерСтроки" id="89">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ДопустимыеВидыДоговоровНомерСтрокиКонтекстноеМеню" id="90"/>
+										<ExtendedTooltip name="ДопустимыеВидыДоговоровНомерСтрокиРасширеннаяПодсказка" id="91"/>
+									</LabelField>
+									<InputField name="ДопустимыеВидыДоговоровВидДоговора" id="92">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ДопустимыеВидыДоговоровВидДоговораКонтекстноеМеню" id="93"/>
+										<ExtendedTooltip name="ДопустимыеВидыДоговоровВидДоговораРасширеннаяПодсказка" id="94"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+				</ChildItems>
+			</Pages>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

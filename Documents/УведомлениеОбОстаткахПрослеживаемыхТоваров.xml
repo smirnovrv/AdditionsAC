@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="76bcd2fa-ece9-46d1-bff6-9348aa10840f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.УведомлениеОбОстаткахПрослеживаемыхТоваров" category="Object">
+				<xr:TypeId>519c52b9-db73-4331-bc57-2ef16fcb65a5</xr:TypeId>
+				<xr:ValueId>74b0ab74-be95-4cd0-aa65-f2d5adc4f5c0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.УведомлениеОбОстаткахПрослеживаемыхТоваров" category="Ref">
+				<xr:TypeId>6e5bab99-bfdb-4bdf-a8a4-fe58895fa79a</xr:TypeId>
+				<xr:ValueId>7483bf1a-227d-43ab-8543-16cc3b67818e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.УведомлениеОбОстаткахПрослеживаемыхТоваров" category="Selection">
+				<xr:TypeId>658ada4e-0832-44e8-a152-4c883d806c57</xr:TypeId>
+				<xr:ValueId>dd8cde8e-00b9-4dfb-b668-65c677dba2a0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.УведомлениеОбОстаткахПрослеживаемыхТоваров" category="List">
+				<xr:TypeId>b75e3895-9c3d-4fcc-952e-5ad59eeb7eb8</xr:TypeId>
+				<xr:ValueId>404e4876-703c-460c-917d-f543728212a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.УведомлениеОбОстаткахПрослеживаемыхТоваров" category="Manager">
+				<xr:TypeId>a35fef20-a5f4-4104-b9fb-c32f0b0f58be</xr:TypeId>
+				<xr:ValueId>20622d9c-e091-4966-aecb-773a21db3843</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УведомлениеОбОстаткахПрослеживаемыхТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ada8ef0c-fe77-4153-b7ef-b25507a9dc6a</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

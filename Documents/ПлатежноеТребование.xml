@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="029bcbf5-957c-425b-9063-d116f5f1d733">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПлатежноеТребование" category="Object">
+				<xr:TypeId>1a2cf9a4-8449-4afb-bbde-d6118ca5c8bf</xr:TypeId>
+				<xr:ValueId>cae04586-3699-4463-9440-2dd02c0e0924</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПлатежноеТребование" category="Ref">
+				<xr:TypeId>e04e1866-683c-41d0-ac06-e94232de5b59</xr:TypeId>
+				<xr:ValueId>ced64793-6a9a-4dcc-a7fc-1216ca0c65df</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПлатежноеТребование" category="Selection">
+				<xr:TypeId>3f4e0b9b-4f84-4037-ae3a-ddba45e51195</xr:TypeId>
+				<xr:ValueId>c16f28cf-d113-48a5-9960-eed82b68d3ca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПлатежноеТребование" category="List">
+				<xr:TypeId>da2d8dcf-d2ca-4ff4-86db-9f0d55d2b4ee</xr:TypeId>
+				<xr:ValueId>d212a6da-7829-4400-824d-8e514aaaf4db</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПлатежноеТребование" category="Manager">
+				<xr:TypeId>4bb1fe38-d46d-455f-970d-da10790a84c3</xr:TypeId>
+				<xr:ValueId>713127f7-403b-4d3e-af52-80b44a0b0424</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПлатежноеТребование</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b92db82f-cc9a-4940-91e6-6c0a21700966</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

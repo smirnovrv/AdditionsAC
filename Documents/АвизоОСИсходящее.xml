@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="bf9bc9b1-b85a-40cd-8a92-a02a2eec2d4b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.АвизоОСИсходящее" category="Object">
+				<xr:TypeId>34a9a03a-0d6c-4b25-932d-c34da4689dcb</xr:TypeId>
+				<xr:ValueId>e26f0d83-e666-45a8-89b8-ccf316882377</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.АвизоОСИсходящее" category="Ref">
+				<xr:TypeId>1c94ee5e-bd68-4371-a082-f992fdccd9cc</xr:TypeId>
+				<xr:ValueId>ee14341f-f627-42c4-91e7-cd45ab9b686e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.АвизоОСИсходящее" category="Selection">
+				<xr:TypeId>b2e2a82a-00b0-4662-adcd-78747bdf6ae6</xr:TypeId>
+				<xr:ValueId>cdff23cb-28e6-4eef-84d0-934416d318ab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.АвизоОСИсходящее" category="List">
+				<xr:TypeId>c4bc7296-63f4-428f-ab48-c96dee35a781</xr:TypeId>
+				<xr:ValueId>41a6dbb1-946a-478a-b373-5c5f1f607f09</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.АвизоОСИсходящее" category="Manager">
+				<xr:TypeId>907e47df-c311-4536-8c3f-4c35eff77386</xr:TypeId>
+				<xr:ValueId>c378385d-7dcb-4f57-bca4-df85fdcb3780</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АвизоОСИсходящее</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d14fad40-bf00-4ca3-867d-516a2eb9ab7c</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

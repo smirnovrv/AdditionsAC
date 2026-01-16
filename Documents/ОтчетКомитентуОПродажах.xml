@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="48d55bdf-5167-4404-8b35-260095a7b777">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтчетКомитентуОПродажах" category="Object">
+				<xr:TypeId>f39442e7-f965-4c22-be9b-6a386c035d00</xr:TypeId>
+				<xr:ValueId>49dc0ce5-eeb9-46d4-b591-557658dff439</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтчетКомитентуОПродажах" category="Ref">
+				<xr:TypeId>f40c7c11-c73b-4589-8c86-154665bd1c49</xr:TypeId>
+				<xr:ValueId>11a48629-a8fb-406c-9ad5-6a4471bf213f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтчетКомитентуОПродажах" category="Selection">
+				<xr:TypeId>a9136e1f-9c29-4a66-bb9e-c73ac9224879</xr:TypeId>
+				<xr:ValueId>b9c896dc-3872-4b42-bf5a-cb2bd5ecf791</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтчетКомитентуОПродажах" category="List">
+				<xr:TypeId>05866d21-f057-44dd-9dd9-95205cb45867</xr:TypeId>
+				<xr:ValueId>2d17ec41-22e9-4274-9c9f-594c8a7d260c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтчетКомитентуОПродажах" category="Manager">
+				<xr:TypeId>1f26fe91-095d-43d4-a1ef-800acc8f6e32</xr:TypeId>
+				<xr:ValueId>98ba9cd1-7778-4239-ae4c-33cbc5d7b243</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтчетКомитентуОПродажах</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>69b505d4-c3ba-4bf9-9ddf-21e838f87bdb</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="4e012589-243a-4539-ac9d-911659cc03ae">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6d962cd0-7171-4a41-a6b9-0aa5da9065dc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="744bd20f-594f-415c-8aa0-31b92fce9ed6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>090ba57c-6205-4b45-8e6b-5febafacfc81</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

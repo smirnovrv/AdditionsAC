@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="cc843708-5f20-4435-894d-9281350ed046">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВыкупПредметовЛизинга" category="Object">
+				<xr:TypeId>1c2f8871-e772-48ec-80d9-878907945e8a</xr:TypeId>
+				<xr:ValueId>8643f671-5653-46b3-8c29-f76e098c3dc7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВыкупПредметовЛизинга" category="Ref">
+				<xr:TypeId>5ec258c1-06d6-42c3-971c-3d13e4c096bd</xr:TypeId>
+				<xr:ValueId>4c0ebc10-448e-42ef-b373-e31ddc2954ca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВыкупПредметовЛизинга" category="Selection">
+				<xr:TypeId>46884982-a18d-48ea-b5ba-ac14f9c38e31</xr:TypeId>
+				<xr:ValueId>a38eb202-4e4f-4a6b-abdd-988b54f3b598</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВыкупПредметовЛизинга" category="List">
+				<xr:TypeId>28df16a8-7bce-4089-9d2b-180999e2b963</xr:TypeId>
+				<xr:ValueId>288c3403-33b4-4808-9103-dc21dd4feadd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВыкупПредметовЛизинга" category="Manager">
+				<xr:TypeId>0b851300-955f-4aa6-beb4-a8c57166c9ae</xr:TypeId>
+				<xr:ValueId>d5595021-5877-461c-bfa8-e497a2b4e8d6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВыкупПредметовЛизинга</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>37bb4c65-6d99-400b-a24f-bfd424f40b40</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="a9eaf7f5-5207-40c9-b44c-fab7b8c01c60">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>edf82c0b-6c4b-478c-bb50-b0a4613582db</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5a2461b3-dd66-4ddf-94da-c252f683e40a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4f8ee1eb-d01b-4576-a58f-74f0a56a8826</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

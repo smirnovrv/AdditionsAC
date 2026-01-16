@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="aab096e4-62d0-4a05-ac61-b31c61b9ec54">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЭтапыУниверсальныхПроцессов" category="Object">
+				<xr:TypeId>26269d4c-9726-4bc1-9248-a3d5a27cd372</xr:TypeId>
+				<xr:ValueId>e4dceb8d-6438-47b4-93aa-d0a1ee05968b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЭтапыУниверсальныхПроцессов" category="Ref">
+				<xr:TypeId>c6aaa29a-9696-40be-8bd8-9d1dd26e58c1</xr:TypeId>
+				<xr:ValueId>6b775dbd-ba61-4665-ab0a-594df08fb0c9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЭтапыУниверсальныхПроцессов" category="Selection">
+				<xr:TypeId>43da1870-a5d4-4c1b-96e6-a6391f927adc</xr:TypeId>
+				<xr:ValueId>a30885d0-472c-4ac4-814e-da6650865e10</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЭтапыУниверсальныхПроцессов" category="List">
+				<xr:TypeId>523714bb-5a68-443b-963a-4e15a593ffc4</xr:TypeId>
+				<xr:ValueId>4857ac7a-dd3f-4e67-83a2-8943eb7dc4b9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЭтапыУниверсальныхПроцессов" category="Manager">
+				<xr:TypeId>fe09c213-6690-4de7-9e7c-c4d70bfaa26f</xr:TypeId>
+				<xr:ValueId>cf44975a-b040-4eab-982b-3137cada3ca7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЭтапыУниверсальныхПроцессов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>97e93fec-2bdc-4790-b024-279842864f8c</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

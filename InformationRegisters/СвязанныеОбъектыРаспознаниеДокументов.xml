@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="6804fd82-fdcb-4864-86c4-fe7b2e988602">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СвязанныеОбъектыРаспознаниеДокументов" category="Record">
+				<xr:TypeId>dfb11f29-bcd5-4324-9c10-c3c36ecf4cab</xr:TypeId>
+				<xr:ValueId>8dabdd0a-edbe-4ef1-95e7-63af27f81f3e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СвязанныеОбъектыРаспознаниеДокументов" category="Manager">
+				<xr:TypeId>f9fa9409-0e79-4cbd-aeeb-5b4f59ffac70</xr:TypeId>
+				<xr:ValueId>50048ce5-2744-401d-8dce-c79878e28a4e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СвязанныеОбъектыРаспознаниеДокументов" category="Selection">
+				<xr:TypeId>739189a5-0275-4d6c-bfcf-b5ba1d3c9cbd</xr:TypeId>
+				<xr:ValueId>2c05e138-a1f3-4195-97b6-4d5c49f5c904</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СвязанныеОбъектыРаспознаниеДокументов" category="List">
+				<xr:TypeId>e93beb39-79df-4fea-9b8a-d56b16373517</xr:TypeId>
+				<xr:ValueId>2d49ec79-a6a7-408d-8638-b8e5859a5cab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СвязанныеОбъектыРаспознаниеДокументов" category="RecordSet">
+				<xr:TypeId>6e6e116f-7918-4ef7-8331-04e00b1fb4bf</xr:TypeId>
+				<xr:ValueId>d170d6f9-f60e-4f29-bfc7-5277ab878e81</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СвязанныеОбъектыРаспознаниеДокументов" category="RecordKey">
+				<xr:TypeId>b095bba4-6e8a-4c9b-b0e8-752bdda6a638</xr:TypeId>
+				<xr:ValueId>f5cd1f51-4c1d-4f14-909e-30ea50151b6b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СвязанныеОбъектыРаспознаниеДокументов" category="RecordManager">
+				<xr:TypeId>b5ff9820-2c30-4905-930f-b514a0e61cb6</xr:TypeId>
+				<xr:ValueId>9dab545f-b377-4984-9ec1-e5f2075d955d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СвязанныеОбъектыРаспознаниеДокументов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>fa4bf4a0-f4fc-4afc-9a75-78b3508e3094</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаВыбораСвязанного</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

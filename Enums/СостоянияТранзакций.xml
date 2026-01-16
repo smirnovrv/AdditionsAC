@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="4370f063-fb42-461c-a4af-0ffef553a77c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияТранзакций" category="Ref">
+				<xr:TypeId>583779dd-5b19-40fa-b67d-37102b0a2733</xr:TypeId>
+				<xr:ValueId>3799743d-58bc-4ba0-aae5-f5e2c696b84f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияТранзакций" category="Manager">
+				<xr:TypeId>834611b3-e3bf-4a51-99cc-a6db45c7f122</xr:TypeId>
+				<xr:ValueId>b933871f-949a-40a7-b828-bc64b0d1c1e0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияТранзакций" category="List">
+				<xr:TypeId>bde69e95-e467-45b4-88a3-f869d0f69220</xr:TypeId>
+				<xr:ValueId>e71b25cd-ccdc-497a-9adb-659a3279b069</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияТранзакций</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d5b0014f-74e1-47b3-9abd-5ed25d1751a2</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

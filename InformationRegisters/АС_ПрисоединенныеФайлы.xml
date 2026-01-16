@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="40c2f9a3-b13e-4a28-95a9-f89aace185f5">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.АС_ПрисоединенныеФайлы" category="Record">
+				<xr:TypeId>b355986e-6483-4eec-a8a8-a1c5cdcf7138</xr:TypeId>
+				<xr:ValueId>2aac2641-3045-4453-9776-f02473d58922</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.АС_ПрисоединенныеФайлы" category="Manager">
+				<xr:TypeId>6b25013e-72b6-431a-bb76-76151ea654dc</xr:TypeId>
+				<xr:ValueId>4885ccc4-ca05-450b-8e93-b7c76c71bc72</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.АС_ПрисоединенныеФайлы" category="Selection">
+				<xr:TypeId>b69411cc-9654-497b-9c66-913b4a8a147d</xr:TypeId>
+				<xr:ValueId>07ac1fa0-7aab-427c-b5e2-ff42b9b26f69</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.АС_ПрисоединенныеФайлы" category="List">
+				<xr:TypeId>a7e807db-6b95-4f7b-b4fa-0341e9c30888</xr:TypeId>
+				<xr:ValueId>114d1358-d44a-47b3-bfd3-5b59a805b8cc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.АС_ПрисоединенныеФайлы" category="RecordSet">
+				<xr:TypeId>e16424f4-b0c7-4b73-8c67-6ec24de7ad5f</xr:TypeId>
+				<xr:ValueId>7598cf04-66bc-42f3-b2cd-5707a8ac9abe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.АС_ПрисоединенныеФайлы" category="RecordKey">
+				<xr:TypeId>34f07665-b2ce-4b50-8186-5143181cd0ef</xr:TypeId>
+				<xr:ValueId>174b0973-5d9a-4ce9-92e2-8a6173dd94ae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.АС_ПрисоединенныеФайлы" category="RecordManager">
+				<xr:TypeId>b41efc87-7896-459e-9e84-848196fc6ff1</xr:TypeId>
+				<xr:ValueId>b22c5b00-1330-466f-b87d-46afd93626d3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АС_ПрисоединенныеФайлы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3be17889-c960-45f3-816c-677764d388a7</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="095f20ad-234a-4903-8bcd-22e8f2ca00b3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаявкаНаОплату</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>75b665f6-1a1b-4a92-8c37-61950cd6b4fb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЗаявкаНаРасходованиеДенежныхСредств</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="f9815f16-1044-4e6c-a224-39f1e1a127be">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПрисоединенныйФайл</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f54a7f04-2700-4af6-a44e-d371d01db1d5</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

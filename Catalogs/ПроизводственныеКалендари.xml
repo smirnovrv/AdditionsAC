@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="3ca23667-3177-41d7-ba04-8a16810976c0">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПроизводственныеКалендари" category="Object">
+				<xr:TypeId>c4065fca-4d8c-4703-83cf-b69af671c8e4</xr:TypeId>
+				<xr:ValueId>5fb3a24f-786f-4441-8a2f-ab7f37b6b03a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПроизводственныеКалендари" category="Ref">
+				<xr:TypeId>169485ee-b177-4c42-9e31-82248e2bbb6f</xr:TypeId>
+				<xr:ValueId>24844597-3e9e-4c6e-ba93-7c200e251dd1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПроизводственныеКалендари" category="Selection">
+				<xr:TypeId>27a025fb-5d9f-4148-a66e-43f5602379a5</xr:TypeId>
+				<xr:ValueId>d24c1309-3ebb-48eb-928d-a18308893f6b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПроизводственныеКалендари" category="List">
+				<xr:TypeId>05d5f0b1-0ea6-4c73-bc7a-cba5c248330e</xr:TypeId>
+				<xr:ValueId>ad3c39dd-8e28-4d17-80c1-762aa6d76e8a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПроизводственныеКалендари" category="Manager">
+				<xr:TypeId>74ca63bb-7a25-4100-a559-cbd605049977</xr:TypeId>
+				<xr:ValueId>625baa50-6def-4cb7-abc6-6e35cce8846b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПроизводственныеКалендари</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>77149f7a-8a76-4569-9487-991c41e132ef</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

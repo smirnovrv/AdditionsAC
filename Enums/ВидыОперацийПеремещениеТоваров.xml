@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="af0075b8-ee33-4cf1-b034-77ee1a545f54">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацийПеремещениеТоваров" category="Ref">
+				<xr:TypeId>6350f72e-e694-4f6f-bf24-eaf6846b3931</xr:TypeId>
+				<xr:ValueId>c79c5cfa-89d6-4eac-93b5-5a8029f3bd74</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацийПеремещениеТоваров" category="Manager">
+				<xr:TypeId>e7f8346b-2d6b-4475-8469-de4d1ff819df</xr:TypeId>
+				<xr:ValueId>05b72b07-9d63-462f-9301-726191c0ce4c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацийПеремещениеТоваров" category="List">
+				<xr:TypeId>145ac30c-99dc-4760-9218-926c29646db2</xr:TypeId>
+				<xr:ValueId>499627d7-dc2c-4c19-ab42-d3f5ea765e76</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыОперацийПеремещениеТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>265f9d94-84ff-4487-bf48-cd5a0f3c89c3</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="1da0b544-4d14-4491-b267-313a81553df5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПередачаМеждуСкладами</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>33b65b4b-ce04-464d-a373-c45afaf394ca</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cf1b509d-6948-4a2f-85ee-7c969436570f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПередачаМеждуСотрудниками</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fd92c760-4164-4f74-b6a0-af82296f0634</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

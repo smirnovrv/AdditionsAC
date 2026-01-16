@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="51f1ea2d-2305-468f-b666-254bb268357b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПередачаЗадолженностиНаФакторинг" category="Object">
+				<xr:TypeId>aadff7a0-4fa7-4c91-ba4b-4f7cb741b5d1</xr:TypeId>
+				<xr:ValueId>b1b102f4-e605-4e99-9f6e-4a061473bcc4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПередачаЗадолженностиНаФакторинг" category="Ref">
+				<xr:TypeId>ff43e36d-46f6-4264-82b3-71fdf742c06a</xr:TypeId>
+				<xr:ValueId>a632c71a-8915-4d9e-8be8-4ba3407a9aab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПередачаЗадолженностиНаФакторинг" category="Selection">
+				<xr:TypeId>03d79299-2a1f-454c-a292-b97ee5b85847</xr:TypeId>
+				<xr:ValueId>f935aad6-e0a7-4fc6-9a09-61d171f33761</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПередачаЗадолженностиНаФакторинг" category="List">
+				<xr:TypeId>4ac8ed45-e11e-4926-ac79-a1e96b3525b7</xr:TypeId>
+				<xr:ValueId>27fc2183-bde5-474c-a1cf-764732660145</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПередачаЗадолженностиНаФакторинг" category="Manager">
+				<xr:TypeId>0058d4f2-40f8-414d-898e-58b16148d2f7</xr:TypeId>
+				<xr:ValueId>bfe59a48-a16c-4c93-b771-5f178a338b55</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПередачаЗадолженностиНаФакторинг</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>df0b11ff-8070-4c24-b0b7-8364493ff94e</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="7b9ad3ac-145b-4a1c-8ea4-390a4b51b5a9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d0753350-176c-4b2d-924e-e6b8710fa91e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7dacb6cf-f9e3-4145-8432-77db13fa3373">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ФакторинговаяКомпания</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>335f9680-ed34-4013-b010-b6eca10afb71</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8bad060b-7fb2-41c4-8cc6-8a7c2b381c53">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c744e197-2193-4da1-a1ab-9662bd86aa6f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c69d8bab-d114-42e8-8891-c8dd6bd4b5c8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорФакторинга</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3455db6f-674e-4a7c-9356-feca1af79cc7</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

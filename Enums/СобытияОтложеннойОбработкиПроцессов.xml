@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="5429c77b-f4f3-4237-b777-276209f47a41">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СобытияОтложеннойОбработкиПроцессов" category="Ref">
+				<xr:TypeId>7d74fd7d-7dfb-4769-a816-98f212a3845e</xr:TypeId>
+				<xr:ValueId>4f7ea5be-57f0-4486-acca-0b30615b6671</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СобытияОтложеннойОбработкиПроцессов" category="Manager">
+				<xr:TypeId>f65a7a53-4e75-4bda-9fbe-fe2945310956</xr:TypeId>
+				<xr:ValueId>1ed42aa6-a948-4281-ad1a-070f2f25b406</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СобытияОтложеннойОбработкиПроцессов" category="List">
+				<xr:TypeId>fa59b323-8721-44b1-bc23-605188aa402d</xr:TypeId>
+				<xr:ValueId>f9f153e7-48c1-41d2-9b58-8120e3ce2e1e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СобытияОтложеннойОбработкиПроцессов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>786cfa08-e3c0-4c34-820e-2d31094ea308</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="bef1a2be-2f14-4c88-b2ff-869e01227f9f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АвтоУтверждениеПоТаймауту</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d7cbd3ad-fa42-4149-a50f-bccb0b0cf414</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="effb8207-98ef-42cf-b312-6bf2103f12ac">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АвтоВыполнениеЭтапа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>27909d1b-e2c1-4d60-a23e-e0468aced1dd</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ae9cfd67-2752-4e43-85e5-0b3b4d899db0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РучноеВыполнениеЭтапа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>64814e61-89a1-4ed2-9cd6-88468a4740ac</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d09eea3b-c310-44c3-b919-90ca59e55c3d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбработкаЭтапаСогласования</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a13fd923-99ba-43a0-bcf0-54eed13f82fa</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f7cb050b-0ce8-4cc7-a302-9e7cda792e63">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДополнительноеСогласованиеЭтапа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>86375030-62fe-4e10-8505-9592766879db</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="eaaf72cd-b77c-41ca-bd16-a999e9678ef8">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ОтложеннаяОбработкаЭтаповПроцессов" category="Record">
+				<xr:TypeId>32799301-4f7d-4782-8348-e0bc71b6d7f7</xr:TypeId>
+				<xr:ValueId>13717c39-6ac6-4637-9e74-580e6b680a93</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ОтложеннаяОбработкаЭтаповПроцессов" category="Manager">
+				<xr:TypeId>00b88993-1946-4162-9108-6778ccf2dc9a</xr:TypeId>
+				<xr:ValueId>9e3a1538-f8d6-4305-94e7-560e5df4f94f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ОтложеннаяОбработкаЭтаповПроцессов" category="Selection">
+				<xr:TypeId>50c69e83-e429-4d62-8bdd-e4488c16a3ef</xr:TypeId>
+				<xr:ValueId>52f41d04-5064-4755-913d-75226a2fa2ca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ОтложеннаяОбработкаЭтаповПроцессов" category="List">
+				<xr:TypeId>71a6de7e-6830-4296-8067-05ad45e7a252</xr:TypeId>
+				<xr:ValueId>3ae47e2a-9c59-4bc7-b5a1-1630cdabc999</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ОтложеннаяОбработкаЭтаповПроцессов" category="RecordSet">
+				<xr:TypeId>d7403dc6-7351-4f40-9da5-92a73cc40a48</xr:TypeId>
+				<xr:ValueId>831f0845-ba46-4fbd-a97b-df82eac987b5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ОтложеннаяОбработкаЭтаповПроцессов" category="RecordKey">
+				<xr:TypeId>a2b4bdd7-867d-4d22-8da0-22b73a594599</xr:TypeId>
+				<xr:ValueId>7bd214fc-f792-49cc-8cbf-30b196f04081</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ОтложеннаяОбработкаЭтаповПроцессов" category="RecordManager">
+				<xr:TypeId>e15c62e1-6f88-402f-bbeb-1f5f5f3fadef</xr:TypeId>
+				<xr:ValueId>970eaee6-4686-43bd-99fb-59a510852263</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтложеннаяОбработкаЭтаповПроцессов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1a284b2e-cec5-4114-894e-93127b34b39f</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="e834c875-edbe-46ae-a2b7-92ea0c56c498">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВремяЗавершенияЗадания</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>67255bf8-4d42-4d4d-bb60-4ce43ab5af64</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="9228d69c-347a-49c9-a39c-fa28253f4785">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЭтапПроцесса</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a48cd285-623e-4bd9-8553-9d65ac5cb711</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЭтапыУниверсальныхПроцессов</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="296387d1-115d-4828-8175-cde1116f85f7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументПроцесса</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>794253d2-66a8-4a1d-9904-397fb8b24851</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЭкземплярПроцесса</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="98925b98-91b1-4e8d-ac5f-be1b612250c0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Выполнено</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f7594020-3931-4506-b03a-53e3226ff390</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="20c5b302-bc41-44e9-92f3-2635a3a34085">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Ответственный</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>aebe595a-4502-4471-86f4-8ae0a6cf69bd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="6adaa896-c5a7-4502-868a-e2135b9a1d59">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Задача</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9058e8ef-9d76-4307-95c4-849ff69805b6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Задачи</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="3f46e912-ce5b-497c-ad6e-5972921f21c1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВидДействия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0d1195b1-3f4b-4e7a-9510-4f653f5405fb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.СобытияОтложеннойОбработкиПроцессов</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="416776d0-49b2-41d8-84e3-e47236d5d12a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипКлючевогоОбъекта</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9958e639-7efc-4177-b46c-4fd5843aa0c3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДокументыБД</v8:Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

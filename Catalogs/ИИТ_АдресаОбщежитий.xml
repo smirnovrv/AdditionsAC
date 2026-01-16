@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="a7defa9e-ac95-40d3-abe7-e7d57cb390da">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ИИТ_АдресаОбщежитий" category="Object">
+				<xr:TypeId>e849b4a5-f26f-4570-8e2d-abd01092036d</xr:TypeId>
+				<xr:ValueId>6e8b924d-c5bf-4910-ad9e-14f6e507e70b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ИИТ_АдресаОбщежитий" category="Ref">
+				<xr:TypeId>ea8401e5-9422-42c1-823a-cc2f9f48680f</xr:TypeId>
+				<xr:ValueId>03c83d50-cf0f-4239-a4c5-e167669a27e8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ИИТ_АдресаОбщежитий" category="Selection">
+				<xr:TypeId>624c357b-7b96-473e-bb9b-6ba6a039c393</xr:TypeId>
+				<xr:ValueId>915d5794-f406-4d60-af2f-73335c6c931e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ИИТ_АдресаОбщежитий" category="List">
+				<xr:TypeId>3ffd5032-9ac1-4fce-9aab-fdeb3744dd76</xr:TypeId>
+				<xr:ValueId>82b0409c-d0c5-4e7c-b81d-232cc82ca167</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ИИТ_АдресаОбщежитий" category="Manager">
+				<xr:TypeId>0c623374-9ce2-44ef-a2e7-48865cdba037</xr:TypeId>
+				<xr:ValueId>379c43f6-12db-472d-80fa-eaaa80b942f3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИИТ_АдресаОбщежитий</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7909a203-b152-4347-b43d-525b4e67242b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

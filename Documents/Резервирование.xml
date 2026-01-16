@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="06a6521b-4f04-4039-bc80-08354ec82e78">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Резервирование" category="Object">
+				<xr:TypeId>61827697-7e6f-4ac0-b186-04396095ba58</xr:TypeId>
+				<xr:ValueId>ffac113d-18a2-436b-915d-7e9e94b449cf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Резервирование" category="Ref">
+				<xr:TypeId>cf031e45-dabe-4c6b-abc3-0e5dc4448594</xr:TypeId>
+				<xr:ValueId>021e5ea9-79bb-45b6-a813-b70e12ba29cd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Резервирование" category="Selection">
+				<xr:TypeId>6808a8db-184f-45da-932e-23f11717fa8a</xr:TypeId>
+				<xr:ValueId>cafd8b25-9f6b-4b7b-9363-a76dbe81c30b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Резервирование" category="List">
+				<xr:TypeId>b418a99f-476b-4379-81bf-ca8c9e188d9c</xr:TypeId>
+				<xr:ValueId>0fc6bc74-8629-40a9-90c6-714ccbe8b090</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Резервирование" category="Manager">
+				<xr:TypeId>160eee12-25ae-471b-b475-8b00eb280a02</xr:TypeId>
+				<xr:ValueId>f22c6642-ab5e-4c5f-a211-743f273fd1a3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Резервирование</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>387c77fe-dadd-4f39-b70a-d1fb0bc3259f</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

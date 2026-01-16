@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="c62d1939-baca-43b6-b9bc-306b19c68d49">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыОперацийУХ" category="Object">
+				<xr:TypeId>9f2aeda4-f934-48a7-bb59-58f3a5efe125</xr:TypeId>
+				<xr:ValueId>708840a4-1fe5-47ae-a256-b22d14963433</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыОперацийУХ" category="Ref">
+				<xr:TypeId>53dd7a6d-fffd-4804-84a7-e06d3b7b56e5</xr:TypeId>
+				<xr:ValueId>e0b05b7b-d533-4e8d-b2bd-a0cbcb098e24</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыОперацийУХ" category="Selection">
+				<xr:TypeId>bd153195-0d70-406b-8682-45340d73bc02</xr:TypeId>
+				<xr:ValueId>b338f71c-fd92-432a-ad12-119963d746ae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыОперацийУХ" category="List">
+				<xr:TypeId>ec9d767e-ff88-4ea2-b6d3-cadcdf3c0f74</xr:TypeId>
+				<xr:ValueId>0a267f71-df1c-451d-a273-a72e8a8ef665</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыОперацийУХ" category="Manager">
+				<xr:TypeId>792b909c-b240-4a86-a9bf-1cb90f380046</xr:TypeId>
+				<xr:ValueId>9c891329-e8ef-4cfb-ad88-a77aba92abe0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>Predefined</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыОперацийУХ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>91d4b991-ae99-4ef6-b348-92cf4be7d142</ExtendedConfigurationObject>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>100</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

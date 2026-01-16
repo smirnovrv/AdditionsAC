@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="f67a4e7f-9359-4d9e-819d-b67fc5919091">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ФормированиеЗаписейКнигиПродаж" category="Object">
+				<xr:TypeId>7c511a0b-dd96-4ff1-9bf1-1f9665f4b322</xr:TypeId>
+				<xr:ValueId>0c0c09be-d62a-4929-ad4d-6e57a7562da2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ФормированиеЗаписейКнигиПродаж" category="Ref">
+				<xr:TypeId>fff88eb2-2b42-4f7c-8ca8-4c5f20194d99</xr:TypeId>
+				<xr:ValueId>393e2428-167b-4468-8238-f4d79a87fd0e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ФормированиеЗаписейКнигиПродаж" category="Selection">
+				<xr:TypeId>b58b0c94-354f-4066-83b6-d436e47955dd</xr:TypeId>
+				<xr:ValueId>b320d5ae-fdb9-4c85-aa3c-3cbaa27d0304</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ФормированиеЗаписейКнигиПродаж" category="List">
+				<xr:TypeId>ac9cdbef-5775-47fe-84d0-a9c12de04766</xr:TypeId>
+				<xr:ValueId>b9437f33-889f-42d1-b28d-98fae0a0f0ef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ФормированиеЗаписейКнигиПродаж" category="Manager">
+				<xr:TypeId>e962bd17-e987-44b0-b0b4-875532e97070</xr:TypeId>
+				<xr:ValueId>91dee233-cba6-4f3e-b0ec-f7c0bab33e4e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ФормированиеЗаписейКнигиПродаж</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>642117be-dba4-4c6c-b5e7-c2821543a830</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="75707a5e-343f-4572-b649-5827ed84a0f1">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.Заместители" category="Record">
+				<xr:TypeId>0de22e34-c4b7-4b2e-af50-c65f30e9daae</xr:TypeId>
+				<xr:ValueId>875bc500-8571-4d63-9ee6-60c2c6c35d21</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.Заместители" category="Manager">
+				<xr:TypeId>71035a31-4c3b-4afd-9018-df8ecbdbb04c</xr:TypeId>
+				<xr:ValueId>87fd2d58-dcc2-42fe-8115-83245c55707e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.Заместители" category="Selection">
+				<xr:TypeId>8d87e5f4-c5a1-4880-9876-7aa5319f720c</xr:TypeId>
+				<xr:ValueId>6c95ac36-beff-4700-aa3e-79b0b719af17</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.Заместители" category="List">
+				<xr:TypeId>cbbdc171-4350-4f15-b1a2-46340c0086eb</xr:TypeId>
+				<xr:ValueId>fb7da0d6-e25f-4f7f-9162-bca6e30996bf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.Заместители" category="RecordSet">
+				<xr:TypeId>3850f528-9e0b-4a4d-98b9-39fe0a8e5f5f</xr:TypeId>
+				<xr:ValueId>05dbffba-3882-4221-b425-25801fe54573</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.Заместители" category="RecordKey">
+				<xr:TypeId>7fa54e8f-11df-4f0e-aa67-5eef0bd979eb</xr:TypeId>
+				<xr:ValueId>9dfb9361-858c-4e8a-a9ca-ccd064d98cfa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.Заместители" category="RecordManager">
+				<xr:TypeId>db3273c9-71bc-4791-a67b-adec379026cd</xr:TypeId>
+				<xr:ValueId>979fabae-0d55-4e7b-afb4-0d92bf4da226</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Заместители</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>68c85187-9cc2-4a29-b57f-4edaf0faa5ce</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="1ffdef44-9310-43d3-8be9-cc11ca3b2eab">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗамещаемыйПользователь</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>af7c96a3-3601-4b70-92f7-0298d574dd4e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="6c56e5b9-52e1-4a8e-912b-0ce661b05b3c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Заместитель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4b1059fb-5932-4f96-9b07-c971ef83a021</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

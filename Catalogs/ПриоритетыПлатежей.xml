@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="291543ce-3e65-415a-9d84-6b6002b6a9b8">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПриоритетыПлатежей" category="Object">
+				<xr:TypeId>96a86056-cf0e-4b72-b8b8-a8b080393a35</xr:TypeId>
+				<xr:ValueId>75711da8-2419-4d71-8607-f99ea9d741e2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПриоритетыПлатежей" category="Ref">
+				<xr:TypeId>fe5a3d33-7033-4819-9a0e-17d610279519</xr:TypeId>
+				<xr:ValueId>dc370fc2-9f31-4f4a-bab2-892cc47cb5fb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПриоритетыПлатежей" category="Selection">
+				<xr:TypeId>b1372153-7fd7-4d9e-bee0-e37341bb06e9</xr:TypeId>
+				<xr:ValueId>47782260-aa0a-46b6-bd26-b4132fb075c5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПриоритетыПлатежей" category="List">
+				<xr:TypeId>9a815cb1-7a48-4769-aee7-a9c5f9b8186c</xr:TypeId>
+				<xr:ValueId>53175ba5-31a2-4356-9a62-0eafaeeb6969</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПриоритетыПлатежей" category="Manager">
+				<xr:TypeId>d34f803a-fbaa-481c-af2a-8946c2ff6af5</xr:TypeId>
+				<xr:ValueId>53bb63fd-1ac2-4ad7-bcf7-0cb9577664d4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПриоритетыПлатежей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>43ae50e1-a9ac-4c8f-ab57-fa4dc7339acf</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

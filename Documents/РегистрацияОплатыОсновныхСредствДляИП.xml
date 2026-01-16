@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="dc245d41-ff51-4142-9239-47294189513a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РегистрацияОплатыОсновныхСредствДляИП" category="Object">
+				<xr:TypeId>1bb78933-6e1c-4574-aa56-28cc5abc3999</xr:TypeId>
+				<xr:ValueId>629d956c-df7e-4460-acbd-048085ca0316</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РегистрацияОплатыОсновныхСредствДляИП" category="Ref">
+				<xr:TypeId>c63381fc-be3a-4a53-8be2-e03fffb2709f</xr:TypeId>
+				<xr:ValueId>122c2132-c8b4-49dc-8d6a-48a2eb5c48bc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РегистрацияОплатыОсновныхСредствДляИП" category="Selection">
+				<xr:TypeId>6c1aef52-76f8-423e-9954-c63b7f1c0acd</xr:TypeId>
+				<xr:ValueId>b60e9095-171f-4070-a98a-a08fa5eaf4e6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РегистрацияОплатыОсновныхСредствДляИП" category="List">
+				<xr:TypeId>2a6d204a-2b85-4262-8fde-ed84e30d8c5d</xr:TypeId>
+				<xr:ValueId>afd8a1f0-f381-487f-a3e3-6ecc90b6fa33</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РегистрацияОплатыОсновныхСредствДляИП" category="Manager">
+				<xr:TypeId>41ddfd4b-0500-421c-a0ef-66f83a497e58</xr:TypeId>
+				<xr:ValueId>0fdf474e-7c5e-43e6-a819-463049b453ad</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РегистрацияОплатыОсновныхСредствДляИП</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0d98f12a-e3d4-450c-8c30-3033f39cd1a9</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

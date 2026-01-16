@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="3eec6c9f-820a-4054-9089-922e113556d3">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыЛотов" category="Ref">
+				<xr:TypeId>e3ea8892-177e-41e1-8af3-6c8dd1648290</xr:TypeId>
+				<xr:ValueId>b62f1ba1-8bd2-4167-bf0a-108cf2bf3a16</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыЛотов" category="Manager">
+				<xr:TypeId>dc7f61dc-dc43-4059-86d9-757c1ffe59df</xr:TypeId>
+				<xr:ValueId>52b54ce1-6c0c-441c-8c40-50bd50e4c59d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыЛотов" category="List">
+				<xr:TypeId>69e7bf6c-7c92-439c-ba06-cf631969db17</xr:TypeId>
+				<xr:ValueId>62362c46-ced6-44bf-960a-be27f5cdb0cb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыЛотов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e6e8590e-6869-4dea-bd68-b3b9c4a0feb8</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="94aae531-bd4b-4c4f-89a6-82f7dadfd10e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.УведомлениеОВвозеПрослеживаемыхТоваров" category="Object">
+				<xr:TypeId>689ad10a-27a5-4b97-960a-cc6f9089a7c9</xr:TypeId>
+				<xr:ValueId>b91068bf-c193-4e79-9ce8-f74393767cf5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.УведомлениеОВвозеПрослеживаемыхТоваров" category="Ref">
+				<xr:TypeId>6899595d-5157-4e8a-9510-c918534113d1</xr:TypeId>
+				<xr:ValueId>f435350e-3ad9-4335-876d-1c47cd537edf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.УведомлениеОВвозеПрослеживаемыхТоваров" category="Selection">
+				<xr:TypeId>faa61eda-3edb-4e88-bc5c-4af7a2a120c9</xr:TypeId>
+				<xr:ValueId>5fe4b62c-1139-4538-a173-b8ab54c9c809</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.УведомлениеОВвозеПрослеживаемыхТоваров" category="List">
+				<xr:TypeId>85eacc75-c279-4e49-adff-43b6daf02e42</xr:TypeId>
+				<xr:ValueId>19f1c413-8efe-4e11-ac9d-e7d16be8a5eb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.УведомлениеОВвозеПрослеживаемыхТоваров" category="Manager">
+				<xr:TypeId>531ab9b2-b357-4f90-8bfc-c8782467eafa</xr:TypeId>
+				<xr:ValueId>4dfc0ece-6bca-4359-b7c8-4fd7b99f2e23</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УведомлениеОВвозеПрослеживаемыхТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ec9e2b72-ac49-442d-9852-248818b41bb0</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

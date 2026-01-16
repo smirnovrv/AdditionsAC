@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="1da521ae-f165-4e01-8271-fe88f9e6e30d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтчетОператораСистемыПлатон" category="Object">
+				<xr:TypeId>75e932e3-1a93-42e6-873c-a0312bd2204a</xr:TypeId>
+				<xr:ValueId>0600b6b2-6399-49fa-8afd-731ccb8ffebc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтчетОператораСистемыПлатон" category="Ref">
+				<xr:TypeId>72f4c39e-201c-40f8-a200-3c5d5177c533</xr:TypeId>
+				<xr:ValueId>320ef1d1-f96d-4a36-bd3e-31fe7b054e3a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтчетОператораСистемыПлатон" category="Selection">
+				<xr:TypeId>98645251-e9b1-4f8f-aacc-8439c70e0c23</xr:TypeId>
+				<xr:ValueId>7a757912-dd34-49a3-9203-7e3fa6138c43</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтчетОператораСистемыПлатон" category="List">
+				<xr:TypeId>c9f54cc3-ffad-4ead-970a-dfae554cda62</xr:TypeId>
+				<xr:ValueId>e89a07a2-97fa-439a-bc56-6c41f01dc756</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтчетОператораСистемыПлатон" category="Manager">
+				<xr:TypeId>3ee09632-bb74-4649-a008-ee1d656f6802</xr:TypeId>
+				<xr:ValueId>b904ee66-7e0f-4f68-8697-02c1bbee49f6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтчетОператораСистемыПлатон</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>04c93c8c-868a-4af8-bb5d-86c5898d3346</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="f469bb71-de85-4eed-b917-a25a1b1089bb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d16c6db8-c177-4a3e-a9a2-53642e2837de</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="47756137-290c-401c-b4ae-2a120c30e961">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d7428863-c195-4de5-8677-5b756dd384a6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

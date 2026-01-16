@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="b76ec3d8-1450-4876-9d80-78034b190135">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтатьиДоходовИРасходов" category="Object">
+				<xr:TypeId>5ac510e0-1353-4468-83e1-963e7c0fde60</xr:TypeId>
+				<xr:ValueId>b8266f6e-544b-4a49-8229-a6ebe7caaeff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтатьиДоходовИРасходов" category="Ref">
+				<xr:TypeId>005add19-7f3b-432a-906b-ec4da4c04d72</xr:TypeId>
+				<xr:ValueId>bff8806c-831d-4505-b5e6-f2df139f24b5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтатьиДоходовИРасходов" category="Selection">
+				<xr:TypeId>4d394565-d1f3-4d47-8783-ca583ac8f411</xr:TypeId>
+				<xr:ValueId>c3f34d1c-b6d7-476b-b304-99226d97b4e3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтатьиДоходовИРасходов" category="List">
+				<xr:TypeId>a0a3d0c7-2ba8-4a7f-9a53-ef6135d16364</xr:TypeId>
+				<xr:ValueId>368847f6-ece5-4270-84ba-06dcd4a18ded</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтатьиДоходовИРасходов" category="Manager">
+				<xr:TypeId>cc413cc0-68e7-4fde-b4ea-00d2f43dffb5</xr:TypeId>
+				<xr:ValueId>01efe8b4-d3a1-4779-a64e-da692b4b7df8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатьиДоходовИРасходов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f2f5896e-7e51-4b29-9c17-1fe669ffa720</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

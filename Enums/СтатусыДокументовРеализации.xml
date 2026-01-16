@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="009cd382-a688-4ac4-a7ca-9499a36af45c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыДокументовРеализации" category="Ref">
+				<xr:TypeId>c15359d3-cecc-4720-afb6-1e4666be9810</xr:TypeId>
+				<xr:ValueId>f8a3b751-878d-44da-8a98-ca93a6e23164</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыДокументовРеализации" category="Manager">
+				<xr:TypeId>23ae3632-a6e7-40ad-ae3b-2d00ce41e281</xr:TypeId>
+				<xr:ValueId>2308a3e0-24ee-4dd1-911d-b67f17f240b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыДокументовРеализации" category="List">
+				<xr:TypeId>6f376f04-512e-4e64-83aa-b837f26c1c9c</xr:TypeId>
+				<xr:ValueId>82f31e47-94f1-407d-9d5a-b8c00dc4c8c0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыДокументовРеализации</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a5eee5ab-036a-4cda-825a-37cdd9f85fad</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

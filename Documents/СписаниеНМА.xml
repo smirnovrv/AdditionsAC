@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="3b8de809-d635-413f-afbc-b9118b51a8d0">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СписаниеНМА" category="Object">
+				<xr:TypeId>39f86a68-7ea4-4b1a-89c1-c321a5070c97</xr:TypeId>
+				<xr:ValueId>f2fe62bf-b02c-4fdd-bf55-980115b02287</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СписаниеНМА" category="Ref">
+				<xr:TypeId>29ac9942-b91d-4427-8ed3-58f3bcb4b182</xr:TypeId>
+				<xr:ValueId>f3ad958e-870c-4924-a150-efe3b8c00430</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СписаниеНМА" category="Selection">
+				<xr:TypeId>fb92c110-d486-411b-8026-d649ec6866a1</xr:TypeId>
+				<xr:ValueId>e2756e90-be10-4dbf-845d-169c9aa15b51</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СписаниеНМА" category="List">
+				<xr:TypeId>c5b9be1c-0a86-462a-b757-4406620f01ae</xr:TypeId>
+				<xr:ValueId>260c6281-92ae-4d7a-9030-4d14ae717384</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СписаниеНМА" category="Manager">
+				<xr:TypeId>8989ccbb-3a4a-4ba9-92b2-5d6ac1a14d72</xr:TypeId>
+				<xr:ValueId>e60e6517-4255-4f3d-a15d-0c96ab603587</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СписаниеНМА</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6c0a9394-f174-4962-b466-d8b56277a9e2</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

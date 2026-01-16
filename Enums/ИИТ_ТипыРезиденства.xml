@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="f8e155d6-b424-4f0e-9353-be9a9574003a">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ИИТ_ТипыРезиденства" category="Ref">
+				<xr:TypeId>32a19e3e-b9ee-4248-92ca-f69070a13213</xr:TypeId>
+				<xr:ValueId>6f434bbc-997c-45bd-8934-23d662add73f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ИИТ_ТипыРезиденства" category="Manager">
+				<xr:TypeId>266d8fa4-8a81-4431-8594-405aed5f336b</xr:TypeId>
+				<xr:ValueId>e0c7f3d0-a02f-42a2-bf0e-f4fbc8843962</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ИИТ_ТипыРезиденства" category="List">
+				<xr:TypeId>3031768e-6e4d-4c02-a8b9-8233d319426f</xr:TypeId>
+				<xr:ValueId>28f7cc86-3a13-4eb8-ab9f-86e3dac0b267</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИИТ_ТипыРезиденства</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>64daccbb-951e-49b7-832a-aedd3c32180e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

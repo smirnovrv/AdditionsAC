@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="a02392e8-2ec0-414b-809e-c264b091686f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.АктСверкиВзаиморасчетов" category="Object">
+				<xr:TypeId>4041f35f-b895-4395-b08e-e4dd780024a3</xr:TypeId>
+				<xr:ValueId>675762f7-9cce-4f0b-96ec-436e7310c0a5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.АктСверкиВзаиморасчетов" category="Ref">
+				<xr:TypeId>e86dcc74-af7c-4816-ab67-3795c3e05eda</xr:TypeId>
+				<xr:ValueId>26fe6eee-baf5-4989-93fc-e640435f6a36</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.АктСверкиВзаиморасчетов" category="Selection">
+				<xr:TypeId>fba401be-9969-4094-b812-513a18b7a46b</xr:TypeId>
+				<xr:ValueId>fa8a52ab-ac91-462b-a42c-b71dd5819160</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.АктСверкиВзаиморасчетов" category="List">
+				<xr:TypeId>25ecf452-af5e-43c7-8c4c-5efdcd1bcb6c</xr:TypeId>
+				<xr:ValueId>2b7ab56f-a126-43dd-9a58-dd8b5ecc5902</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.АктСверкиВзаиморасчетов" category="Manager">
+				<xr:TypeId>12728655-3db6-4cfb-be98-40c98b012fbc</xr:TypeId>
+				<xr:ValueId>dadd7950-f95e-447c-9ede-b3301e7f8f0a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АктСверкиВзаиморасчетов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>bd218521-02ff-4c07-86aa-a92059b01992</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="e72e8b2e-a9f4-4329-80ad-319f1ac18355">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>005fa4e6-11eb-4df0-8339-7680a5d2a9a8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9a3ac993-3ee4-4cbc-bd45-31832e96e39a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f03e9461-cc17-4ad3-ba33-8ff1b1513258</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="ecfe4ec5-6b1d-4dde-9250-fe041a2bea5f">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.АктСверкиВзаиморасчетов.ПоДаннымОрганизации" category="TabularSection">
+						<xr:TypeId>2e2b3dcf-6de1-45e2-9646-a434a626f795</xr:TypeId>
+						<xr:ValueId>b8e98790-8bd1-4705-8115-a284ffd032d5</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.АктСверкиВзаиморасчетов.ПоДаннымОрганизации" category="TabularSectionRow">
+						<xr:TypeId>110b596f-e097-4ed9-8367-5b072da2be82</xr:TypeId>
+						<xr:ValueId>8d566354-3600-4ab6-8b64-0c89018af250</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПоДаннымОрганизации</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b65bf71c-1b00-48f2-8b66-7f024c00d036</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="4e199f0d-4d39-4e72-adfe-8b675f009e03">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Договор</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>7d92d5ea-eb30-41c3-aded-e8b946001fce</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="1e770539-6c4f-4661-bebb-a968700db5d5">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.АктСверкиВзаиморасчетов.ПоДаннымКонтрагента" category="TabularSection">
+						<xr:TypeId>6d670b30-40a9-4267-b9c2-0671c759e7fa</xr:TypeId>
+						<xr:ValueId>602e934d-21e2-4135-869c-4a015e7ca8de</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.АктСверкиВзаиморасчетов.ПоДаннымКонтрагента" category="TabularSectionRow">
+						<xr:TypeId>0e3c07f6-db49-4156-8c95-95de98384f84</xr:TypeId>
+						<xr:ValueId>53587898-0cb8-4f38-ab02-789d2214d66c</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПоДаннымКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c0ce7882-8256-4893-a89e-b9e45e7b4208</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="64cbc973-ba23-41bd-a0cd-f1ff3a9a016e">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Договор</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>8420d89e-6404-49e5-8e47-9bb3b642728b</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

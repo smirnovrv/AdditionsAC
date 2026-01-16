@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="181db5ca-7c90-409a-aeb9-45ccaf69d686">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыДенежныхСредств" category="Ref">
+				<xr:TypeId>0178901d-3f74-4ec5-8776-f0bba3144d0a</xr:TypeId>
+				<xr:ValueId>013def7e-8881-4cee-bae5-6e795c8eb26a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыДенежныхСредств" category="Manager">
+				<xr:TypeId>4205b50a-0199-4f0d-a582-4606013ae6b6</xr:TypeId>
+				<xr:ValueId>d99f2d95-d581-4bf1-88c9-0ab4312ad200</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыДенежныхСредств" category="List">
+				<xr:TypeId>8607bcad-e628-463d-a1d5-713760452bb0</xr:TypeId>
+				<xr:ValueId>ef8fb065-0e37-400a-9e3a-5042784e55f8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыДенежныхСредств</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>59ae37ac-9d1a-4c3c-b398-2496e22e4ec5</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

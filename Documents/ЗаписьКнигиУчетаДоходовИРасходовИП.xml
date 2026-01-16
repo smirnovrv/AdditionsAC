@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="654ddf6f-e706-4e33-83ec-85f30c58694e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаписьКнигиУчетаДоходовИРасходовИП" category="Object">
+				<xr:TypeId>744f26b2-8edc-4d45-b9d7-cc3a56b4a37b</xr:TypeId>
+				<xr:ValueId>a17d3bd2-d880-4272-ab67-51cba8608bd2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаписьКнигиУчетаДоходовИРасходовИП" category="Ref">
+				<xr:TypeId>3bf3f9b7-048b-4266-9d90-5342f4d4038e</xr:TypeId>
+				<xr:ValueId>bf43f525-87a4-4b8c-88de-ac483e746e55</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаписьКнигиУчетаДоходовИРасходовИП" category="Selection">
+				<xr:TypeId>88046a0c-da1d-4f3d-8116-afcb1a69c518</xr:TypeId>
+				<xr:ValueId>a6c64847-808a-4188-86a3-9914e0aca72f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаписьКнигиУчетаДоходовИРасходовИП" category="List">
+				<xr:TypeId>10ad4fa8-90d5-4500-bfa4-cb0c1ca3b9ff</xr:TypeId>
+				<xr:ValueId>ecccf148-3221-4bb5-858b-533bce7ec850</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаписьКнигиУчетаДоходовИРасходовИП" category="Manager">
+				<xr:TypeId>95233dde-b058-4e1e-b9cb-b4a3fa91e413</xr:TypeId>
+				<xr:ValueId>7c15a0a4-099f-4657-923b-a594a90c7ffe</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаписьКнигиУчетаДоходовИРасходовИП</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>624dc857-d23c-4495-a3ea-b11fa8c14f8d</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

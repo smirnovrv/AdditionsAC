@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="6a246c40-cc81-4fa8-a7b8-ccee71406ebc">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.РазделыИнвестиционныхПрограмм" category="Object">
+				<xr:TypeId>ef4e209d-6b31-463f-a412-954272cb7c29</xr:TypeId>
+				<xr:ValueId>0676e9c3-a4b3-4e44-9ddf-3d20b158922b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.РазделыИнвестиционныхПрограмм" category="Ref">
+				<xr:TypeId>09dfa4a4-93b0-4318-be24-54f26b877ca1</xr:TypeId>
+				<xr:ValueId>ff263963-20b6-4f16-87e6-5110787f6dc2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.РазделыИнвестиционныхПрограмм" category="Selection">
+				<xr:TypeId>758ca565-8abb-4914-b77d-d0f3b55e196b</xr:TypeId>
+				<xr:ValueId>b535a339-65cc-4478-8efe-64bf773e0446</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.РазделыИнвестиционныхПрограмм" category="List">
+				<xr:TypeId>9559cba4-7380-4f03-9cd4-9ae651e0c2a8</xr:TypeId>
+				<xr:ValueId>03562096-0f3f-4fb5-9191-f908e4b74063</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.РазделыИнвестиционныхПрограмм" category="Manager">
+				<xr:TypeId>99bfdb34-1709-4a35-84a2-b01d7d4f5043</xr:TypeId>
+				<xr:ValueId>e2f916f0-5704-4d44-92c9-6466d6f36d6f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РазделыИнвестиционныхПрограмм</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1d2afd33-ab60-4f65-8b8c-21a7a1528eb4</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

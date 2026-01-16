@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="6220e797-3bc5-40ea-9650-3ae3930343da">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.РежимыАктуализацииГрафикаПриИзмененииПервичныхДокументов" category="Ref">
+				<xr:TypeId>98e46a5c-2c08-45bf-99bb-80b9f28404b9</xr:TypeId>
+				<xr:ValueId>cf40935e-57ca-4fc0-802c-02385fd0eba8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.РежимыАктуализацииГрафикаПриИзмененииПервичныхДокументов" category="Manager">
+				<xr:TypeId>3248ce7f-65ab-47e0-ac52-a5ca59b26ec1</xr:TypeId>
+				<xr:ValueId>eac7b2d5-176f-4ff3-b7d7-765bc3d9a112</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.РежимыАктуализацииГрафикаПриИзмененииПервичныхДокументов" category="List">
+				<xr:TypeId>c62ca994-46d4-4ee2-8544-77bac8200965</xr:TypeId>
+				<xr:ValueId>8dfd2333-fd44-4161-9ed6-b58b1d1ced36</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РежимыАктуализацииГрафикаПриИзмененииПервичныхДокументов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>63d18e44-f8bc-4251-bae1-3067b8f07a90</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="6a185c8d-b625-4cc6-b632-186963c994b6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НеАктуализировать</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2deadfd7-90dc-4a1f-8291-0cdceb43a1d1</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2ad57cc6-72dd-4aad-96b1-9c83d3e56650">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбновлятьТекущуюВерсию</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f8cc9b15-3758-40db-887d-3598c3f3000a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="37c0c671-d552-416e-a610-8e755537832d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СоздаватьНовыеВерсии</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3b5a340a-a4a8-438f-906a-fa56236e5e08</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

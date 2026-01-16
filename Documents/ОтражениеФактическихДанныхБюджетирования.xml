@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="1b6fb0e7-4f3f-40c6-92e8-de8a809955aa">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтражениеФактическихДанныхБюджетирования" category="Object">
+				<xr:TypeId>7db131a8-f37b-4534-ab87-f3c2d4826569</xr:TypeId>
+				<xr:ValueId>332b9724-707c-4f44-8374-054ec5bf4257</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтражениеФактическихДанныхБюджетирования" category="Ref">
+				<xr:TypeId>83067b7f-e6e2-47c8-b59c-ab081573cc0c</xr:TypeId>
+				<xr:ValueId>7878591a-8620-4eda-b617-c28cebf18f37</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтражениеФактическихДанныхБюджетирования" category="Selection">
+				<xr:TypeId>24febdc1-fe51-4a8b-b3d0-9d39f317068a</xr:TypeId>
+				<xr:ValueId>8e68125a-b285-4419-b2eb-0f5f0c1715a2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтражениеФактическихДанныхБюджетирования" category="List">
+				<xr:TypeId>db143a92-7ef8-4a9d-98d6-8347c5e77ea6</xr:TypeId>
+				<xr:ValueId>707fc104-91df-42e2-aa6d-6a6f2ff3857e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтражениеФактическихДанныхБюджетирования" category="Manager">
+				<xr:TypeId>72bbaeed-e111-4fa2-ba98-bc074c4c5187</xr:TypeId>
+				<xr:ValueId>225192fc-d925-43b6-896d-98a002597d43</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтражениеФактическихДанныхБюджетирования</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>76000626-456b-428b-bfc1-72531c875b91</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="acfd95ee-4c8d-4b96-8f7f-44f4e880920d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ДоговорыКонтрагентовПрисоединенныеФайлы" category="Object">
+				<xr:TypeId>ebe670f2-a461-45d5-b6c7-00c442d46b4a</xr:TypeId>
+				<xr:ValueId>9751fc2b-202a-4732-81b5-4464a9242c4e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ДоговорыКонтрагентовПрисоединенныеФайлы" category="Ref">
+				<xr:TypeId>5c5d8f56-f293-461e-824b-d51febc96564</xr:TypeId>
+				<xr:ValueId>51e92329-14b6-4376-b79e-65292db9c65f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ДоговорыКонтрагентовПрисоединенныеФайлы" category="Selection">
+				<xr:TypeId>4e1ea389-cf93-4615-abb3-f2d1c29b2458</xr:TypeId>
+				<xr:ValueId>1810e17d-696b-4f60-9889-dfc56fba5606</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ДоговорыКонтрагентовПрисоединенныеФайлы" category="List">
+				<xr:TypeId>c86f71d2-a83f-47c8-b1f4-33e1a07f712d</xr:TypeId>
+				<xr:ValueId>22cfe487-8e92-4b1d-ac5b-5e73a617f812</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ДоговорыКонтрагентовПрисоединенныеФайлы" category="Manager">
+				<xr:TypeId>7e1d0e5a-bcac-4d49-ac27-f70246b94054</xr:TypeId>
+				<xr:ValueId>e85ca0c8-a5c2-4ef5-818f-ee55f4b01464</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДоговорыКонтрагентовПрисоединенныеФайлы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>86700322-9496-41d2-94bf-57c2da9b405c</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="6fe17cc0-b6c2-4f18-bb46-fad3f1f773cb">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИзменениеУсловийАренды" category="Object">
+				<xr:TypeId>ec14dd9f-f755-4413-90a8-4f3a0c30d978</xr:TypeId>
+				<xr:ValueId>451d1846-4269-4975-a98c-8bdb195c2101</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИзменениеУсловийАренды" category="Ref">
+				<xr:TypeId>39e46cad-eac5-40ca-9e00-a2e7a0c9cf7c</xr:TypeId>
+				<xr:ValueId>d706a9c3-2f27-42d1-bef1-f10d94c1b66a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИзменениеУсловийАренды" category="Selection">
+				<xr:TypeId>57d57d8a-67b3-4478-af93-2263d627cdbd</xr:TypeId>
+				<xr:ValueId>bab5385d-eb72-49a4-8d37-59a33f0e6647</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИзменениеУсловийАренды" category="List">
+				<xr:TypeId>6ca39722-0ec1-4996-acc0-fa526cf586ab</xr:TypeId>
+				<xr:ValueId>52bd2563-c6a6-4f1f-bdc9-1eb9227b5dbb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИзменениеУсловийАренды" category="Manager">
+				<xr:TypeId>49955e13-2db3-4fd7-b796-caff41bda755</xr:TypeId>
+				<xr:ValueId>e1625a33-0dfa-48d8-b72b-6337a55f8382</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИзменениеУсловийАренды</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>68adf290-d986-4b0e-acda-6b84111334e3</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="c7733ae9-2562-4a30-b714-366833fecbf0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2dc1b33c-abcb-4345-8819-04dbf3ffbd73</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="53838f33-5420-4f0c-bc69-cbfea3777035">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>15c0c7b2-f46c-43dc-9be1-8af4896ae5bb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

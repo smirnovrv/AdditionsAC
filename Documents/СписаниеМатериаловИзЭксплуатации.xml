@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="fbdba9e6-6c72-4f05-bc92-9705a2478c78">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СписаниеМатериаловИзЭксплуатации" category="Object">
+				<xr:TypeId>fdf4ce79-72b4-4668-b6d5-0d96dd028166</xr:TypeId>
+				<xr:ValueId>80e69338-3d17-4a44-96ab-5b3555f7d1e3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СписаниеМатериаловИзЭксплуатации" category="Ref">
+				<xr:TypeId>815811f4-d27a-4022-8b94-53beb1f9c62c</xr:TypeId>
+				<xr:ValueId>09eab718-8e19-4733-9848-03445fe0f73c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СписаниеМатериаловИзЭксплуатации" category="Selection">
+				<xr:TypeId>4c5b9ef3-842a-42b6-b9d9-7a798ddfa32e</xr:TypeId>
+				<xr:ValueId>ca24dae3-635c-4dce-a6dc-10c4e00371d9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СписаниеМатериаловИзЭксплуатации" category="List">
+				<xr:TypeId>2140b22a-5d6d-43c5-93be-a880024d788f</xr:TypeId>
+				<xr:ValueId>16583f5f-2dc0-4da3-a3a5-6980fa3d0a44</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СписаниеМатериаловИзЭксплуатации" category="Manager">
+				<xr:TypeId>3f7044bb-d2f8-465e-8ea8-74cf701fb844</xr:TypeId>
+				<xr:ValueId>ef51d410-4569-4eb9-baee-358f9f0dd883</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СписаниеМатериаловИзЭксплуатации</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>71a919e3-85cd-4c34-92d5-7e3665c7badc</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

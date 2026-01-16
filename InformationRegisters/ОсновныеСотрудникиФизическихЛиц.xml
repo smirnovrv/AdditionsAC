@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="dcfe6f13-f3ad-49a3-98c1-9509e93e189d">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ОсновныеСотрудникиФизическихЛиц" category="Record">
+				<xr:TypeId>1e9ea31d-7f59-4716-8d61-7c52e128c214</xr:TypeId>
+				<xr:ValueId>9478acf1-954d-42d4-9393-7ff87be9d4e8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ОсновныеСотрудникиФизическихЛиц" category="Manager">
+				<xr:TypeId>4516a83e-30f8-46b6-b671-72ffa48ee19d</xr:TypeId>
+				<xr:ValueId>9092bdd7-7405-4994-8089-9c3768a2451b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ОсновныеСотрудникиФизическихЛиц" category="Selection">
+				<xr:TypeId>c84540dc-7a53-478b-98d4-5c0f4953f802</xr:TypeId>
+				<xr:ValueId>4a4814c0-2682-4f43-8a48-b9c2d942156e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ОсновныеСотрудникиФизическихЛиц" category="List">
+				<xr:TypeId>b73c0b74-34a5-4b78-ab0b-7fbf4ceca16a</xr:TypeId>
+				<xr:ValueId>66d05177-c540-45fc-9437-222e1b5ccdf1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ОсновныеСотрудникиФизическихЛиц" category="RecordSet">
+				<xr:TypeId>75143eab-f1d8-4c91-9a7d-5ec02b3be164</xr:TypeId>
+				<xr:ValueId>b8ce8399-5006-4bd6-ae84-67150fe4c46b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ОсновныеСотрудникиФизическихЛиц" category="RecordKey">
+				<xr:TypeId>df00e076-a12f-471e-9484-e9cd3b32a28e</xr:TypeId>
+				<xr:ValueId>7c08208c-0735-47ca-a608-d3b3e771d77e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ОсновныеСотрудникиФизическихЛиц" category="RecordManager">
+				<xr:TypeId>df4df470-cfd5-42b3-a7f2-b112f4c68ea9</xr:TypeId>
+				<xr:ValueId>91c3a21a-d422-44d3-9ecd-5b10dc180282</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОсновныеСотрудникиФизическихЛиц</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7b81d4b8-f92c-43d0-85bd-2ef52056a663</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

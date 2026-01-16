@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="5cd06766-72af-4e27-9715-3f7db2ad678d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыМестВыплатыЗарплаты" category="Ref">
+				<xr:TypeId>461cfec4-6eb2-4db6-9cc7-1b007c456b39</xr:TypeId>
+				<xr:ValueId>d96ac332-52fc-4cd6-b2d0-39dd706beecb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыМестВыплатыЗарплаты" category="Manager">
+				<xr:TypeId>10dc39ff-49dc-4119-a827-60f21b08ce7f</xr:TypeId>
+				<xr:ValueId>5e2e4c27-0088-4ec3-afcf-f1c6d7ec6f95</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыМестВыплатыЗарплаты" category="List">
+				<xr:TypeId>6b651d3f-c60c-4d43-ab52-6526c158ecfd</xr:TypeId>
+				<xr:ValueId>1ae2a5e3-4408-4e93-987c-ee1b4989df2b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыМестВыплатыЗарплаты</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ed4ab8c4-d7e3-4d89-9a10-9a3a36edbd52</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="35d54b77-e3dd-41fb-bbc5-3581adb0c12c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Касса</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8b0d26a5-0181-4b52-8d4f-b36ac985d63b</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ac701c2e-653c-4b65-8733-09872c733eb8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗарплатныйПроект</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d6dd0164-fee1-497d-a95e-f738d2f9189f</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="82aa4dae-2d42-4362-a95f-31f569c1f5d2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>БанковскийСчет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>366cd1d6-c102-43db-b8b9-039426568599</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

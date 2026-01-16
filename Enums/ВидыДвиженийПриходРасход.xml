@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="17787952-868f-47a0-9340-d52411443b9b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыДвиженийПриходРасход" category="Ref">
+				<xr:TypeId>ef1b4ac9-a8fd-47d7-a45f-96082aff3808</xr:TypeId>
+				<xr:ValueId>c9139905-478e-4e2f-a4e1-83f6bed51ba6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыДвиженийПриходРасход" category="Manager">
+				<xr:TypeId>53d435d6-f579-497e-88cc-c3934750de0d</xr:TypeId>
+				<xr:ValueId>5ad87ed4-cc1e-452b-8efe-9a098702ba60</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыДвиженийПриходРасход" category="List">
+				<xr:TypeId>a8a8b19d-29e5-4e26-9880-c280bc295bea</xr:TypeId>
+				<xr:ValueId>9ad676b9-5874-4dfe-9f6b-0bea3d4ce233</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыДвиженийПриходРасход</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>985a22ad-c230-453e-a178-cf0ef164edd4</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="1d7ce417-a433-484d-b4ac-2039b3711d15">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Расход</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d3af0748-49f7-4bdf-87cf-d46daa930103</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f09faab9-0d51-4968-911e-a51ba5ff5918">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Приход</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a1914f0e-092a-4a0d-9760-536925d7eb7a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

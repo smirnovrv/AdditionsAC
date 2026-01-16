@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="ba0a877c-d0c6-4fc4-b884-64c4c433dbc0">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлассификаторВидовНоменклатурыЧекаККТ" category="Object">
+				<xr:TypeId>dcc9da97-eb6b-4a0d-9334-7dc955632453</xr:TypeId>
+				<xr:ValueId>50df6d3e-66c5-4f0f-b478-a03471fd4c19</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлассификаторВидовНоменклатурыЧекаККТ" category="Ref">
+				<xr:TypeId>33d5c2ae-d178-416f-939b-cf50bbeb4144</xr:TypeId>
+				<xr:ValueId>f073e4c0-1863-4a6f-9423-d08a62a70381</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлассификаторВидовНоменклатурыЧекаККТ" category="Selection">
+				<xr:TypeId>a06dce63-089d-4ec3-9ad1-ef7115246c39</xr:TypeId>
+				<xr:ValueId>a2d94e0b-7e7a-4f7f-b1da-884500038b2a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлассификаторВидовНоменклатурыЧекаККТ" category="List">
+				<xr:TypeId>0ca69f95-86cb-4467-b68f-3b9edd1cb140</xr:TypeId>
+				<xr:ValueId>820218b6-1c71-491b-8a54-69f1e9aa888b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлассификаторВидовНоменклатурыЧекаККТ" category="Manager">
+				<xr:TypeId>0ca4056e-5487-4f88-8d7a-1242b57662d7</xr:TypeId>
+				<xr:ValueId>86fe0f9d-f20a-4fd1-82fa-b7b7771043e2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КлассификаторВидовНоменклатурыЧекаККТ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b2aca8bf-5fd6-4b22-82b1-c2c4e36fa470</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

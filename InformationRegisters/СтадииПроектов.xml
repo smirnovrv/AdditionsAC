@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="ccd8ce79-d12b-4627-88fd-fdf8165de552">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СтадииПроектов" category="Record">
+				<xr:TypeId>f4d82908-e964-4640-9d42-df626d35900d</xr:TypeId>
+				<xr:ValueId>8e8017a7-eace-4c14-82ed-14a7b452633f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СтадииПроектов" category="Manager">
+				<xr:TypeId>ae5a7ded-aecc-4b60-bfc1-5e446482caaf</xr:TypeId>
+				<xr:ValueId>63a7c7fb-1b0b-423d-a862-4287d5fad4a5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СтадииПроектов" category="Selection">
+				<xr:TypeId>b7d85ee6-3181-4111-b0d0-4bd7eaf0c788</xr:TypeId>
+				<xr:ValueId>dc87424b-9a37-4d6e-ae81-091f2d3d09bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СтадииПроектов" category="List">
+				<xr:TypeId>37d7a031-6673-4118-8f59-47fd0761d42b</xr:TypeId>
+				<xr:ValueId>7931018c-deec-4314-8d8a-823133b8abca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СтадииПроектов" category="RecordSet">
+				<xr:TypeId>0ac1f90b-5905-4ac7-a4d5-03feb1367cd2</xr:TypeId>
+				<xr:ValueId>91b60991-62b6-4407-8943-3371ecdea9a7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СтадииПроектов" category="RecordKey">
+				<xr:TypeId>081990fd-9d18-4da3-a50d-28b427fd220b</xr:TypeId>
+				<xr:ValueId>1dbde276-b79b-4409-be4d-4f3b6c123a37</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СтадииПроектов" category="RecordManager">
+				<xr:TypeId>6fec19f7-f81d-4be5-a67c-6a706d811f9e</xr:TypeId>
+				<xr:ValueId>5803f07b-9f50-48e5-a853-3c4fa7696c91</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтадииПроектов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a0839a2f-9081-40e2-a0fe-0d2aab467a64</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="afff323f-a8a0-4736-b859-dff6021a681c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Стадия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>83107961-9216-41b6-9872-de0ca8612d94</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтадииПроектов</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="17f73e69-eae7-4d03-9e19-bb079e80701a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Этап</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>820467a0-e1d5-4bbe-820d-b41f3128ee3d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Проекты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

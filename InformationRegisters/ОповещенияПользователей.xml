@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="bf6664cb-0b81-4df1-943f-a0b1dd77445c">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ОповещенияПользователей" category="Record">
+				<xr:TypeId>0216d5eb-ba4c-4880-a82a-bc62b9a79a75</xr:TypeId>
+				<xr:ValueId>d491c999-9171-45fa-9855-d3f9fd1ccf77</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ОповещенияПользователей" category="Manager">
+				<xr:TypeId>c0fa1208-69e2-4e21-8b47-31a5088d7237</xr:TypeId>
+				<xr:ValueId>44ac2e30-72a3-4e52-91a0-2d4fd36c9e1d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ОповещенияПользователей" category="Selection">
+				<xr:TypeId>3a646daa-5093-4285-b3e2-b39a6ec13ad3</xr:TypeId>
+				<xr:ValueId>03e48686-fa9b-4932-9595-b90b959ae4fd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ОповещенияПользователей" category="List">
+				<xr:TypeId>2b5a06c1-6869-4b3b-b824-44e216c66863</xr:TypeId>
+				<xr:ValueId>3485a96a-636e-4957-a1a5-e876445b8ac9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ОповещенияПользователей" category="RecordSet">
+				<xr:TypeId>52499fec-efb9-4741-aa60-55b80a23bd40</xr:TypeId>
+				<xr:ValueId>dcf4e465-3662-475b-ae8d-3e63d879198b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ОповещенияПользователей" category="RecordKey">
+				<xr:TypeId>6664fdfd-3f2e-4d5f-9bf7-f4575be08ccc</xr:TypeId>
+				<xr:ValueId>d0bc19d6-46c3-4ee0-8184-21a41507b0d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ОповещенияПользователей" category="RecordManager">
+				<xr:TypeId>72634fab-8397-47b6-8ee8-468cab777eb1</xr:TypeId>
+				<xr:ValueId>cc280981-a83b-4129-90cf-dab8be938937</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОповещенияПользователей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>82f67ff9-8a7e-42cf-a8c7-e7887d3c08ee</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="f146be69-efc7-410c-b72b-48ec8bb43204">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Задача</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>07a9eca5-0446-4b19-b10e-688561c33a4f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Задачи</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="18a245f7-9af2-4758-85b6-dfcb9c34d3c1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Прочитано</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bd5472d3-db56-42e7-9263-23957e426ba7</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="bcabe733-c01b-4d00-a8c4-245551f9ed83">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Тема</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>acc65159-044c-48f8-8c96-7120b10ffec6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>200</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="172335e6-2917-4f2c-bb57-2e164fb820cb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сообщение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>dc9c1396-f1d2-40c9-b0df-86d13b91808a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Attribute uuid="d1a2c74d-2975-4974-b33a-034a7a9f0cbb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Флажок</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>58ed14a5-d300-468c-b675-2a917bac27a4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ЦветаФлажковОповещений</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="e08b3fd9-381a-4779-8c40-c59e1c244c10">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Пользователь</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9ba9bb01-9490-4b95-bb35-99b52e8cef0b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="636ce198-9dd5-4cb2-9433-f11cd285daee">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВидОповещения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bd5833c4-b3f0-4b4f-b42b-7db2f189f4de</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыСобытийОповещений</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="f1ac90b2-35d0-4340-ae4e-39c045814b9b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаСоздания</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>66a248b9-de71-4c24-98ba-53083d77cad0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="e8db3cad-150e-4d16-bdf8-1fcf8d9b4f78">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КатегорияОповещений</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2f7187f6-51a8-476d-9255-b9e1bbf4bb10</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КатегорииСобытийОповещений</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="011cfdc9-b36a-4cd8-89c3-7391df945450">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИдентификаторОповещения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fe3ab83f-47d4-4310-b5e8-0ec3ec29c97c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>v8:UUID</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

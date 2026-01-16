@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="d112d077-49b4-4ae9-a96f-eb9605acdcd5">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВводНачальныхОстатков" category="Object">
+				<xr:TypeId>7b883820-878e-4234-8a3d-87c36b5bc91d</xr:TypeId>
+				<xr:ValueId>1bad6d0d-8c2b-4ae0-a5bc-e74d32e20721</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВводНачальныхОстатков" category="Ref">
+				<xr:TypeId>8a28de2e-2bb6-4656-8660-83e96a350a98</xr:TypeId>
+				<xr:ValueId>fd698b18-0f89-4c7e-ba62-e70fdcca11b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВводНачальныхОстатков" category="Selection">
+				<xr:TypeId>f0e4e0d2-640e-4036-99dc-c5518b075d60</xr:TypeId>
+				<xr:ValueId>fdd37345-45bc-4ab5-9e42-855862fb5884</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВводНачальныхОстатков" category="List">
+				<xr:TypeId>9366cf66-04ce-4d1e-b085-8b9f49154577</xr:TypeId>
+				<xr:ValueId>8b81c9f2-bc50-4f2f-b4ab-3f52446e8427</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВводНачальныхОстатков" category="Manager">
+				<xr:TypeId>2bf774de-da52-4efb-b1e1-be2a820aabe0</xr:TypeId>
+				<xr:ValueId>6624c09f-5cb9-4a71-85a2-a06812e8a0a0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВводНачальныхОстатков</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>862392cc-c2bf-4df1-a3cd-3b6c3b9c9a95</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>
