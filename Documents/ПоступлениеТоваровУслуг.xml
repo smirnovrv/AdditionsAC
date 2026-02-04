@@ -447,6 +447,35 @@
 							</Type>
 						</Properties>
 					</Attribute>
+					<Attribute uuid="708e608d-1c5b-4e09-a2d8-f53f93b357ca">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Сумма</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>e1744976-d01b-4b05-a488-03829356b0d4</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e33322e9-6efd-4a4e-bc32-fde31c0590b2">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ЗаказПоставщику</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>4faaba7c-677f-4db5-bbf5-71afe26950c5</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:DocumentRef.ЗаказПоставщику</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
 				</ChildObjects>
 			</TabularSection>
 			<TabularSection uuid="a0957d51-df52-4888-bafd-91e1638cfe1a">
