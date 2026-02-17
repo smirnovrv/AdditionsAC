@@ -655,6 +655,9 @@
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ДокументыФизическихЛицСерияКонтекстноеМеню" id="229"/>
 											<ExtendedTooltip name="ДокументыФизическихЛицСерияExtendedTooltip" id="448"/>
+											<Events>
+												<Event name="OnChange" callType="After">АЛФ_ДокументыФизическихЛицСерияПриИзмененииПосле</Event>
+											</Events>
 										</InputField>
 										<InputField name="ДокументыФизическихЛицНомер" id="230">
 											<ToolTipRepresentation>Button</ToolTipRepresentation>
@@ -662,6 +665,9 @@
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ДокументыФизическихЛицНомерКонтекстноеМеню" id="231"/>
 											<ExtendedTooltip name="ДокументыФизическихЛицНомерExtendedTooltip" id="452"/>
+											<Events>
+												<Event name="OnChange" callType="After">АЛФ_ДокументыФизическихЛицНомерПриИзмененииПосле</Event>
+											</Events>
 										</InputField>
 									</ChildItems>
 								</UsualGroup>
