@@ -60,7 +60,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>АС</Vendor>
-			<Version>3.2.11.2 (42)</Version>
+			<Version>3.3.3.17 (45)</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -165,6 +165,7 @@
 			<CommonPicture>Подбор</CommonPicture>
 			<CommonPicture>СостояниеПроверкиРНПТ</CommonPicture>
 			<CommonPicture>НаШагНазад</CommonPicture>
+			<CommonPicture>ВернутьИсполнителю</CommonPicture>
 			<CommonTemplate>ПФ_MXL_Т1</CommonTemplate>
 			<FilterCriterion>ДокументыПоКонтрагенту</FilterCriterion>
 			<FilterCriterion>ДокументыПоДоговоруКонтрагента</FilterCriterion>
@@ -198,6 +199,8 @@
 			<CommonModule>УправлениеДоступомСлужебный</CommonModule>
 			<CommonModule>ДоговорыКонтрагентовФормыУХКлиентСервер</CommonModule>
 			<CommonModule>ИИТ_ВспомогательныеФункцииСервер</CommonModule>
+			<CommonModule>МониторПортала1СИТС</CommonModule>
+			<CommonModule>УправлениеПроцессамиСогласованияУХ</CommonModule>
 			<CommonAttribute>НСИ_НеАктивный</CommonAttribute>
 			<DefinedType>ВладелецФайлов</DefinedType>
 			<DefinedType>ОснованияЭлектронныхДокументовЭДО</DefinedType>
@@ -308,6 +311,7 @@
 			<Catalog>ЦелиРасходаМатериалов</Catalog>
 			<Catalog>ШаблоныУниверсальныхПроцессов</Catalog>
 			<Catalog>ЭтапыУниверсальныхПроцессов</Catalog>
+			<Catalog>ШаблонЦепочкиПлатежей</Catalog>
 			<Document>АвансовыйОтчет</Document>
 			<Document>АвизоМПЗВходящее</Document>
 			<Document>АвизоМПЗИсходящее</Document>
@@ -450,7 +454,6 @@
 			<DocumentJournal>Деньги</DocumentJournal>
 			<DocumentJournal>ЖурналОпераций</DocumentJournal>
 			<Enum>ИнструментыРазмещенияОстатков</Enum>
-			<Enum>ВидыДенежныхСредств</Enum>
 			<Enum>ВариантыИспользованияХарактеристикНоменклатуры</Enum>
 			<Enum>ПолФизическогоЛица</Enum>
 			<Enum>СпособыЗаполненияСтавкиНДС</Enum>
@@ -522,6 +525,9 @@
 			<Enum>СистемыНалогообложения</Enum>
 			<Enum>АС_ТипыОкладов</Enum>
 			<Enum>ВидыОперацийСписаниеДенежныхСредств</Enum>
+			<Enum>УдалитьВидыДенежныхСредств</Enum>
+			<Enum>СпособыОплатыПлатежей</Enum>
+			<Enum>ИсточникиКурсовВалют</Enum>
 			<Report>ИИТ_ДанныеЖурналаПередачиВСнабжение</Report>
 			<Report>ИсторияСогласования</Report>
 			<DataProcessor>ИИТ_ПроставитьПраваДоступаДоОрганизаций</DataProcessor>

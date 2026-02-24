@@ -184,6 +184,7 @@
 	</AutoCommandBar>
 	<Events>
 		<Event name="AfterWriteAtServer" callType="After">АЛФ_ПослеЗаписиНаСервереПосле</Event>
+		<Event name="OnCreateAtServer" callType="After">АЛФ_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ПредупреждениеОЗаполненииРеквизитовСчета" id="707">

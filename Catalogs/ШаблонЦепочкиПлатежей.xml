@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="f5981363-7f1e-4668-af22-c19271ea76f3">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ШаблонЦепочкиПлатежей" category="Object">
+				<xr:TypeId>071a2b38-b5f5-4c8c-9ca7-23d37736565b</xr:TypeId>
+				<xr:ValueId>1d3d6ac6-9817-4aeb-9986-abf757312590</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ШаблонЦепочкиПлатежей" category="Ref">
+				<xr:TypeId>d0db76dd-e4cc-486a-8b98-770f0fc41373</xr:TypeId>
+				<xr:ValueId>872717f2-e0f4-465d-8eac-4a9035c9c29b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ШаблонЦепочкиПлатежей" category="Selection">
+				<xr:TypeId>660f1379-ffd7-475b-930f-cea26984f1ef</xr:TypeId>
+				<xr:ValueId>cdce33ff-207a-4549-959e-7de27ed1eeec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ШаблонЦепочкиПлатежей" category="List">
+				<xr:TypeId>56530bc3-df8a-47fd-a8db-c216b54cf61f</xr:TypeId>
+				<xr:ValueId>9d15caf0-5793-445d-91ed-bd691e3357c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ШаблонЦепочкиПлатежей" category="Manager">
+				<xr:TypeId>c80c15e5-a0f1-464e-a9d0-8c3f29668593</xr:TypeId>
+				<xr:ValueId>03918375-da07-4765-a02d-1b6eeecad270</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ШаблонЦепочкиПлатежей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0e3743fe-19a8-41c2-bfd9-510e11ad27c9</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

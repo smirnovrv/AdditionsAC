@@ -75,7 +75,7 @@
 				<CommandName>0</CommandName>
 				<Picture>
 					<xr:Ref>CommonPicture.РазблокироватьФормуОбъекта</xr:Ref>
-					<xr:LoadTransparent>true</xr:LoadTransparent>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
 				<Title>
 					<v8:item>
@@ -110,6 +110,29 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<ChildItems>
+		<UsualGroup name="ГруппаПредупреждениеНерезидентАУСН" id="1072">
+			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предупреждение не является резидентом при АУСН</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>NormalSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<BackColor>style:ЦветФонаНекорректногоЗначенияБИП</BackColor>
+			<ExtendedTooltip name="ГруппаПредупреждениеНерезидентАУСНРасширеннаяПодсказка" id="1075"/>
+			<ChildItems>
+				<LabelField name="ПредупреждениеНерезидентАУСН" id="1074">
+					<TitleLocation>None</TitleLocation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ContextMenu name="ПредупреждениеНерезидентАУСНКонтекстноеМеню" id="1052"/>
+					<ExtendedTooltip name="ПредупреждениеНерезидентАУСНРасширеннаяПодсказка" id="1053"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="ГруппаОсновныеДанные" id="923">
 			<Title>
 				<v8:item>
@@ -467,12 +490,41 @@
 										</UsualGroup>
 									</ChildItems>
 								</UsualGroup>
-								<Button name="ФаксимилеПодписи" id="1017">
-									<Type>Hyperlink</Type>
-									<SkipOnInput>true</SkipOnInput>
-									<CommandName>0</CommandName>
-									<ExtendedTooltip name="ФаксимилеПодписиРасширеннаяПодсказка" id="1018"/>
-								</Button>
+								<UsualGroup name="ГруппаЛичныеДанные" id="1062">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа личные данные</v8:content>
+										</v8:item>
+									</Title>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаЛичныеДанныеРасширеннаяПодсказка" id="1063"/>
+									<ChildItems>
+										<Button name="ВоинскийУчет" id="1064">
+											<Type>Hyperlink</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="ВоинскийУчетРасширеннаяПодсказка" id="1065"/>
+										</Button>
+										<Button name="Семья" id="1066">
+											<Type>Hyperlink</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="СемьяРасширеннаяПодсказка" id="1067"/>
+										</Button>
+										<Button name="ОбразованиеКвалификация" id="1068">
+											<Type>Hyperlink</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="ОбразованиеКвалификацияРасширеннаяПодсказка" id="1069"/>
+										</Button>
+										<Button name="ФаксимилеПодписи" id="1017">
+											<Type>Hyperlink</Type>
+											<SkipOnInput>true</SkipOnInput>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="ФаксимилеПодписиРасширеннаяПодсказка" id="1018"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаПаспортныеДанные" id="828">
@@ -926,7 +978,7 @@
 																					<Title formatted="false">
 																						<v8:item>
 																							<v8:lang>ru</v8:lang>
-																							<v8:content>Запись трудовой книжки передана в ПФР</v8:content>
+																							<v8:content>Запись трудовой книжки передана в СФР</v8:content>
 																						</v8:item>
 																					</Title>
 																					<ContextMenu name="ТекстБаннераПросмотрКонтекстноеМеню" id="1024"/>
@@ -954,7 +1006,7 @@
 																					<Title formatted="false">
 																						<v8:item>
 																							<v8:lang>ru</v8:lang>
-																							<v8:content>Запись трудовой книжки передана в ПФР. Изменение кадровых данных</v8:content>
+																							<v8:content>Запись трудовой книжки передана в СФР. Изменение кадровых данных</v8:content>
 																						</v8:item>
 																					</Title>
 																					<ContextMenu name="ТекстБаннераРедактирование1КонтекстноеМеню" id="1029"/>
@@ -975,7 +1027,7 @@
 																						<Title formatted="true">
 																							<v8:item>
 																								<v8:lang>ru</v8:lang>
-																								<v8:content>При изменении кадровых данных требуется зарегистрировать отмену ранее переданных сведений в ПФР. &lt;link https://its.1c.ru/bmk/bp30/szvtd_activities_corr&gt;Подробнее на ИТС&lt;/&gt;</v8:content>
+																								<v8:content>При изменении кадровых данных требуется зарегистрировать отмену ранее переданных сведений в СФР. &lt;link https://its.1c.ru/bmk/bp30/szvtd_activities_corr&gt;Подробнее на ИТС&lt;/&gt;</v8:content>
 																							</v8:item>
 																						</Title>
 																					</ExtendedTooltip>
@@ -1144,28 +1196,52 @@
 																			<BackColor>style:ФонУправляющегоПоля</BackColor>
 																			<ExtendedTooltip name="ЗаписьЭлектроннойТрудовойКнижкиКнопкаРасширеннаяПодсказка" id="984"/>
 																			<ChildItems>
-																				<LabelDecoration name="ДекорацияЗаписьЭлектроннойТрудовойКнижки" id="988">
-																					<Title formatted="false">
-																						<v8:item>
-																							<v8:lang>ru</v8:lang>
-																							<v8:content>Запись электронной трудовой книжки:</v8:content>
-																						</v8:item>
-																					</Title>
-																					<ContextMenu name="ДекорацияЗаписьЭлектроннойТрудовойКнижкиКонтекстноеМеню" id="989"/>
-																					<ExtendedTooltip name="ДекорацияЗаписьЭлектроннойТрудовойКнижкиРасширеннаяПодсказка" id="990"/>
-																				</LabelDecoration>
-																				<Button name="ЗарегистрироватьЗаписьЭлектроннойТрудовойКнижки" id="991">
-																					<Type>UsualButton</Type>
-																					<CommandName>0</CommandName>
+																				<UsualGroup name="ЗаписьЭлектроннойТрудовойКнижкиКнопкаИПодсказка" id="1070">
 																					<Title>
 																						<v8:item>
 																							<v8:lang>ru</v8:lang>
-																							<v8:content>Зарегистрировать</v8:content>
+																							<v8:content>Запись электронной трудовой книжки кнопка и подсказка</v8:content>
 																						</v8:item>
 																					</Title>
-																					<ToolTipRepresentation>Balloon</ToolTipRepresentation>
-																					<ExtendedTooltip name="ЗарегистрироватьЗаписьЭлектроннойТрудовойКнижкиРасширеннаяПодсказка" id="992"/>
-																				</Button>
+																					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+																					<Group>AlwaysHorizontal</Group>
+																					<Representation>None</Representation>
+																					<ShowTitle>false</ShowTitle>
+																					<ExtendedTooltip name="ЗаписьЭлектроннойТрудовойКнижкиКнопкаИПодсказкаРасширеннаяПодсказка" id="1071">
+																						<AutoMaxWidth>false</AutoMaxWidth>
+																						<Title formatted="true">
+																							<v8:item>
+																								<v8:lang>ru</v8:lang>
+																								<v8:content>Зарегистрируйте и отправьте сведения о приеме или увольнении в СФР
+не позднее следующего дня после издания кадрового приказа</v8:content>
+																							</v8:item>
+																						</Title>
+																					</ExtendedTooltip>
+																					<ChildItems>
+																						<LabelDecoration name="ДекорацияЗаписьЭлектроннойТрудовойКнижки" id="988">
+																							<Title formatted="false">
+																								<v8:item>
+																									<v8:lang>ru</v8:lang>
+																									<v8:content>Запись электронной трудовой книжки:</v8:content>
+																								</v8:item>
+																							</Title>
+																							<ContextMenu name="ДекорацияЗаписьЭлектроннойТрудовойКнижкиКонтекстноеМеню" id="989"/>
+																							<ExtendedTooltip name="ДекорацияЗаписьЭлектроннойТрудовойКнижкиРасширеннаяПодсказка" id="990"/>
+																						</LabelDecoration>
+																						<Button name="ЗарегистрироватьЗаписьЭлектроннойТрудовойКнижки" id="991">
+																							<Type>UsualButton</Type>
+																							<CommandName>0</CommandName>
+																							<Title>
+																								<v8:item>
+																									<v8:lang>ru</v8:lang>
+																									<v8:content>Зарегистрировать и отправить</v8:content>
+																								</v8:item>
+																							</Title>
+																							<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+																							<ExtendedTooltip name="ЗарегистрироватьЗаписьЭлектроннойТрудовойКнижкиРасширеннаяПодсказка" id="992"/>
+																						</Button>
+																					</ChildItems>
+																				</UsualGroup>
 																			</ChildItems>
 																		</UsualGroup>
 																		<UsualGroup name="ЗаписьЭлектроннойТрудовойКнижкиСсылка" id="993">
@@ -1193,7 +1269,7 @@
 																					</Title>
 																					<ToolTipRepresentation>Button</ToolTipRepresentation>
 																					<VerticalAlign>Bottom</VerticalAlign>
-																					<Width>36</Width>
+																					<Width>45</Width>
 																					<AutoMaxWidth>false</AutoMaxWidth>
 																					<HorizontalStretch>false</HorizontalStretch>
 																					<ContextMenu name="НадписьЗаписьЭлектроннойТрудовойКнижкиКонтекстноеМеню" id="996"/>
@@ -1485,7 +1561,7 @@
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Договор подряда</v8:content>
+											<v8:content>Договор ГПХ</v8:content>
 										</v8:item>
 									</Title>
 									<VerticalSpacing>Single</VerticalSpacing>
@@ -1497,7 +1573,7 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Сведения о договорах подряда (правая)</v8:content>
+													<v8:content>Сведения о договорах ГПХ (правая)</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
@@ -1585,7 +1661,7 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Сведения о догворах подряда (левая)</v8:content>
+													<v8:content>Сведения о договорах ГПХ (левая)</v8:content>
 												</v8:item>
 											</Title>
 											<Behavior>Usual</Behavior>
@@ -2068,7 +2144,7 @@
 					<CommandName>0</CommandName>
 					<Picture>
 						<xr:Ref>CommonPicture.РазблокироватьФормуОбъекта</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
 					</Picture>
 					<Title>
 						<v8:item>
@@ -2103,6 +2179,29 @@
 			</ChildItems>
 		</AutoCommandBar>
 		<ChildItems>
+			<UsualGroup name="ГруппаПредупреждениеНерезидентАУСН" id="1049">
+				<Visible>false</Visible>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Предупреждение не является резидентом при АУСН</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>NormalSeparation</Representation>
+				<ShowTitle>false</ShowTitle>
+				<BackColor>style:ЦветФонаНекорректногоЗначенияБИП</BackColor>
+				<ExtendedTooltip name="ГруппаПредупреждениеНерезидентАУСНРасширеннаяПодсказка" id="1050"/>
+				<ChildItems>
+					<LabelField name="ПредупреждениеНерезидентАУСН" id="1051">
+						<TitleLocation>None</TitleLocation>
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<ContextMenu name="ПредупреждениеНерезидентАУСНКонтекстноеМеню" id="1052"/>
+						<ExtendedTooltip name="ПредупреждениеНерезидентАУСНРасширеннаяПодсказка" id="1053"/>
+					</LabelField>
+				</ChildItems>
+			</UsualGroup>
 			<UsualGroup name="ГруппаОсновныеДанные" id="923">
 				<Title>
 					<v8:item>
@@ -2453,12 +2552,41 @@
 											</UsualGroup>
 										</ChildItems>
 									</UsualGroup>
-									<Button name="ФаксимилеПодписи" id="1017">
-										<Type>Hyperlink</Type>
-										<SkipOnInput>true</SkipOnInput>
-										<CommandName>0</CommandName>
-										<ExtendedTooltip name="ФаксимилеПодписиРасширеннаяПодсказка" id="1018"/>
-									</Button>
+									<UsualGroup name="ГруппаЛичныеДанные" id="1062">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа личные данные</v8:content>
+											</v8:item>
+										</Title>
+										<Group>AlwaysHorizontal</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаЛичныеДанныеРасширеннаяПодсказка" id="1063"/>
+										<ChildItems>
+											<Button name="ВоинскийУчет" id="1064">
+												<Type>Hyperlink</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="ВоинскийУчетРасширеннаяПодсказка" id="1065"/>
+											</Button>
+											<Button name="Семья" id="1066">
+												<Type>Hyperlink</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="СемьяРасширеннаяПодсказка" id="1067"/>
+											</Button>
+											<Button name="ОбразованиеКвалификация" id="1068">
+												<Type>Hyperlink</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="ОбразованиеКвалификацияРасширеннаяПодсказка" id="1069"/>
+											</Button>
+											<Button name="ФаксимилеПодписи" id="1017">
+												<Type>Hyperlink</Type>
+												<SkipOnInput>true</SkipOnInput>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="ФаксимилеПодписиРасширеннаяПодсказка" id="1018"/>
+											</Button>
+										</ChildItems>
+									</UsualGroup>
 								</ChildItems>
 							</UsualGroup>
 							<UsualGroup name="ГруппаПаспортныеДанные" id="828">
@@ -2912,7 +3040,7 @@
 																						<Title formatted="false">
 																							<v8:item>
 																								<v8:lang>ru</v8:lang>
-																								<v8:content>Запись трудовой книжки передана в ПФР</v8:content>
+																								<v8:content>Запись трудовой книжки передана в СФР</v8:content>
 																							</v8:item>
 																						</Title>
 																						<ContextMenu name="ТекстБаннераПросмотрКонтекстноеМеню" id="1024"/>
@@ -2940,7 +3068,7 @@
 																						<Title formatted="false">
 																							<v8:item>
 																								<v8:lang>ru</v8:lang>
-																								<v8:content>Запись трудовой книжки передана в ПФР. Изменение кадровых данных</v8:content>
+																								<v8:content>Запись трудовой книжки передана в СФР. Изменение кадровых данных</v8:content>
 																							</v8:item>
 																						</Title>
 																						<ContextMenu name="ТекстБаннераРедактирование1КонтекстноеМеню" id="1029"/>
@@ -2961,7 +3089,7 @@
 																							<Title formatted="true">
 																								<v8:item>
 																									<v8:lang>ru</v8:lang>
-																									<v8:content>При изменении кадровых данных требуется зарегистрировать отмену ранее переданных сведений в ПФР. &lt;link https://its.1c.ru/bmk/bp30/szvtd_activities_corr&gt;Подробнее на ИТС&lt;/&gt;</v8:content>
+																									<v8:content>При изменении кадровых данных требуется зарегистрировать отмену ранее переданных сведений в СФР. &lt;link https://its.1c.ru/bmk/bp30/szvtd_activities_corr&gt;Подробнее на ИТС&lt;/&gt;</v8:content>
 																								</v8:item>
 																							</Title>
 																						</ExtendedTooltip>
@@ -3080,6 +3208,7 @@
 																					</v8:item>
 																				</Title>
 																				<EditMode>EnterOnInput</EditMode>
+																				<EditTextUpdate>OnValueChange</EditTextUpdate>
 																				<ContextMenu name="ТекущаяДолжностьКонтекстноеМеню" id="46"/>
 																				<ExtendedTooltip name="ТекущаяДолжностьExtendedTooltip" id="674"/>
 																			</InputField>
@@ -3130,28 +3259,52 @@
 																				<BackColor>style:ФонУправляющегоПоля</BackColor>
 																				<ExtendedTooltip name="ЗаписьЭлектроннойТрудовойКнижкиКнопкаРасширеннаяПодсказка" id="984"/>
 																				<ChildItems>
-																					<LabelDecoration name="ДекорацияЗаписьЭлектроннойТрудовойКнижки" id="988">
-																						<Title formatted="false">
-																							<v8:item>
-																								<v8:lang>ru</v8:lang>
-																								<v8:content>Запись электронной трудовой книжки:</v8:content>
-																							</v8:item>
-																						</Title>
-																						<ContextMenu name="ДекорацияЗаписьЭлектроннойТрудовойКнижкиКонтекстноеМеню" id="989"/>
-																						<ExtendedTooltip name="ДекорацияЗаписьЭлектроннойТрудовойКнижкиРасширеннаяПодсказка" id="990"/>
-																					</LabelDecoration>
-																					<Button name="ЗарегистрироватьЗаписьЭлектроннойТрудовойКнижки" id="991">
-																						<Type>UsualButton</Type>
-																						<CommandName>0</CommandName>
+																					<UsualGroup name="ЗаписьЭлектроннойТрудовойКнижкиКнопкаИПодсказка" id="1070">
 																						<Title>
 																							<v8:item>
 																								<v8:lang>ru</v8:lang>
-																								<v8:content>Зарегистрировать</v8:content>
+																								<v8:content>Запись электронной трудовой книжки кнопка и подсказка</v8:content>
 																							</v8:item>
 																						</Title>
-																						<ToolTipRepresentation>Balloon</ToolTipRepresentation>
-																						<ExtendedTooltip name="ЗарегистрироватьЗаписьЭлектроннойТрудовойКнижкиРасширеннаяПодсказка" id="992"/>
-																					</Button>
+																						<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+																						<Group>AlwaysHorizontal</Group>
+																						<Representation>None</Representation>
+																						<ShowTitle>false</ShowTitle>
+																						<ExtendedTooltip name="ЗаписьЭлектроннойТрудовойКнижкиКнопкаИПодсказкаРасширеннаяПодсказка" id="1071">
+																							<AutoMaxWidth>false</AutoMaxWidth>
+																							<Title formatted="true">
+																								<v8:item>
+																									<v8:lang>ru</v8:lang>
+																									<v8:content>Зарегистрируйте и отправьте сведения о приеме или увольнении в СФР
+не позднее следующего дня после издания кадрового приказа</v8:content>
+																								</v8:item>
+																							</Title>
+																						</ExtendedTooltip>
+																						<ChildItems>
+																							<LabelDecoration name="ДекорацияЗаписьЭлектроннойТрудовойКнижки" id="988">
+																								<Title formatted="false">
+																									<v8:item>
+																										<v8:lang>ru</v8:lang>
+																										<v8:content>Запись электронной трудовой книжки:</v8:content>
+																									</v8:item>
+																								</Title>
+																								<ContextMenu name="ДекорацияЗаписьЭлектроннойТрудовойКнижкиКонтекстноеМеню" id="989"/>
+																								<ExtendedTooltip name="ДекорацияЗаписьЭлектроннойТрудовойКнижкиРасширеннаяПодсказка" id="990"/>
+																							</LabelDecoration>
+																							<Button name="ЗарегистрироватьЗаписьЭлектроннойТрудовойКнижки" id="991">
+																								<Type>UsualButton</Type>
+																								<CommandName>0</CommandName>
+																								<Title>
+																									<v8:item>
+																										<v8:lang>ru</v8:lang>
+																										<v8:content>Зарегистрировать и отправить</v8:content>
+																									</v8:item>
+																								</Title>
+																								<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+																								<ExtendedTooltip name="ЗарегистрироватьЗаписьЭлектроннойТрудовойКнижкиРасширеннаяПодсказка" id="992"/>
+																							</Button>
+																						</ChildItems>
+																					</UsualGroup>
 																				</ChildItems>
 																			</UsualGroup>
 																			<UsualGroup name="ЗаписьЭлектроннойТрудовойКнижкиСсылка" id="993">
@@ -3179,7 +3332,7 @@
 																						</Title>
 																						<ToolTipRepresentation>Button</ToolTipRepresentation>
 																						<VerticalAlign>Bottom</VerticalAlign>
-																						<Width>36</Width>
+																						<Width>45</Width>
 																						<AutoMaxWidth>false</AutoMaxWidth>
 																						<HorizontalStretch>false</HorizontalStretch>
 																						<ContextMenu name="НадписьЗаписьЭлектроннойТрудовойКнижкиКонтекстноеМеню" id="996"/>
@@ -3471,7 +3624,7 @@
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
-												<v8:content>Договор подряда</v8:content>
+												<v8:content>Договор ГПХ</v8:content>
 											</v8:item>
 										</Title>
 										<VerticalSpacing>Single</VerticalSpacing>
@@ -3483,7 +3636,7 @@
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Сведения о договорах подряда (правая)</v8:content>
+														<v8:content>Сведения о договорах ГПХ (правая)</v8:content>
 													</v8:item>
 												</Title>
 												<Group>Vertical</Group>
@@ -3571,7 +3724,7 @@
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Сведения о догворах подряда (левая)</v8:content>
+														<v8:content>Сведения о договорах ГПХ (левая)</v8:content>
 													</v8:item>
 												</Title>
 												<Behavior>Usual</Behavior>

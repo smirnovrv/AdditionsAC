@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="ee24f97c-2312-45d7-9d67-afbbb575a362">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыОплатыПлатежей" category="Ref">
+				<xr:TypeId>8f5ab921-58be-4591-88f6-66c133f8465c</xr:TypeId>
+				<xr:ValueId>7cbd2b18-6f69-40ad-a55c-6f338b3d0f84</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыОплатыПлатежей" category="Manager">
+				<xr:TypeId>9fccd8bb-ea84-4cd9-bc5b-8f590a764954</xr:TypeId>
+				<xr:ValueId>d3f5475b-63dc-43ae-a266-a0603aa8cf8b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыОплатыПлатежей" category="List">
+				<xr:TypeId>19eab67d-d50d-443b-905b-5da39a265d99</xr:TypeId>
+				<xr:ValueId>fc51a965-ccb2-4efb-86cf-09716420173f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СпособыОплатыПлатежей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>dfc40f83-bee1-49b2-a3ac-c9f9f72652af</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

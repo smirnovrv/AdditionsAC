@@ -11,6 +11,33 @@
 				<CommandName>0</CommandName>
 				<ExtendedTooltip name="МаршрутСогласованияExtendedTooltip" id="25"/>
 			</Button>
+			<Button name="ДобавитьСогласующих" id="50">
+				<Type>CommandBarButton</Type>
+				<Visible>false</Visible>
+				<Representation>PictureAndText</Representation>
+				<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+				<Check>true</Check>
+				<CommandName>0</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Дополнительные согласующие</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ДобавитьСогласующихРасширеннаяПодсказка" id="51"/>
+			</Button>
+			<Button name="ТаблицаПакетаДокументовМаршрутСогласования" id="117">
+				<Type>CommandBarButton</Type>
+				<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ТаблицаПакетаДокументовМаршрутСогласованияРасширеннаяПодсказка" id="118"/>
+			</Button>
+			<Button name="ТаблицаПакетаДокументовИсторияСогласования" id="119">
+				<Type>CommandBarButton</Type>
+				<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ТаблицаПакетаДокументовИсторияСогласованияРасширеннаяПодсказка" id="120"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
@@ -100,214 +127,310 @@
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
-						<UsualGroup name="ХодСогласования" id="4">
+						<UsualGroup name="ГруппаДополнительныеСогласующие" id="143">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Ход согласования</v8:content>
+									<v8:content>Группа дополнительные согласующие</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Ход согласования</v8:content>
+									<v8:content>Группа дополнительные согласующие</v8:content>
 								</v8:item>
 							</ToolTip>
-							<Group>Vertical</Group>
-							<Behavior>Usual</Behavior>
+							<Group>AlwaysHorizontal</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ХодСогласованияExtendedTooltip" id="28"/>
+							<ExtendedTooltip name="ГруппаДополнительныеСогласующиеРасширеннаяПодсказка" id="144"/>
 							<ChildItems>
-								<Table name="ТаблицаСогласования" id="5">
-									<Representation>List</Representation>
-									<Visible>false</Visible>
-									<AutoInsertNewRow>true</AutoInsertNewRow>
-									<EnableStartDrag>true</EnableStartDrag>
-									<EnableDrag>true</EnableDrag>
-									<FileDragMode>AsFile</FileDragMode>
+								<LabelField name="ДополнительныеСогласующие" id="145">
+									<Hiperlink>true</Hiperlink>
+									<ContextMenu name="ДополнительныеСогласующиеКонтекстноеМеню" id="146"/>
+									<ExtendedTooltip name="ДополнительныеСогласующиеРасширеннаяПодсказка" id="147"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+						<Pages name="ГруппаСогласованиеИДокументы" id="135">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа согласование и документы</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа согласование и документы</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ГруппаСогласованиеИДокументыРасширеннаяПодсказка" id="136"/>
+							<ChildItems>
+								<Page name="СтраницаКомментарий" id="141">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>История согласования</v8:content>
-										</v8:item>
-									</Title>
-									<SearchStringLocation>None</SearchStringLocation>
-									<ViewStatusLocation>None</ViewStatusLocation>
-									<SearchControlLocation>None</SearchControlLocation>
-									<RowFilter xsi:nil="true"/>
-									<ContextMenu name="ТаблицаСогласованияКонтекстноеМеню" id="6"/>
-									<AutoCommandBar name="ТаблицаСогласованияКоманднаяПанель" id="7">
-										<Autofill>false</Autofill>
-									</AutoCommandBar>
-									<ExtendedTooltip name="ТаблицаСогласованияExtendedTooltip" id="29"/>
-									<SearchStringAddition name="ТаблицаСогласованияСтрокаПоиска" id="41">
-										<AdditionSource>
-											<Item>ТаблицаСогласования</Item>
-											<Type>SearchStringRepresentation</Type>
-										</AdditionSource>
-										<ContextMenu name="ТаблицаСогласованияСтрокаПоискаКонтекстноеМеню" id="42"/>
-										<ExtendedTooltip name="ТаблицаСогласованияСтрокаПоискаРасширеннаяПодсказка" id="43"/>
-									</SearchStringAddition>
-									<ViewStatusAddition name="ТаблицаСогласованияСостояниеПросмотра" id="44">
-										<AdditionSource>
-											<Item>ТаблицаСогласования</Item>
-											<Type>ViewStatusRepresentation</Type>
-										</AdditionSource>
-										<ContextMenu name="ТаблицаСогласованияСостояниеПросмотраКонтекстноеМеню" id="45"/>
-										<ExtendedTooltip name="ТаблицаСогласованияСостояниеПросмотраРасширеннаяПодсказка" id="46"/>
-									</ViewStatusAddition>
-									<SearchControlAddition name="ТаблицаСогласованияУправлениеПоиском" id="47">
-										<AdditionSource>
-											<Item>ТаблицаСогласования</Item>
-											<Type>SearchControl</Type>
-										</AdditionSource>
-										<ContextMenu name="ТаблицаСогласованияУправлениеПоискомКонтекстноеМеню" id="48"/>
-										<ExtendedTooltip name="ТаблицаСогласованияУправлениеПоискомРасширеннаяПодсказка" id="49"/>
-									</SearchControlAddition>
-									<ChildItems>
-										<InputField name="ТаблицаСогласованияДата" id="8">
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="ТаблицаСогласованияДатаКонтекстноеМеню" id="9"/>
-											<ExtendedTooltip name="ТаблицаСогласованияДатаExtendedTooltip" id="30"/>
-										</InputField>
-										<InputField name="ТаблицаСогласованияПользователь" id="10">
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="ТаблицаСогласованияПользовательКонтекстноеМеню" id="11"/>
-											<ExtendedTooltip name="ТаблицаСогласованияПользовательExtendedTooltip" id="31"/>
-										</InputField>
-										<InputField name="ТаблицаСогласованияСостояние" id="12">
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="ТаблицаСогласованияСостояниеКонтекстноеМеню" id="13"/>
-											<ExtendedTooltip name="ТаблицаСогласованияСостояниеExtendedTooltip" id="32"/>
-										</InputField>
-										<InputField name="ТаблицаСогласованияКомментарий" id="14">
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="ТаблицаСогласованияКомментарийКонтекстноеМеню" id="15"/>
-											<ExtendedTooltip name="ТаблицаСогласованияКомментарийExtendedTooltip" id="33"/>
-										</InputField>
-									</ChildItems>
-								</Table>
-								<UsualGroup name="ГруппаПредыдущиеВизы" id="127">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Предыдущие визы, оставленные участниками согласования:</v8:content>
+											<v8:content>Виза (пометка, пояснение)</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Группа предыдущие визы</v8:content>
+											<v8:content>Страница комментарий</v8:content>
 										</v8:item>
 									</ToolTip>
-									<Behavior>Usual</Behavior>
-									<ExtendedTooltip name="ГруппаПредыдущиеВизыРасширеннаяПодсказка" id="128"/>
+									<ExtendedTooltip name="СтраницаКомментарийРасширеннаяПодсказка" id="142"/>
 									<ChildItems>
-										<SpreadSheetDocumentField name="ТД_ИсторияСогласования" id="89">
+										<UsualGroup name="ГруппаКомментарий" id="16">
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Предыдущие визы</v8:content>
+													<v8:content>Виза (пометка, пояснение):</v8:content>
 												</v8:item>
 											</Title>
-											<TitleLocation>None</TitleLocation>
-											<Width>70</Width>
-											<VerticalScrollBar>true</VerticalScrollBar>
-											<HorizontalScrollBar>true</HorizontalScrollBar>
-											<Protection>true</Protection>
-											<ShowGroups>false</ShowGroups>
-											<EnableStartDrag>false</EnableStartDrag>
-											<EnableDrag>false</EnableDrag>
-											<BorderColor>style:FormBackColor</BorderColor>
-											<ViewScalingMode>Normal</ViewScalingMode>
-											<ContextMenu name="ТД_ИсторияСогласованияКонтекстноеМеню" id="90"/>
-											<ExtendedTooltip name="ТД_ИсторияСогласованияРасширеннаяПодсказка" id="91"/>
-										</SpreadSheetDocumentField>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа комментарий</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаКомментарийExtendedTooltip" id="34"/>
+											<ChildItems>
+												<TextDocumentField name="Комментарий" id="17">
+													<TitleLocation>None</TitleLocation>
+													<ContextMenu name="КомментарийКонтекстноеМеню" id="18"/>
+													<ExtendedTooltip name="КомментарийExtendedTooltip" id="35"/>
+												</TextDocumentField>
+											</ChildItems>
+										</UsualGroup>
 									</ChildItems>
-								</UsualGroup>
+								</Page>
+								<Page name="СтраницаПредыдущиеВизы" id="137">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Предыдущие визы</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница предыдущие визы</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="СтраницаПредыдущиеВизыРасширеннаяПодсказка" id="138"/>
+									<ChildItems>
+										<UsualGroup name="ХодСогласования" id="4">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Ход согласования</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Ход согласования</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ХодСогласованияExtendedTooltip" id="28"/>
+											<ChildItems>
+												<Table name="ТаблицаСогласования" id="5">
+													<Representation>List</Representation>
+													<Visible>false</Visible>
+													<AutoInsertNewRow>true</AutoInsertNewRow>
+													<EnableStartDrag>true</EnableStartDrag>
+													<EnableDrag>true</EnableDrag>
+													<FileDragMode>AsFile</FileDragMode>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>История согласования</v8:content>
+														</v8:item>
+													</Title>
+													<SearchStringLocation>None</SearchStringLocation>
+													<ViewStatusLocation>None</ViewStatusLocation>
+													<SearchControlLocation>None</SearchControlLocation>
+													<RowFilter xsi:nil="true"/>
+													<ContextMenu name="ТаблицаСогласованияКонтекстноеМеню" id="6"/>
+													<AutoCommandBar name="ТаблицаСогласованияКоманднаяПанель" id="7">
+														<Autofill>false</Autofill>
+													</AutoCommandBar>
+													<ExtendedTooltip name="ТаблицаСогласованияExtendedTooltip" id="29"/>
+													<SearchStringAddition name="ТаблицаСогласованияСтрокаПоиска" id="41">
+														<AdditionSource>
+															<Item>ТаблицаСогласования</Item>
+															<Type>SearchStringRepresentation</Type>
+														</AdditionSource>
+														<ContextMenu name="ТаблицаСогласованияСтрокаПоискаКонтекстноеМеню" id="42"/>
+														<ExtendedTooltip name="ТаблицаСогласованияСтрокаПоискаРасширеннаяПодсказка" id="43"/>
+													</SearchStringAddition>
+													<ViewStatusAddition name="ТаблицаСогласованияСостояниеПросмотра" id="44">
+														<AdditionSource>
+															<Item>ТаблицаСогласования</Item>
+															<Type>ViewStatusRepresentation</Type>
+														</AdditionSource>
+														<ContextMenu name="ТаблицаСогласованияСостояниеПросмотраКонтекстноеМеню" id="45"/>
+														<ExtendedTooltip name="ТаблицаСогласованияСостояниеПросмотраРасширеннаяПодсказка" id="46"/>
+													</ViewStatusAddition>
+													<SearchControlAddition name="ТаблицаСогласованияУправлениеПоиском" id="47">
+														<AdditionSource>
+															<Item>ТаблицаСогласования</Item>
+															<Type>SearchControl</Type>
+														</AdditionSource>
+														<ContextMenu name="ТаблицаСогласованияУправлениеПоискомКонтекстноеМеню" id="48"/>
+														<ExtendedTooltip name="ТаблицаСогласованияУправлениеПоискомРасширеннаяПодсказка" id="49"/>
+													</SearchControlAddition>
+													<ChildItems>
+														<InputField name="ТаблицаСогласованияДата" id="8">
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="ТаблицаСогласованияДатаКонтекстноеМеню" id="9"/>
+															<ExtendedTooltip name="ТаблицаСогласованияДатаExtendedTooltip" id="30"/>
+														</InputField>
+														<InputField name="ТаблицаСогласованияПользователь" id="10">
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="ТаблицаСогласованияПользовательКонтекстноеМеню" id="11"/>
+															<ExtendedTooltip name="ТаблицаСогласованияПользовательExtendedTooltip" id="31"/>
+														</InputField>
+														<InputField name="ТаблицаСогласованияСостояние" id="12">
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="ТаблицаСогласованияСостояниеКонтекстноеМеню" id="13"/>
+															<ExtendedTooltip name="ТаблицаСогласованияСостояниеExtendedTooltip" id="32"/>
+														</InputField>
+														<InputField name="ТаблицаСогласованияКомментарий" id="14">
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="ТаблицаСогласованияКомментарийКонтекстноеМеню" id="15"/>
+															<ExtendedTooltip name="ТаблицаСогласованияКомментарийExtendedTooltip" id="33"/>
+														</InputField>
+													</ChildItems>
+												</Table>
+												<UsualGroup name="ГруппаПредыдущиеВизы" id="127">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Предыдущие визы, оставленные участниками согласования:</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа предыдущие визы</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Behavior>Usual</Behavior>
+													<Representation>StrongSeparation</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаПредыдущиеВизыРасширеннаяПодсказка" id="128"/>
+													<ChildItems>
+														<SpreadSheetDocumentField name="ТД_ИсторияСогласования" id="89">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Предыдущие визы</v8:content>
+																</v8:item>
+															</Title>
+															<TitleLocation>None</TitleLocation>
+															<Width>70</Width>
+															<VerticalScrollBar>true</VerticalScrollBar>
+															<HorizontalScrollBar>true</HorizontalScrollBar>
+															<Protection>true</Protection>
+															<ShowGroups>false</ShowGroups>
+															<EnableStartDrag>false</EnableStartDrag>
+															<EnableDrag>false</EnableDrag>
+															<BorderColor>style:FormBackColor</BorderColor>
+															<ViewScalingMode>Normal</ViewScalingMode>
+															<ContextMenu name="ТД_ИсторияСогласованияКонтекстноеМеню" id="90"/>
+															<ExtendedTooltip name="ТД_ИсторияСогласованияРасширеннаяПодсказка" id="91"/>
+														</SpreadSheetDocumentField>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</Page>
+								<Page name="СтраницаПакетДокументов" id="139">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Пакет документов</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница пакет документов</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="СтраницаПакетДокументовРасширеннаяПодсказка" id="140"/>
+									<ChildItems>
+										<Table name="ТаблицаПакетаДокументов" id="95">
+											<Representation>List</Representation>
+											<ChangeRowSet>false</ChangeRowSet>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<FileDragMode>AsFile</FileDragMode>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="ТаблицаПакетаДокументовКонтекстноеМеню" id="96"/>
+											<AutoCommandBar name="ТаблицаПакетаДокументовКоманднаяПанель" id="97"/>
+											<ExtendedTooltip name="ТаблицаПакетаДокументовРасширеннаяПодсказка" id="98"/>
+											<SearchStringAddition name="ТаблицаПакетаДокументовСтрокаПоиска" id="99">
+												<AdditionSource>
+													<Item>ТаблицаПакетаДокументов</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ТаблицаПакетаДокументовСтрокаПоискаКонтекстноеМеню" id="100"/>
+												<ExtendedTooltip name="ТаблицаПакетаДокументовСтрокаПоискаРасширеннаяПодсказка" id="101"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="ТаблицаПакетаДокументовСостояниеПросмотра" id="102">
+												<AdditionSource>
+													<Item>ТаблицаПакетаДокументов</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ТаблицаПакетаДокументовСостояниеПросмотраКонтекстноеМеню" id="103"/>
+												<ExtendedTooltip name="ТаблицаПакетаДокументовСостояниеПросмотраРасширеннаяПодсказка" id="104"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="ТаблицаПакетаДокументовУправлениеПоиском" id="105">
+												<AdditionSource>
+													<Item>ТаблицаПакетаДокументов</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="ТаблицаПакетаДокументовУправлениеПоискомКонтекстноеМеню" id="106"/>
+												<ExtendedTooltip name="ТаблицаПакетаДокументовУправлениеПоискомРасширеннаяПодсказка" id="107"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<InputField name="ТаблицаПакетаДокументовОбъектСогласования" id="108">
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ТаблицаПакетаДокументовОбъектСогласованияКонтекстноеМеню" id="109"/>
+													<ExtendedTooltip name="ТаблицаПакетаДокументовОбъектСогласованияРасширеннаяПодсказка" id="110"/>
+												</InputField>
+												<InputField name="ТаблицаПакетаДокументовЭтап" id="111">
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ТаблицаПакетаДокументовЭтапКонтекстноеМеню" id="112"/>
+													<ExtendedTooltip name="ТаблицаПакетаДокументовЭтапРасширеннаяПодсказка" id="113"/>
+												</InputField>
+												<InputField name="ТаблицаПакетаДокументовОтветственный" id="114">
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ТаблицаПакетаДокументовОтветственныйКонтекстноеМеню" id="115"/>
+													<ExtendedTooltip name="ТаблицаПакетаДокументовОтветственныйРасширеннаяПодсказка" id="116"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
 							</ChildItems>
-						</UsualGroup>
-						<Table name="ТаблицаПакетаДокументов" id="95">
-							<Representation>List</Representation>
-							<ChangeRowSet>false</ChangeRowSet>
-							<AutoInsertNewRow>true</AutoInsertNewRow>
-							<EnableStartDrag>true</EnableStartDrag>
-							<EnableDrag>true</EnableDrag>
-							<FileDragMode>AsFile</FileDragMode>
-							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="ТаблицаПакетаДокументовКонтекстноеМеню" id="96"/>
-							<AutoCommandBar name="ТаблицаПакетаДокументовКоманднаяПанель" id="97"/>
-							<ExtendedTooltip name="ТаблицаПакетаДокументовРасширеннаяПодсказка" id="98"/>
-							<SearchStringAddition name="ТаблицаПакетаДокументовСтрокаПоиска" id="99">
-								<AdditionSource>
-									<Item>ТаблицаПакетаДокументов</Item>
-									<Type>SearchStringRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="ТаблицаПакетаДокументовСтрокаПоискаКонтекстноеМеню" id="100"/>
-								<ExtendedTooltip name="ТаблицаПакетаДокументовСтрокаПоискаРасширеннаяПодсказка" id="101"/>
-							</SearchStringAddition>
-							<ViewStatusAddition name="ТаблицаПакетаДокументовСостояниеПросмотра" id="102">
-								<AdditionSource>
-									<Item>ТаблицаПакетаДокументов</Item>
-									<Type>ViewStatusRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="ТаблицаПакетаДокументовСостояниеПросмотраКонтекстноеМеню" id="103"/>
-								<ExtendedTooltip name="ТаблицаПакетаДокументовСостояниеПросмотраРасширеннаяПодсказка" id="104"/>
-							</ViewStatusAddition>
-							<SearchControlAddition name="ТаблицаПакетаДокументовУправлениеПоиском" id="105">
-								<AdditionSource>
-									<Item>ТаблицаПакетаДокументов</Item>
-									<Type>SearchControl</Type>
-								</AdditionSource>
-								<ContextMenu name="ТаблицаПакетаДокументовУправлениеПоискомКонтекстноеМеню" id="106"/>
-								<ExtendedTooltip name="ТаблицаПакетаДокументовУправлениеПоискомРасширеннаяПодсказка" id="107"/>
-							</SearchControlAddition>
-							<ChildItems>
-								<InputField name="ТаблицаПакетаДокументовОбъектСогласования" id="108">
-									<ReadOnly>true</ReadOnly>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ТаблицаПакетаДокументовОбъектСогласованияКонтекстноеМеню" id="109"/>
-									<ExtendedTooltip name="ТаблицаПакетаДокументовОбъектСогласованияРасширеннаяПодсказка" id="110"/>
-								</InputField>
-								<InputField name="ТаблицаПакетаДокументовЭтап" id="111">
-									<ReadOnly>true</ReadOnly>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ТаблицаПакетаДокументовЭтапКонтекстноеМеню" id="112"/>
-									<ExtendedTooltip name="ТаблицаПакетаДокументовЭтапРасширеннаяПодсказка" id="113"/>
-								</InputField>
-								<InputField name="ТаблицаПакетаДокументовОтветственный" id="114">
-									<ReadOnly>true</ReadOnly>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ТаблицаПакетаДокументовОтветственныйКонтекстноеМеню" id="115"/>
-									<ExtendedTooltip name="ТаблицаПакетаДокументовОтветственныйРасширеннаяПодсказка" id="116"/>
-								</InputField>
-							</ChildItems>
-						</Table>
-						<UsualGroup name="ГруппаКомментарий" id="16">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Виза (пометка, пояснение):</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа комментарий</v8:content>
-								</v8:item>
-							</ToolTip>
-							<Group>Vertical</Group>
-							<Behavior>Usual</Behavior>
-							<ExtendedTooltip name="ГруппаКомментарийExtendedTooltip" id="34"/>
-							<ChildItems>
-								<TextDocumentField name="Комментарий" id="17">
-									<TitleLocation>None</TitleLocation>
-									<ContextMenu name="КомментарийКонтекстноеМеню" id="18"/>
-									<ExtendedTooltip name="КомментарийExtendedTooltip" id="35"/>
-								</TextDocumentField>
-							</ChildItems>
-						</UsualGroup>
+						</Pages>
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаСогласующие" id="56">
@@ -440,17 +563,26 @@
 						</v8:item>
 					</ToolTip>
 					<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+					<HorizontalLocation>Right</HorizontalLocation>
 					<ExtendedTooltip name="ГруппаДействияЛеваяРасширеннаяПодсказка" id="122"/>
 					<ChildItems>
+						<Button name="СогласоватьОтчет" id="20">
+							<Type>CommandBarButton</Type>
+							<Representation>PictureAndText</Representation>
+							<DefaultButton>true</DefaultButton>
+							<CommandName>0</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Согласовать</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="СогласоватьОтчетExtendedTooltip" id="37"/>
+						</Button>
 						<Button name="ПринятьКИсполнению" id="129">
 							<Type>CommandBarButton</Type>
 							<Representation>PictureAndText</Representation>
 							<CommandName>0</CommandName>
-							<TextColor>#008000</TextColor>
-							<Picture>
-								<xr:Ref>CommonPicture.ЗеленыйШарСЗамком</xr:Ref>
-								<xr:LoadTransparent>true</xr:LoadTransparent>
-							</Picture>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -463,11 +595,6 @@
 							<Type>CommandBarButton</Type>
 							<Representation>PictureAndText</Representation>
 							<CommandName>0</CommandName>
-							<TextColor>#008000</TextColor>
-							<Picture>
-								<xr:Ref>CommonPicture.ЗеленыйШар</xr:Ref>
-								<xr:LoadTransparent>true</xr:LoadTransparent>
-							</Picture>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -476,29 +603,10 @@
 							</Title>
 							<ExtendedTooltip name="ОтменитьПринятиеКИсполнениюРасширеннаяПодсказка" id="132"/>
 						</Button>
-						<Button name="СогласоватьОтчет" id="20">
-							<Type>CommandBarButton</Type>
-							<Representation>PictureAndText</Representation>
-							<CommandName>0</CommandName>
-							<TextColor>web:LightSeaGreen</TextColor>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Согласовать</v8:content>
-								</v8:item>
-							</Title>
-							<ExtendedTooltip name="СогласоватьОтчетExtendedTooltip" id="37"/>
-						</Button>
 						<Button name="ОтклонитьОтчет" id="21">
 							<Type>CommandBarButton</Type>
 							<Representation>PictureAndText</Representation>
 							<CommandName>Form.Command.ОтклонитьОтчет</CommandName>
-							<TextColor>web:Goldenrod</TextColor>
-							<Picture>
-								<xr:Ref>CommonPicture.ОтклонитьОтчет</xr:Ref>
-								<xr:LoadTransparent>true</xr:LoadTransparent>
-								<xr:TransparentPixel x="14" y="0"/>
-							</Picture>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -511,12 +619,6 @@
 							<Type>CommandBarButton</Type>
 							<Representation>PictureAndText</Representation>
 							<CommandName>Form.Command.ВернутьИсполнителю</CommandName>
-							<TextColor>web:Crimson</TextColor>
-							<Picture>
-								<xr:Ref>CommonPicture.ОтклонитьОтчет</xr:Ref>
-								<xr:LoadTransparent>true</xr:LoadTransparent>
-								<xr:TransparentPixel x="14" y="4"/>
-							</Picture>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -525,51 +627,11 @@
 							</Title>
 							<ExtendedTooltip name="ВернутьИсполнителюExtendedTooltip" id="39"/>
 						</Button>
-					</ChildItems>
-				</CommandBar>
-				<CommandBar name="ГруппаДействияПравая" id="123">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа действия правая</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа действия правая</v8:content>
-						</v8:item>
-					</ToolTip>
-					<HorizontalStretch>true</HorizontalStretch>
-					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-					<HorizontalLocation>Right</HorizontalLocation>
-					<ExtendedTooltip name="ГруппаДействияПраваяРасширеннаяПодсказка" id="124"/>
-					<ChildItems>
-						<Button name="ДобавитьСогласующих" id="50">
+						<Button name="Делегировать" id="133">
 							<Type>CommandBarButton</Type>
 							<Representation>PictureAndText</Representation>
-							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-							<Check>true</Check>
 							<CommandName>0</CommandName>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Дополнительные согласующие</v8:content>
-								</v8:item>
-							</Title>
-							<ExtendedTooltip name="ДобавитьСогласующихРасширеннаяПодсказка" id="51"/>
-						</Button>
-						<Button name="ТаблицаПакетаДокументовМаршрутСогласования" id="117">
-							<Type>CommandBarButton</Type>
-							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-							<CommandName>0</CommandName>
-							<ExtendedTooltip name="ТаблицаПакетаДокументовМаршрутСогласованияРасширеннаяПодсказка" id="118"/>
-						</Button>
-						<Button name="ТаблицаПакетаДокументовИсторияСогласования" id="119">
-							<Type>CommandBarButton</Type>
-							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-							<CommandName>0</CommandName>
-							<ExtendedTooltip name="ТаблицаПакетаДокументовИсторияСогласованияРасширеннаяПодсказка" id="120"/>
+							<ExtendedTooltip name="ДелегироватьРасширеннаяПодсказка" id="134"/>
 						</Button>
 					</ChildItems>
 				</CommandBar>
@@ -643,7 +705,7 @@
 				</v8:item>
 			</ToolTip>
 			<Picture>
-				<xr:Ref>CommonPicture.СогласоватьОтчет</xr:Ref>
+				<xr:Ref>CommonPicture.ВернутьИсполнителю</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 				<xr:TransparentPixel x="12" y="2"/>
 			</Picture>
@@ -684,6 +746,33 @@
 					<Visible>false</Visible>
 					<CommandName>0</CommandName>
 					<ExtendedTooltip name="МаршрутСогласованияExtendedTooltip" id="25"/>
+				</Button>
+				<Button name="ДобавитьСогласующих" id="50">
+					<Type>CommandBarButton</Type>
+					<Visible>false</Visible>
+					<Representation>PictureAndText</Representation>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<Check>true</Check>
+					<CommandName>0</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительные согласующие</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ДобавитьСогласующихРасширеннаяПодсказка" id="51"/>
+				</Button>
+				<Button name="ТаблицаПакетаДокументовМаршрутСогласования" id="117">
+					<Type>CommandBarButton</Type>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ТаблицаПакетаДокументовМаршрутСогласованияРасширеннаяПодсказка" id="118"/>
+				</Button>
+				<Button name="ТаблицаПакетаДокументовИсторияСогласования" id="119">
+					<Type>CommandBarButton</Type>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ТаблицаПакетаДокументовИсторияСогласованияРасширеннаяПодсказка" id="120"/>
 				</Button>
 			</ChildItems>
 		</AutoCommandBar>
@@ -765,220 +854,316 @@
 												<v8:content>Этап согласования</v8:content>
 											</v8:item>
 										</Title>
-										<AutoMaxWidth>false</AutoMaxWidth>
+										<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 										<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
 										<ExtendedTooltip name="НаименованиеExtendedTooltip" id="27"/>
 									</InputField>
 								</ChildItems>
 							</UsualGroup>
-							<UsualGroup name="ХодСогласования" id="4">
+							<UsualGroup name="ГруппаДополнительныеСогласующие" id="143">
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Ход согласования</v8:content>
+										<v8:content>Группа дополнительные согласующие</v8:content>
 									</v8:item>
 								</Title>
 								<ToolTip>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Ход согласования</v8:content>
+										<v8:content>Группа дополнительные согласующие</v8:content>
 									</v8:item>
 								</ToolTip>
-								<Group>Vertical</Group>
-								<Behavior>Usual</Behavior>
+								<Group>AlwaysHorizontal</Group>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
-								<ExtendedTooltip name="ХодСогласованияExtendedTooltip" id="28"/>
+								<ExtendedTooltip name="ГруппаДополнительныеСогласующиеРасширеннаяПодсказка" id="144"/>
 								<ChildItems>
-									<Table name="ТаблицаСогласования" id="5">
-										<Representation>List</Representation>
-										<Visible>false</Visible>
-										<AutoInsertNewRow>true</AutoInsertNewRow>
-										<EnableStartDrag>true</EnableStartDrag>
-										<EnableDrag>true</EnableDrag>
-										<FileDragMode>AsFile</FileDragMode>
+									<LabelField name="ДополнительныеСогласующие" id="145">
+										<Hiperlink>true</Hiperlink>
+										<ContextMenu name="ДополнительныеСогласующиеКонтекстноеМеню" id="146"/>
+										<ExtendedTooltip name="ДополнительныеСогласующиеРасширеннаяПодсказка" id="147"/>
+									</LabelField>
+								</ChildItems>
+							</UsualGroup>
+							<Pages name="ГруппаСогласованиеИДокументы" id="135">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа согласование и документы</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа согласование и документы</v8:content>
+									</v8:item>
+								</ToolTip>
+								<ExtendedTooltip name="ГруппаСогласованиеИДокументыРасширеннаяПодсказка" id="136"/>
+								<ChildItems>
+									<Page name="СтраницаКомментарий" id="141">
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
-												<v8:content>История согласования</v8:content>
-											</v8:item>
-										</Title>
-										<SearchStringLocation>None</SearchStringLocation>
-										<ViewStatusLocation>None</ViewStatusLocation>
-										<SearchControlLocation>None</SearchControlLocation>
-										<RowFilter xsi:nil="true"/>
-										<ContextMenu name="ТаблицаСогласованияКонтекстноеМеню" id="6"/>
-										<AutoCommandBar name="ТаблицаСогласованияКоманднаяПанель" id="7">
-											<Autofill>false</Autofill>
-										</AutoCommandBar>
-										<ExtendedTooltip name="ТаблицаСогласованияExtendedTooltip" id="29"/>
-										<SearchStringAddition name="ТаблицаСогласованияСтрокаПоиска" id="41">
-											<AdditionSource>
-												<Item>ТаблицаСогласования</Item>
-												<Type>SearchStringRepresentation</Type>
-											</AdditionSource>
-											<ContextMenu name="ТаблицаСогласованияСтрокаПоискаКонтекстноеМеню" id="42"/>
-											<ExtendedTooltip name="ТаблицаСогласованияСтрокаПоискаРасширеннаяПодсказка" id="43"/>
-										</SearchStringAddition>
-										<ViewStatusAddition name="ТаблицаСогласованияСостояниеПросмотра" id="44">
-											<AdditionSource>
-												<Item>ТаблицаСогласования</Item>
-												<Type>ViewStatusRepresentation</Type>
-											</AdditionSource>
-											<ContextMenu name="ТаблицаСогласованияСостояниеПросмотраКонтекстноеМеню" id="45"/>
-											<ExtendedTooltip name="ТаблицаСогласованияСостояниеПросмотраРасширеннаяПодсказка" id="46"/>
-										</ViewStatusAddition>
-										<SearchControlAddition name="ТаблицаСогласованияУправлениеПоиском" id="47">
-											<AdditionSource>
-												<Item>ТаблицаСогласования</Item>
-												<Type>SearchControl</Type>
-											</AdditionSource>
-											<ContextMenu name="ТаблицаСогласованияУправлениеПоискомКонтекстноеМеню" id="48"/>
-											<ExtendedTooltip name="ТаблицаСогласованияУправлениеПоискомРасширеннаяПодсказка" id="49"/>
-										</SearchControlAddition>
-										<ChildItems>
-											<InputField name="ТаблицаСогласованияДата" id="8">
-												<EditMode>EnterOnInput</EditMode>
-												<ContextMenu name="ТаблицаСогласованияДатаКонтекстноеМеню" id="9"/>
-												<ExtendedTooltip name="ТаблицаСогласованияДатаExtendedTooltip" id="30"/>
-											</InputField>
-											<InputField name="ТаблицаСогласованияПользователь" id="10">
-												<EditMode>EnterOnInput</EditMode>
-												<ContextMenu name="ТаблицаСогласованияПользовательКонтекстноеМеню" id="11"/>
-												<ExtendedTooltip name="ТаблицаСогласованияПользовательExtendedTooltip" id="31"/>
-											</InputField>
-											<InputField name="ТаблицаСогласованияСостояние" id="12">
-												<EditMode>EnterOnInput</EditMode>
-												<ContextMenu name="ТаблицаСогласованияСостояниеКонтекстноеМеню" id="13"/>
-												<ExtendedTooltip name="ТаблицаСогласованияСостояниеExtendedTooltip" id="32"/>
-											</InputField>
-											<InputField name="ТаблицаСогласованияКомментарий" id="14">
-												<EditMode>EnterOnInput</EditMode>
-												<ContextMenu name="ТаблицаСогласованияКомментарийКонтекстноеМеню" id="15"/>
-												<ExtendedTooltip name="ТаблицаСогласованияКомментарийExtendedTooltip" id="33"/>
-											</InputField>
-										</ChildItems>
-									</Table>
-									<UsualGroup name="ГруппаПредыдущиеВизы" id="127">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Предыдущие визы, оставленные участниками согласования:</v8:content>
+												<v8:content>Виза (пометка, пояснение)</v8:content>
 											</v8:item>
 										</Title>
 										<ToolTip>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
-												<v8:content>Группа предыдущие визы</v8:content>
+												<v8:content>Страница комментарий</v8:content>
 											</v8:item>
 										</ToolTip>
-										<Behavior>Usual</Behavior>
-										<ExtendedTooltip name="ГруппаПредыдущиеВизыРасширеннаяПодсказка" id="128"/>
+										<ExtendedTooltip name="СтраницаКомментарийРасширеннаяПодсказка" id="142"/>
 										<ChildItems>
-											<SpreadSheetDocumentField name="ТД_ИсторияСогласования" id="89">
+											<UsualGroup name="ГруппаКомментарий" id="16">
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Предыдущие визы</v8:content>
+														<v8:content>Виза (пометка, пояснение):</v8:content>
 													</v8:item>
 												</Title>
-												<TitleLocation>None</TitleLocation>
-												<Width>70</Width>
-												<VerticalScrollBar>true</VerticalScrollBar>
-												<HorizontalScrollBar>true</HorizontalScrollBar>
-												<Protection>true</Protection>
-												<ShowGroups>false</ShowGroups>
-												<EnableStartDrag>false</EnableStartDrag>
-												<EnableDrag>false</EnableDrag>
-												<BorderColor>style:FormBackColor</BorderColor>
-												<ViewScalingMode>Normal</ViewScalingMode>
-												<ContextMenu name="ТД_ИсторияСогласованияКонтекстноеМеню" id="90"/>
-												<ExtendedTooltip name="ТД_ИсторияСогласованияРасширеннаяПодсказка" id="91"/>
-											</SpreadSheetDocumentField>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Группа комментарий</v8:content>
+													</v8:item>
+												</ToolTip>
+												<Group>Vertical</Group>
+												<Behavior>Usual</Behavior>
+												<ShowTitle>false</ShowTitle>
+												<ExtendedTooltip name="ГруппаКомментарийExtendedTooltip" id="34"/>
+												<ChildItems>
+													<TextDocumentField name="Комментарий" id="17">
+														<TitleLocation>None</TitleLocation>
+														<ContextMenu name="КомментарийКонтекстноеМеню" id="18"/>
+														<ExtendedTooltip name="КомментарийExtendedTooltip" id="35"/>
+													</TextDocumentField>
+												</ChildItems>
+											</UsualGroup>
 										</ChildItems>
-									</UsualGroup>
+									</Page>
+									<Page name="СтраницаПредыдущиеВизы" id="137">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Предыдущие визы</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Страница предыдущие визы</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ExtendedTooltip name="СтраницаПредыдущиеВизыРасширеннаяПодсказка" id="138"/>
+										<ChildItems>
+											<UsualGroup name="ХодСогласования" id="4">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Ход согласования</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Ход согласования</v8:content>
+													</v8:item>
+												</ToolTip>
+												<Group>Vertical</Group>
+												<Behavior>Usual</Behavior>
+												<Representation>None</Representation>
+												<ShowTitle>false</ShowTitle>
+												<ExtendedTooltip name="ХодСогласованияExtendedTooltip" id="28"/>
+												<ChildItems>
+													<Table name="ТаблицаСогласования" id="5">
+														<Representation>List</Representation>
+														<Visible>false</Visible>
+														<AutoInsertNewRow>true</AutoInsertNewRow>
+														<EnableStartDrag>true</EnableStartDrag>
+														<EnableDrag>true</EnableDrag>
+														<FileDragMode>AsFile</FileDragMode>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>История согласования</v8:content>
+															</v8:item>
+														</Title>
+														<SearchStringLocation>None</SearchStringLocation>
+														<ViewStatusLocation>None</ViewStatusLocation>
+														<SearchControlLocation>None</SearchControlLocation>
+														<RowFilter xsi:nil="true"/>
+														<ContextMenu name="ТаблицаСогласованияКонтекстноеМеню" id="6"/>
+														<AutoCommandBar name="ТаблицаСогласованияКоманднаяПанель" id="7">
+															<Autofill>false</Autofill>
+														</AutoCommandBar>
+														<ExtendedTooltip name="ТаблицаСогласованияExtendedTooltip" id="29"/>
+														<SearchStringAddition name="ТаблицаСогласованияСтрокаПоиска" id="41">
+															<AdditionSource>
+																<Item>ТаблицаСогласования</Item>
+																<Type>SearchStringRepresentation</Type>
+															</AdditionSource>
+															<ContextMenu name="ТаблицаСогласованияСтрокаПоискаКонтекстноеМеню" id="42"/>
+															<ExtendedTooltip name="ТаблицаСогласованияСтрокаПоискаРасширеннаяПодсказка" id="43"/>
+														</SearchStringAddition>
+														<ViewStatusAddition name="ТаблицаСогласованияСостояниеПросмотра" id="44">
+															<AdditionSource>
+																<Item>ТаблицаСогласования</Item>
+																<Type>ViewStatusRepresentation</Type>
+															</AdditionSource>
+															<ContextMenu name="ТаблицаСогласованияСостояниеПросмотраКонтекстноеМеню" id="45"/>
+															<ExtendedTooltip name="ТаблицаСогласованияСостояниеПросмотраРасширеннаяПодсказка" id="46"/>
+														</ViewStatusAddition>
+														<SearchControlAddition name="ТаблицаСогласованияУправлениеПоиском" id="47">
+															<AdditionSource>
+																<Item>ТаблицаСогласования</Item>
+																<Type>SearchControl</Type>
+															</AdditionSource>
+															<ContextMenu name="ТаблицаСогласованияУправлениеПоискомКонтекстноеМеню" id="48"/>
+															<ExtendedTooltip name="ТаблицаСогласованияУправлениеПоискомРасширеннаяПодсказка" id="49"/>
+														</SearchControlAddition>
+														<ChildItems>
+															<InputField name="ТаблицаСогласованияДата" id="8">
+																<EditMode>EnterOnInput</EditMode>
+																<ContextMenu name="ТаблицаСогласованияДатаКонтекстноеМеню" id="9"/>
+																<ExtendedTooltip name="ТаблицаСогласованияДатаExtendedTooltip" id="30"/>
+															</InputField>
+															<InputField name="ТаблицаСогласованияПользователь" id="10">
+																<EditMode>EnterOnInput</EditMode>
+																<ContextMenu name="ТаблицаСогласованияПользовательКонтекстноеМеню" id="11"/>
+																<ExtendedTooltip name="ТаблицаСогласованияПользовательExtendedTooltip" id="31"/>
+															</InputField>
+															<InputField name="ТаблицаСогласованияСостояние" id="12">
+																<EditMode>EnterOnInput</EditMode>
+																<ContextMenu name="ТаблицаСогласованияСостояниеКонтекстноеМеню" id="13"/>
+																<ExtendedTooltip name="ТаблицаСогласованияСостояниеExtendedTooltip" id="32"/>
+															</InputField>
+															<InputField name="ТаблицаСогласованияКомментарий" id="14">
+																<EditMode>EnterOnInput</EditMode>
+																<ContextMenu name="ТаблицаСогласованияКомментарийКонтекстноеМеню" id="15"/>
+																<ExtendedTooltip name="ТаблицаСогласованияКомментарийExtendedTooltip" id="33"/>
+															</InputField>
+														</ChildItems>
+													</Table>
+													<UsualGroup name="ГруппаПредыдущиеВизы" id="127">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Предыдущие визы, оставленные участниками согласования:</v8:content>
+															</v8:item>
+														</Title>
+														<ToolTip>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Группа предыдущие визы</v8:content>
+															</v8:item>
+														</ToolTip>
+														<Behavior>Usual</Behavior>
+														<Representation>StrongSeparation</Representation>
+														<ShowTitle>false</ShowTitle>
+														<ExtendedTooltip name="ГруппаПредыдущиеВизыРасширеннаяПодсказка" id="128"/>
+														<ChildItems>
+															<SpreadSheetDocumentField name="ТД_ИсторияСогласования" id="89">
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Предыдущие визы</v8:content>
+																	</v8:item>
+																</Title>
+																<TitleLocation>None</TitleLocation>
+																<Width>70</Width>
+																<VerticalScrollBar>true</VerticalScrollBar>
+																<HorizontalScrollBar>true</HorizontalScrollBar>
+																<Protection>true</Protection>
+																<ShowGroups>false</ShowGroups>
+																<EnableStartDrag>false</EnableStartDrag>
+																<EnableDrag>false</EnableDrag>
+																<BorderColor>style:FormBackColor</BorderColor>
+																<ViewScalingMode>Normal</ViewScalingMode>
+																<ContextMenu name="ТД_ИсторияСогласованияКонтекстноеМеню" id="90"/>
+																<ExtendedTooltip name="ТД_ИсторияСогласованияРасширеннаяПодсказка" id="91"/>
+															</SpreadSheetDocumentField>
+														</ChildItems>
+													</UsualGroup>
+												</ChildItems>
+											</UsualGroup>
+										</ChildItems>
+									</Page>
+									<Page name="СтраницаПакетДокументов" id="139">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Пакет документов</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Страница пакет документов</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ExtendedTooltip name="СтраницаПакетДокументовРасширеннаяПодсказка" id="140"/>
+										<ChildItems>
+											<Table name="ТаблицаПакетаДокументов" id="95">
+												<Representation>List</Representation>
+												<ChangeRowSet>false</ChangeRowSet>
+												<AutoInsertNewRow>true</AutoInsertNewRow>
+												<EnableStartDrag>true</EnableStartDrag>
+												<EnableDrag>true</EnableDrag>
+												<FileDragMode>AsFile</FileDragMode>
+												<RowFilter xsi:nil="true"/>
+												<ContextMenu name="ТаблицаПакетаДокументовКонтекстноеМеню" id="96"/>
+												<AutoCommandBar name="ТаблицаПакетаДокументовКоманднаяПанель" id="97"/>
+												<ExtendedTooltip name="ТаблицаПакетаДокументовРасширеннаяПодсказка" id="98"/>
+												<SearchStringAddition name="ТаблицаПакетаДокументовСтрокаПоиска" id="99">
+													<AdditionSource>
+														<Item>ТаблицаПакетаДокументов</Item>
+														<Type>SearchStringRepresentation</Type>
+													</AdditionSource>
+													<ContextMenu name="ТаблицаПакетаДокументовСтрокаПоискаКонтекстноеМеню" id="100"/>
+													<ExtendedTooltip name="ТаблицаПакетаДокументовСтрокаПоискаРасширеннаяПодсказка" id="101"/>
+												</SearchStringAddition>
+												<ViewStatusAddition name="ТаблицаПакетаДокументовСостояниеПросмотра" id="102">
+													<AdditionSource>
+														<Item>ТаблицаПакетаДокументов</Item>
+														<Type>ViewStatusRepresentation</Type>
+													</AdditionSource>
+													<ContextMenu name="ТаблицаПакетаДокументовСостояниеПросмотраКонтекстноеМеню" id="103"/>
+													<ExtendedTooltip name="ТаблицаПакетаДокументовСостояниеПросмотраРасширеннаяПодсказка" id="104"/>
+												</ViewStatusAddition>
+												<SearchControlAddition name="ТаблицаПакетаДокументовУправлениеПоиском" id="105">
+													<AdditionSource>
+														<Item>ТаблицаПакетаДокументов</Item>
+														<Type>SearchControl</Type>
+													</AdditionSource>
+													<ContextMenu name="ТаблицаПакетаДокументовУправлениеПоискомКонтекстноеМеню" id="106"/>
+													<ExtendedTooltip name="ТаблицаПакетаДокументовУправлениеПоискомРасширеннаяПодсказка" id="107"/>
+												</SearchControlAddition>
+												<ChildItems>
+													<InputField name="ТаблицаПакетаДокументовОбъектСогласования" id="108">
+														<ReadOnly>true</ReadOnly>
+														<EditMode>EnterOnInput</EditMode>
+														<ContextMenu name="ТаблицаПакетаДокументовОбъектСогласованияКонтекстноеМеню" id="109"/>
+														<ExtendedTooltip name="ТаблицаПакетаДокументовОбъектСогласованияРасширеннаяПодсказка" id="110"/>
+													</InputField>
+													<InputField name="ТаблицаПакетаДокументовЭтап" id="111">
+														<ReadOnly>true</ReadOnly>
+														<EditMode>EnterOnInput</EditMode>
+														<ContextMenu name="ТаблицаПакетаДокументовЭтапКонтекстноеМеню" id="112"/>
+														<ExtendedTooltip name="ТаблицаПакетаДокументовЭтапРасширеннаяПодсказка" id="113"/>
+													</InputField>
+													<InputField name="ТаблицаПакетаДокументовОтветственный" id="114">
+														<ReadOnly>true</ReadOnly>
+														<EditMode>EnterOnInput</EditMode>
+														<ContextMenu name="ТаблицаПакетаДокументовОтветственныйКонтекстноеМеню" id="115"/>
+														<ExtendedTooltip name="ТаблицаПакетаДокументовОтветственныйРасширеннаяПодсказка" id="116"/>
+													</InputField>
+												</ChildItems>
+											</Table>
+										</ChildItems>
+									</Page>
 								</ChildItems>
-							</UsualGroup>
-							<Table name="ТаблицаПакетаДокументов" id="95">
-								<Representation>List</Representation>
-								<ChangeRowSet>false</ChangeRowSet>
-								<AutoInsertNewRow>true</AutoInsertNewRow>
-								<EnableStartDrag>true</EnableStartDrag>
-								<EnableDrag>true</EnableDrag>
-								<FileDragMode>AsFile</FileDragMode>
-								<RowFilter xsi:nil="true"/>
-								<ContextMenu name="ТаблицаПакетаДокументовКонтекстноеМеню" id="96"/>
-								<AutoCommandBar name="ТаблицаПакетаДокументовКоманднаяПанель" id="97"/>
-								<ExtendedTooltip name="ТаблицаПакетаДокументовРасширеннаяПодсказка" id="98"/>
-								<SearchStringAddition name="ТаблицаПакетаДокументовСтрокаПоиска" id="99">
-									<AdditionSource>
-										<Item>ТаблицаПакетаДокументов</Item>
-										<Type>SearchStringRepresentation</Type>
-									</AdditionSource>
-									<ContextMenu name="ТаблицаПакетаДокументовСтрокаПоискаКонтекстноеМеню" id="100"/>
-									<ExtendedTooltip name="ТаблицаПакетаДокументовСтрокаПоискаРасширеннаяПодсказка" id="101"/>
-								</SearchStringAddition>
-								<ViewStatusAddition name="ТаблицаПакетаДокументовСостояниеПросмотра" id="102">
-									<AdditionSource>
-										<Item>ТаблицаПакетаДокументов</Item>
-										<Type>ViewStatusRepresentation</Type>
-									</AdditionSource>
-									<ContextMenu name="ТаблицаПакетаДокументовСостояниеПросмотраКонтекстноеМеню" id="103"/>
-									<ExtendedTooltip name="ТаблицаПакетаДокументовСостояниеПросмотраРасширеннаяПодсказка" id="104"/>
-								</ViewStatusAddition>
-								<SearchControlAddition name="ТаблицаПакетаДокументовУправлениеПоиском" id="105">
-									<AdditionSource>
-										<Item>ТаблицаПакетаДокументов</Item>
-										<Type>SearchControl</Type>
-									</AdditionSource>
-									<ContextMenu name="ТаблицаПакетаДокументовУправлениеПоискомКонтекстноеМеню" id="106"/>
-									<ExtendedTooltip name="ТаблицаПакетаДокументовУправлениеПоискомРасширеннаяПодсказка" id="107"/>
-								</SearchControlAddition>
-								<ChildItems>
-									<InputField name="ТаблицаПакетаДокументовОбъектСогласования" id="108">
-										<ReadOnly>true</ReadOnly>
-										<EditMode>EnterOnInput</EditMode>
-										<ContextMenu name="ТаблицаПакетаДокументовОбъектСогласованияКонтекстноеМеню" id="109"/>
-										<ExtendedTooltip name="ТаблицаПакетаДокументовОбъектСогласованияРасширеннаяПодсказка" id="110"/>
-									</InputField>
-									<InputField name="ТаблицаПакетаДокументовЭтап" id="111">
-										<ReadOnly>true</ReadOnly>
-										<EditMode>EnterOnInput</EditMode>
-										<ContextMenu name="ТаблицаПакетаДокументовЭтапКонтекстноеМеню" id="112"/>
-										<ExtendedTooltip name="ТаблицаПакетаДокументовЭтапРасширеннаяПодсказка" id="113"/>
-									</InputField>
-									<InputField name="ТаблицаПакетаДокументовОтветственный" id="114">
-										<ReadOnly>true</ReadOnly>
-										<EditMode>EnterOnInput</EditMode>
-										<ContextMenu name="ТаблицаПакетаДокументовОтветственныйКонтекстноеМеню" id="115"/>
-										<ExtendedTooltip name="ТаблицаПакетаДокументовОтветственныйРасширеннаяПодсказка" id="116"/>
-									</InputField>
-								</ChildItems>
-							</Table>
-							<UsualGroup name="ГруппаКомментарий" id="16">
-								<Title>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Виза (пометка, пояснение):</v8:content>
-									</v8:item>
-								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Группа комментарий</v8:content>
-									</v8:item>
-								</ToolTip>
-								<Group>Vertical</Group>
-								<Behavior>Usual</Behavior>
-								<ExtendedTooltip name="ГруппаКомментарийExtendedTooltip" id="34"/>
-								<ChildItems>
-									<TextDocumentField name="Комментарий" id="17">
-										<TitleLocation>None</TitleLocation>
-										<ContextMenu name="КомментарийКонтекстноеМеню" id="18"/>
-										<ExtendedTooltip name="КомментарийExtendedTooltip" id="35"/>
-									</TextDocumentField>
-								</ChildItems>
-							</UsualGroup>
+							</Pages>
 						</ChildItems>
 					</UsualGroup>
 					<UsualGroup name="ГруппаСогласующие" id="56">
@@ -1111,17 +1296,26 @@
 							</v8:item>
 						</ToolTip>
 						<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+						<HorizontalLocation>Right</HorizontalLocation>
 						<ExtendedTooltip name="ГруппаДействияЛеваяРасширеннаяПодсказка" id="122"/>
 						<ChildItems>
+							<Button name="СогласоватьОтчет" id="20">
+								<Type>CommandBarButton</Type>
+								<Representation>PictureAndText</Representation>
+								<DefaultButton>true</DefaultButton>
+								<CommandName>0</CommandName>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Согласовать</v8:content>
+									</v8:item>
+								</Title>
+								<ExtendedTooltip name="СогласоватьОтчетExtendedTooltip" id="37"/>
+							</Button>
 							<Button name="ПринятьКИсполнению" id="129">
 								<Type>CommandBarButton</Type>
 								<Representation>PictureAndText</Representation>
 								<CommandName>0</CommandName>
-								<TextColor>#008000</TextColor>
-								<Picture>
-									<xr:Ref>CommonPicture.ЗеленыйШарСЗамком</xr:Ref>
-									<xr:LoadTransparent>true</xr:LoadTransparent>
-								</Picture>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -1134,11 +1328,6 @@
 								<Type>CommandBarButton</Type>
 								<Representation>PictureAndText</Representation>
 								<CommandName>0</CommandName>
-								<TextColor>#008000</TextColor>
-								<Picture>
-									<xr:Ref>CommonPicture.ЗеленыйШар</xr:Ref>
-									<xr:LoadTransparent>true</xr:LoadTransparent>
-								</Picture>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -1147,29 +1336,10 @@
 								</Title>
 								<ExtendedTooltip name="ОтменитьПринятиеКИсполнениюРасширеннаяПодсказка" id="132"/>
 							</Button>
-							<Button name="СогласоватьОтчет" id="20">
-								<Type>CommandBarButton</Type>
-								<Representation>PictureAndText</Representation>
-								<CommandName>0</CommandName>
-								<TextColor>web:LightSeaGreen</TextColor>
-								<Title>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Согласовать</v8:content>
-									</v8:item>
-								</Title>
-								<ExtendedTooltip name="СогласоватьОтчетExtendedTooltip" id="37"/>
-							</Button>
 							<Button name="ОтклонитьОтчет" id="21">
 								<Type>CommandBarButton</Type>
 								<Representation>PictureAndText</Representation>
 								<CommandName>Form.Command.ОтклонитьОтчет</CommandName>
-								<TextColor>web:Goldenrod</TextColor>
-								<Picture>
-									<xr:Ref>CommonPicture.ОтклонитьОтчет</xr:Ref>
-									<xr:LoadTransparent>true</xr:LoadTransparent>
-									<xr:TransparentPixel x="14" y="0"/>
-								</Picture>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -1182,12 +1352,6 @@
 								<Type>CommandBarButton</Type>
 								<Representation>PictureAndText</Representation>
 								<CommandName>Form.Command.ВернутьИсполнителю</CommandName>
-								<TextColor>web:Crimson</TextColor>
-								<Picture>
-									<xr:Ref>CommonPicture.ОтклонитьОтчет</xr:Ref>
-									<xr:LoadTransparent>true</xr:LoadTransparent>
-									<xr:TransparentPixel x="14" y="4"/>
-								</Picture>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -1196,51 +1360,11 @@
 								</Title>
 								<ExtendedTooltip name="ВернутьИсполнителюExtendedTooltip" id="39"/>
 							</Button>
-						</ChildItems>
-					</CommandBar>
-					<CommandBar name="ГруппаДействияПравая" id="123">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Группа действия правая</v8:content>
-							</v8:item>
-						</Title>
-						<ToolTip>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Группа действия правая</v8:content>
-							</v8:item>
-						</ToolTip>
-						<HorizontalStretch>true</HorizontalStretch>
-						<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-						<HorizontalLocation>Right</HorizontalLocation>
-						<ExtendedTooltip name="ГруппаДействияПраваяРасширеннаяПодсказка" id="124"/>
-						<ChildItems>
-							<Button name="ДобавитьСогласующих" id="50">
+							<Button name="Делегировать" id="133">
 								<Type>CommandBarButton</Type>
 								<Representation>PictureAndText</Representation>
-								<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-								<Check>true</Check>
 								<CommandName>0</CommandName>
-								<Title>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Дополнительные согласующие</v8:content>
-									</v8:item>
-								</Title>
-								<ExtendedTooltip name="ДобавитьСогласующихРасширеннаяПодсказка" id="51"/>
-							</Button>
-							<Button name="ТаблицаПакетаДокументовМаршрутСогласования" id="117">
-								<Type>CommandBarButton</Type>
-								<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-								<CommandName>0</CommandName>
-								<ExtendedTooltip name="ТаблицаПакетаДокументовМаршрутСогласованияРасширеннаяПодсказка" id="118"/>
-							</Button>
-							<Button name="ТаблицаПакетаДокументовИсторияСогласования" id="119">
-								<Type>CommandBarButton</Type>
-								<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-								<CommandName>0</CommandName>
-								<ExtendedTooltip name="ТаблицаПакетаДокументовИсторияСогласованияРасширеннаяПодсказка" id="120"/>
+								<ExtendedTooltip name="ДелегироватьРасширеннаяПодсказка" id="134"/>
 							</Button>
 						</ChildItems>
 					</CommandBar>
@@ -1314,14 +1438,14 @@
 					</v8:item>
 				</ToolTip>
 				<Picture>
-					<xr:Ref>CommonPicture.СогласоватьОтчет</xr:Ref>
+					<xr:Ref>CommonPicture.ВернутьИсполнителю</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 					<xr:TransparentPixel x="12" y="2"/>
 				</Picture>
 				<Representation>TextPicture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ОтклонитьОтчет" id="1000003">
+			<Command name="ОтклонитьОтчет" id="1000002">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1338,7 +1462,6 @@
 					<xr:Ref>CommonPicture.НаШагНазад</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
-				<Action callType="Before">ОтклонитьОтчет</Action>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 		</Commands>

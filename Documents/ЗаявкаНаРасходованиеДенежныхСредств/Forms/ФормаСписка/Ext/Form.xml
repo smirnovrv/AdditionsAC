@@ -411,12 +411,12 @@
 					</ToolTip>
 					<HeaderPicture>
 						<xr:Ref>CommonPicture.СообщениеОПроблемах</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
 					</HeaderPicture>
 					<Width>1</Width>
 					<ValuesPicture>
 						<xr:Ref>CommonPicture.СообщениеОПроблемах</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
 					</ValuesPicture>
 					<FileDragMode>AsFile</FileDragMode>
 					<ContextMenu name="ЕстьПревышениеЛимитовКонтекстноеМеню" id="377"/>
@@ -501,6 +501,11 @@
 					<ContextMenu name="ВалютаПлатежаКонтекстноеМеню" id="542"/>
 					<ExtendedTooltip name="ВалютаПлатежаРасширеннаяПодсказка" id="543"/>
 				</LabelField>
+				<LabelField name="СпособОплаты" id="554">
+					<DataPath>~Список.СпособОплаты</DataPath>
+					<ContextMenu name="СпособОплатыКонтекстноеМеню" id="545"/>
+					<ExtendedTooltip name="СпособОплатыРасширеннаяПодсказка" id="546"/>
+				</LabelField>
 				<LabelField name="СостояниеСогласования" id="452">
 					<DataPath>Список.СостояниеСогласования</DataPath>
 					<ContextMenu name="СостояниеСогласованияКонтекстноеМеню" id="453"/>
@@ -556,6 +561,14 @@
 					</UserVisible>
 					<ContextMenu name="ДокументПланированияКонтекстноеМеню" id="447"/>
 					<ExtendedTooltip name="ДокументПланированияРасширеннаяПодсказка" id="448"/>
+				</LabelField>
+				<LabelField name="Комментарий" id="552">
+					<DataPath>Список.Комментарий</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="548"/>
+					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="555"/>
 				</LabelField>
 				<LabelField name="Ссылка" id="464">
 					<DataPath>Список.Ссылка</DataPath>
@@ -828,13 +841,6 @@
 							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
 							<dcsset:viewMode>Normal</dcsset:viewMode>
 							<dcsset:userSettingID>56132fa9-88a1-4c21-94df-e0119d8951f2</dcsset:userSettingID>
-						</dcsset:item>
-						<dcsset:item xsi:type="dcsset:FilterItemComparison">
-							<dcsset:use>false</dcsset:use>
-							<dcsset:left xsi:type="dcscor:Field">ВалютаДокумента</dcsset:left>
-							<dcsset:comparisonType>Equal</dcsset:comparisonType>
-							<dcsset:viewMode>Normal</dcsset:viewMode>
-							<dcsset:userSettingID>22a50a90-b62a-4786-8c66-ba17d980cd65</dcsset:userSettingID>
 						</dcsset:item>
 						<dcsset:item xsi:type="dcsset:FilterItemComparison">
 							<dcsset:use>false</dcsset:use>
@@ -1318,12 +1324,12 @@
 						</ToolTip>
 						<HeaderPicture>
 							<xr:Ref>CommonPicture.СообщениеОПроблемах</xr:Ref>
-							<xr:LoadTransparent>true</xr:LoadTransparent>
+							<xr:LoadTransparent>false</xr:LoadTransparent>
 						</HeaderPicture>
 						<Width>1</Width>
 						<ValuesPicture>
 							<xr:Ref>CommonPicture.СообщениеОПроблемах</xr:Ref>
-							<xr:LoadTransparent>true</xr:LoadTransparent>
+							<xr:LoadTransparent>false</xr:LoadTransparent>
 						</ValuesPicture>
 						<FileDragMode>AsFile</FileDragMode>
 						<ContextMenu name="ЕстьПревышениеЛимитовКонтекстноеМеню" id="377"/>
@@ -1408,6 +1414,11 @@
 						<ContextMenu name="ВалютаПлатежаКонтекстноеМеню" id="542"/>
 						<ExtendedTooltip name="ВалютаПлатежаРасширеннаяПодсказка" id="543"/>
 					</LabelField>
+					<LabelField name="СпособОплаты" id="544">
+						<DataPath>Список.СпособОплаты</DataPath>
+						<ContextMenu name="СпособОплатыКонтекстноеМеню" id="545"/>
+						<ExtendedTooltip name="СпособОплатыРасширеннаяПодсказка" id="546"/>
+					</LabelField>
 					<LabelField name="СостояниеСогласования" id="452">
 						<DataPath>Список.СостояниеСогласования</DataPath>
 						<ContextMenu name="СостояниеСогласованияКонтекстноеМеню" id="453"/>
@@ -1464,6 +1475,14 @@
 						<ContextMenu name="ДокументПланированияКонтекстноеМеню" id="447"/>
 						<ExtendedTooltip name="ДокументПланированияРасширеннаяПодсказка" id="448"/>
 					</LabelField>
+					<LabelField name="Комментарий" id="547">
+						<DataPath>Список.Комментарий</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="КомментарийКонтекстноеМеню" id="548"/>
+						<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="549"/>
+					</LabelField>
 					<LabelField name="Ссылка" id="464">
 						<DataPath>Список.Ссылка</DataPath>
 						<UserVisible>
@@ -1513,7 +1532,11 @@
 	Документ.МоментВремени КАК МоментВремени,
 	Документ.ЕстьПревышениеЛимитыБюджет КАК ЕстьПревышениеЛимитыБюджет,
 	Документ.ДокументПланирования КАК ДокументПланирования,
-	Документ.Проект КАК Проект,
+	ВЫБОР
+		КОГДА КОЛИЧЕСТВО(РАЗЛИЧНЫЕ ЗаявкаНаРасходованиеДенежныхСредствДвиженияОперации.Проект) &gt; 1
+			ТОГДА "&lt;Различные проекты&gt;"
+		ИНАЧЕ МИНИМУМ(ЗаявкаНаРасходованиеДенежныхСредствДвиженияОперации.Проект)
+	КОНЕЦ КАК Проект,
 	Документ.ДоговорКонтрагента КАК ДоговорКонтрагента,
 	Документ.СуммаДокумента КАК СуммаДокумента,
 	Документ.НеИспользуется КАК НеИспользуется,
@@ -1524,7 +1547,9 @@
 		ИНАЧЕ МИНИМУМ(СостоянияИсполненияДокументовПланированияСрезПоследних.СостояниеИсполнения)
 	КОНЕЦ КАК СостояниеИсполнения,
 	РазмещениеЗаявок.ВалютаОплаты КАК ВалютаПлатежа,
-	СУММА(РазмещениеЗаявок.Сумма) КАК СуммаПлатежа
+	СУММА(РазмещениеЗаявок.Сумма) КАК СуммаПлатежа,
+	Документ.СпособОплаты КАК СпособОплаты,
+	ВЫРАЗИТЬ(Документ.Комментарий КАК СТРОКА(1000)) КАК Комментарий
 ИЗ
 	Документ.ЗаявкаНаРасходованиеДенежныхСредств КАК Документ
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.РегистрСостоянийОбъектов.СрезПоследних(, Объект ССЫЛКА Документ.ЗаявкаНаРасходованиеДенежныхСредств) КАК РегистрСостоянийОбъектовСрезПоследних
@@ -1535,6 +1560,8 @@
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СостоянияИсполненияДокументовПланирования.СрезПоследних КАК СостоянияИсполненияДокументовПланированияСрезПоследних
 		ПО (СостоянияИсполненияДокументовПланированияСрезПоследних.ДокументПланирования = РазмещениеЗаявок.ЗаявкаНаОперацию)
 			И (СостоянияИсполненияДокументовПланированияСрезПоследних.ИдентификаторПозиции = РазмещениеЗаявок.ИдентификаторПозиции)
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ЗаявкаНаРасходованиеДенежныхСредств.ДвиженияОперации КАК ЗаявкаНаРасходованиеДенежныхСредствДвиженияОперации
+		ПО (Документ.Ссылка = ЗаявкаНаРасходованиеДенежныхСредствДвиженияОперации.Ссылка)
 
 СГРУППИРОВАТЬ ПО
 	Документ.Ссылка,
@@ -1557,11 +1584,12 @@
 	Документ.МоментВремени,
 	Документ.ЕстьПревышениеЛимитыБюджет,
 	Документ.ДокументПланирования,
-	Документ.Проект,
 	Документ.ДоговорКонтрагента,
 	Документ.СуммаДокумента,
 	Документ.НеИспользуется,
-	РазмещениеЗаявок.ВалютаОплаты</QueryText>
+	РазмещениеЗаявок.ВалютаОплаты,
+	Документ.СпособОплаты,
+	ВЫРАЗИТЬ(Документ.Комментарий КАК СТРОКА(1000))</QueryText>
 					<MainTable>Document.ЗаявкаНаРасходованиеДенежныхСредств</MainTable>
 					<ListSettings>
 						<dcsset:filter>
@@ -1611,13 +1639,6 @@
 								<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
 								<dcsset:viewMode>Normal</dcsset:viewMode>
 								<dcsset:userSettingID>56132fa9-88a1-4c21-94df-e0119d8951f2</dcsset:userSettingID>
-							</dcsset:item>
-							<dcsset:item xsi:type="dcsset:FilterItemComparison">
-								<dcsset:use>false</dcsset:use>
-								<dcsset:left xsi:type="dcscor:Field">ВалютаДокумента</dcsset:left>
-								<dcsset:comparisonType>Equal</dcsset:comparisonType>
-								<dcsset:viewMode>Normal</dcsset:viewMode>
-								<dcsset:userSettingID>22a50a90-b62a-4786-8c66-ba17d980cd65</dcsset:userSettingID>
 							</dcsset:item>
 							<dcsset:item xsi:type="dcsset:FilterItemComparison">
 								<dcsset:use>false</dcsset:use>

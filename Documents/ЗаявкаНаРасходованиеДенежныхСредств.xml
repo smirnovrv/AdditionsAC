@@ -860,6 +860,138 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="8041cd5f-e427-4f6a-b64a-7385b4f27224">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СпособОплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5176dc12-d6bb-4a72-a5f4-1a20be9c56cf</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.СпособыОплатыПлатежей</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fc39235e-0610-44c6-82ea-3e8789d414c1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЦепочкаПлатежей</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a53af493-469b-427e-90ae-feb1f438153d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ШаблонЦепочкиПлатежей</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9227deaf-8dbc-4fa4-ae4a-937595edebb5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументПлатежногоАгента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>874e5edb-87f2-46cb-a8e9-4c23709fd16a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЗаявкаНаРасходованиеДенежныхСредств</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b10c5c47-5308-4fc1-96ac-3002186cc7cd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b4c572cc-7504-4178-ad6c-3a4e5e7ecb78</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЗаявкаНаРасходованиеДенежныхСредств</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f0766f4b-ef06-41bd-8fbb-4d4ce83b8da3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КонтрагентТретьеЛицо</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8e1b0d12-ccb3-4f12-828d-6dbd68117fc7</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f79415e2-542a-4bc8-812c-0b97f3df8c89">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорКонтрагентаТретьеЛицо</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fdea45cf-51b4-4144-b6ed-3e5325619824</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ac82f3fd-d265-4a75-8396-1f0f440a5419">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПлатежныйАгент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b312e4b5-6849-4a61-a502-62683353f952</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e7dccf8a-1a9e-424e-a6c4-f5f3cd87e2ca">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорПлатежногоАгента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f69bcaea-d1bf-48dd-b3f2-8fa8dfca3ca6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="524fddfa-706a-4fc3-a75b-fbfd46bd9186">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорДепозита</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>561fcbbd-c801-4179-b55c-e8d9592b2745</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="74c7c223-0b8c-4c1a-80b0-5c868d8e9315">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИсточникКурса</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>94fcca19-c628-40ec-b804-d77b75d1a9a5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ИсточникиКурсовВалют</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f4f5577b-81ca-4e13-9835-fd55090037c8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПлатежСКонвертацией</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7942ff9e-1970-4a29-89c8-d15fb7889d64</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<Form>ФормаСписка</Form>
 			<Form>ФормаВыбора</Form>

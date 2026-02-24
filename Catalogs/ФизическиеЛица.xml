@@ -40,7 +40,7 @@
 			<DescriptionLength>100</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
-			<DefaultListForm/>
+			<DefaultListForm>Catalog.ФизическиеЛица.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm>Catalog.ФизическиеЛица.Form.ФормаВыбора</DefaultChoiceForm>
 		</Properties>
 		<ChildObjects>

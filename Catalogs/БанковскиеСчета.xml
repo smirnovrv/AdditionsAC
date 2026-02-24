@@ -277,7 +277,7 @@
 					<Comment/>
 					<ExtendedConfigurationObject>1be84667-04ff-4fb4-901d-28e1f3934630</ExtendedConfigurationObject>
 					<Type>
-						<v8:Type>cfg:EnumRef.ВидыДенежныхСредств</v8:Type>
+						<v8:Type>cfg:EnumRef.УдалитьВидыДенежныхСредств</v8:Type>
 					</Type>
 				</Properties>
 			</Attribute>

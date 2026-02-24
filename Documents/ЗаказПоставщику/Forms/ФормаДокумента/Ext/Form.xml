@@ -87,6 +87,32 @@
 						</ToolTip>
 						<ExtendedTooltip name="ПодменюДополнительныхОбработокЗаполненияРасширеннаяПодсказка" id="490"/>
 					</Popup>
+					<Popup name="ПодменюОтчеты" id="735">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Отчеты</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Отчеты</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Picture>
+							<xr:Ref>CommonPicture.Отчеты</xr:Ref>
+							<xr:LoadTransparent>true</xr:LoadTransparent>
+						</Picture>
+						<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="736"/>
+						<ChildItems>
+							<Button name="ФормаОтчетАналитикаПотребностиПоДокументуДвиженияПотребностейДокумента" id="737">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="ФормаОтчетАналитикаПотребностиПоДокументуДвиженияПотребностейДокументаРасширеннаяПодсказка" id="738"/>
+							</Button>
+						</ChildItems>
+					</Popup>
 				</ChildItems>
 			</ButtonGroup>
 		</ChildItems>
@@ -475,11 +501,6 @@
 															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ОткрытьГрафикРасчетовРасширеннаяПодсказка" id="228"/>
 														</Button>
-														<InputField name="РежимАктуализацииЗаявок" id="224">
-															<TitleHeight>2</TitleHeight>
-															<ContextMenu name="РежимАктуализацииЗаявокКонтекстноеМеню" id="225"/>
-															<ExtendedTooltip name="РежимАктуализацииЗаявокРасширеннаяПодсказка" id="226"/>
-														</InputField>
 													</ChildItems>
 												</UsualGroup>
 											</ChildItems>
@@ -953,6 +974,28 @@
 										</Title>
 										<ExtendedTooltip name="НоменклатураЗаполнитьПлановымиПотребностямиРасширеннаяПодсказка" id="122"/>
 									</Button>
+									<Popup name="ПотребностиПоГодамЗаполнить" id="745">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Заполнить</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Потребности по годам заполнить</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ExtendedTooltip name="ПотребностиПоГодамЗаполнитьРасширеннаяПодсказка" id="746"/>
+										<ChildItems>
+											<Button name="ПотребностиПоГодамЗаполнитьСтатьиИАналитики" id="747">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="ПотребностиПоГодамЗаполнитьСтатьиИАналитикиРасширеннаяПодсказка" id="748"/>
+											</Button>
+										</ChildItems>
+									</Popup>
 								</ChildItems>
 							</AutoCommandBar>
 							<ExtendedTooltip name="ПотребностиПоГодамРасширеннаяПодсказка" id="496"/>
@@ -1026,10 +1069,22 @@
 									<ContextMenu name="ПотребностиПоГодамНоменклатураКонтекстноеМеню" id="513"/>
 									<ExtendedTooltip name="ПотребностиПоГодамНоменклатураРасширеннаяПодсказка" id="514"/>
 								</InputField>
+								<InputField name="ПотребностиПоГодамНоменклатураКодОКПД2" id="749">
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ПотребностиПоГодамНоменклатураКодОКПД2КонтекстноеМеню" id="750"/>
+									<ExtendedTooltip name="ПотребностиПоГодамНоменклатураКодОКПД2РасширеннаяПодсказка" id="751"/>
+								</InputField>
 								<InputField name="ПотребностиПоГодамХарактеристика" id="641">
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ПотребностиПоГодамХарактеристикаКонтекстноеМеню" id="642"/>
 									<ExtendedTooltip name="ПотребностиПоГодамХарактеристикаРасширеннаяПодсказка" id="643"/>
+								</InputField>
+								<InputField name="ПотребностиПоГодамТолеранс" id="742">
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ПотребностиПоГодамТолерансКонтекстноеМеню" id="743"/>
+									<ExtendedTooltip name="ПотребностиПоГодамТолерансРасширеннаяПодсказка" id="744"/>
 								</InputField>
 								<InputField name="ПотребностиПоГодамЦФО" id="732">
 									<EditMode>EnterOnInput</EditMode>
@@ -1044,6 +1099,10 @@
 								<InputField name="ПотребностиПоГодамЕдиницаИзмерения" id="515">
 									<EditMode>EnterOnInput</EditMode>
 									<Width>7</Width>
+									<DropListButton>false</DropListButton>
+									<ChoiceButton>true</ChoiceButton>
+									<QuickChoice>false</QuickChoice>
+									<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
 									<ContextMenu name="ПотребностиПоГодамЕдиницаИзмеренияКонтекстноеМеню" id="516"/>
 									<ExtendedTooltip name="ПотребностиПоГодамЕдиницаИзмеренияРасширеннаяПодсказка" id="517"/>
 								</InputField>
@@ -1072,6 +1131,7 @@
 									<ExtendedTooltip name="ПотребностиПоГодамСтраныПроисхожденияРасширеннаяПодсказка" id="659"/>
 								</InputField>
 								<InputField name="ПотребностиПоГодамКоэффициент" id="518">
+									<Visible>false</Visible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>5</Width>
@@ -1084,9 +1144,7 @@
 									<ExtendedTooltip name="ПотребностиПоГодамМестоПоставкиРасширеннаяПодсказка" id="668"/>
 								</InputField>
 								<InputField name="ПотребностиПоГодамСклад" id="647">
-									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
-									<ListChoiceMode>true</ListChoiceMode>
 									<ContextMenu name="ПотребностиПоГодамСкладКонтекстноеМеню" id="648"/>
 									<ExtendedTooltip name="ПотребностиПоГодамСкладРасширеннаяПодсказка" id="649"/>
 								</InputField>
@@ -1662,6 +1720,32 @@
 							</ToolTip>
 							<ExtendedTooltip name="ПодменюДополнительныхОбработокЗаполненияРасширеннаяПодсказка" id="490"/>
 						</Popup>
+						<Popup name="ПодменюОтчеты" id="735">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отчеты</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отчеты</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Picture>
+								<xr:Ref>CommonPicture.Отчеты</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="736"/>
+							<ChildItems>
+								<Button name="ФормаОтчетАналитикаПотребностиПоДокументуДвиженияПотребностейДокумента" id="737">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="ФормаОтчетАналитикаПотребностиПоДокументуДвиженияПотребностейДокументаРасширеннаяПодсказка" id="738"/>
+								</Button>
+							</ChildItems>
+						</Popup>
 					</ChildItems>
 				</ButtonGroup>
 			</ChildItems>
@@ -2046,11 +2130,6 @@
 																<CommandName>0</CommandName>
 																<ExtendedTooltip name="ОткрытьГрафикРасчетовРасширеннаяПодсказка" id="228"/>
 															</Button>
-															<InputField name="РежимАктуализацииЗаявок" id="224">
-																<TitleHeight>2</TitleHeight>
-																<ContextMenu name="РежимАктуализацииЗаявокКонтекстноеМеню" id="225"/>
-																<ExtendedTooltip name="РежимАктуализацииЗаявокРасширеннаяПодсказка" id="226"/>
-															</InputField>
 														</ChildItems>
 													</UsualGroup>
 												</ChildItems>
@@ -2526,6 +2605,28 @@
 											</Title>
 											<ExtendedTooltip name="НоменклатураЗаполнитьПлановымиПотребностямиРасширеннаяПодсказка" id="122"/>
 										</Button>
+										<Popup name="ПотребностиПоГодамЗаполнить" id="745">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Заполнить</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Потребности по годам заполнить</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ExtendedTooltip name="ПотребностиПоГодамЗаполнитьРасширеннаяПодсказка" id="746"/>
+											<ChildItems>
+												<Button name="ПотребностиПоГодамЗаполнитьСтатьиИАналитики" id="747">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="ПотребностиПоГодамЗаполнитьСтатьиИАналитикиРасширеннаяПодсказка" id="748"/>
+												</Button>
+											</ChildItems>
+										</Popup>
 									</ChildItems>
 								</AutoCommandBar>
 								<ExtendedTooltip name="ПотребностиПоГодамРасширеннаяПодсказка" id="496"/>
@@ -2599,10 +2700,22 @@
 										<ContextMenu name="ПотребностиПоГодамНоменклатураКонтекстноеМеню" id="513"/>
 										<ExtendedTooltip name="ПотребностиПоГодамНоменклатураРасширеннаяПодсказка" id="514"/>
 									</InputField>
+									<InputField name="ПотребностиПоГодамНоменклатураКодОКПД2" id="749">
+										<EditMode>EnterOnInput</EditMode>
+										<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+										<ContextMenu name="ПотребностиПоГодамНоменклатураКодОКПД2КонтекстноеМеню" id="750"/>
+										<ExtendedTooltip name="ПотребностиПоГодамНоменклатураКодОКПД2РасширеннаяПодсказка" id="751"/>
+									</InputField>
 									<InputField name="ПотребностиПоГодамХарактеристика" id="641">
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="ПотребностиПоГодамХарактеристикаКонтекстноеМеню" id="642"/>
 										<ExtendedTooltip name="ПотребностиПоГодамХарактеристикаРасширеннаяПодсказка" id="643"/>
+									</InputField>
+									<InputField name="ПотребностиПоГодамТолеранс" id="742">
+										<EditMode>EnterOnInput</EditMode>
+										<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+										<ContextMenu name="ПотребностиПоГодамТолерансКонтекстноеМеню" id="743"/>
+										<ExtendedTooltip name="ПотребностиПоГодамТолерансРасширеннаяПодсказка" id="744"/>
 									</InputField>
 									<InputField name="ПотребностиПоГодамЦФО" id="732">
 										<EditMode>EnterOnInput</EditMode>
@@ -2617,6 +2730,10 @@
 									<InputField name="ПотребностиПоГодамЕдиницаИзмерения" id="515">
 										<EditMode>EnterOnInput</EditMode>
 										<Width>7</Width>
+										<DropListButton>false</DropListButton>
+										<ChoiceButton>true</ChoiceButton>
+										<QuickChoice>false</QuickChoice>
+										<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
 										<ContextMenu name="ПотребностиПоГодамЕдиницаИзмеренияКонтекстноеМеню" id="516"/>
 										<ExtendedTooltip name="ПотребностиПоГодамЕдиницаИзмеренияРасширеннаяПодсказка" id="517"/>
 									</InputField>
@@ -2645,6 +2762,7 @@
 										<ExtendedTooltip name="ПотребностиПоГодамСтраныПроисхожденияРасширеннаяПодсказка" id="659"/>
 									</InputField>
 									<InputField name="ПотребностиПоГодамКоэффициент" id="518">
+										<Visible>false</Visible>
 										<ReadOnly>true</ReadOnly>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>5</Width>
@@ -2656,12 +2774,11 @@
 										<ContextMenu name="ПотребностиПоГодамМестоПоставкиКонтекстноеМеню" id="667"/>
 										<ExtendedTooltip name="ПотребностиПоГодамМестоПоставкиРасширеннаяПодсказка" id="668"/>
 									</InputField>
-									<InputField name="ПотребностиПоГодамСклад" id="647">
-										<Visible>false</Visible>
+									<InputField name="ПотребностиПоГодамСклад" id="739">
 										<EditMode>EnterOnInput</EditMode>
-										<ListChoiceMode>true</ListChoiceMode>
-										<ContextMenu name="ПотребностиПоГодамСкладКонтекстноеМеню" id="648"/>
-										<ExtendedTooltip name="ПотребностиПоГодамСкладРасширеннаяПодсказка" id="649"/>
+										<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+										<ContextMenu name="ПотребностиПоГодамСкладКонтекстноеМеню" id="740"/>
+										<ExtendedTooltip name="ПотребностиПоГодамСкладРасширеннаяПодсказка" id="741"/>
 									</InputField>
 									<InputField name="ПотребностиПоГодамКоличество" id="620">
 										<EditMode>EnterOnInput</EditMode>
