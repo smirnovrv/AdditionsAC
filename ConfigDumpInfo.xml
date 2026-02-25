@@ -669,7 +669,7 @@
 		<Metadata name="CommonPicture.ЧекиНПДОжиданиеОтправки" id="ad292cd5-fef4-4d2f-97c8-518c84dca61e" configVersion="6e4b88ff0c3a3c9ad870ba59c630afe67fac58cf"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_Т1" id="c0c86f57-f2e0-43f4-85f1-20520e10f16b" configVersion="08ed6fe41e0440c8af232f2594c39747cc62a915"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_Т1.Template" id="c0c86f57-f2e0-43f4-85f1-20520e10f16b.0" configVersion="2400055fc507009b99ece3d5c54a5a3158a35841"/>
-		<Metadata name="Configuration.АЛФ_Доработки" id="ce059e04-e90f-4f6f-ac0a-97a36c55a6fd" configVersion="70e0941cbdd5f8a0644c5ae27ccf4711d58ccd78"/>
+		<Metadata name="Configuration.АЛФ_Доработки" id="ce059e04-e90f-4f6f-ac0a-97a36c55a6fd" configVersion="722154a3517564ff3a8779884f5888e4988f8859"/>
 		<Metadata name="DataProcessor.ЗадачиИОповещенияТекущегоПользователя" id="43a0aab6-e22b-44c9-841d-03689ac9d92b" configVersion="2d338aa12d1f0a59726898aa8ebf644b3876a112"/>
 		<Metadata name="DataProcessor.ЗадачиИОповещенияТекущегоПользователя.Form.Форма" id="e2911d71-ce5d-46d0-98c4-2cf3719d83cf" configVersion="f80a1563fed7fc224d82645f3e16edd2c3d6d84b"/>
 		<Metadata name="DataProcessor.ЗадачиИОповещенияТекущегоПользователя.Form.Форма.Form" id="e2911d71-ce5d-46d0-98c4-2cf3719d83cf.0" configVersion="440ff51d72dcf6a5854311b65b7c4467e882704f"/>
@@ -1047,7 +1047,7 @@
 		<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Form.ФормаВыбора" id="e25d481b-a442-4fa9-b44d-b1c91cfcc571" configVersion="981e2226ff45da4a1441e5700f20335f99b9e8d1"/>
 		<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Form.ФормаВыбора.Form" id="e25d481b-a442-4fa9-b44d-b1c91cfcc571.0" configVersion="3762bce1d34ef5418e5b020b82d5ba50b34a99c1"/>
 		<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Form.ФормаДокумента" id="2182a6d8-484c-4632-803f-dc1ab421a748" configVersion="fa2cc104d4084b1b3927f77ac32a36648e65a3b3"/>
-		<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Form.ФормаДокумента.Form" id="2182a6d8-484c-4632-803f-dc1ab421a748.0" configVersion="a5110872daef9666aa6e8e36d9ae997e397c22bc"/>
+		<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Form.ФормаДокумента.Form" id="2182a6d8-484c-4632-803f-dc1ab421a748.0" configVersion="7a5a05c4bae4b468017bbee93c847a6933130445"/>
 		<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Form.ФормаСписка" id="ca8fedcf-2aa3-4c34-98b4-1554e106da30" configVersion="e72937031e62819259468b0e5827611f3dc816d4"/>
 		<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Form.ФормаСписка.Form" id="ca8fedcf-2aa3-4c34-98b4-1554e106da30.0" configVersion="d012f6371c11c585278d87df8dfabfe746c9cb35"/>
 		<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.ManagerModule" id="246f9585-ec4e-41f0-89a9-825e84218e73.2" configVersion="12652ad59babfeccb3809628a67e8b90c8c19070"/>
