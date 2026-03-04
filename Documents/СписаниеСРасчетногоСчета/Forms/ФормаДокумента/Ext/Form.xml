@@ -101,7 +101,7 @@
 								</Title>
 								<Picture>
 									<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
-									<xr:LoadTransparent>true</xr:LoadTransparent>
+									<xr:LoadTransparent>false</xr:LoadTransparent>
 								</Picture>
 								<Representation>PictureAndText</Representation>
 								<ExtendedTooltip name="ПодменюДополнительныхОбработокЗаполненияРасширеннаяПодсказка" id="1041"/>
@@ -121,7 +121,7 @@
 								</ToolTip>
 								<Picture>
 									<xr:Ref>CommonPicture.Отчеты</xr:Ref>
-									<xr:LoadTransparent>true</xr:LoadTransparent>
+									<xr:LoadTransparent>false</xr:LoadTransparent>
 								</Picture>
 								<Representation>PictureAndText</Representation>
 								<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="1043"/>
@@ -145,6 +145,7 @@
 	</AutoCommandBar>
 	<Events>
 		<Event name="OnOpen" callType="After">АЛФ_ПриОткрытииПосле</Event>
+		<Event name="OnCreateAtServer" callType="After">АЛФ_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ПредупреждениеОЗаполненииРеквизитовСчета" id="844">
@@ -389,7 +390,7 @@
 									<VerticalStretch>false</VerticalStretch>
 									<ValuesPicture>
 										<xr:Ref>CommonPicture.СостоянияДокумента</xr:Ref>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</ValuesPicture>
 									<Border width="1">
 										<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
@@ -2400,77 +2401,198 @@
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаВыплатаПоДоговоруПодрядаРасширеннаяПодсказка" id="1165"/>
 					<ChildItems>
-						<InputField name="ВедомостьПоДоговоруПодряда" id="1166">
+						<UsualGroup name="ГруппаВыплатаПоДоговоруПодрядаОперации" id="1407">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Ведомость</v8:content>
+									<v8:content>Выплата по договору подряда</v8:content>
 								</v8:item>
 							</Title>
-							<TitleLocation>Left</TitleLocation>
-							<DropListButton>true</DropListButton>
-							<ChoiceButtonRepresentation>ShowInDropListAndInInputField</ChoiceButtonRepresentation>
-							<OpenButton>true</OpenButton>
-							<AutoMarkIncomplete>false</AutoMarkIncomplete>
-							<ChooseType>false</ChooseType>
-							<ContextMenu name="ВедомостьПоДоговоруПодрядаКонтекстноеМеню" id="1167"/>
-							<ExtendedTooltip name="ВедомостьПоДоговоруПодрядаРасширеннаяПодсказка" id="1168"/>
-						</InputField>
-						<InputField name="СтатьяДвиженияДенежныхСредствПоДоговоруПодряда" id="1169">
-							<TitleLocation>Left</TitleLocation>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Статья движения денег</v8:content>
-								</v8:item>
-							</ToolTip>
-							<ToolTipRepresentation>Button</ToolTipRepresentation>
-							<ContextMenu name="СтатьяДвиженияДенежныхСредствПоДоговоруПодрядаКонтекстноеМеню" id="1170"/>
-							<ExtendedTooltip name="СтатьяДвиженияДенежныхСредствПоДоговоруПодрядаРасширеннаяПодсказка" id="1171">
-								<Title formatted="true">
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Настроить автоматическое заполнение поля можно в справочнике &lt;link e1cib/list/Справочник.СтатьиДвиженияДенежныхСредств&gt;Статьи движения денежных средств&lt;/&gt;</v8:content>
-									</v8:item>
-								</Title>
-							</ExtendedTooltip>
-						</InputField>
-						<InputField name="АналитикаБДДС1ПоДоговоруПодряда" id="1252">
-							<ContextMenu name="АналитикаБДДС1ПоДоговоруПодрядаКонтекстноеМеню" id="1253"/>
-							<ExtendedTooltip name="АналитикаБДДС1ПоДоговоруПодрядаРасширеннаяПодсказка" id="1254"/>
-						</InputField>
-						<InputField name="АналитикаБДДС2ПоДоговоруПодряда" id="1228">
-							<ContextMenu name="АналитикаБДДС2ПоДоговоруПодрядаКонтекстноеМеню" id="1229"/>
-							<ExtendedTooltip name="АналитикаБДДС2ПоДоговоруПодрядаРасширеннаяПодсказка" id="1230"/>
-						</InputField>
-						<InputField name="АналитикаБДДС3ПоДоговоруПодряда" id="1231">
-							<ContextMenu name="АналитикаБДДС3ПоДоговоруПодрядаКонтекстноеМеню" id="1232"/>
-							<ExtendedTooltip name="АналитикаБДДС3ПоДоговоруПодрядаРасширеннаяПодсказка" id="1233"/>
-						</InputField>
-						<InputField name="АналитикаБДДС4ПоДоговоруПодряда" id="1234">
-							<ContextMenu name="АналитикаБДДС4ПоДоговоруПодрядаКонтекстноеМеню" id="1235"/>
-							<ExtendedTooltip name="АналитикаБДДС4ПоДоговоруПодрядаРасширеннаяПодсказка" id="1236"/>
-						</InputField>
-						<InputField name="АналитикаБДДС5ПоДоговоруПодряда" id="1237">
-							<ContextMenu name="АналитикаБДДС5ПоДоговоруПодрядаКонтекстноеМеню" id="1238"/>
-							<ExtendedTooltip name="АналитикаБДДС5ПоДоговоруПодрядаРасширеннаяПодсказка" id="1239"/>
-						</InputField>
-						<InputField name="АналитикаБДДС6ПоДоговоруПодряда" id="1240">
-							<ContextMenu name="АналитикаБДДС6ПоДоговоруПодрядаКонтекстноеМеню" id="1241"/>
-							<ExtendedTooltip name="АналитикаБДДС6ПоДоговоруПодрядаРасширеннаяПодсказка" id="1242"/>
-						</InputField>
-						<InputField name="ДокументПланированияПоДоговоруПодряда" id="1243">
-							<ContextMenu name="ДокументПланированияПоДоговоруПодрядаКонтекстноеМеню" id="1244"/>
-							<ExtendedTooltip name="ДокументПланированияПоДоговоруПодрядаРасширеннаяПодсказка" id="1245"/>
-						</InputField>
-						<InputField name="ЦФОПоДоговоруПодряда" id="1246">
-							<ContextMenu name="ЦФОПоДоговоруПодрядаКонтекстноеМеню" id="1247"/>
-							<ExtendedTooltip name="ЦФОПоДоговоруПодрядаРасширеннаяПодсказка" id="1248"/>
-						</InputField>
-						<InputField name="ПроектПоДоговоруПодряда" id="1249">
-							<ContextMenu name="ПроектПоДоговоруПодрядаКонтекстноеМеню" id="1250"/>
-							<ExtendedTooltip name="ПроектПоДоговоруПодрядаРасширеннаяПодсказка" id="1251"/>
-						</InputField>
+							<Group>Vertical</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаВыплатаПоДоговоруПодрядаОперацииРасширеннаяПодсказка" id="1408"/>
+							<ChildItems>
+								<Pages name="ГруппаВыплатаПоДоговоруПодрядаОперацииСтраницы" id="1409">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выплата по договору подряда: операции: страницы</v8:content>
+										</v8:item>
+									</Title>
+									<PagesRepresentation>None</PagesRepresentation>
+									<ExtendedTooltip name="ГруппаВыплатаПоДоговоруПодрядаОперацииСтраницыРасширеннаяПодсказка" id="1410"/>
+									<ChildItems>
+										<Page name="ГруппаВыплатаПоДоговоруПодрядаПоВедомостям" id="1411">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Выплата по договору подряда</v8:content>
+												</v8:item>
+											</Title>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаВыплатаПоДоговоруПодрядаПоВедомостямРасширеннаяПодсказка" id="1412"/>
+											<ChildItems>
+												<Table name="ПеречислениеПоДоговоруПодряда" id="1413">
+													<AutoInsertNewRow>true</AutoInsertNewRow>
+													<EnableStartDrag>true</EnableStartDrag>
+													<EnableDrag>true</EnableDrag>
+													<FileDragMode>AsFile</FileDragMode>
+													<SearchStringLocation>None</SearchStringLocation>
+													<ViewStatusLocation>None</ViewStatusLocation>
+													<SearchControlLocation>None</SearchControlLocation>
+													<RowFilter xsi:nil="true"/>
+													<ContextMenu name="ПеречислениеПоДоговоруПодрядаКонтекстноеМеню" id="1414"/>
+													<AutoCommandBar name="ПеречислениеПоДоговоруПодрядаКоманднаяПанель" id="1415"/>
+													<ExtendedTooltip name="ПеречислениеПоДоговоруПодрядаРасширеннаяПодсказка" id="1416"/>
+													<SearchStringAddition name="ПеречислениеПоДоговоруПодрядаСтрокаПоиска" id="1417">
+														<AdditionSource>
+															<Item>ПеречислениеПоДоговоруПодряда</Item>
+															<Type>SearchStringRepresentation</Type>
+														</AdditionSource>
+														<ContextMenu name="ПеречислениеПоДоговоруПодрядаСтрокаПоискаКонтекстноеМеню" id="1418"/>
+														<ExtendedTooltip name="ПеречислениеПоДоговоруПодрядаСтрокаПоискаРасширеннаяПодсказка" id="1419"/>
+													</SearchStringAddition>
+													<ViewStatusAddition name="ПеречислениеПоДоговоруПодрядаСостояниеПросмотра" id="1420">
+														<AdditionSource>
+															<Item>ПеречислениеПоДоговоруПодряда</Item>
+															<Type>ViewStatusRepresentation</Type>
+														</AdditionSource>
+														<ContextMenu name="ПеречислениеПоДоговоруПодрядаСостояниеПросмотраКонтекстноеМеню" id="1421"/>
+														<ExtendedTooltip name="ПеречислениеПоДоговоруПодрядаСостояниеПросмотраРасширеннаяПодсказка" id="1422"/>
+													</ViewStatusAddition>
+													<SearchControlAddition name="ПеречислениеПоДоговоруПодрядаУправлениеПоиском" id="1423">
+														<AdditionSource>
+															<Item>ПеречислениеПоДоговоруПодряда</Item>
+															<Type>SearchControl</Type>
+														</AdditionSource>
+														<ContextMenu name="ПеречислениеПоДоговоруПодрядаУправлениеПоискомКонтекстноеМеню" id="1424"/>
+														<ExtendedTooltip name="ПеречислениеПоДоговоруПодрядаУправлениеПоискомРасширеннаяПодсказка" id="1425"/>
+													</SearchControlAddition>
+													<ChildItems>
+														<LabelField name="ПеречислениеПоДоговоруПодрядаНомерСтроки" id="1426">
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="ПеречислениеПоДоговоруПодрядаНомерСтрокиКонтекстноеМеню" id="1427"/>
+															<ExtendedTooltip name="ПеречислениеПоДоговоруПодрядаНомерСтрокиРасширеннаяПодсказка" id="1428"/>
+														</LabelField>
+														<InputField name="ПеречислениеПоДоговоруПодрядаВедомость" id="1429">
+															<EditMode>EnterOnInput</EditMode>
+															<ChoiceButton>true</ChoiceButton>
+															<ChooseType>false</ChooseType>
+															<ContextMenu name="ПеречислениеПоДоговоруПодрядаВедомостьКонтекстноеМеню" id="1430"/>
+															<ExtendedTooltip name="ПеречислениеПоДоговоруПодрядаВедомостьРасширеннаяПодсказка" id="1431"/>
+														</InputField>
+														<InputField name="ПеречислениеПоДоговоруПодрядаСуммаПлатежа" id="1432">
+															<ReadOnly>true</ReadOnly>
+															<EditMode>EnterOnInput</EditMode>
+															<Width>12</Width>
+															<ContextMenu name="ПеречислениеПоДоговоруПодрядаСуммаПлатежаКонтекстноеМеню" id="1433"/>
+															<ExtendedTooltip name="ПеречислениеПоДоговоруПодрядаСуммаПлатежаРасширеннаяПодсказка" id="1434"/>
+														</InputField>
+														<InputField name="ПеречислениеПоДоговоруПодрядаОтступ" id="1435">
+															<ReadOnly>true</ReadOnly>
+															<TitleLocation>None</TitleLocation>
+															<EditMode>EnterOnInput</EditMode>
+															<Width>1</Width>
+															<HorizontalStretch>true</HorizontalStretch>
+															<ContextMenu name="ПеречислениеПоДоговоруПодрядаОтступКонтекстноеМеню" id="1436"/>
+															<ExtendedTooltip name="ПеречислениеПоДоговоруПодрядаОтступРасширеннаяПодсказка" id="1437"/>
+														</InputField>
+													</ChildItems>
+												</Table>
+												<InputField name="СтатьяДвиженияДенежныхСредствПоДоговоруПодрядаПоВедомостям" id="1438">
+													<TitleLocation>Left</TitleLocation>
+													<ContextMenu name="СтатьяДвиженияДенежныхСредствПоДоговоруПодрядаПоВедомостямКонтекстноеМеню" id="1439"/>
+													<ExtendedTooltip name="СтатьяДвиженияДенежныхСредствПоДоговоруПодрядаПоВедомостямРасширеннаяПодсказка" id="1440"/>
+												</InputField>
+											</ChildItems>
+										</Page>
+										<Page name="ГруппаВыплатаПоДоговоруПодрядаПоОдномуРаботнику" id="1441">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Выплата по договору подряда</v8:content>
+												</v8:item>
+											</Title>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаВыплатаПоДоговоруПодрядаПоОдномуРаботникуРасширеннаяПодсказка" id="1442"/>
+											<ChildItems>
+												<InputField name="ВедомостьПоДоговоруПодряда" id="1166">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Ведомость</v8:content>
+														</v8:item>
+													</Title>
+													<TitleLocation>Left</TitleLocation>
+													<DropListButton>true</DropListButton>
+													<ChoiceButtonRepresentation>ShowInDropListAndInInputField</ChoiceButtonRepresentation>
+													<OpenButton>true</OpenButton>
+													<AutoMarkIncomplete>false</AutoMarkIncomplete>
+													<ChooseType>false</ChooseType>
+													<ContextMenu name="ВедомостьПоДоговоруПодрядаКонтекстноеМеню" id="1167"/>
+													<ExtendedTooltip name="ВедомостьПоДоговоруПодрядаРасширеннаяПодсказка" id="1168"/>
+												</InputField>
+												<InputField name="СтатьяДвиженияДенежныхСредствПоДоговоруПодряда" id="1169">
+													<TitleLocation>Left</TitleLocation>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Статья движения денег</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ToolTipRepresentation>Button</ToolTipRepresentation>
+													<ContextMenu name="СтатьяДвиженияДенежныхСредствПоДоговоруПодрядаКонтекстноеМеню" id="1170"/>
+													<ExtendedTooltip name="СтатьяДвиженияДенежныхСредствПоДоговоруПодрядаРасширеннаяПодсказка" id="1171">
+														<Title formatted="true">
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Настроить автоматическое заполнение поля можно в справочнике &lt;link e1cib/list/Справочник.СтатьиДвиженияДенежныхСредств&gt;Статьи движения денежных средств&lt;/&gt;</v8:content>
+															</v8:item>
+														</Title>
+													</ExtendedTooltip>
+												</InputField>
+												<InputField name="АналитикаБДДС1ПоДоговоруПодряда" id="1252">
+													<ContextMenu name="АналитикаБДДС1ПоДоговоруПодрядаКонтекстноеМеню" id="1253"/>
+													<ExtendedTooltip name="АналитикаБДДС1ПоДоговоруПодрядаРасширеннаяПодсказка" id="1254"/>
+												</InputField>
+												<InputField name="АналитикаБДДС2ПоДоговоруПодряда" id="1228">
+													<ContextMenu name="АналитикаБДДС2ПоДоговоруПодрядаКонтекстноеМеню" id="1229"/>
+													<ExtendedTooltip name="АналитикаБДДС2ПоДоговоруПодрядаРасширеннаяПодсказка" id="1230"/>
+												</InputField>
+												<InputField name="АналитикаБДДС3ПоДоговоруПодряда" id="1231">
+													<ContextMenu name="АналитикаБДДС3ПоДоговоруПодрядаКонтекстноеМеню" id="1232"/>
+													<ExtendedTooltip name="АналитикаБДДС3ПоДоговоруПодрядаРасширеннаяПодсказка" id="1233"/>
+												</InputField>
+												<InputField name="АналитикаБДДС4ПоДоговоруПодряда" id="1234">
+													<ContextMenu name="АналитикаБДДС4ПоДоговоруПодрядаКонтекстноеМеню" id="1235"/>
+													<ExtendedTooltip name="АналитикаБДДС4ПоДоговоруПодрядаРасширеннаяПодсказка" id="1236"/>
+												</InputField>
+												<InputField name="АналитикаБДДС5ПоДоговоруПодряда" id="1237">
+													<ContextMenu name="АналитикаБДДС5ПоДоговоруПодрядаКонтекстноеМеню" id="1238"/>
+													<ExtendedTooltip name="АналитикаБДДС5ПоДоговоруПодрядаРасширеннаяПодсказка" id="1239"/>
+												</InputField>
+												<InputField name="АналитикаБДДС6ПоДоговоруПодряда" id="1240">
+													<ContextMenu name="АналитикаБДДС6ПоДоговоруПодрядаКонтекстноеМеню" id="1241"/>
+													<ExtendedTooltip name="АналитикаБДДС6ПоДоговоруПодрядаРасширеннаяПодсказка" id="1242"/>
+												</InputField>
+												<InputField name="ДокументПланированияПоДоговоруПодряда" id="1243">
+													<ContextMenu name="ДокументПланированияПоДоговоруПодрядаКонтекстноеМеню" id="1244"/>
+													<ExtendedTooltip name="ДокументПланированияПоДоговоруПодрядаРасширеннаяПодсказка" id="1245"/>
+												</InputField>
+												<InputField name="ЦФОПоДоговоруПодряда" id="1246">
+													<ContextMenu name="ЦФОПоДоговоруПодрядаКонтекстноеМеню" id="1247"/>
+													<ExtendedTooltip name="ЦФОПоДоговоруПодрядаРасширеннаяПодсказка" id="1248"/>
+												</InputField>
+												<InputField name="ПроектПоДоговоруПодряда" id="1249">
+													<ContextMenu name="ПроектПоДоговоруПодрядаКонтекстноеМеню" id="1250"/>
+													<ExtendedTooltip name="ПроектПоДоговоруПодрядаРасширеннаяПодсказка" id="1251"/>
+												</InputField>
+											</ChildItems>
+										</Page>
+									</ChildItems>
+								</Pages>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</Page>
 				<Page name="ГруппаВыплатыСамозанятым" id="1255">
@@ -2639,6 +2761,12 @@
 							<TitleLocation>Left</TitleLocation>
 							<ContextMenu name="СтатьяДвиженияДенежныхСредствПеречислениеПоИсполнительномуЛистуРаботникаКонтекстноеМеню" id="1314"/>
 							<ExtendedTooltip name="СтатьяДвиженияДенежныхСредствПеречислениеПоИсполнительномуЛистуРаботникаРасширеннаяПодсказка" id="1315"/>
+						</InputField>
+						<InputField name="ДокументПланированияИсполнительныйЛист" id="1404">
+							<TitleHeight>2</TitleHeight>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДокументПланированияИсполнительныйЛистКонтекстноеМеню" id="1405"/>
+							<ExtendedTooltip name="ДокументПланированияИсполнительныйЛистРасширеннаяПодсказка" id="1406"/>
 						</InputField>
 						<InputField name="ЦФОИсполнительныйЛист" id="1395">
 							<ContextMenu name="ЦФОИсполнительныйЛистКонтекстноеМеню" id="1396"/>
@@ -2888,26 +3016,14 @@
 									<ExtendedTooltip name="СтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="801"/>
 								</InputField>
 								<InputField name="АналитикаБДДС1" id="983">
-									<TypeLink>
-										<xr:DataPath>53</xr:DataPath>
-										<xr:LinkItem>0</xr:LinkItem>
-									</TypeLink>
 									<ContextMenu name="АналитикаБДДС1КонтекстноеМеню" id="984"/>
 									<ExtendedTooltip name="АналитикаБДДС1РасширеннаяПодсказка" id="985"/>
 								</InputField>
 								<InputField name="АналитикаБДДС2" id="986">
-									<TypeLink>
-										<xr:DataPath>57</xr:DataPath>
-										<xr:LinkItem>0</xr:LinkItem>
-									</TypeLink>
 									<ContextMenu name="АналитикаБДДС2КонтекстноеМеню" id="987"/>
 									<ExtendedTooltip name="АналитикаБДДС2РасширеннаяПодсказка" id="988"/>
 								</InputField>
 								<InputField name="АналитикаБДДС3" id="989">
-									<TypeLink>
-										<xr:DataPath>61</xr:DataPath>
-										<xr:LinkItem>0</xr:LinkItem>
-									</TypeLink>
 									<ContextMenu name="АналитикаБДДС3КонтекстноеМеню" id="990"/>
 									<ExtendedTooltip name="АналитикаБДДС3РасширеннаяПодсказка" id="991"/>
 								</InputField>
@@ -3194,7 +3310,7 @@
 									</Title>
 									<Picture>
 										<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</Picture>
 									<Representation>PictureAndText</Representation>
 									<ExtendedTooltip name="ПодменюДополнительныхОбработокЗаполненияРасширеннаяПодсказка" id="1041"/>
@@ -3214,7 +3330,7 @@
 									</ToolTip>
 									<Picture>
 										<xr:Ref>CommonPicture.Отчеты</xr:Ref>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</Picture>
 									<Representation>PictureAndText</Representation>
 									<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="1043"/>
@@ -3479,7 +3595,7 @@
 										<VerticalStretch>false</VerticalStretch>
 										<ValuesPicture>
 											<xr:Ref>CommonPicture.СостоянияДокумента</xr:Ref>
-											<xr:LoadTransparent>true</xr:LoadTransparent>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
 										</ValuesPicture>
 										<Border width="1">
 											<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
@@ -5487,77 +5603,198 @@
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаВыплатаПоДоговоруПодрядаРасширеннаяПодсказка" id="1165"/>
 						<ChildItems>
-							<InputField name="ВедомостьПоДоговоруПодряда" id="1166">
+							<UsualGroup name="ГруппаВыплатаПоДоговоруПодрядаОперации" id="1407">
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Ведомость</v8:content>
+										<v8:content>Выплата по договору подряда</v8:content>
 									</v8:item>
 								</Title>
-								<TitleLocation>Left</TitleLocation>
-								<DropListButton>true</DropListButton>
-								<ChoiceButtonRepresentation>ShowInDropListAndInInputField</ChoiceButtonRepresentation>
-								<OpenButton>true</OpenButton>
-								<AutoMarkIncomplete>false</AutoMarkIncomplete>
-								<ChooseType>false</ChooseType>
-								<ContextMenu name="ВедомостьПоДоговоруПодрядаКонтекстноеМеню" id="1167"/>
-								<ExtendedTooltip name="ВедомостьПоДоговоруПодрядаРасширеннаяПодсказка" id="1168"/>
-							</InputField>
-							<InputField name="СтатьяДвиженияДенежныхСредствПоДоговоруПодряда" id="1169">
-								<TitleLocation>Left</TitleLocation>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Статья движения денег</v8:content>
-									</v8:item>
-								</ToolTip>
-								<ToolTipRepresentation>Button</ToolTipRepresentation>
-								<ContextMenu name="СтатьяДвиженияДенежныхСредствПоДоговоруПодрядаКонтекстноеМеню" id="1170"/>
-								<ExtendedTooltip name="СтатьяДвиженияДенежныхСредствПоДоговоруПодрядаРасширеннаяПодсказка" id="1171">
-									<Title formatted="true">
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Настроить автоматическое заполнение поля можно в справочнике &lt;link e1cib/list/Справочник.СтатьиДвиженияДенежныхСредств&gt;Статьи движения денежных средств&lt;/&gt;</v8:content>
-										</v8:item>
-									</Title>
-								</ExtendedTooltip>
-							</InputField>
-							<InputField name="АналитикаБДДС1ПоДоговоруПодряда" id="1252">
-								<ContextMenu name="АналитикаБДДС1ПоДоговоруПодрядаКонтекстноеМеню" id="1253"/>
-								<ExtendedTooltip name="АналитикаБДДС1ПоДоговоруПодрядаРасширеннаяПодсказка" id="1254"/>
-							</InputField>
-							<InputField name="АналитикаБДДС2ПоДоговоруПодряда" id="1228">
-								<ContextMenu name="АналитикаБДДС2ПоДоговоруПодрядаКонтекстноеМеню" id="1229"/>
-								<ExtendedTooltip name="АналитикаБДДС2ПоДоговоруПодрядаРасширеннаяПодсказка" id="1230"/>
-							</InputField>
-							<InputField name="АналитикаБДДС3ПоДоговоруПодряда" id="1231">
-								<ContextMenu name="АналитикаБДДС3ПоДоговоруПодрядаКонтекстноеМеню" id="1232"/>
-								<ExtendedTooltip name="АналитикаБДДС3ПоДоговоруПодрядаРасширеннаяПодсказка" id="1233"/>
-							</InputField>
-							<InputField name="АналитикаБДДС4ПоДоговоруПодряда" id="1234">
-								<ContextMenu name="АналитикаБДДС4ПоДоговоруПодрядаКонтекстноеМеню" id="1235"/>
-								<ExtendedTooltip name="АналитикаБДДС4ПоДоговоруПодрядаРасширеннаяПодсказка" id="1236"/>
-							</InputField>
-							<InputField name="АналитикаБДДС5ПоДоговоруПодряда" id="1237">
-								<ContextMenu name="АналитикаБДДС5ПоДоговоруПодрядаКонтекстноеМеню" id="1238"/>
-								<ExtendedTooltip name="АналитикаБДДС5ПоДоговоруПодрядаРасширеннаяПодсказка" id="1239"/>
-							</InputField>
-							<InputField name="АналитикаБДДС6ПоДоговоруПодряда" id="1240">
-								<ContextMenu name="АналитикаБДДС6ПоДоговоруПодрядаКонтекстноеМеню" id="1241"/>
-								<ExtendedTooltip name="АналитикаБДДС6ПоДоговоруПодрядаРасширеннаяПодсказка" id="1242"/>
-							</InputField>
-							<InputField name="ДокументПланированияПоДоговоруПодряда" id="1243">
-								<ContextMenu name="ДокументПланированияПоДоговоруПодрядаКонтекстноеМеню" id="1244"/>
-								<ExtendedTooltip name="ДокументПланированияПоДоговоруПодрядаРасширеннаяПодсказка" id="1245"/>
-							</InputField>
-							<InputField name="ЦФОПоДоговоруПодряда" id="1246">
-								<ContextMenu name="ЦФОПоДоговоруПодрядаКонтекстноеМеню" id="1247"/>
-								<ExtendedTooltip name="ЦФОПоДоговоруПодрядаРасширеннаяПодсказка" id="1248"/>
-							</InputField>
-							<InputField name="ПроектПоДоговоруПодряда" id="1249">
-								<ContextMenu name="ПроектПоДоговоруПодрядаКонтекстноеМеню" id="1250"/>
-								<ExtendedTooltip name="ПроектПоДоговоруПодрядаРасширеннаяПодсказка" id="1251"/>
-							</InputField>
+								<Group>Vertical</Group>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаВыплатаПоДоговоруПодрядаОперацииРасширеннаяПодсказка" id="1408"/>
+								<ChildItems>
+									<Pages name="ГруппаВыплатаПоДоговоруПодрядаОперацииСтраницы" id="1409">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Выплата по договору подряда: операции: страницы</v8:content>
+											</v8:item>
+										</Title>
+										<PagesRepresentation>None</PagesRepresentation>
+										<ExtendedTooltip name="ГруппаВыплатаПоДоговоруПодрядаОперацииСтраницыРасширеннаяПодсказка" id="1410"/>
+										<ChildItems>
+											<Page name="ГруппаВыплатаПоДоговоруПодрядаПоВедомостям" id="1411">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Выплата по договору подряда</v8:content>
+													</v8:item>
+												</Title>
+												<ShowTitle>false</ShowTitle>
+												<ExtendedTooltip name="ГруппаВыплатаПоДоговоруПодрядаПоВедомостямРасширеннаяПодсказка" id="1412"/>
+												<ChildItems>
+													<Table name="ПеречислениеПоДоговоруПодряда" id="1413">
+														<AutoInsertNewRow>true</AutoInsertNewRow>
+														<EnableStartDrag>true</EnableStartDrag>
+														<EnableDrag>true</EnableDrag>
+														<FileDragMode>AsFile</FileDragMode>
+														<SearchStringLocation>None</SearchStringLocation>
+														<ViewStatusLocation>None</ViewStatusLocation>
+														<SearchControlLocation>None</SearchControlLocation>
+														<RowFilter xsi:nil="true"/>
+														<ContextMenu name="ПеречислениеПоДоговоруПодрядаКонтекстноеМеню" id="1414"/>
+														<AutoCommandBar name="ПеречислениеПоДоговоруПодрядаКоманднаяПанель" id="1415"/>
+														<ExtendedTooltip name="ПеречислениеПоДоговоруПодрядаРасширеннаяПодсказка" id="1416"/>
+														<SearchStringAddition name="ПеречислениеПоДоговоруПодрядаСтрокаПоиска" id="1417">
+															<AdditionSource>
+																<Item>ПеречислениеПоДоговоруПодряда</Item>
+																<Type>SearchStringRepresentation</Type>
+															</AdditionSource>
+															<ContextMenu name="ПеречислениеПоДоговоруПодрядаСтрокаПоискаКонтекстноеМеню" id="1418"/>
+															<ExtendedTooltip name="ПеречислениеПоДоговоруПодрядаСтрокаПоискаРасширеннаяПодсказка" id="1419"/>
+														</SearchStringAddition>
+														<ViewStatusAddition name="ПеречислениеПоДоговоруПодрядаСостояниеПросмотра" id="1420">
+															<AdditionSource>
+																<Item>ПеречислениеПоДоговоруПодряда</Item>
+																<Type>ViewStatusRepresentation</Type>
+															</AdditionSource>
+															<ContextMenu name="ПеречислениеПоДоговоруПодрядаСостояниеПросмотраКонтекстноеМеню" id="1421"/>
+															<ExtendedTooltip name="ПеречислениеПоДоговоруПодрядаСостояниеПросмотраРасширеннаяПодсказка" id="1422"/>
+														</ViewStatusAddition>
+														<SearchControlAddition name="ПеречислениеПоДоговоруПодрядаУправлениеПоиском" id="1423">
+															<AdditionSource>
+																<Item>ПеречислениеПоДоговоруПодряда</Item>
+																<Type>SearchControl</Type>
+															</AdditionSource>
+															<ContextMenu name="ПеречислениеПоДоговоруПодрядаУправлениеПоискомКонтекстноеМеню" id="1424"/>
+															<ExtendedTooltip name="ПеречислениеПоДоговоруПодрядаУправлениеПоискомРасширеннаяПодсказка" id="1425"/>
+														</SearchControlAddition>
+														<ChildItems>
+															<LabelField name="ПеречислениеПоДоговоруПодрядаНомерСтроки" id="1426">
+																<EditMode>EnterOnInput</EditMode>
+																<ContextMenu name="ПеречислениеПоДоговоруПодрядаНомерСтрокиКонтекстноеМеню" id="1427"/>
+																<ExtendedTooltip name="ПеречислениеПоДоговоруПодрядаНомерСтрокиРасширеннаяПодсказка" id="1428"/>
+															</LabelField>
+															<InputField name="ПеречислениеПоДоговоруПодрядаВедомость" id="1429">
+																<EditMode>EnterOnInput</EditMode>
+																<ChoiceButton>true</ChoiceButton>
+																<ChooseType>false</ChooseType>
+																<ContextMenu name="ПеречислениеПоДоговоруПодрядаВедомостьКонтекстноеМеню" id="1430"/>
+																<ExtendedTooltip name="ПеречислениеПоДоговоруПодрядаВедомостьРасширеннаяПодсказка" id="1431"/>
+															</InputField>
+															<InputField name="ПеречислениеПоДоговоруПодрядаСуммаПлатежа" id="1432">
+																<ReadOnly>true</ReadOnly>
+																<EditMode>EnterOnInput</EditMode>
+																<Width>12</Width>
+																<ContextMenu name="ПеречислениеПоДоговоруПодрядаСуммаПлатежаКонтекстноеМеню" id="1433"/>
+																<ExtendedTooltip name="ПеречислениеПоДоговоруПодрядаСуммаПлатежаРасширеннаяПодсказка" id="1434"/>
+															</InputField>
+															<InputField name="ПеречислениеПоДоговоруПодрядаОтступ" id="1435">
+																<ReadOnly>true</ReadOnly>
+																<TitleLocation>None</TitleLocation>
+																<EditMode>EnterOnInput</EditMode>
+																<Width>1</Width>
+																<HorizontalStretch>true</HorizontalStretch>
+																<ContextMenu name="ПеречислениеПоДоговоруПодрядаОтступКонтекстноеМеню" id="1436"/>
+																<ExtendedTooltip name="ПеречислениеПоДоговоруПодрядаОтступРасширеннаяПодсказка" id="1437"/>
+															</InputField>
+														</ChildItems>
+													</Table>
+													<InputField name="СтатьяДвиженияДенежныхСредствПоДоговоруПодрядаПоВедомостям" id="1438">
+														<TitleLocation>Left</TitleLocation>
+														<ContextMenu name="СтатьяДвиженияДенежныхСредствПоДоговоруПодрядаПоВедомостямКонтекстноеМеню" id="1439"/>
+														<ExtendedTooltip name="СтатьяДвиженияДенежныхСредствПоДоговоруПодрядаПоВедомостямРасширеннаяПодсказка" id="1440"/>
+													</InputField>
+												</ChildItems>
+											</Page>
+											<Page name="ГруппаВыплатаПоДоговоруПодрядаПоОдномуРаботнику" id="1441">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Выплата по договору подряда</v8:content>
+													</v8:item>
+												</Title>
+												<ShowTitle>false</ShowTitle>
+												<ExtendedTooltip name="ГруппаВыплатаПоДоговоруПодрядаПоОдномуРаботникуРасширеннаяПодсказка" id="1442"/>
+												<ChildItems>
+													<InputField name="ВедомостьПоДоговоруПодряда" id="1443">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Ведомость</v8:content>
+															</v8:item>
+														</Title>
+														<TitleLocation>Left</TitleLocation>
+														<DropListButton>true</DropListButton>
+														<ChoiceButtonRepresentation>ShowInDropListAndInInputField</ChoiceButtonRepresentation>
+														<OpenButton>true</OpenButton>
+														<AutoMarkIncomplete>false</AutoMarkIncomplete>
+														<ChooseType>false</ChooseType>
+														<ContextMenu name="ВедомостьПоДоговоруПодрядаКонтекстноеМеню" id="1444"/>
+														<ExtendedTooltip name="ВедомостьПоДоговоруПодрядаРасширеннаяПодсказка" id="1445"/>
+													</InputField>
+													<InputField name="СтатьяДвиженияДенежныхСредствПоДоговоруПодряда" id="1446">
+														<TitleLocation>Left</TitleLocation>
+														<ToolTip>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Статья движения денег</v8:content>
+															</v8:item>
+														</ToolTip>
+														<ToolTipRepresentation>Button</ToolTipRepresentation>
+														<ContextMenu name="СтатьяДвиженияДенежныхСредствПоДоговоруПодрядаКонтекстноеМеню" id="1447"/>
+														<ExtendedTooltip name="СтатьяДвиженияДенежныхСредствПоДоговоруПодрядаРасширеннаяПодсказка" id="1448">
+															<Title formatted="true">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Настроить автоматическое заполнение поля можно в справочнике &lt;link e1cib/list/Справочник.СтатьиДвиженияДенежныхСредств&gt;Статьи движения денежных средств&lt;/&gt;</v8:content>
+																</v8:item>
+															</Title>
+														</ExtendedTooltip>
+													</InputField>
+													<InputField name="АналитикаБДДС1ПоДоговоруПодряда" id="1252">
+														<ContextMenu name="АналитикаБДДС1ПоДоговоруПодрядаКонтекстноеМеню" id="1253"/>
+														<ExtendedTooltip name="АналитикаБДДС1ПоДоговоруПодрядаРасширеннаяПодсказка" id="1254"/>
+													</InputField>
+													<InputField name="АналитикаБДДС2ПоДоговоруПодряда" id="1228">
+														<ContextMenu name="АналитикаБДДС2ПоДоговоруПодрядаКонтекстноеМеню" id="1229"/>
+														<ExtendedTooltip name="АналитикаБДДС2ПоДоговоруПодрядаРасширеннаяПодсказка" id="1230"/>
+													</InputField>
+													<InputField name="АналитикаБДДС3ПоДоговоруПодряда" id="1231">
+														<ContextMenu name="АналитикаБДДС3ПоДоговоруПодрядаКонтекстноеМеню" id="1232"/>
+														<ExtendedTooltip name="АналитикаБДДС3ПоДоговоруПодрядаРасширеннаяПодсказка" id="1233"/>
+													</InputField>
+													<InputField name="АналитикаБДДС4ПоДоговоруПодряда" id="1234">
+														<ContextMenu name="АналитикаБДДС4ПоДоговоруПодрядаКонтекстноеМеню" id="1235"/>
+														<ExtendedTooltip name="АналитикаБДДС4ПоДоговоруПодрядаРасширеннаяПодсказка" id="1236"/>
+													</InputField>
+													<InputField name="АналитикаБДДС5ПоДоговоруПодряда" id="1237">
+														<ContextMenu name="АналитикаБДДС5ПоДоговоруПодрядаКонтекстноеМеню" id="1238"/>
+														<ExtendedTooltip name="АналитикаБДДС5ПоДоговоруПодрядаРасширеннаяПодсказка" id="1239"/>
+													</InputField>
+													<InputField name="АналитикаБДДС6ПоДоговоруПодряда" id="1240">
+														<ContextMenu name="АналитикаБДДС6ПоДоговоруПодрядаКонтекстноеМеню" id="1241"/>
+														<ExtendedTooltip name="АналитикаБДДС6ПоДоговоруПодрядаРасширеннаяПодсказка" id="1242"/>
+													</InputField>
+													<InputField name="ДокументПланированияПоДоговоруПодряда" id="1243">
+														<ContextMenu name="ДокументПланированияПоДоговоруПодрядаКонтекстноеМеню" id="1244"/>
+														<ExtendedTooltip name="ДокументПланированияПоДоговоруПодрядаРасширеннаяПодсказка" id="1245"/>
+													</InputField>
+													<InputField name="ЦФОПоДоговоруПодряда" id="1246">
+														<ContextMenu name="ЦФОПоДоговоруПодрядаКонтекстноеМеню" id="1247"/>
+														<ExtendedTooltip name="ЦФОПоДоговоруПодрядаРасширеннаяПодсказка" id="1248"/>
+													</InputField>
+													<InputField name="ПроектПоДоговоруПодряда" id="1249">
+														<ContextMenu name="ПроектПоДоговоруПодрядаКонтекстноеМеню" id="1250"/>
+														<ExtendedTooltip name="ПроектПоДоговоруПодрядаРасширеннаяПодсказка" id="1251"/>
+													</InputField>
+												</ChildItems>
+											</Page>
+										</ChildItems>
+									</Pages>
+								</ChildItems>
+							</UsualGroup>
 						</ChildItems>
 					</Page>
 					<Page name="ГруппаВыплатыСамозанятым" id="1255">
@@ -5726,6 +5963,12 @@
 								<TitleLocation>Left</TitleLocation>
 								<ContextMenu name="СтатьяДвиженияДенежныхСредствПеречислениеПоИсполнительномуЛистуРаботникаКонтекстноеМеню" id="1314"/>
 								<ExtendedTooltip name="СтатьяДвиженияДенежныхСредствПеречислениеПоИсполнительномуЛистуРаботникаРасширеннаяПодсказка" id="1315"/>
+							</InputField>
+							<InputField name="ДокументПланированияИсполнительныйЛист" id="1404">
+								<TitleHeight>2</TitleHeight>
+								<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+								<ContextMenu name="ДокументПланированияИсполнительныйЛистКонтекстноеМеню" id="1405"/>
+								<ExtendedTooltip name="ДокументПланированияИсполнительныйЛистРасширеннаяПодсказка" id="1406"/>
 							</InputField>
 							<InputField name="ЦФОИсполнительныйЛист" id="1395">
 								<ContextMenu name="ЦФОИсполнительныйЛистКонтекстноеМеню" id="1396"/>
@@ -5975,26 +6218,14 @@
 										<ExtendedTooltip name="СтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="801"/>
 									</InputField>
 									<InputField name="АналитикаБДДС1" id="983">
-										<TypeLink>
-											<xr:DataPath>53</xr:DataPath>
-											<xr:LinkItem>0</xr:LinkItem>
-										</TypeLink>
 										<ContextMenu name="АналитикаБДДС1КонтекстноеМеню" id="984"/>
 										<ExtendedTooltip name="АналитикаБДДС1РасширеннаяПодсказка" id="985"/>
 									</InputField>
 									<InputField name="АналитикаБДДС2" id="986">
-										<TypeLink>
-											<xr:DataPath>57</xr:DataPath>
-											<xr:LinkItem>0</xr:LinkItem>
-										</TypeLink>
 										<ContextMenu name="АналитикаБДДС2КонтекстноеМеню" id="987"/>
 										<ExtendedTooltip name="АналитикаБДДС2РасширеннаяПодсказка" id="988"/>
 									</InputField>
 									<InputField name="АналитикаБДДС3" id="989">
-										<TypeLink>
-											<xr:DataPath>61</xr:DataPath>
-											<xr:LinkItem>0</xr:LinkItem>
-										</TypeLink>
 										<ContextMenu name="АналитикаБДДС3КонтекстноеМеню" id="990"/>
 										<ExtendedTooltip name="АналитикаБДДС3РасширеннаяПодсказка" id="991"/>
 									</InputField>

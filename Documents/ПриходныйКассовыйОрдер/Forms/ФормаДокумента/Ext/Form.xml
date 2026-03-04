@@ -1124,12 +1124,12 @@
 										<xr:Link>
 											<xr:Name>Ссылка</xr:Name>
 											<xr:DataPath xsi:type="xs:string">1/-5</xr:DataPath>
-											<xr:ValueChange>Clear</xr:ValueChange>
+											<xr:ValueChange>DontChange</xr:ValueChange>
 										</xr:Link>
 										<xr:Link>
 											<xr:Name>ДоговорКонтрагента</xr:Name>
 											<xr:DataPath xsi:type="xs:string">69:02023637-7868-4a5f-8576-835a76e0c9ba/0:5d4bd031-74be-4820-81fb-5de827af30db</xr:DataPath>
-											<xr:ValueChange>Clear</xr:ValueChange>
+											<xr:ValueChange>DontChange</xr:ValueChange>
 										</xr:Link>
 									</ChoiceParameterLinks>
 									<ContextMenu name="РасшифровкаПлатежаЭлементСтруктурыЗадолженностиУХКонтекстноеМеню" id="907"/>
@@ -1337,6 +1337,8 @@
 												</CheckBoxField>
 												<InputField name="Патент" id="752">
 													<TitleLocation>None</TitleLocation>
+													<ListChoiceMode>true</ListChoiceMode>
+													<AutoMarkIncomplete>true</AutoMarkIncomplete>
 													<ContextMenu name="ПатентКонтекстноеМеню" id="753"/>
 													<ExtendedTooltip name="ПатентExtendedTooltip" id="754"/>
 												</InputField>
@@ -1969,6 +1971,36 @@
 							</Title>
 							<ContextMenu name="НадписьЧекОжидаетОтправкиКонтекстноеМеню" id="843"/>
 							<ExtendedTooltip name="НадписьЧекОжидаетОтправкиРасширеннаяПодсказка" id="844"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаЧекОжиданиеДанных" id="922">
+					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ожидание данных</v8:content>
+						</v8:item>
+					</Title>
+					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаЧекОжиданиеДанныхРасширеннаяПодсказка" id="923"/>
+					<ChildItems>
+						<PictureDecoration name="КартинкаЧекОжиданиеДанных" id="924">
+							<FileDragMode>AsFile</FileDragMode>
+							<ContextMenu name="КартинкаЧекОжиданиеДанныхКонтекстноеМеню" id="925"/>
+							<ExtendedTooltip name="КартинкаЧекОжиданиеДанныхРасширеннаяПодсказка" id="926"/>
+						</PictureDecoration>
+						<LabelDecoration name="НадписьЧекОжиданиеДанных" id="927">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Обновляем чек по данным сервиса Мой налог...</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="НадписьЧекОжиданиеДанныхКонтекстноеМеню" id="928"/>
+							<ExtendedTooltip name="НадписьЧекОжиданиеДанныхРасширеннаяПодсказка" id="929"/>
 						</LabelDecoration>
 					</ChildItems>
 				</UsualGroup>
@@ -3280,12 +3312,12 @@
 											<xr:Link>
 												<xr:Name>Ссылка</xr:Name>
 												<xr:DataPath xsi:type="xs:string">1/-5</xr:DataPath>
-												<xr:ValueChange>Clear</xr:ValueChange>
+												<xr:ValueChange>DontChange</xr:ValueChange>
 											</xr:Link>
 											<xr:Link>
 												<xr:Name>ДоговорКонтрагента</xr:Name>
 												<xr:DataPath xsi:type="xs:string">69:02023637-7868-4a5f-8576-835a76e0c9ba/0:5d4bd031-74be-4820-81fb-5de827af30db</xr:DataPath>
-												<xr:ValueChange>Clear</xr:ValueChange>
+												<xr:ValueChange>DontChange</xr:ValueChange>
 											</xr:Link>
 										</ChoiceParameterLinks>
 										<ContextMenu name="РасшифровкаПлатежаЭлементСтруктурыЗадолженностиУХКонтекстноеМеню" id="907"/>
@@ -3491,10 +3523,12 @@
 														<ContextMenu name="ДеятельностьНаПатентеКонтекстноеМеню" id="750"/>
 														<ExtendedTooltip name="ДеятельностьНаПатентеExtendedTooltip" id="751"/>
 													</CheckBoxField>
-													<InputField name="Патент" id="752">
+													<InputField name="Патент" id="919">
 														<TitleLocation>None</TitleLocation>
-														<ContextMenu name="ПатентКонтекстноеМеню" id="753"/>
-														<ExtendedTooltip name="ПатентExtendedTooltip" id="754"/>
+														<ListChoiceMode>true</ListChoiceMode>
+														<AutoMarkIncomplete>true</AutoMarkIncomplete>
+														<ContextMenu name="ПатентКонтекстноеМеню" id="920"/>
+														<ExtendedTooltip name="ПатентExtendedTooltip" id="921"/>
 													</InputField>
 												</ChildItems>
 											</UsualGroup>
@@ -4125,6 +4159,36 @@
 								</Title>
 								<ContextMenu name="НадписьЧекОжидаетОтправкиКонтекстноеМеню" id="843"/>
 								<ExtendedTooltip name="НадписьЧекОжидаетОтправкиРасширеннаяПодсказка" id="844"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаЧекОжиданиеДанных" id="922">
+						<Visible>false</Visible>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Ожидание данных</v8:content>
+							</v8:item>
+						</Title>
+						<Group>AlwaysHorizontal</Group>
+						<Behavior>Usual</Behavior>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаЧекОжиданиеДанныхРасширеннаяПодсказка" id="923"/>
+						<ChildItems>
+							<PictureDecoration name="КартинкаЧекОжиданиеДанных" id="924">
+								<FileDragMode>AsFile</FileDragMode>
+								<ContextMenu name="КартинкаЧекОжиданиеДанныхКонтекстноеМеню" id="925"/>
+								<ExtendedTooltip name="КартинкаЧекОжиданиеДанныхРасширеннаяПодсказка" id="926"/>
+							</PictureDecoration>
+							<LabelDecoration name="НадписьЧекОжиданиеДанных" id="927">
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Обновляем чек по данным сервиса Мой налог...</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="НадписьЧекОжиданиеДанныхКонтекстноеМеню" id="928"/>
+								<ExtendedTooltip name="НадписьЧекОжиданиеДанныхРасширеннаяПодсказка" id="929"/>
 							</LabelDecoration>
 						</ChildItems>
 					</UsualGroup>

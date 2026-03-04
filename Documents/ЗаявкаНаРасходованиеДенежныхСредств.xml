@@ -992,6 +992,18 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="6fa4553c-9ed2-4449-a319-7c164c9418da">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АС_ОИФ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>126af939-ef82-4e99-a69d-3182d53fb81a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<Form>ФормаСписка</Form>
 			<Form>ФормаВыбора</Form>

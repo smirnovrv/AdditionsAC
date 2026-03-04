@@ -192,6 +192,47 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="be85cb5d-3134-4379-9a22-b064a7b93797">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АС_МОЛ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b60329b1-e4ce-41ee-a11a-5d1dc7225ff8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e9a5029f-b2fe-46c6-9d8c-48847a52cb1e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АС_КомиссияМОЛПроцент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d4aa8294-0433-4d67-a385-e0b4348f0bfb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="552bcdeb-1919-4027-84e8-b02e177ce67b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АС_ОИФ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9a0ca1f0-84da-4760-a66b-26f6c34c587c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<Form>ФормаСписка</Form>
 			<TabularSection uuid="da0eac82-0f0d-4890-953e-c81f5a48f024">
