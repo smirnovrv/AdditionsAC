@@ -60,7 +60,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>АС</Vendor>
-			<Version>3.3.3.17 (48)</Version>
+			<Version>3.3.3.17 (51)</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -325,6 +325,7 @@
 			<Document>АктОРасхождениях</Document>
 			<Document>АктОРасхожденияхПолученный</Document>
 			<Document>АктСверкиВзаиморасчетов</Document>
+			<Document>АС_ЭкземплярБюджета</Document>
 			<Document>БольничныйЛист</Document>
 			<Document>ВводНачальныхОстатков</Document>
 			<Document>ВерсияСоглашенияКоммерческийДоговор</Document>
@@ -564,9 +565,10 @@
 			<InformationRegister>СтадииПроектов</InformationRegister>
 			<InformationRegister>СтатусыДокументов</InformationRegister>
 			<InformationRegister>ЧекиНПД</InformationRegister>
+			<AccumulationRegister>АС_БюджетРасходов_2_6</AccumulationRegister>
+			<AccumulationRegister>ИИТ_ЗаказыПоставщику</AccumulationRegister>
 			<AccumulationRegister>ИИТ_ОборотыПоБДР</AccumulationRegister>
 			<AccumulationRegister>ИИТ_ОстаткиДенежныхСредствУПодотчетников</AccumulationRegister>
-			<AccumulationRegister>ИИТ_ЗаказыПоставщику</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыБюджетов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконтоКорпоративные</ChartOfCharacteristicTypes>

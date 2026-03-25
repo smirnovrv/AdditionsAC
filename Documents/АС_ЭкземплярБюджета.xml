@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="82d93806-24a8-477a-906d-705c5d006909">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.АС_ЭкземплярБюджета" category="Object">
+				<xr:TypeId>d88b8d17-7740-47ea-94d8-e48078982335</xr:TypeId>
+				<xr:ValueId>cd68e7aa-4282-4ee8-a42c-cea1f7d21dae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.АС_ЭкземплярБюджета" category="Ref">
+				<xr:TypeId>a7e42aec-219c-472d-a233-d063fd139acd</xr:TypeId>
+				<xr:ValueId>185fc4dc-6fb2-445f-96b4-a134536401bc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.АС_ЭкземплярБюджета" category="Selection">
+				<xr:TypeId>93f2cdf6-2168-46c2-8144-65e6af1168c0</xr:TypeId>
+				<xr:ValueId>5e5085ab-891c-4898-9abd-267d58167106</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.АС_ЭкземплярБюджета" category="List">
+				<xr:TypeId>5739bf17-9537-4f7b-95ee-3f406be5f624</xr:TypeId>
+				<xr:ValueId>1ed35f3d-34dc-4441-b8db-bf02505251f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.АС_ЭкземплярБюджета" category="Manager">
+				<xr:TypeId>167e6c54-4686-4ccb-a16c-f72b7d7c282d</xr:TypeId>
+				<xr:ValueId>8575d8ea-0535-4600-b23f-864dd165874f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АС_ЭкземплярБюджета</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>02392eca-e2e7-4a00-8f8f-ce3f030a8ee9</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="dfac2b08-ca59-4a9f-819c-c067468a077f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбъектСтроительства</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d9c3f47b-1560-41ae-b249-de145bf5fe55</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Проекты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="6dc1b19d-aed3-4127-9455-c275324f6884">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.АС_ЭкземплярБюджета.Этапы" category="TabularSection">
+						<xr:TypeId>5e4d074a-de68-499e-8b9d-4b137b17a6cd</xr:TypeId>
+						<xr:ValueId>c897e7d0-d91f-46c5-b35e-992cf96d77d8</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.АС_ЭкземплярБюджета.Этапы" category="TabularSectionRow">
+						<xr:TypeId>a596fbd7-2761-4c60-a603-7b3435b8065a</xr:TypeId>
+						<xr:ValueId>4a2ec329-6966-4e90-ad42-76aad6de7f42</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Этапы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a4ee14a1-f6b2-4e62-b3b8-cdb176f0e537</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="1e27c03f-9be9-457e-9ce3-b5d6a50496e5">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Этап</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>ff6ca55f-9362-483f-9082-aa13e65872be</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Проекты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

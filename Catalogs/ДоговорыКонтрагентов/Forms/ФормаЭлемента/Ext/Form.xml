@@ -445,85 +445,142 @@
 							<v8:content>Процентная ставка</v8:content>
 						</v8:item>
 					</Title>
-					<Group>AlwaysHorizontal</Group>
+					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаПроцентнаяСтавкаРасширеннаяПодсказка" id="583"/>
 					<ChildItems>
-						<InputField name="ТипПроцентнойСтавки" id="584">
-							<DataPath>Объект.ТипПроцентнойСтавки</DataPath>
-							<Width>18</Width>
-							<HorizontalStretch>false</HorizontalStretch>
-							<ListChoiceMode>true</ListChoiceMode>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-							<TextEdit>false</TextEdit>
-							<ChoiceList>
-								<xr:Item>
-									<xr:Presentation/>
-									<xr:CheckState>0</xr:CheckState>
-									<xr:Value xsi:type="FormChoiceListDesTimeValue">
-										<Presentation/>
-										<Value xsi:type="xr:DesignTimeRef">Enum.ТипыПроцентныхСтавок.EnumValue.ФиксированнаяСтавка</Value>
-									</xr:Value>
-								</xr:Item>
-								<xr:Item>
-									<xr:Presentation/>
-									<xr:CheckState>0</xr:CheckState>
-									<xr:Value xsi:type="FormChoiceListDesTimeValue">
-										<Presentation/>
-										<Value xsi:type="xr:DesignTimeRef">Enum.ТипыПроцентныхСтавок.EnumValue.СтавкаЦБ</Value>
-									</xr:Value>
-								</xr:Item>
-								<xr:Item>
-									<xr:Presentation/>
-									<xr:CheckState>0</xr:CheckState>
-									<xr:Value xsi:type="FormChoiceListDesTimeValue">
-										<Presentation/>
-										<Value xsi:type="xr:DesignTimeRef">Enum.ТипыПроцентныхСтавок.EnumValue.БезНачисленияПроцентов</Value>
-									</xr:Value>
-								</xr:Item>
-							</ChoiceList>
-							<ContextMenu name="ТипПроцентнойСтавкиКонтекстноеМеню" id="585"/>
-							<ExtendedTooltip name="ТипПроцентнойСтавкиРасширеннаяПодсказка" id="586"/>
-						</InputField>
-						<LabelDecoration name="ДекорацияПлюсКСтавкеЦБ" id="638">
-							<Width>1</Width>
-							<Title formatted="false">
+						<UsualGroup name="ГруппаПроцентнаяСтавкаРеквизиты" id="650">
+							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>+</v8:content>
+									<v8:content>Группа процентная ставка реквизиты</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="ДекорацияПлюсКСтавкеЦБКонтекстноеМеню" id="639"/>
-							<ExtendedTooltip name="ДекорацияПлюсКСтавкеЦБРасширеннаяПодсказка" id="640"/>
-						</LabelDecoration>
-						<InputField name="ПроцентнаяСтавка" id="641">
-							<DataPath>Объект.ПроцентнаяСтавка</DataPath>
-							<TitleLocation>None</TitleLocation>
-							<Width>4</Width>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-							<EditFormat>
+							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>ЧДЦ=2</v8:content>
+									<v8:content>Группа процентная ставка реквизиты</v8:content>
 								</v8:item>
-							</EditFormat>
-							<AutoMarkIncomplete>false</AutoMarkIncomplete>
-							<ContextMenu name="ПроцентнаяСтавкаКонтекстноеМеню" id="642"/>
-							<ExtendedTooltip name="ПроцентнаяСтавкаРасширеннаяПодсказка" id="643"/>
-						</InputField>
-						<LabelDecoration name="ИсторияПроцентныхСтавок" id="644">
-							<Title formatted="false">
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПроцентнаяСтавкаРеквизитыРасширеннаяПодсказка" id="651"/>
+							<ChildItems>
+								<InputField name="ТипПроцентнойСтавки" id="584">
+									<DataPath>Объект.ТипПроцентнойСтавки</DataPath>
+									<Width>18</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ListChoiceMode>true</ListChoiceMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<TextEdit>false</TextEdit>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ТипыПроцентныхСтавок.EnumValue.ФиксированнаяСтавка</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ТипыПроцентныхСтавок.EnumValue.СтавкаЦБ</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.ТипыПроцентныхСтавок.EnumValue.БезНачисленияПроцентов</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ТипПроцентнойСтавкиКонтекстноеМеню" id="585"/>
+									<ExtendedTooltip name="ТипПроцентнойСтавкиРасширеннаяПодсказка" id="586"/>
+								</InputField>
+								<LabelDecoration name="ДекорацияПлюсКСтавкеЦБ" id="638">
+									<Width>1</Width>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>+</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДекорацияПлюсКСтавкеЦБКонтекстноеМеню" id="639"/>
+									<ExtendedTooltip name="ДекорацияПлюсКСтавкеЦБРасширеннаяПодсказка" id="640"/>
+								</LabelDecoration>
+								<InputField name="ПроцентнаяСтавка" id="641">
+									<DataPath>Объект.ПроцентнаяСтавка</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<Width>4</Width>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<EditFormat>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ЧДЦ=2</v8:content>
+										</v8:item>
+									</EditFormat>
+									<AutoMarkIncomplete>false</AutoMarkIncomplete>
+									<ContextMenu name="ПроцентнаяСтавкаКонтекстноеМеню" id="642"/>
+									<ExtendedTooltip name="ПроцентнаяСтавкаРасширеннаяПодсказка" id="643"/>
+								</InputField>
+								<LabelDecoration name="ИсторияПроцентныхСтавок" id="644">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>История</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="ИсторияПроцентныхСтавокКонтекстноеМеню" id="594"/>
+									<ExtendedTooltip name="ИсторияПроцентныхСтавокРасширеннаяПодсказка" id="595"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаПроцентнаяСтавкаОтсрочкаПоСтавкеЦБ" id="652">
+							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>История</v8:content>
+									<v8:content>При изменении ключевой ставки ЦБ, её действие вступает в силу на следующий день</v8:content>
 								</v8:item>
-							</Title>
-							<Hyperlink>true</Hyperlink>
-							<ContextMenu name="ИсторияПроцентныхСтавокКонтекстноеМеню" id="594"/>
-							<ExtendedTooltip name="ИсторияПроцентныхСтавокРасширеннаяПодсказка" id="595"/>
-						</LabelDecoration>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПроцентнаяСтавкаОтсрочкаПоСтавкеЦБРасширеннаяПодсказка" id="653"/>
+							<ChildItems>
+								<CheckBoxField name="ИспользоватьОтсрочкуПоСтавкеЦБ" id="647">
+									<DataPath>Объект.ИспользоватьОтсрочкуПоСтавкеЦБ</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content> </v8:content>
+										</v8:item>
+									</Title>
+									<TitleTextColor>style:FormBackColor</TitleTextColor>
+									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ИспользоватьОтсрочкуПоСтавкеЦБКонтекстноеМеню" id="648"/>
+									<ExtendedTooltip name="ИспользоватьОтсрочкуПоСтавкеЦБРасширеннаяПодсказка" id="649">
+										<TextColor>style:FormTextColor</TextColor>
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Использовать отсрочку в один день</v8:content>
+											</v8:item>
+										</Title>
+									</ExtendedTooltip>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаСумма" id="497">
@@ -2434,13 +2491,13 @@
 							<EditMode>EnterOnInput</EditMode>
 							<HeaderPicture>
 								<xr:Ref>CommonPicture.Скрепка</xr:Ref>
-								<xr:LoadTransparent>true</xr:LoadTransparent>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
 							</HeaderPicture>
 							<Width>2</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ValuesPicture>
 								<xr:Ref>CommonPicture.Скрепка</xr:Ref>
-								<xr:LoadTransparent>true</xr:LoadTransparent>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
 							</ValuesPicture>
 							<ContextMenu name="ДополнительныеСоглашенияЕстьФайлыКонтекстноеМеню" id="618"/>
 							<ExtendedTooltip name="ДополнительныеСоглашенияЕстьФайлыРасширеннаяПодсказка" id="619"/>
@@ -2971,85 +3028,142 @@
 								<v8:content>Процентная ставка</v8:content>
 							</v8:item>
 						</Title>
-						<Group>AlwaysHorizontal</Group>
+						<Group>Vertical</Group>
 						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаПроцентнаяСтавкаРасширеннаяПодсказка" id="583"/>
 						<ChildItems>
-							<InputField name="ТипПроцентнойСтавки" id="584">
-								<DataPath>Объект.ТипПроцентнойСтавки</DataPath>
-								<Width>18</Width>
-								<HorizontalStretch>false</HorizontalStretch>
-								<ListChoiceMode>true</ListChoiceMode>
-								<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-								<TextEdit>false</TextEdit>
-								<ChoiceList>
-									<xr:Item>
-										<xr:Presentation/>
-										<xr:CheckState>0</xr:CheckState>
-										<xr:Value xsi:type="FormChoiceListDesTimeValue">
-											<Presentation/>
-											<Value xsi:type="xr:DesignTimeRef">Enum.ТипыПроцентныхСтавок.EnumValue.ФиксированнаяСтавка</Value>
-										</xr:Value>
-									</xr:Item>
-									<xr:Item>
-										<xr:Presentation/>
-										<xr:CheckState>0</xr:CheckState>
-										<xr:Value xsi:type="FormChoiceListDesTimeValue">
-											<Presentation/>
-											<Value xsi:type="xr:DesignTimeRef">Enum.ТипыПроцентныхСтавок.EnumValue.СтавкаЦБ</Value>
-										</xr:Value>
-									</xr:Item>
-									<xr:Item>
-										<xr:Presentation/>
-										<xr:CheckState>0</xr:CheckState>
-										<xr:Value xsi:type="FormChoiceListDesTimeValue">
-											<Presentation/>
-											<Value xsi:type="xr:DesignTimeRef">Enum.ТипыПроцентныхСтавок.EnumValue.БезНачисленияПроцентов</Value>
-										</xr:Value>
-									</xr:Item>
-								</ChoiceList>
-								<ContextMenu name="ТипПроцентнойСтавкиКонтекстноеМеню" id="585"/>
-								<ExtendedTooltip name="ТипПроцентнойСтавкиРасширеннаяПодсказка" id="586"/>
-							</InputField>
-							<LabelDecoration name="ДекорацияПлюсКСтавкеЦБ" id="638">
-								<Width>1</Width>
-								<Title formatted="false">
+							<UsualGroup name="ГруппаПроцентнаяСтавкаРеквизиты" id="650">
+								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>+</v8:content>
+										<v8:content>Группа процентная ставка реквизиты</v8:content>
 									</v8:item>
 								</Title>
-								<ContextMenu name="ДекорацияПлюсКСтавкеЦБКонтекстноеМеню" id="639"/>
-								<ExtendedTooltip name="ДекорацияПлюсКСтавкеЦБРасширеннаяПодсказка" id="640"/>
-							</LabelDecoration>
-							<InputField name="ПроцентнаяСтавка" id="641">
-								<DataPath>Объект.ПроцентнаяСтавка</DataPath>
-								<TitleLocation>None</TitleLocation>
-								<Width>4</Width>
-								<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-								<EditFormat>
+								<ToolTip>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>ЧДЦ=2</v8:content>
+										<v8:content>Группа процентная ставка реквизиты</v8:content>
 									</v8:item>
-								</EditFormat>
-								<AutoMarkIncomplete>false</AutoMarkIncomplete>
-								<ContextMenu name="ПроцентнаяСтавкаКонтекстноеМеню" id="642"/>
-								<ExtendedTooltip name="ПроцентнаяСтавкаРасширеннаяПодсказка" id="643"/>
-							</InputField>
-							<LabelDecoration name="ИсторияПроцентныхСтавок" id="644">
-								<Title formatted="false">
+								</ToolTip>
+								<Group>AlwaysHorizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаПроцентнаяСтавкаРеквизитыРасширеннаяПодсказка" id="651"/>
+								<ChildItems>
+									<InputField name="ТипПроцентнойСтавки" id="584">
+										<DataPath>Объект.ТипПроцентнойСтавки</DataPath>
+										<Width>18</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ListChoiceMode>true</ListChoiceMode>
+										<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+										<TextEdit>false</TextEdit>
+										<ChoiceList>
+											<xr:Item>
+												<xr:Presentation/>
+												<xr:CheckState>0</xr:CheckState>
+												<xr:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation/>
+													<Value xsi:type="xr:DesignTimeRef">Enum.ТипыПроцентныхСтавок.EnumValue.ФиксированнаяСтавка</Value>
+												</xr:Value>
+											</xr:Item>
+											<xr:Item>
+												<xr:Presentation/>
+												<xr:CheckState>0</xr:CheckState>
+												<xr:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation/>
+													<Value xsi:type="xr:DesignTimeRef">Enum.ТипыПроцентныхСтавок.EnumValue.СтавкаЦБ</Value>
+												</xr:Value>
+											</xr:Item>
+											<xr:Item>
+												<xr:Presentation/>
+												<xr:CheckState>0</xr:CheckState>
+												<xr:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation/>
+													<Value xsi:type="xr:DesignTimeRef">Enum.ТипыПроцентныхСтавок.EnumValue.БезНачисленияПроцентов</Value>
+												</xr:Value>
+											</xr:Item>
+										</ChoiceList>
+										<ContextMenu name="ТипПроцентнойСтавкиКонтекстноеМеню" id="585"/>
+										<ExtendedTooltip name="ТипПроцентнойСтавкиРасширеннаяПодсказка" id="586"/>
+									</InputField>
+									<LabelDecoration name="ДекорацияПлюсКСтавкеЦБ" id="638">
+										<Width>1</Width>
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>+</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="ДекорацияПлюсКСтавкеЦБКонтекстноеМеню" id="639"/>
+										<ExtendedTooltip name="ДекорацияПлюсКСтавкеЦБРасширеннаяПодсказка" id="640"/>
+									</LabelDecoration>
+									<InputField name="ПроцентнаяСтавка" id="641">
+										<DataPath>Объект.ПроцентнаяСтавка</DataPath>
+										<TitleLocation>None</TitleLocation>
+										<Width>4</Width>
+										<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+										<EditFormat>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>ЧДЦ=2</v8:content>
+											</v8:item>
+										</EditFormat>
+										<AutoMarkIncomplete>false</AutoMarkIncomplete>
+										<ContextMenu name="ПроцентнаяСтавкаКонтекстноеМеню" id="642"/>
+										<ExtendedTooltip name="ПроцентнаяСтавкаРасширеннаяПодсказка" id="643"/>
+									</InputField>
+									<LabelDecoration name="ИсторияПроцентныхСтавок" id="644">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>История</v8:content>
+											</v8:item>
+										</Title>
+										<Hyperlink>true</Hyperlink>
+										<ContextMenu name="ИсторияПроцентныхСтавокКонтекстноеМеню" id="594"/>
+										<ExtendedTooltip name="ИсторияПроцентныхСтавокРасширеннаяПодсказка" id="595"/>
+									</LabelDecoration>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаПроцентнаяСтавкаОтсрочкаПоСтавкеЦБ" id="652">
+								<ToolTip>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>История</v8:content>
+										<v8:content>При изменении ключевой ставки ЦБ, её действие вступает в силу на следующий день</v8:content>
 									</v8:item>
-								</Title>
-								<Hyperlink>true</Hyperlink>
-								<ContextMenu name="ИсторияПроцентныхСтавокКонтекстноеМеню" id="594"/>
-								<ExtendedTooltip name="ИсторияПроцентныхСтавокРасширеннаяПодсказка" id="595"/>
-							</LabelDecoration>
+								</ToolTip>
+								<ToolTipRepresentation>Button</ToolTipRepresentation>
+								<Group>AlwaysHorizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаПроцентнаяСтавкаОтсрочкаПоСтавкеЦБРасширеннаяПодсказка" id="653"/>
+								<ChildItems>
+									<CheckBoxField name="ИспользоватьОтсрочкуПоСтавкеЦБ" id="647">
+										<DataPath>Объект.ИспользоватьОтсрочкуПоСтавкеЦБ</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content> </v8:content>
+											</v8:item>
+										</Title>
+										<TitleTextColor>style:FormBackColor</TitleTextColor>
+										<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ИспользоватьОтсрочкуПоСтавкеЦБКонтекстноеМеню" id="648"/>
+										<ExtendedTooltip name="ИспользоватьОтсрочкуПоСтавкеЦБРасширеннаяПодсказка" id="649">
+											<TextColor>style:FormTextColor</TextColor>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Использовать отсрочку в один день</v8:content>
+												</v8:item>
+											</Title>
+										</ExtendedTooltip>
+									</CheckBoxField>
+								</ChildItems>
+							</UsualGroup>
 						</ChildItems>
 					</UsualGroup>
 					<UsualGroup name="ГруппаСумма" id="497">
@@ -4960,13 +5074,13 @@
 								<EditMode>EnterOnInput</EditMode>
 								<HeaderPicture>
 									<xr:Ref>CommonPicture.Скрепка</xr:Ref>
-									<xr:LoadTransparent>true</xr:LoadTransparent>
+									<xr:LoadTransparent>false</xr:LoadTransparent>
 								</HeaderPicture>
 								<Width>2</Width>
 								<HorizontalStretch>false</HorizontalStretch>
 								<ValuesPicture>
 									<xr:Ref>CommonPicture.Скрепка</xr:Ref>
-									<xr:LoadTransparent>true</xr:LoadTransparent>
+									<xr:LoadTransparent>false</xr:LoadTransparent>
 								</ValuesPicture>
 								<ContextMenu name="ДополнительныеСоглашенияЕстьФайлыКонтекстноеМеню" id="618"/>
 								<ExtendedTooltip name="ДополнительныеСоглашенияЕстьФайлыРасширеннаяПодсказка" id="619"/>

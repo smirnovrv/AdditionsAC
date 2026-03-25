@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AccumulationRegister uuid="deffcdb9-6b41-426d-8d67-523dd93be429">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.АС_БюджетРасходов_2_6" category="Record">
+				<xr:TypeId>c49295b5-c631-42c1-8972-78be3755cdc4</xr:TypeId>
+				<xr:ValueId>cb971c12-2a43-4f2f-83c2-cde4087c5d50</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.АС_БюджетРасходов_2_6" category="Manager">
+				<xr:TypeId>7b772a88-7442-4685-945d-d649b8dc7683</xr:TypeId>
+				<xr:ValueId>66bfb9cc-d85a-4bea-9e14-1ec54b8125dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.АС_БюджетРасходов_2_6" category="Selection">
+				<xr:TypeId>ec397ec1-4ea9-4657-8807-92bc21e7f30f</xr:TypeId>
+				<xr:ValueId>c3e2cee8-0da6-41ad-a24f-0b17dcbc6e37</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.АС_БюджетРасходов_2_6" category="List">
+				<xr:TypeId>816c53f0-227b-4d21-8de1-34daa965920f</xr:TypeId>
+				<xr:ValueId>b5a54cad-9630-4bc1-9ac8-7092ab398acd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.АС_БюджетРасходов_2_6" category="RecordSet">
+				<xr:TypeId>b295f00e-ac44-4651-b219-04022873f63c</xr:TypeId>
+				<xr:ValueId>6629040c-6b67-4f30-8553-3c955173ca8b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.АС_БюджетРасходов_2_6" category="RecordKey">
+				<xr:TypeId>1a6bad1d-145c-4b36-bf62-5243c6951d93</xr:TypeId>
+				<xr:ValueId>c33f3806-4135-4db0-895b-112385683f3a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АС_БюджетРасходов_2_6</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b19fb617-c385-44f1-b60c-de854290ed9a</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="100cc6ed-7b26-4433-b81c-4a5854802bc9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СуммаБюджета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4d80dd34-8141-4194-ab3b-1e04224cf3ee</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="5f98a8fa-c064-4f74-9c53-648f9df47a2a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СуммаДоговора</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>df519f75-b5c0-49b0-a090-71d4973b47e8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="2ecff935-020a-446a-9952-de1d3ddf30a0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Договор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>78b7edf5-b291-49fa-adc1-493e4288d3e4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="929f8efb-7d49-40ad-a29b-dca00fca9b00">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбъектСтроительства</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>40ecce7e-741e-4db0-b595-cd748611fb8c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Проекты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="7969d423-0a84-4296-8c43-6b78ad241a23">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Этап</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4095d164-5ec3-48aa-8391-4ca275a7eba2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Проекты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

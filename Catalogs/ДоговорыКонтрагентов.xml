@@ -896,6 +896,18 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="a958430e-aae7-4010-81be-81f1bc6c3851">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИспользоватьОтсрочкуПоСтавкеЦБ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2944bdef-38ad-45ff-af5a-d799b5838577</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<TabularSection uuid="870b51e0-4969-48c8-a408-588000e44ad1">
 				<InternalInfo>
 					<xr:GeneratedType name="CatalogTabularSection.ДоговорыКонтрагентов.ИИТ_АналитикаПоОбъектамСтроительства" category="TabularSection">
@@ -969,6 +981,18 @@
 							<ExtendedConfigurationObject>d8786f1f-a2d9-485f-86cc-4b943ebe63f0</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e2cc02d7-a151-476c-8b51-2e2a74ecb4de">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ОбъектСтроительства</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>2393ebed-6d0a-4c41-8f49-8d722da308a9</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Проекты</v8:Type>
 							</Type>
 						</Properties>
 					</Attribute>
