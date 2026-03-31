@@ -216,6 +216,7 @@
 	<Events>
 		<Event name="AfterWrite" callType="After">АЛФ_ПослеЗаписиПосле</Event>
 		<Event name="OnOpen" callType="After">АЛФ_ПриОткрытииПосле</Event>
+		<Event name="BeforeWrite" callType="After">АЛФ_ПередЗаписьюПосле</Event>
 		<Event name="OnCreateAtServer" callType="After">АЛФ_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
@@ -3495,9 +3496,20 @@
 			<Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:StringQualifiers>
-					<v8:Length>125</v8:Length>
+					<v8:Length>512</v8:Length>
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_ТекущийЭтап" id="1000008">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>А с текущий этап</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Проекты</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>

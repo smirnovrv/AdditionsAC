@@ -60,7 +60,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>АС</Vendor>
-			<Version>3.3.3.17 (51)</Version>
+			<Version>3.3.3.17 (57)</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -166,6 +166,7 @@
 			<CommonPicture>СостояниеПроверкиРНПТ</CommonPicture>
 			<CommonPicture>НаШагНазад</CommonPicture>
 			<CommonPicture>ВернутьИсполнителю</CommonPicture>
+			<CommonPicture>СтрелкаВлево</CommonPicture>
 			<CommonTemplate>ПФ_MXL_Т1</CommonTemplate>
 			<FilterCriterion>ДокументыПоКонтрагенту</FilterCriterion>
 			<FilterCriterion>ДокументыПоДоговоруКонтрагента</FilterCriterion>

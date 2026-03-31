@@ -1004,6 +1004,18 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="603784c7-8d48-4516-8c9d-c5bef24cede3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АС_ИсходныйДУ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>85a3ff90-fba9-42f0-a54a-0979ff88fd7f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<Form>ФормаСписка</Form>
 			<Form>ФормаВыбора</Form>

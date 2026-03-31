@@ -2586,6 +2586,17 @@
 				</AdditionalColumns>
 			</Columns>
 		</Attribute>
+		<Attribute name="ИзмененДУ" id="1000002">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменен ДУ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<BaseForm version="2.20">
 		<CommandSet>
