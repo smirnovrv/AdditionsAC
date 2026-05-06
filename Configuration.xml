@@ -60,7 +60,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>АС</Vendor>
-			<Version>3.3.3.17 (57)</Version>
+			<Version>3.3.3.17 (62)</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -77,6 +77,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>Администрирование</Subsystem>
+			<Subsystem>АльфаСтрой_Отчеты</Subsystem>
 			<StyleItem>ДосьеГиперссылкаЦвет</StyleItem>
 			<StyleItem>ТекстПредопределенногоЗначения</StyleItem>
 			<StyleItem>ПросроченныеДанныеЦвет</StyleItem>
@@ -532,6 +533,7 @@
 			<Enum>ИсточникиКурсовВалют</Enum>
 			<Report>ИИТ_ДанныеЖурналаПередачиВСнабжение</Report>
 			<Report>ИсторияСогласования</Report>
+			<Report>АС_НеЗакрытыеЗаказыПоставщикам</Report>
 			<DataProcessor>ИИТ_ПроставитьПраваДоступаДоОрганизаций</DataProcessor>
 			<DataProcessor>ЗадачиИОповещенияТекущегоПользователя</DataProcessor>
 			<DataProcessor>РаботаСФайлами</DataProcessor>

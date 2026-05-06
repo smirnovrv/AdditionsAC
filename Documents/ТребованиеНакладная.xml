@@ -243,6 +243,30 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="b2f93d3c-440c-4fcd-a264-7ec30ca63063">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>МОЛСписания</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e2ac64d7-022e-4d34-97a9-1a64a48d6ea6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1026f2a9-9a08-4a24-9fcb-7b62234db46c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИИТ_ОбъектОтправитель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>44c04f52-9d66-4087-aa03-b1f9d73b0647</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Проекты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="fd6a70ea-e5bb-460b-8ed0-bcc6e51818ed">
 				<InternalInfo>
